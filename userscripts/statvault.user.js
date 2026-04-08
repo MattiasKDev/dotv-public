@@ -3,12 +3,14 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Track player statistics including levels, XP, damage, and raid counts
-// @version      2026.04.04
+// @version      2026.04.07
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @noframes
 // @grant GM_getValue
 // @grant GM_setValue
+// @updateURL https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/statvault.user.js
+// @downloadURL https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/statvault.user.js
 // ==/UserScript==
 
 console.log("stat vault loaded");
