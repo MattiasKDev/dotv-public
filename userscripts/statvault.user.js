@@ -3,13 +3,14 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Track player statistics including levels, XP, damage, and raid counts
-// @version      2026.04.22
+// @version      2026.04.23
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @noframes
 // @grant GM_getValue
 // @grant GM_setValue
 // @grant GM_info
+// @supportURL https://github.com/MattiasKDev/dotv-public#support
 // @updateURL https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/statvault.user.js
 // @downloadURL https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/statvault.user.js
 // ==/UserScript==
@@ -17,6 +18,10 @@
 console.log("[statvault] stat vault loaded");
 
 const STATVAULT_SYNC_API_URL = "https://statvault-sync.mattias-cb7.workers.dev/sync";
+const STATVAULT_SUPPORT_URL = "https://github.com/MattiasKDev/dotv-public#support";
+const STATVAULT_LEADERBOARD_API_URL = STATVAULT_SYNC_API_URL
+    ? STATVAULT_SYNC_API_URL.replace(/\/sync$/, "/leaderboards")
+    : "";
 
 // ============================================================================
 // STYLES
@@ -25,6 +30,8 @@ const STATVAULT_SYNC_API_URL = "https://statvault-sync.mattias-cb7.workers.dev/s
 const STATVAULT_UI_STYLE_ID = "statvault-ui-style";
 const STATVAULT_UI_CSS = `
 .sv-box {
+    --sv-chrome-bg: linear-gradient(180deg, rgba(37, 26, 18, 0.98) 0%, rgba(28, 20, 13, 0.96) 100%);
+    --sv-content-bg: linear-gradient(180deg, rgba(26, 18, 12, 0.92) 0%, rgba(22, 15, 10, 0.96) 100%);
     position: fixed;
     top: 50%;
     left: 50%;
@@ -50,9 +57,16 @@ const STATVAULT_UI_CSS = `
     top: 0;
     z-index: 10;
     padding: 14px 20px;
-    background: rgba(28, 20, 13, 0.96);
+    background: var(--sv-chrome-bg);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 215, 160, 0.12);
+}
+
+.sv-header-main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-right: 42px;
 }
 
 .sv-title {
@@ -60,6 +74,8 @@ const STATVAULT_UI_CSS = `
     font-weight: 700;
     letter-spacing: 0.3px;
     color: #f8e6c1;
+    text-align: left;
+    white-space: nowrap;
 }
 
 .sv-content {
@@ -68,6 +84,7 @@ const STATVAULT_UI_CSS = `
     overflow-y: auto;
     padding: 20px 20px;
     box-sizing: border-box;
+    background: var(--sv-content-bg);
 }
 
 .sv-table {
@@ -86,6 +103,233 @@ const STATVAULT_UI_CSS = `
 
 .sv-highlights-gap {
     margin-bottom: 28px;
+}
+
+.sv-view-tabs,
+.sv-leaderboard-group-tabs,
+.sv-leaderboard-board-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+}
+
+.sv-view-tabs::-webkit-scrollbar,
+.sv-leaderboard-group-tabs::-webkit-scrollbar,
+.sv-leaderboard-board-tabs::-webkit-scrollbar {
+    height: 6px;
+}
+
+.sv-view-tabs::-webkit-scrollbar-thumb,
+.sv-leaderboard-group-tabs::-webkit-scrollbar-thumb,
+.sv-leaderboard-board-tabs::-webkit-scrollbar-thumb {
+    background: rgba(255, 215, 160, 0.18);
+    border-radius: 999px;
+}
+
+.sv-view-tabs {
+    justify-content: flex-start;
+    margin-bottom: 0;
+    width: auto;
+    flex: 0 1 auto;
+}
+
+.sv-view-tabs .sv-tab-button {
+    padding: 11px 18px;
+    font-size: 13px;
+}
+
+.sv-tab-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 9px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 215, 160, 0.16);
+    background: rgba(255, 255, 255, 0.04);
+    color: rgba(246, 238, 226, 0.82);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+
+.sv-tab-button:hover {
+    background: rgba(255, 255, 255, 0.065);
+}
+
+.sv-tab-button-active {
+    border-color: rgba(255, 215, 160, 0.3);
+    background: linear-gradient(180deg, #4c3522 0%, #3d2b1c 100%);
+    color: #f8e6c1;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.22);
+}
+
+.sv-leaderboard-shell {
+    --sv-leaderboard-sidebar-width: 180px;
+    --sv-leaderboard-shell-gap: 20px;
+    display: grid;
+    grid-template-columns: var(--sv-leaderboard-sidebar-width) minmax(0, 1fr);
+    gap: var(--sv-leaderboard-shell-gap);
+    align-items: start;
+}
+
+.sv-leaderboard-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sv-leaderboard-main {
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sv-leaderboard-stage {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sv-leaderboard-table-stage {
+    display: inline-flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 18px 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 215, 160, 0.10);
+    background: rgba(34, 24, 15, 0.62);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+}
+
+.sv-leaderboard-group-tabs {
+    flex-direction: column;
+    overflow-x: visible;
+    overflow-y: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.sv-leaderboard-group-tabs .sv-tab-button {
+    width: 100%;
+    justify-content: flex-start;
+    border-radius: 14px;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+
+.sv-leaderboard-board-tabs {
+    justify-content: center;
+    gap: 10px;
+}
+
+.sv-leaderboard-board-tabs .sv-tab-button {
+    padding: 11px 18px;
+    font-size: 14px;
+}
+
+.sv-leaderboard-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.sv-leaderboard-status {
+    padding: 16px 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 215, 160, 0.10);
+    background: rgba(34, 24, 15, 0.58);
+    color: #f5efe6;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+}
+
+.sv-rank-cell {
+    width: 56px;
+}
+
+.sv-viewer-separator {
+    height: 10px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, rgba(255,215,160,0.06) 100%);
+}
+
+.sv-viewer-separator .sv-td {
+    padding: 0;
+    border-right: 0;
+    border-bottom: 0;
+    height: 10px;
+}
+
+.sv-row-viewer {
+    background: linear-gradient(180deg, rgba(117, 83, 38, 0.55) 0%, rgba(82, 58, 27, 0.6) 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+.sv-row-viewer .sv-td {
+    border-bottom-color: rgba(255, 215, 160, 0.2);
+}
+
+.sv-table-leaderboard {
+    width: auto;
+    min-width: 360px;
+    margin: 0 auto;
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    overflow: visible;
+    box-shadow: none;
+    table-layout: auto;
+}
+
+.sv-table-leaderboard .sv-td {
+    border-right: 0;
+    border-bottom: 0;
+    background: transparent;
+    padding: 9px 12px;
+}
+
+.sv-table-leaderboard .sv-row-even,
+.sv-table-leaderboard .sv-row-odd {
+    background: transparent;
+}
+
+.sv-table-leaderboard .sv-row-viewer {
+    background: linear-gradient(180deg, rgba(117, 83, 38, 0.55) 0%, rgba(82, 58, 27, 0.6) 100%);
+}
+
+.sv-table-leaderboard .sv-rank-cell,
+.sv-table-leaderboard .sv-td-rank {
+    width: 44px;
+    min-width: 44px;
+    text-align: right;
+}
+
+.sv-table-leaderboard .sv-td-center {
+    text-align: center;
+}
+
+.sv-table-leaderboard .sv-td-right {
+    text-align: right;
+}
+
+.sv-table-leaderboard .sv-td-name {
+    min-width: 150px;
+}
+
+.sv-table-leaderboard .sv-td-class {
+    min-width: 120px;
+}
+
+.sv-table-leaderboard .sv-td-value,
+.sv-table-leaderboard .sv-td-date {
+    min-width: 110px;
 }
 
 .sv-th {
@@ -160,7 +404,7 @@ const STATVAULT_UI_CSS = `
     overflow-x: auto;
     overflow-y: hidden;
     padding: 14px 20px;
-    background: rgba(28, 20, 13, 0.96);
+    background: var(--sv-chrome-bg);
     backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255, 215, 160, 0.12);
 }
@@ -265,6 +509,31 @@ const STATVAULT_UI_CSS = `
     }
 }
 
+@media (max-width: 1100px) {
+    .sv-header-main {
+        gap: 10px;
+        padding-right: 42px;
+    }
+
+    .sv-leaderboard-shell {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .sv-leaderboard-group-tabs {
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .sv-leaderboard-group-tabs .sv-tab-button {
+        width: auto;
+        justify-content: center;
+        border-radius: 999px;
+    }
+
+}
+
 .sv-entry-button {
     position: absolute;
     top: 28px;
@@ -340,6 +609,8 @@ class StatVaultCore {
         this.hasPendingChanges = false;
         this.lastSyncError = null;
         this.syncInFlight = null;
+        this.leaderboardCache = {};
+        this.leaderboardRequests = {};
     }
 
     formatNumber(num) {
@@ -387,6 +658,16 @@ class StatVaultCore {
 
     isRemoteSyncEnabled() {
         return Boolean(STATVAULT_SYNC_API_URL);
+    }
+
+    isLeaderboardEnabled() {
+        return Boolean(STATVAULT_LEADERBOARD_API_URL);
+    }
+
+    getRequestFetch() {
+        return typeof unsafeWindow !== "undefined" && unsafeWindow.fetch
+            ? unsafeWindow.fetch.bind(unsafeWindow)
+            : fetch;
     }
 
     markPendingChanges() {
@@ -458,7 +739,7 @@ class StatVaultCore {
         };
     }
 
-    updateLog() {
+    updateLog({ markPendingChanges = true } = {}) {
         const date = new Date().toISOString().slice(0, 10);
 
         const yesterday = new Date(`${date}T00:00:00.000Z`);
@@ -491,14 +772,15 @@ class StatVaultCore {
         }
 
         this.statStore[date] = this.globalStats;
+        if (markPendingChanges) {
+            this.markPendingChanges();
+        }
         GM_setValue("statStore", this.statStore);
     }
 
     attackHandler(data) {
         this.globalStats.dmg += data.damage.totalDamage;
         this.globalStats.dmgMax = Math.max(this.globalStats.dmgMax, data.damage.totalDamage);
-        this.markPendingChanges();
-
         this.updateLog();
         console.log(`[statvault] Damage recorded: ${data.damage.totalDamage}`);
     }
@@ -516,17 +798,14 @@ class StatVaultCore {
         this.globalStats.rc = stats.rc;
         this.globalStats.sp = stats.sp;
         this.globalStats.xp = stats.xp;
-        this.markPendingChanges();
-
         this.updateLog();
         void this.syncWithRemote(data.payload);
         console.log(`[statvault] Info updated: Level ${stats.lvl}, XP ${stats.xp}, SP ${stats.sp}, Raids Joined ${stats.rc}`);
     }
 
-    raidJoinHandler() {
+    raidJoinHandler(data) {
+        if (data.error) return;
         this.globalStats.rc += 1;
-        this.markPendingChanges();
-
         this.updateLog();
         console.log("[statvault] Raid join recorded");
     }
@@ -726,6 +1005,72 @@ class StatVaultCore {
         GM_setValue("statStore", this.statStore);
     }
 
+    getCachedLeaderboardGroup(group) {
+        const cachedEntry = this.leaderboardCache[group];
+        if (!cachedEntry) {
+            return null;
+        }
+
+        const viewerId = this.userProfile.id || "";
+        if (cachedEntry.viewerId !== viewerId) {
+            return null;
+        }
+
+        return cachedEntry.data;
+    }
+
+    isLeaderboardGroupLoading(group) {
+        return Boolean(this.leaderboardRequests[group]);
+    }
+
+    async fetchLeaderboardGroup(group) {
+        if (!STATVAULT_LEADERBOARD_API_URL) {
+            throw new Error("Leaderboards are unavailable");
+        }
+
+        const cached = this.getCachedLeaderboardGroup(group);
+        if (cached) {
+            return cached;
+        }
+
+        if (this.leaderboardRequests[group]) {
+            return this.leaderboardRequests[group];
+        }
+
+        const viewerId = this.userProfile.id || "";
+        const url = new URL(STATVAULT_LEADERBOARD_API_URL);
+        url.searchParams.set("group", group);
+        if (viewerId) {
+            url.searchParams.set("viewerId", viewerId);
+        }
+
+        this.leaderboardRequests[group] = (async () => {
+            try {
+                const response = await this.getRequestFetch()(url.toString(), {
+                    method: "GET",
+                    mode: "cors",
+                    credentials: "omit",
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Leaderboard request failed with status ${response.status}`);
+                }
+
+                const data = await response.json();
+                this.leaderboardCache[group] = {
+                    viewerId,
+                    data,
+                };
+
+                return data;
+            } finally {
+                delete this.leaderboardRequests[group];
+            }
+        })();
+
+        return this.leaderboardRequests[group];
+    }
+
     async syncWithRemote(payload) {
         if (!STATVAULT_SYNC_API_URL || !this.userProfile.id) {
             return;
@@ -736,13 +1081,10 @@ class StatVaultCore {
         }
 
         const syncPayload = this.buildSyncPayload(payload);
-        const requestFetch = typeof unsafeWindow !== "undefined" && unsafeWindow.fetch
-            ? unsafeWindow.fetch.bind(unsafeWindow)
-            : fetch;
 
         this.syncInFlight = (async () => {
             try {
-                const response = await requestFetch(STATVAULT_SYNC_API_URL, {
+                const response = await this.getRequestFetch()(STATVAULT_SYNC_API_URL, {
                     method: "POST",
                     mode: "cors",
                     credentials: "omit",
@@ -808,24 +1150,6 @@ class StatVaultCore {
     }
 }
 
-class StatVaultHandlers {
-    constructor(core) {
-        this.core = core;
-    }
-
-    handleRaidAttack(data) {
-        this.core.attackHandler(data);
-    }
-
-    handleUserInfo(data) {
-        this.core.infoHandler(data);
-    }
-
-    handleRaidJoin() {
-        this.core.raidJoinHandler();
-    }
-}
-
 class StatVaultUI {
     constructor(core) {
         this.core = core;
@@ -834,10 +1158,24 @@ class StatVaultUI {
         this.entryButtonId = "statvault-open-ui-button";
         this.entryObserver = null;
         this.entryMountQueued = false;
+        this.activeView = "personal";
+        this.activeLeaderboardGroup = "overall";
+        this.activeLeaderboardBoardByGroup = {
+            overall: "level",
+            raids: "1d",
+            damage: "1d",
+            destroyers: "1d",
+            levels_gained: "1d",
+            sp_gained: "1d",
+            hall: null,
+        };
+        this.leaderboardErrors = {};
         this.onEntryButtonClick = this.onEntryButtonClick.bind(this);
         this.onEntryHostMutated = this.onEntryHostMutated.bind(this);
         this.onCloseButtonClick = this.onCloseButtonClick.bind(this);
         this.onSyncNowClick = this.onSyncNowClick.bind(this);
+        this.onSupportClick = this.onSupportClick.bind(this);
+        this.onViewTabClick = this.onViewTabClick.bind(this);
     }
 
     // ============================================================================
@@ -947,6 +1285,9 @@ class StatVaultUI {
         const header = document.createElement("div");
         header.className = "sv-header";
 
+        const headerMain = document.createElement("div");
+        headerMain.className = "sv-header-main";
+
         const title = document.createElement("div");
         title.textContent = "Stat Vault";
         title.className = "sv-title";
@@ -958,7 +1299,10 @@ class StatVaultUI {
         closeButton.className = "sv-close-button";
         closeButton.addEventListener("click", this.onCloseButtonClick);
 
-        header.appendChild(title);
+        headerMain.appendChild(title);
+        headerMain.appendChild(this.buildViewTabs());
+
+        header.appendChild(headerMain);
         header.appendChild(closeButton);
         return header;
     }
@@ -975,6 +1319,68 @@ class StatVaultUI {
         window.location.reload();
     }
 
+    onSupportClick(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.open(STATVAULT_SUPPORT_URL, "_blank", "noopener,noreferrer");
+    }
+
+    onViewTabClick(nextView) {
+        if (this.activeView === nextView) return;
+
+        this.activeView = nextView;
+        if (nextView === "leaderboards") {
+            this.ensureLeaderboardGroupLoaded(this.activeLeaderboardGroup);
+        }
+
+        this.refreshOpenUI();
+    }
+
+    onLeaderboardGroupClick(group) {
+        if (this.activeLeaderboardGroup === group) return;
+
+        this.activeLeaderboardGroup = group;
+        this.ensureLeaderboardGroupLoaded(group);
+        this.refreshOpenUI();
+    }
+
+    onLeaderboardBoardClick(group, boardKey) {
+        if (this.activeLeaderboardBoardByGroup[group] === boardKey) return;
+
+        this.activeLeaderboardBoardByGroup[group] = boardKey;
+        this.refreshOpenUI();
+    }
+
+    refreshOpenUI() {
+        const box = document.getElementById(this.containerId);
+        if (!box || box.style.display === "none") {
+            return;
+        }
+
+        this.renderUI(box);
+    }
+
+    ensureLeaderboardGroupLoaded(group) {
+        if (!this.core.isLeaderboardEnabled() || !group) {
+            return;
+        }
+
+        if (this.core.getCachedLeaderboardGroup(group) || this.core.isLeaderboardGroupLoading(group)) {
+            return;
+        }
+
+        delete this.leaderboardErrors[group];
+        void this.core.fetchLeaderboardGroup(group)
+            .then(() => {
+                delete this.leaderboardErrors[group];
+                this.refreshOpenUI();
+            })
+            .catch((error) => {
+                this.leaderboardErrors[group] = error instanceof Error ? error.message : String(error);
+                this.refreshOpenUI();
+            });
+    }
+
     buildContentContainer() {
         const content = document.createElement("div");
         content.className = "sv-content";
@@ -982,8 +1388,30 @@ class StatVaultUI {
     }
 
     renderActiveMainView(content) {
-        // Keep a single view for now. This is the switch point for future tabs.
+        if (this.activeView === "leaderboards") {
+            this.renderLeaderboardsView(content);
+            return;
+        }
+
         this.renderPersonalStatsView(content);
+    }
+
+    buildViewTabs() {
+        const tabs = document.createElement("div");
+        tabs.className = "sv-view-tabs";
+
+        [
+            { key: "personal", label: "Personal" },
+            { key: "leaderboards", label: "Leaderboards" },
+        ].forEach((view) => {
+            tabs.appendChild(this.createTabButton(
+                view.label,
+                this.activeView === view.key,
+                () => this.onViewTabClick(view.key)
+            ));
+        });
+
+        return tabs;
     }
 
     renderPersonalStatsView(content) {
@@ -993,6 +1421,81 @@ class StatVaultUI {
 
         this.appendSection(content, this.genHighlights(), "sv-table-styled sv-highlights-gap");
         this.appendSection(content, this.genTable(), "sv-table-styled");
+    }
+
+    renderLeaderboardsView(content) {
+        const shell = document.createElement("div");
+        shell.className = "sv-leaderboard-shell";
+
+        const sidebar = document.createElement("div");
+        sidebar.className = "sv-leaderboard-sidebar";
+
+        const main = document.createElement("div");
+        main.className = "sv-leaderboard-main";
+
+        const stage = document.createElement("div");
+        stage.className = "sv-leaderboard-stage";
+
+        if (!this.core.isLeaderboardEnabled()) {
+            stage.appendChild(this.createLeaderboardStatus("Leaderboards are unavailable right now."));
+            main.appendChild(stage);
+            shell.appendChild(sidebar);
+            shell.appendChild(main);
+            content.appendChild(shell);
+            return;
+        }
+
+        sidebar.appendChild(this.buildLeaderboardGroupTabs());
+
+        const group = this.activeLeaderboardGroup;
+        const groupData = this.core.getCachedLeaderboardGroup(group);
+        const groupError = this.leaderboardErrors[group];
+
+        if (!groupData) {
+            if (!groupError) {
+                this.ensureLeaderboardGroupLoaded(group);
+            }
+            stage.appendChild(this.createLeaderboardStatus(
+                this.core.isLeaderboardGroupLoading(group)
+                    ? "Loading leaderboard data..."
+                    : groupError || "Reload to try loading this board again."
+            ));
+            main.appendChild(stage);
+            shell.appendChild(sidebar);
+            shell.appendChild(main);
+            content.appendChild(shell);
+            return;
+        }
+
+        const boardOptions = this.getLeaderboardBoardOptions(group, groupData);
+        const activeBoardKey = this.ensureActiveLeaderboardBoard(group, boardOptions);
+
+        if (!activeBoardKey) {
+            stage.appendChild(this.createLeaderboardStatus("No leaderboard data is available for this category yet."));
+            main.appendChild(stage);
+            shell.appendChild(sidebar);
+            shell.appendChild(main);
+            content.appendChild(shell);
+            return;
+        }
+
+        stage.appendChild(this.buildLeaderboardBoardTabs(group, boardOptions));
+
+        const board = groupData.boards?.[activeBoardKey];
+        if (!board) {
+            stage.appendChild(this.createLeaderboardStatus("This leaderboard board has no data yet."));
+            main.appendChild(stage);
+            shell.appendChild(sidebar);
+            shell.appendChild(main);
+            content.appendChild(shell);
+            return;
+        }
+
+        stage.appendChild(this.buildLeaderboardBoardTable(group, activeBoardKey, board));
+        main.appendChild(stage);
+        shell.appendChild(sidebar);
+        shell.appendChild(main);
+        content.appendChild(shell);
     }
 
     formatRatio(value, divisor) {
@@ -1042,10 +1545,11 @@ class StatVaultUI {
         leftGroup.appendChild(this.createMetaButton("Sync Now", this.onSyncNowClick));
         leftGroup.appendChild(this.createMetaChip("Sync", syncStatus.value, syncStatus.tone));
         leftGroup.appendChild(this.createMetaChip("Last Synced", this.core.getLastSyncedText()));
+        leftGroup.appendChild(this.createMetaChip("Last Reload", `${this.core.getLastUpdatedText()} ago`));
 
         const rightGroup = document.createElement("div");
         rightGroup.className = "sv-footer-group sv-footer-group-right";
-        rightGroup.appendChild(this.createMetaChip("Last Reload", `${this.core.getLastUpdatedText()} ago`));
+        rightGroup.appendChild(this.createMetaButton("Support", this.onSupportClick));
         rightGroup.appendChild(this.createMetaChip("Daily Reset", this.core.getResetCountdownText()));
         rightGroup.appendChild(this.createMetaChip("Version", `${GM_info?.script?.version || "dev"}`));
 
@@ -1083,6 +1587,243 @@ class StatVaultUI {
         button.textContent = label;
         button.addEventListener("click", onClick);
         return button;
+    }
+
+    createTabButton(label, isActive, onClick) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `sv-tab-button${isActive ? " sv-tab-button-active" : ""}`;
+        button.textContent = label;
+        button.addEventListener("click", onClick);
+        return button;
+    }
+
+    buildLeaderboardGroupTabs() {
+        const tabs = document.createElement("div");
+        tabs.className = "sv-leaderboard-group-tabs";
+
+        [
+            { key: "overall", label: "Overall" },
+            { key: "raids", label: "Raids" },
+            { key: "damage", label: "Damage" },
+            { key: "destroyers", label: "Destroyers" },
+            { key: "levels_gained", label: "Levels Gained" },
+            { key: "sp_gained", label: "SP Gained" },
+            { key: "hall", label: "Milestones" },
+        ].forEach((group) => {
+            tabs.appendChild(this.createTabButton(
+                group.label,
+                this.activeLeaderboardGroup === group.key,
+                () => this.onLeaderboardGroupClick(group.key)
+            ));
+        });
+
+        return tabs;
+    }
+
+    buildLeaderboardBoardTabs(group, boardOptions) {
+        const tabs = document.createElement("div");
+        tabs.className = "sv-leaderboard-board-tabs";
+
+        boardOptions.forEach((board) => {
+            tabs.appendChild(this.createTabButton(
+                board.label,
+                this.activeLeaderboardBoardByGroup[group] === board.key,
+                () => this.onLeaderboardBoardClick(group, board.key)
+            ));
+        });
+
+        return tabs;
+    }
+
+    getLeaderboardBoardOptions(group, groupData) {
+        switch (group) {
+            case "overall":
+                return [
+                    { key: "level", label: "Level" },
+                    { key: "total_sp", label: "Total SP" },
+                    { key: "sp_per_level", label: "SP / Level" },
+                ];
+            case "destroyers":
+                return [
+                    { key: "1d", label: "Daily" },
+                    { key: "7d", label: "7 Days" },
+                    { key: "30d", label: "30 Days" },
+                    { key: "all_time", label: "All Time" },
+                ];
+            case "hall":
+                return (groupData?.tiers || []).map((tier) => ({
+                    key: String(tier),
+                    label: this.getHallTierLabel(tier),
+                }));
+            default:
+                return [
+                    { key: "1d", label: "Daily" },
+                    { key: "7d", label: "7 Days" },
+                    { key: "30d", label: "30 Days" },
+                ];
+        }
+    }
+
+    ensureActiveLeaderboardBoard(group, boardOptions) {
+        const current = this.activeLeaderboardBoardByGroup[group];
+        const currentIsValid = boardOptions.some((board) => board.key === current);
+        if (currentIsValid) {
+            return current;
+        }
+
+        const next = boardOptions[0]?.key || null;
+        this.activeLeaderboardBoardByGroup[group] = next;
+        return next;
+    }
+
+    createLeaderboardStatus(message) {
+        const status = document.createElement("div");
+        status.className = "sv-leaderboard-status";
+        status.textContent = message;
+        return status;
+    }
+
+    buildLeaderboardBoardTable(group, boardKey, board) {
+        const wrapper = document.createElement("div");
+        wrapper.className = "sv-leaderboard-board";
+
+        const table = document.createElement("table");
+        table.className = "sv-table sv-table-leaderboard";
+
+        const columns = this.getLeaderboardColumns(group, boardKey);
+
+        const topRows = Array.isArray(board.top) ? board.top : [];
+        if (topRows.length === 0 && !board.viewer) {
+            wrapper.appendChild(this.createLeaderboardStatus("No players are on this board yet."));
+            return wrapper;
+        }
+
+        topRows.forEach((row, index) => {
+            this.appendLeaderboardTableRow(table, columns, index + 1, row, index % 2 === 0 ? "sv-row-even" : "sv-row-odd");
+        });
+
+        if (board.viewer && board.viewerRank) {
+            const spacer = table.insertRow();
+            spacer.className = "sv-viewer-separator";
+            const spacerCell = spacer.insertCell();
+            spacerCell.colSpan = columns.length;
+            spacerCell.className = "sv-td";
+
+            this.appendLeaderboardTableRow(table, columns, board.viewerRank, board.viewer, "sv-row-viewer");
+        }
+
+        const tableStage = document.createElement("div");
+        tableStage.className = "sv-leaderboard-table-stage";
+        tableStage.appendChild(table);
+        wrapper.appendChild(tableStage);
+        return wrapper;
+    }
+
+    appendLeaderboardTableRow(table, columns, rank, row, rowClassName) {
+        const tableRow = table.insertRow();
+        tableRow.className = rowClassName;
+
+        columns.forEach((column) => {
+            const td = tableRow.insertCell();
+            td.className = `sv-td ${column.cellClass || ""}`.trim();
+
+            if (column.rank) {
+                td.classList.add("sv-rank-cell", "sv-td-rank");
+                td.textContent = this.core.formatNumber(rank);
+                return;
+            }
+
+            td.textContent = this.formatLeaderboardCellValue(column.key, row[column.key]);
+        });
+    }
+
+    getLeaderboardColumns(group, boardKey) {
+        if (group === "hall") {
+            return [
+                { key: "rank", label: "#", rank: true },
+                { key: "characterName", label: "Name", cellClass: "sv-td-center sv-td-name" },
+                { key: "className", label: "Class", cellClass: "sv-td-center sv-td-class" },
+                { key: "date", label: "Reached", cellClass: "sv-td-right sv-td-date" },
+            ];
+        }
+
+        return [
+            { key: "rank", label: "#", rank: true },
+            { key: "characterName", label: "Name", cellClass: "sv-td-center sv-td-name" },
+            { key: "value", label: this.getLeaderboardValueLabel(group, boardKey), cellClass: "sv-td-right sv-td-value" },
+        ];
+    }
+
+    getHallTierLabel(tier) {
+        switch (String(tier)) {
+            case "10":
+                return "Farmers";
+            case "100":
+                return "Adventurers";
+            case "500":
+                return "Heroes";
+            case "1000":
+                return "Champions";
+            default:
+                return String(tier);
+        }
+    }
+
+    getLeaderboardValueLabel(group, boardKey) {
+        if (group === "overall") {
+            switch (boardKey) {
+                case "level":
+                    return "Level";
+                case "total_sp":
+                    return "Total SP";
+                case "sp_per_level":
+                    return "SP / Level";
+                default:
+                    return "Value";
+            }
+        }
+
+        switch (group) {
+            case "raids":
+                return "Raids";
+            case "damage":
+                return "Damage";
+            case "destroyers":
+                return "Highest Hit";
+            case "levels_gained":
+                return "Levels";
+            case "sp_gained":
+                return "Stat Points";
+            default:
+                return "Value";
+        }
+    }
+
+    formatLeaderboardCellValue(key, value) {
+        if (key === "className") {
+            return this.toTitleCase(value);
+        }
+
+        if (key === "date") {
+            if (!value) return "";
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) {
+                return value;
+            }
+
+            return date.toISOString().slice(0, 10);
+        }
+
+        if (typeof value === "number") {
+            return this.core.formatNumber(value);
+        }
+
+        return value ?? "";
+    }
+
+    toTitleCase(value) {
+        return String(value ?? "").replace(/\b\w/g, (char) => char.toUpperCase());
     }
 
     appendSection(parent, section, sectionClasses) {
@@ -1217,20 +1958,20 @@ class StatVaultUI {
 }
 
 class StatVaultNetwork {
-    constructor(handlers) {
-        this.handlers = handlers;
+    constructor(core) {
+        this.core = core;
         this.interceptionRoutes = [
             {
                 matches: (path) => path === "/api/raid/attack",
-                handler: (data) => this.handlers.handleRaidAttack(data),
+                handler: (data) => this.core.attackHandler(data),
             },
             {
                 matches: (path) => path === "/api/user/info",
-                handler: (data) => this.handlers.handleUserInfo(data),
+                handler: (data) => this.core.infoHandler(data),
             },
             {
                 matches: (path) => path.startsWith("/api/raid/join/"),
-                handler: () => this.handlers.handleRaidJoin(),
+                handler: (data) => this.core.raidJoinHandler(data),
             },
         ];
     }
@@ -1302,9 +2043,8 @@ class StatVaultNetwork {
 class StatVaultApp {
     init() {
         this.core = new StatVaultCore();
-        this.handlers = new StatVaultHandlers(this.core);
         this.ui = new StatVaultUI(this.core);
-        this.network = new StatVaultNetwork(this.handlers);
+        this.network = new StatVaultNetwork(this.core);
 
         this.ui.initEntry();
         this.network.init();
