@@ -1,10 +1,10 @@
 # Stat Vault
 
-Track your Dragons of the Void progression with an in-game dashboard, daily history, and cross-device sync.
+Track your Dragons of the Void progression with an in-game dashboard, milestone tracking, leaderboards, and cross-device sync.
 
-- View daily stats, highlight rows, and account summary in one place
-- Track level, XP, stat points, raids, damage, and highest hit
-- Sync progress across devices with remote storage
+- Personal dashboard for daily stats, highlights, and account summary
+- Leaderboards for overall progress, raids, damage, gains, and milestones
+- Remote sync across devices with persistent cloud storage
 
 ## Install
 
@@ -16,6 +16,7 @@ Tampermonkey should recognize the `.user.js` file and prompt you to install it.
 
 1. Open the **Profile** tab
 2. Click the **Stat Vault** button to open or close the UI
+3. Use the **Personal** and **Leaderboards** tabs to switch views
 
 ## Reload-Based Updates
 
@@ -23,8 +24,24 @@ Tampermonkey should recognize the `.user.js` file and prompt you to install it.
 
 Remote sync is also only performed on reload, so refreshing the page is how you push your latest progress and pull updates from the server.
 
-The current sync status is shown in the UI.
+The current sync status is shown in the UI footer.
 
-## Screenshot
+## Personal Tab
 
-![Stat Vault UI](https://github.com/user-attachments/assets/a9e91903-a89a-44ba-b67c-19ff8277b486)
+- Account summary with age, stat ratios, and all-time highest hit
+- `1d / 7d / 30d` highlight rows
+- Full daily history table for levels, XP, stat points, raids, damage, and highest hit
+
+![Personal Tab Screenshot](https://github.com/user-attachments/assets/099ea28e-7f4b-4d60-89c1-8c3e35674672)
+
+## Leaderboards
+
+- Overall boards for level, total stat points, and stat points per level
+- Time-range boards for raids, damage, levels gained, and stat points gained
+- Milestones board for class-tier progression
+
+![Leaderboard Tab Screenshot](https://github.com/user-attachments/assets/1267b11b-3c25-48d1-829d-ce863705f5ca)
+
+## Support
+
+For issues, suggestions, or requests, contact me on Discord: **infinity04**
