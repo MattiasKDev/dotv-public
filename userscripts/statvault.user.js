@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Track player statistics including levels, XP, damage, and raid counts
-// @version      2026.04.23
+// @version      2026.04.25
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @noframes
@@ -585,18 +585,11 @@ function ensureStatVaultUIStyles() {
 
 class StatVaultCore {
     constructor() {
-        this.statStore = GM_getValue("statStore", {});
         this.startTime = Date.now();
         this.currentDate = new Date().toISOString().slice(0, 10);
-
-        this.globalStats = this.statStore[this.currentDate] || {
-            lvl: 0,
-            rc: 0,
-            sp: 0,
-            xp: 0,
-            dmg: 0,
-            dmgMax: 0,
-        };
+        this.activeStorageUserId = "";
+        this.statStore = {};
+        this.globalStats = this.createEmptyStatRow();
 
         this.statSum = 0;
         this.age = 0;
@@ -605,12 +598,74 @@ class StatVaultCore {
             characterName: "",
             accountCreatedAt: null,
         };
-        this.lastSyncedAt = GM_getValue("lastSyncedAt", null);
+        this.lastSyncedAt = null;
         this.hasPendingChanges = false;
         this.lastSyncError = null;
         this.syncInFlight = null;
         this.leaderboardCache = {};
         this.leaderboardRequests = {};
+    }
+
+    createEmptyStatRow() {
+        return {
+            lvl: 0,
+            rc: 0,
+            sp: 0,
+            xp: 0,
+            dmg: 0,
+            dmgMax: 0,
+        };
+    }
+
+    createStatSnapshot(stats = {}) {
+        const row = this.normalizeStoredStatRow(stats);
+
+        return {
+            lvl: row.lvl,
+            rc: row.rc,
+            sp: row.sp,
+            xp: row.xp,
+            dmg: row.dmg,
+            dmgMax: row.dmgMax,
+        };
+    }
+
+    getScopedStatStoreKey(userId) {
+        return `statStore:${userId}`;
+    }
+
+    getScopedLastSyncedAtKey(userId) {
+        return `lastSyncedAt:${userId}`;
+    }
+
+    persistScopedStorage() {
+        if (!this.activeStorageUserId) return;
+
+        GM_setValue(this.getScopedStatStoreKey(this.activeStorageUserId), this.statStore);
+        GM_setValue(this.getScopedLastSyncedAtKey(this.activeStorageUserId), this.lastSyncedAt);
+    }
+
+    loadScopedStorage(userId) {
+        const scopedStore = GM_getValue(this.getScopedStatStoreKey(userId), {});
+
+        this.statStore = scopedStore && typeof scopedStore === "object" ? scopedStore : {};
+        this.globalStats = this.createStatSnapshot(this.statStore[this.currentDate]);
+        this.lastSyncedAt = GM_getValue(this.getScopedLastSyncedAtKey(userId), null);
+        this.hasPendingChanges = false;
+        this.lastSyncError = null;
+        this.leaderboardCache = {};
+        this.leaderboardRequests = {};
+        this.activeStorageUserId = userId;
+    }
+
+    activateUserStorage(userId) {
+        const nextUserId = String(userId ?? "").trim();
+        if (!nextUserId || this.activeStorageUserId === nextUserId) {
+            return;
+        }
+
+        this.persistScopedStorage();
+        this.loadScopedStorage(nextUserId);
     }
 
     formatNumber(num) {
@@ -680,7 +735,7 @@ class StatVaultCore {
         this.lastSyncedAt = new Date().toISOString();
         this.hasPendingChanges = false;
         this.lastSyncError = null;
-        GM_setValue("lastSyncedAt", this.lastSyncedAt);
+        this.persistScopedStorage();
     }
 
     recordSyncFailure(error) {
@@ -775,7 +830,7 @@ class StatVaultCore {
         if (markPendingChanges) {
             this.markPendingChanges();
         }
-        GM_setValue("statStore", this.statStore);
+        this.persistScopedStorage();
     }
 
     attackHandler(data) {
@@ -792,6 +847,7 @@ class StatVaultCore {
         this.userProfile.id = String(data.payload.user.id ?? "");
         this.userProfile.characterName = String(data.payload.user.characterName ?? "");
         this.userProfile.accountCreatedAt = this.normalizeDateTime(data.payload.user.create_dttm);
+        this.activateUserStorage(this.userProfile.id);
 
         const stats = this.parseUserInfo(data.payload);
         this.globalStats.lvl = stats.lvl;
@@ -995,14 +1051,14 @@ class StatVaultCore {
 
         if (syncData.currentStats) {
             const todayStats = this.statStore[this.currentDate] || this.globalStats;
-            this.globalStats = this.mergeStatRow(todayStats, syncData.currentStats);
+            this.globalStats = this.createStatSnapshot(this.mergeStatRow(todayStats, syncData.currentStats));
             this.statStore[this.currentDate] = this.globalStats;
         } else if (this.statStore[this.currentDate]) {
-            this.globalStats = this.mergeStatRow(this.globalStats, this.statStore[this.currentDate]);
+            this.globalStats = this.createStatSnapshot(this.mergeStatRow(this.globalStats, this.statStore[this.currentDate]));
             this.statStore[this.currentDate] = this.globalStats;
         }
 
-        GM_setValue("statStore", this.statStore);
+        this.persistScopedStorage();
     }
 
     getCachedLeaderboardGroup(group) {
@@ -1081,6 +1137,7 @@ class StatVaultCore {
         }
 
         const syncPayload = this.buildSyncPayload(payload);
+        const syncUserId = syncPayload.user.id;
 
         this.syncInFlight = (async () => {
             try {
@@ -1099,6 +1156,9 @@ class StatVaultCore {
                 }
 
                 const syncData = await response.json();
+                if (this.activeStorageUserId !== syncUserId || this.userProfile.id !== syncUserId) {
+                    return;
+                }
                 this.mergeRemoteSyncData(syncData);
                 this.recordSyncSuccess();
                 console.log("[statvault] Remote sync complete");
@@ -1606,7 +1666,7 @@ class StatVaultUI {
             { key: "overall", label: "Overall" },
             { key: "raids", label: "Raids" },
             { key: "damage", label: "Damage" },
-            { key: "destroyers", label: "Destroyers" },
+            { key: "destroyers", label: "Highest Hit" },
             { key: "levels_gained", label: "Levels Gained" },
             { key: "sp_gained", label: "SP Gained" },
             { key: "hall", label: "Milestones" },
