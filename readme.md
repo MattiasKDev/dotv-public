@@ -47,7 +47,7 @@ Adds percentage context to magic procs in the battle log. Damage magic shows how
 
 <img src="./assets/magic-percent.png" alt="Magic Percent battle log" width="720">
 
-[Install Magic Percent](https://github.com/MattiasKDev/dotv-public/raw/main/userscripts/magic-data-percent.user.js)
+[Install Magic Percent](https://github.com/MattiasKDev/dotv-public/raw/main/userscripts/magicpercent.user.js)
 
 #### How to Use
 
