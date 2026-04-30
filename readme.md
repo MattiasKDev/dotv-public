@@ -1,46 +1,65 @@
-# Stat Vault
+# DOTV Tools
+
+A collection of scripts and tools I made for Dragons of the Void.
+
+## Quick Links
+
+### Userscripts
+
+- [Stat Vault](#stat-vault) - in-game stat tracking, history, and leaderboards
+- [Magic Data Percent](#magic-data-percent) - battle log percentages for magic procs
+
+### Standalone Tools
+
+- [Formation Optimizer](#formation-optimizer) - web tool for testing and optimizing formations
+
+## How to Install Userscripts
+
+These scripts require a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/).
+
+1. Install Tampermonkey for your browser.
+2. Click one of the install links below.
+3. Tampermonkey should open an install page.
+4. Click **Install**.
+5. Reload Dragons of the Void.
+
+## Userscripts
+
+### Stat Vault
 
 Track your Dragons of the Void progression with an in-game dashboard, milestone tracking, leaderboards, and cross-device sync.
 
-- Personal dashboard for daily stats, highlights, and account summary
-- Leaderboards for overall progress, raids, damage, gains, and milestones
-- Remote sync across devices with persistent cloud storage
+<img src="./assets/statvault-personal.png" alt="Stat Vault personal tab" width="720">
 
-## Install
+<img src="./assets/statvault-leaderboards.png" alt="Stat Vault leaderboards tab" width="720">
 
-[Download Stat Vault](https://github.com/MattiasKDev/dotv-public/raw/refs/heads/main/userscripts/statvault.user.js)
+[Install Stat Vault](https://github.com/MattiasKDev/dotv-public/raw/main/userscripts/statvault.user.js)
 
-Tampermonkey should recognize the `.user.js` file and prompt you to install it.
+#### How to Use
 
-## How To Use
+1. Open the **Profile** tab in DOTV.
+2. Click the **Stat Vault** button.
+3. Use the **Personal** and **Leaderboards** tabs to view your stats.
 
-1. Open the **Profile** tab
-2. Click the **Stat Vault** button to open or close the UI
-3. Use the **Personal** and **Leaderboards** tabs to switch views
+### Magic Percent
 
-## Reload-Based Updates
+Adds percentage context to magic procs in the battle log. Damage magic shows how much it contributed compared to your base damage, and mitigation magic shows the reduction percent when available.
 
-`Level`, `XP`, and `Stat Points` are only recalculated on reload.
+<img src="./assets/magic-percent.png" alt="Magic Percent battle log" width="720">
 
-Remote sync is also only performed on reload, so refreshing the page is how you push your latest progress and pull updates from the server.
+[Install Magic Percent](https://github.com/MattiasKDev/dotv-public/raw/main/userscripts/magic-data-percent.user.js)
 
-The current sync status is shown in the UI footer.
+#### How to Use
 
-## Personal Tab
+Install the script and attack a raid. Magic proc lines in the battle log will automatically show percentages.
 
-- Account summary with age, stat ratios, and all-time highest hit
-- `1d / 7d / 30d` highlight rows
-- Full daily history table for levels, XP, stat points, raids, damage, and highest hit
+## Standalone Tools
 
-![Personal Tab Screenshot](https://github.com/user-attachments/assets/099ea28e-7f4b-4d60-89c1-8c3e35674672)
+### Formation Optimizer
 
-## Leaderboards
+A web tool for experimenting with DOTV formations and comparing formation setups.
 
-- Overall boards for level, total stat points, and stat points per level
-- Time-range boards for raids, damage, levels gained, and stat points gained
-- Milestones board for class-tier progression
-
-![Leaderboard Tab Screenshot](https://github.com/user-attachments/assets/1267b11b-3c25-48d1-829d-ce863705f5ca)
+[Open Formation Optimizer](https://mattiaskdev.github.io/formation-optimizer/)
 
 ## Support
 
