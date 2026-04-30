@@ -7,7 +7,7 @@ A collection of scripts and tools I made for Dragons of the Void.
 ### Userscripts
 
 - [Stat Vault](#stat-vault) - in-game stat tracking, history, and leaderboards
-- [Magic Data Percent](#magic-data-percent) - battle log percentages for magic procs
+- [Magic Percent](#magic-percent) - battle log percentages for magic procs
 
 ### Standalone Tools
 
