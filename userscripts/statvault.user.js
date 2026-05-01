@@ -3,10 +3,9 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Track player statistics including levels, XP, damage, and raid counts
-// @version      2026.04.25
+// @version      2026.05.01
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
-// @noframes
 // @grant GM_getValue
 // @grant GM_setValue
 // @grant GM_info

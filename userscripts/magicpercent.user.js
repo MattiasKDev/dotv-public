@@ -3,10 +3,9 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Add magic proc percentages to raid battle logs
-// @version      2026.04.30
+// @version      2026.05.01
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
-// @noframes
 // @grant        unsafeWindow
 // ==/UserScript==
 
