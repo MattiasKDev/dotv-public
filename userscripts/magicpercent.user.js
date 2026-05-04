@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Add magic proc percentages to raid battle logs
-// @version      2026.05.01
+// @version      2026.05.04
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
@@ -39,7 +39,7 @@
     }
 
     function normalizeMatchText(text) {
-        return text.replace(/['\u2019]/g, "");
+        return text.replace(/['\u2019]/g, "").toLowerCase();
     }
 
     function handleAttackResponse(data) {
