@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOTV Leaderboards</title>
+  <meta name="description" content="Public Stat Vault leaderboards for Dragons of the Void.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="site-body">
+  <header data-site-header></header>
+
+  <main class="site-main">
+    <section class="site-section leaderboard-page">
+      <div class="site-section-inner">
+        <div class="leaderboard-shell">
+          <aside class="leaderboard-sidebar">
+            <div class="leaderboard-intro">
+              <p class="eyebrow">Stat Vault</p>
+              <h1 class="leaderboard-title">Leaderboards</h1>
+              <p>Public rankings from Stat Vault.</p>
+              <a class="button-secondary" href="../scripts/">Install Stat Vault</a>
+            </div>
+            <div class="leaderboard-tabs" id="leaderboardGroups" aria-label="Leaderboard groups"></div>
+          </aside>
+          <section class="leaderboard-panel" aria-live="polite">
+            <div id="leaderboardBoards" class="leaderboard-board-tabs" aria-label="Leaderboard boards"></div>
+            <div id="leaderboardContent" class="leaderboard-status">Loading leaderboard data...</div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/site.js"></script>
+  <script src="leaderboards.js"></script>
+</body>
+</html>

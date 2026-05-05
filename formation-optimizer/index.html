@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formation Optimizer | DOTV Tools</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="formation-ui.css">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="site-body">
+  <header data-site-header></header>
+
+  <main class="app-shell">
+    <nav class="tab-bar" aria-label="Main views">
+      <button id="inputsTab" class="tab-button" type="button">Inputs</button>
+      <button id="optimizerTab" class="tab-button active" type="button">Optimizer</button>
+    </nav>
+
+    <section id="inputsPanel" class="tab-panel" hidden>
+      <section class="panel input-panel" aria-labelledby="inputsHeading">
+        <div class="panel-header">
+          <h1 id="inputsHeading">Inputs</h1>
+          <span id="inputStatus" class="subtle"></span>
+        </div>
+        <div class="input-grid">
+          <label class="field inventory-field">
+            <span>Inventory</span>
+            <textarea id="inventoryInput" spellcheck="false"></textarea>
+            <button id="pasteInventory" type="button">Paste Inventory From Clipboard</button>
+            <details class="inventory-help">
+              <summary>How to fill this</summary>
+              <p>Open Dragons of the Void in another tab, then open DevTools with F12 or Ctrl+Shift+J. On Mac, use Cmd+Option+J. Paste this command into the Console tab and press Enter. Right-click the logged array, choose copy object, then return here and use the paste button.</p>
+              <button id="copyInventoryScript" type="button">Copy Console Command</button>
+              <pre><code id="inventoryScriptCode">fetch("https://api.dragonsofthevoid.com/api/user/info", {
+  headers: { authorization: localStorage.token },
+})
+  .then((r) => r.json())
+  .then((result) => {
+    const items = result?.payload?.inventory?.items ?? {};
+
+    const output = Object.entries(items).map(([key, value]) => [
+      key,
+      value?.qty ?? 0,
+    ]);
+
+    console.log(output);
+  });</code></pre>
+            </details>
+          </label>
+
+          <div class="input-side">
+            <div class="setup-note">After pasting inventory, fill out the values below before optimizing. Leave anything unknown at 0.</div>
+
+            <label class="field">
+              <span>Bonus FP</span>
+              <input id="bonusFpInput" type="number" step="any" value="2700">
+            </label>
+
+            <label class="field">
+              <span>Leadership Stat</span>
+              <input id="leadershipInput" type="number" min="0" step="1" value="0">
+            </label>
+
+            <div class="metric compact-metric">
+              <span class="metric-label">Leadership FP</span>
+              <strong id="leadershipFp">0</strong>
+              <span>from leadership</span>
+            </div>
+
+            <div class="metric compact-metric">
+              <span class="metric-label">Total Base FP</span>
+              <strong id="totalBaseFp">2700</strong>
+              <span>bonus fp + leadership fp</span>
+            </div>
+
+            <label class="field">
+              <span>Bonus FB</span>
+              <input id="bonusFbInput" type="number" step="any" value="0">
+              <small class="field-note">Any formation bonus not from an inventory item, such as item set bonus, class bonus, and tech skill bonuses.</small>
+            </label>
+
+            <label class="field">
+              <span>Bonus Prot</span>
+              <input id="bonusProtInput" type="number" step="any" value="0">
+            </label>
+
+            <label class="field">
+              <span>Always Use</span>
+              <select id="alwaysUseSelect"></select>
+            </label>
+
+            <button id="addAlwaysUse" type="button">Add Commander</button>
+            <div id="alwaysUseList" class="chip-list"></div>
+
+            <label class="field">
+              <span>Never Use</span>
+              <select id="neverUseSelect"></select>
+            </label>
+
+            <button id="addNeverUse" type="button">Add Commander</button>
+            <div id="neverUseList" class="chip-list"></div>
+
+            <button id="applyInputs" type="button">Apply Inputs</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="optimizerPanel" class="tab-panel active">
+      <section class="toolbar" aria-label="Formation controls">
+        <label class="field">
+          <span>Priority</span>
+          <select id="priority">
+            <option value="dmgscore">dmg score</option>
+            <option value="bonusres">bonus res</option>
+          </select>
+        </label>
+
+        <label class="field formation-field">
+          <span>Formation</span>
+          <select id="formationSelect"></select>
+        </label>
+
+        <label id="minimumDefField" class="field min-def-field">
+          <span>Minimum def</span>
+          <input id="minimumDef" type="number" min="0" step="1" value="0">
+        </label>
+
+        <div class="formation-actions">
+          <div id="rankMeta" class="rank-meta">Formation 0/0</div>
+          <button id="findBest" type="button">Find Best Formation</button>
+          <div class="rank-actions">
+            <button id="prevBest" type="button">Prev</button>
+            <button id="nextBest" type="button">Next</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary-grid" aria-label="Current results">
+        <div class="metric">
+          <span class="metric-label">Prot Value</span>
+          <strong id="protectValue">0</strong>
+          <span id="protectMeta">base 0 / passive 0 / active 0</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Formation Power</span>
+          <strong id="formationPower">0</strong>
+          <span id="formationPowerMeta">base 0</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Effect Avg</span>
+          <strong id="effectAvg">0</strong>
+          <span id="effectAvgMeta">commanders 0 / formation 0</span>
+        </div>
+        <div class="metric">
+          <span id="selectedScoreLabel" class="metric-label">Total Dmg Score</span>
+          <strong id="selectedScore">0</strong>
+          <span id="selectedMeta">No formation selected</span>
+        </div>
+      </section>
+
+      <section class="layout">
+        <section class="panel selected-formation-panel" aria-labelledby="selectedHeading">
+          <div class="panel-header">
+            <h1 id="selectedHeading">Selected Formation</h1>
+            <span id="selectedName" class="subtle"></span>
+          </div>
+          <div id="selectedSlots" class="slot-list"></div>
+        </section>
+
+        <section class="panel passives-panel" aria-labelledby="passivesHeading">
+          <div class="panel-header">
+            <h1 id="passivesHeading">Passives</h1>
+            <span id="passiveMeta" class="subtle"></span>
+          </div>
+          <div id="passiveList" class="passive-list"></div>
+        </section>
+
+        <section class="panel roster-panel" aria-labelledby="rosterHeading">
+          <div class="panel-header">
+            <h1 id="rosterHeading">Owned Commanders</h1>
+            <span id="rosterMeta" class="subtle"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Race</th>
+                  <th>Role</th>
+                  <th>Trait</th>
+                  <th class="numeric"><button class="table-sort" type="button" data-roster-sort="att">Atk</button></th>
+                  <th class="numeric"><button class="table-sort" type="button" data-roster-sort="defense">Def</button></th>
+                  <th class="numeric"><button class="table-sort" type="button" data-roster-sort="effectavg">Effect Avg</button></th>
+                  <th class="numeric"><button class="table-sort" type="button" data-roster-sort="bonusres">Bonus Res</button></th>
+                  <th>Form Bonus</th>
+                  <th>Prot Bonus</th>
+                </tr>
+              </thead>
+              <tbody id="rosterRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <script src="formation-ui.js"></script>
+  <script src="../assets/site.js"></script>
+</body>
+</html>
