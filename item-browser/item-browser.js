@@ -110,6 +110,15 @@
     ],
   };
 
+  const STAT_REQUIREMENTS = [
+    { keys: ["reqcon", "reccon"], label: "Constitution" },
+    { keys: ["reqper", "reqperc", "recper", "recperc"], label: "Perception" },
+    { keys: ["reqstr", "recstr"], label: "Strength" },
+    { keys: ["reqint", "recint"], label: "Intellect" },
+    { keys: ["reqagi", "recagi"], label: "Agility" },
+    { keys: ["reqlea", "reclea"], label: "Leadership" },
+  ];
+
   const state = {
     items: [],
     filteredItems: [],
@@ -793,6 +802,13 @@
       .trim();
   }
 
+  function formatStatRequirements(raw) {
+    return STAT_REQUIREMENTS.flatMap(({ keys, label }) => {
+      const value = keys.map((key) => raw[key]).find((entry) => Number(entry) > 0);
+      return value ? [`${label} ${formatNumber(value)}`] : [];
+    });
+  }
+
   function formatAward(award, normalizeChance = false) {
     if (!award || typeof award !== "object") return String(award || "");
     const chance = normalizeChance ? Number(award.chance) / 100 : Number(award.chance);
@@ -805,8 +821,12 @@
 
   function renderStructuredSections(item, parent) {
     const raw = item.raw;
+    const requirements = [
+      ...(Array.isArray(raw.preReqs) ? raw.preReqs.map(formatRequirement) : []),
+      ...formatStatRequirements(raw),
+    ];
 
-    if (Array.isArray(raw.preReqs)) renderChipSection(parent, "Requirements", raw.preReqs.map(formatRequirement));
+    renderChipSection(parent, "Requirements", requirements);
     if (raw.resourceCost && typeof raw.resourceCost === "object") {
       renderChipSection(parent, "Resource Cost", Object.entries(raw.resourceCost).map(([key, value]) => `${toTitleCase(key)} ${formatNumber(value)}`));
     }
