@@ -673,6 +673,7 @@
       );
       if (item.category === "commanders") entries.push(["Health", raw.health]);
       if (item.category === "troops") entries.push(["Reserve", raw.reserve]);
+      if (item.category === "troops" && raw.maxFormationSlots) entries.push(["Special", raw.maxFormationSlots]);
     } else if (item.category === "formations") {
       entries.push(
         ["Formation Bonus", `${formatNumber(raw.bonus)}%`],
