@@ -190,7 +190,7 @@
     "locationText": ""
   },
   "a.benefactor-scolfield-footman": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -260,12 +260,12 @@
     "locationText": ""
   },
   "a.chandler-deacon": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "a.chandler-lightbringer": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -310,7 +310,7 @@
     "locationText": ""
   },
   "a.corrissa-swiftfin": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -330,7 +330,7 @@
     "locationText": ""
   },
   "a.cryogolem": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -345,7 +345,7 @@
     "locationText": ""
   },
   "a.cumberworld-benefactor-fool": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -790,7 +790,7 @@
     "locationText": ""
   },
   "a.half-ent-herbalist": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -2955,12 +2955,12 @@
     "locationText": ""
   },
   "c.aegyr-snowbound-frigidara-defence-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.aegyr-snowbound-winter-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -2970,7 +2970,7 @@
     "locationText": ""
   },
   "c.ailmar-perjeon-attack-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -2980,7 +2980,7 @@
     "locationText": ""
   },
   "c.apui-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3000,12 +3000,12 @@
     "locationText": ""
   },
   "c.arendyl-greenleaf-attack-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.arendyl-greenleaf-defence-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3020,17 +3020,17 @@
     "locationText": ""
   },
   "c.bai-juanmahee-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.bantiloche-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.bantiloche-boost-ii": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3050,12 +3050,12 @@
     "locationText": ""
   },
   "c.bellas-inahice-frigidara-defence-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.bellas-inahice-winter-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3525,12 +3525,12 @@
     "locationText": ""
   },
   "c.burz-frigidara-defence-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.burz-winter-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3575,7 +3575,7 @@
     "locationText": ""
   },
   "c.citizens-faith": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3600,7 +3600,7 @@
     "locationText": ""
   },
   "c.corros-glorymuth-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3680,7 +3680,7 @@
     "locationText": ""
   },
   "c.durzub-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3865,7 +3865,7 @@
     "locationText": ""
   },
   "c.frigidara-defenders-frigidara-defence-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3915,7 +3915,7 @@
     "locationText": ""
   },
   "c.glasha-brunbruk-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3955,12 +3955,12 @@
     "locationText": ""
   },
   "c.greater-caster-token": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.greater-healer-token": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -3970,17 +3970,17 @@
     "locationText": ""
   },
   "c.greater-ranged-token": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.greater-support-token": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.greater-tank-token": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -4485,7 +4485,7 @@
     "locationText": ""
   },
   "c.keylsa-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -4495,7 +4495,7 @@
     "locationText": ""
   },
   "c.kitchi-wayguard-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -4635,7 +4635,7 @@
     "locationText": ""
   },
   "c.manitaria-leafshade-attack-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -4645,7 +4645,7 @@
     "locationText": ""
   },
   "c.marduks-formation-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -4790,12 +4790,12 @@
     "locationText": ""
   },
   "c.nhuman-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.nhuman-boost-ii": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -4810,12 +4810,12 @@
     "locationText": ""
   },
   "c.nussegret-orebrew-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.nussegret-orebrew-boost-ii": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -4885,7 +4885,7 @@
     "locationText": ""
   },
   "c.orb-of-the-spirit-guardian": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -5580,7 +5580,7 @@
     "locationText": ""
   },
   "c.sollemnia-verus-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -5735,7 +5735,7 @@
     "locationText": ""
   },
   "c.takhi-wawetseka-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -6315,12 +6315,12 @@
     "locationText": ""
   },
   "c.yathane-shahara-attack-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "c.yathane-shahara-defence-boost-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -6845,7 +6845,7 @@
     "locationText": ""
   },
   "e.baron-aureus-armor": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -6855,47 +6855,47 @@
     "locationText": ""
   },
   "e.baron-aureus-exploderer": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.baron-aureus-fencer": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.baron-aureus-floater": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.baron-aureus-fowl": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.baron-aureus-frostchariot": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.baron-aureus-gloves": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.baron-aureus-helm": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.baron-aureus-lobber": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.baron-aureus-pants": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -6910,7 +6910,7 @@
     "locationText": ""
   },
   "e.baron-aureus-tenvilu": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -7520,22 +7520,22 @@
     "locationText": ""
   },
   "e.chaunaths-warpriests-breastplate": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.chaunaths-warpriests-cuisses": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.chaunaths-warpriests-gauntlets": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.chaunaths-warpriests-light": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -7550,7 +7550,7 @@
     "locationText": ""
   },
   "e.chaunaths-warpriests-sigil": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -7560,17 +7560,17 @@
     "locationText": ""
   },
   "e.chaunaths-warpriests-steed": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.chaunaths-warpriests-toxins": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.chaunaths-warpriests-visor": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -7975,7 +7975,7 @@
     "locationText": ""
   },
   "e.cumberworld-benefactors-lash": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -8105,32 +8105,32 @@
     "locationText": ""
   },
   "e.demonsbanes-cursed-armor": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.demonsbanes-cursed-gauntlets": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.demonsbanes-cursed-helm": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.demonsbanes-cursed-legs": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.demonsbanes-cursed-mark": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.demonsbanes-cursed-sabatons": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -8885,12 +8885,12 @@
     "locationText": ""
   },
   "e.gong-leyshen-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.gong-longjoh-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -8980,7 +8980,7 @@
     "locationText": ""
   },
   "e.hachibi-flail": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9185,7 +9185,7 @@
     "locationText": ""
   },
   "e.helm-of-longeares": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9330,7 +9330,7 @@
     "locationText": ""
   },
   "e.ichibi-flail": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9470,7 +9470,7 @@
     "locationText": ""
   },
   "e.kyuubi-flail": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9580,7 +9580,7 @@
     "locationText": ""
   },
   "e.leyshen-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9660,7 +9660,7 @@
     "locationText": ""
   },
   "e.medzeh-blade": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9670,7 +9670,7 @@
     "locationText": ""
   },
   "e.medzeh-bow": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9700,7 +9700,7 @@
     "locationText": ""
   },
   "e.medzeh-hinderer": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9720,7 +9720,7 @@
     "locationText": ""
   },
   "e.medzeh-suppressor": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9870,7 +9870,7 @@
     "locationText": ""
   },
   "e.mikoko-miskwas": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -9890,7 +9890,7 @@
     "locationText": ""
   },
   "e.mikoko-nodeek": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10120,7 +10120,7 @@
     "locationText": ""
   },
   "e.mortiday-darts": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10140,7 +10140,7 @@
     "locationText": ""
   },
   "e.mortiday-shaker": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10160,7 +10160,7 @@
     "locationText": ""
   },
   "e.moss-covered-meganyxi": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10405,7 +10405,7 @@
     "locationText": ""
   },
   "e.nyxifur-darts": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10435,7 +10435,7 @@
     "locationText": ""
   },
   "e.nyxifur-whip": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10580,7 +10580,7 @@
     "locationText": ""
   },
   "e.ooleviash-claymore": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10600,7 +10600,7 @@
     "locationText": ""
   },
   "e.ooleviash-horsebow": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10640,37 +10640,37 @@
     "locationText": ""
   },
   "e.oresnatchs-grand-blue-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.oresnatchs-grand-green-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.oresnatchs-grand-orange-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.oresnatchs-grand-rainbow-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.oresnatchs-grand-red-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.oresnatchs-grand-violet-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.oresnatchs-grand-yellow-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -10825,7 +10825,7 @@
     "locationText": ""
   },
   "e.pentwater-mace": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -11040,17 +11040,17 @@
     "locationText": ""
   },
   "e.psionic-shield-chest": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.psionic-shield-gloves": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.psionic-shield-helm": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -11790,17 +11790,17 @@
     "locationText": ""
   },
   "e.skliros-devilled-cleaver": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.skliros-devilled-inflicter": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.skliros-devilled-punisher": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -11905,12 +11905,12 @@
     "locationText": ""
   },
   "e.snowdrake-slaughterer-knife": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.snowdrake-slaughterer-mace": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -11960,12 +11960,12 @@
     "locationText": ""
   },
   "e.snowdrake-slayer-knife": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.snowdrake-slayer-mace": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -12385,12 +12385,12 @@
     "locationText": ""
   },
   "e.tagwyren-bow": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.tagwyren-rod": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -12400,7 +12400,7 @@
     "locationText": ""
   },
   "e.tasharen-bow": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -13480,7 +13480,7 @@
     "locationText": ""
   },
   "e.yotinpekew-knife": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -13510,17 +13510,17 @@
     "locationText": ""
   },
   "e.yotinpekew-seekahikanis": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.yotinpekew-sling": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
   "e.yotinpekew-storm-seekahikanis": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -13530,7 +13530,7 @@
     "locationText": ""
   },
   "e.yotinpekew-storm-whip": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -13540,7 +13540,7 @@
     "locationText": ""
   },
   "e.yotinpekew-whip": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
@@ -13905,7 +13905,7 @@
     "locationText": ""
   },
   "f.faulty-floriculture-iii": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
