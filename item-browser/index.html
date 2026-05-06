@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Item Browser | DOTV Tools</title>
+  <meta name="description" content="Browse Dragons of the Void item and formation data.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="item-browser.css">
+</head>
+<body class="site-body">
+  <header data-site-header></header>
+
+  <main class="site-main item-browser-page">
+    <section class="site-section item-browser-section">
+      <div class="item-browser-shell">
+        <aside class="type-rail" aria-label="Item types">
+          <div class="type-rail-header">
+            <span>Types</span>
+            <strong id="totalCount">0</strong>
+          </div>
+          <div id="typeTabs" class="type-tabs"></div>
+        </aside>
+
+        <section class="browser-workbench" aria-label="Item results">
+          <div class="browser-toolbar">
+            <label class="browser-search">
+              <span>Search</span>
+              <input id="searchInput" type="search" autocomplete="off" placeholder="Name, effect, role, set...">
+            </label>
+
+            <div id="controlRow" class="control-row">
+              <div id="sortControl" class="sort-control">
+                <label>
+                  <span>Sort</span>
+                  <select id="sortSelect"></select>
+                </label>
+              </div>
+
+              <div id="equipmentFilters" class="equipment-filters" hidden>
+                <label>
+                  <span>Slot</span>
+                  <select id="equipmentSlotFilter"></select>
+                </label>
+                <label>
+                  <span>Type</span>
+                  <select id="equipmentTypeFilter"></select>
+                </label>
+                <label>
+                  <span>Set</span>
+                  <select id="equipmentSetFilter"></select>
+                </label>
+              </div>
+
+              <div id="magicFilters" class="magic-filters" hidden>
+                <label>
+                  <span>Element</span>
+                  <select id="magicElementFilter"></select>
+                </label>
+              </div>
+
+              <div id="traitFilters" class="trait-filters" hidden>
+                <label id="acquireOnceFilterField" class="check-filter">
+                  <input id="acquireOnceFilter" type="checkbox">
+                  <span>Acquire Once</span>
+                </label>
+                <label id="uniqueFilterField" class="check-filter">
+                  <input id="uniqueFilter" type="checkbox">
+                  <span>Unique</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="result-bar">
+            <span id="resultCount">Loading item data...</span>
+            <button id="clearFilters" class="subtle-button" type="button">Clear</button>
+          </div>
+
+          <div id="resultList" class="result-list" aria-live="polite"></div>
+        </section>
+
+        <aside id="detailPanel" class="detail-panel" aria-live="polite">
+          <div class="detail-empty">Loading item data...</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/site.js"></script>
+  <script src="item-browser.js"></script>
+</body>
+</html>
