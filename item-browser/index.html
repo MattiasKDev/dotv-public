@@ -21,6 +21,12 @@
             <strong id="totalCount">0</strong>
           </div>
           <div id="typeTabs" class="type-tabs"></div>
+          <div class="location-filter-group">
+            <div class="type-rail-header compact">
+              <span>Location Tags</span>
+            </div>
+            <div id="locationTagFilters" class="location-tag-filters"></div>
+          </div>
         </aside>
 
         <section class="browser-workbench" aria-label="Item results">
@@ -38,6 +44,13 @@
                 </label>
               </div>
 
+              <div id="globalFilters" class="global-filters">
+                <label class="check-filter">
+                  <input id="hideOwnedFilter" type="checkbox">
+                  <span>Hide Owned</span>
+                </label>
+              </div>
+
               <div id="equipmentFilters" class="equipment-filters" hidden>
                 <label>
                   <span>Slot</span>
@@ -50,6 +63,21 @@
                 <label>
                   <span>Set</span>
                   <select id="equipmentSetFilter"></select>
+                </label>
+              </div>
+
+              <div id="commanderFilters" class="commander-filters" hidden>
+                <label>
+                  <span>Race</span>
+                  <select id="commanderRaceFilter"></select>
+                </label>
+                <label>
+                  <span>Role</span>
+                  <select id="commanderRoleFilter"></select>
+                </label>
+                <label>
+                  <span>Trait</span>
+                  <select id="commanderTraitFilter"></select>
                 </label>
               </div>
 

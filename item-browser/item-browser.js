@@ -7,6 +7,9 @@
     itemLocations: "../data/item-locations.json",
   };
   const IMAGE_HOST = "https://files.dragonsofthevoid.com";
+  const INVENTORY_STORAGE_KEY = "commander-formation-ranker-inputs-v1";
+  const HIDE_OWNED_ENABLED = false;
+  const UNKNOWN_LOCATION_TAG = "unknown";
   const PAGE_SIZE = 120;
 
   const PREFIX_LABELS = {
@@ -73,6 +76,9 @@
   };
 
   const SORT_OPTIONS = {
+    all: [
+      { key: "name", label: "Name" },
+    ],
     equipment: [
       { key: "name", label: "Name" },
       { key: "attack", label: "Attack" },
@@ -122,30 +128,44 @@
   const state = {
     items: [],
     filteredItems: [],
+    ownedItemIds: new Set(),
     selectedId: "",
-    category: "equipment",
+    category: "all",
     availability: "obtainable",
     query: "",
+    hiddenTags: new Set(),
     equipmentSlot: "",
     equipmentType: "",
     equipmentSet: "",
+    commanderRace: "",
+    commanderRole: "",
+    commanderTrait: "",
     magicElement: "",
     acquireOnceOnly: false,
     uniqueOnly: false,
+    hideOwned: false,
     sort: "name",
+    detailTab: "info",
     visibleLimit: PAGE_SIZE,
   };
 
   const els = {
     totalCount: document.getElementById("totalCount"),
     typeTabs: document.getElementById("typeTabs"),
+    locationTagFilters: document.getElementById("locationTagFilters"),
     searchInput: document.getElementById("searchInput"),
     controlRow: document.getElementById("controlRow"),
     sortControl: document.getElementById("sortControl"),
+    globalFilters: document.getElementById("globalFilters"),
+    hideOwnedFilter: document.getElementById("hideOwnedFilter"),
     equipmentFilters: document.getElementById("equipmentFilters"),
     equipmentSlotFilter: document.getElementById("equipmentSlotFilter"),
     equipmentTypeFilter: document.getElementById("equipmentTypeFilter"),
     equipmentSetFilter: document.getElementById("equipmentSetFilter"),
+    commanderFilters: document.getElementById("commanderFilters"),
+    commanderRaceFilter: document.getElementById("commanderRaceFilter"),
+    commanderRoleFilter: document.getElementById("commanderRoleFilter"),
+    commanderTraitFilter: document.getElementById("commanderTraitFilter"),
     magicFilters: document.getElementById("magicFilters"),
     magicElementFilter: document.getElementById("magicElementFilter"),
     traitFilters: document.getElementById("traitFilters"),
@@ -197,6 +217,10 @@
       .replace(/-/g, " "));
   }
 
+  function formatLocationTag(tag) {
+    return cleanIdLikeText(tag);
+  }
+
   function splitCamelText(value) {
     return String(value || "")
       .replace(/([A-Z]+)([A-Z][a-z])/g, "$1 $2")
@@ -212,6 +236,40 @@
     return number.toLocaleString("en-US", {
       maximumFractionDigits: Number.isInteger(number) ? 0 : 2,
     });
+  }
+
+  function inventoryIdsFromData(data) {
+    const ids = new Set();
+
+    if (Array.isArray(data)) {
+      data.forEach((entry) => {
+        if (Array.isArray(entry)) {
+          const itemId = String(entry[0] || "");
+          if (itemId) ids.add(itemId);
+        } else {
+          const itemId = String(entry || "");
+          if (itemId) ids.add(itemId);
+        }
+      });
+      return ids;
+    }
+
+    if (data && typeof data === "object") {
+      Object.keys(data).forEach((itemId) => ids.add(String(itemId)));
+    }
+
+    return ids;
+  }
+
+  function readOwnedItemIds() {
+    if (typeof localStorage === "undefined") return new Set();
+    try {
+      const stored = JSON.parse(localStorage.getItem(INVENTORY_STORAGE_KEY) || "{}");
+      const inventoryText = String(stored.inventoryText || "").trim();
+      return inventoryText ? inventoryIdsFromData(JSON.parse(inventoryText)) : new Set();
+    } catch {
+      return new Set();
+    }
   }
 
   function formatValue(value) {
@@ -242,6 +300,13 @@
     const category = categoryForItem(rawItem, prefix);
     const meta = categoryMeta(category);
     const locationInfo = itemLocations[id] || null;
+    const locationText = String(locationInfo?.locationText || "");
+    const locationTags = Array.isArray(locationInfo?.tags)
+      ? locationInfo.tags.map(String).filter((tag) => tag.trim() !== "")
+      : [];
+    if (!locationText.trim() && !locationTags.includes(UNKNOWN_LOCATION_TAG)) {
+      locationTags.push(UNKNOWN_LOCATION_TAG);
+    }
     const searchText = [
       id,
       rawItem.name,
@@ -260,6 +325,8 @@
       rawItem.effectName,
       rawItem.effects,
       rawItem.description,
+      locationText,
+      locationTags.join(" "),
       Array.isArray(rawItem.itemSetIds) ? rawItem.itemSetIds.join(" ") : "",
     ].join(" ").toLowerCase();
 
@@ -275,6 +342,8 @@
       name: String(rawItem.name || id || "Unknown"),
       imageUrl: imageUrl(rawItem.imagePath),
       locationInfo,
+      locationTags,
+      locationText,
       obtainable: locationInfo?.obtainable === true,
       searchText,
     };
@@ -293,6 +362,14 @@
     if (state.availability === "obtainable") return item.obtainable;
     if (state.availability === "unobtainable") return !item.obtainable;
     return true;
+  }
+
+  function matchesLocationTags(item) {
+    return !item.locationTags.some((tag) => state.hiddenTags.has(tag));
+  }
+
+  function matchesOwnedFilter(item) {
+    return !HIDE_OWNED_ENABLED || !state.hideOwned || !state.ownedItemIds.has(item.id);
   }
 
   function equipmentItems() {
@@ -418,9 +495,19 @@
     els.uniqueFilter.checked = state.uniqueOnly;
   }
 
+  function renderGlobalFilters() {
+    els.globalFilters.hidden = !HIDE_OWNED_ENABLED;
+    if (!HIDE_OWNED_ENABLED) {
+      state.hideOwned = false;
+    }
+    els.hideOwnedFilter.checked = state.hideOwned;
+  }
+
   function renderControlRow() {
     els.controlRow.hidden = els.sortControl.hidden
+      && els.globalFilters.hidden
       && els.equipmentFilters.hidden
+      && els.commanderFilters.hidden
       && els.magicFilters.hidden
       && els.traitFilters.hidden;
   }
@@ -434,7 +521,7 @@
 
   function equipmentSetValuesForCurrentAvailability() {
     return uniqueEquipmentValuesForItems(
-      equipmentItems().filter(matchesAvailability),
+      equipmentItems().filter((item) => matchesAvailability(item) && matchesLocationTags(item) && matchesOwnedFilter(item)),
       (item) => item.itemSetIds || [],
     );
   }
@@ -479,8 +566,98 @@
     );
   }
 
+  function commanderItemsForFilters() {
+    return state.items.filter((item) => (
+      item.category === "commanders"
+      && matchesAvailability(item)
+      && matchesLocationTags(item)
+      && matchesOwnedFilter(item)
+    ));
+  }
+
+  function uniqueCommanderValues(getValue) {
+    return uniqueEquipmentValuesForItems(commanderItemsForFilters(), getValue);
+  }
+
+  function ensureValidCommanderFilters() {
+    if (state.category !== "commanders") return;
+
+    const raceValues = uniqueCommanderValues((item) => item.race);
+    const roleValues = uniqueCommanderValues((item) => item.role);
+    const traitValues = uniqueCommanderValues((item) => item.trait);
+
+    if (state.commanderRace && !raceValues.includes(state.commanderRace)) state.commanderRace = "";
+    if (state.commanderRole && !roleValues.includes(state.commanderRole)) state.commanderRole = "";
+    if (state.commanderTrait && !traitValues.includes(state.commanderTrait)) state.commanderTrait = "";
+  }
+
+  function renderCommanderFilters() {
+    const isCommanders = state.category === "commanders";
+    els.commanderFilters.hidden = !isCommanders;
+    if (!isCommanders) return;
+
+    fillSelect(
+      els.commanderRaceFilter,
+      "All races",
+      uniqueCommanderValues((item) => item.race),
+      state.commanderRace,
+    );
+    fillSelect(
+      els.commanderRoleFilter,
+      "All roles",
+      uniqueCommanderValues((item) => item.role),
+      state.commanderRole,
+    );
+    fillSelect(
+      els.commanderTraitFilter,
+      "All traits",
+      uniqueCommanderValues((item) => item.trait),
+      state.commanderTrait,
+    );
+  }
+
+  function renderLocationTagFilters() {
+    const tags = [...new Set(state.items.flatMap((item) => item.locationTags))]
+      .sort((a, b) => formatLocationTag(a).localeCompare(formatLocationTag(b)));
+
+    els.locationTagFilters.innerHTML = "";
+
+    if (!tags.length) {
+      const status = document.createElement("div");
+      status.className = "status";
+      status.textContent = "No tags found.";
+      els.locationTagFilters.append(status);
+      return;
+    }
+
+    tags.forEach((tag) => {
+      const label = document.createElement("label");
+      label.className = "tag-filter";
+
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.checked = !state.hiddenTags.has(tag);
+      input.addEventListener("change", () => {
+        if (input.checked) {
+          state.hiddenTags.delete(tag);
+        } else {
+          state.hiddenTags.add(tag);
+        }
+        state.visibleLimit = PAGE_SIZE;
+        applyFilters();
+      });
+
+      const text = document.createElement("span");
+      text.textContent = formatLocationTag(tag);
+      label.append(input, text);
+      els.locationTagFilters.append(label);
+    });
+  }
+
   function renderTypeTabs() {
-    const availableItems = state.items.filter(matchesAvailability);
+    const availableItems = state.items.filter((item) => (
+      matchesAvailability(item) && matchesLocationTags(item) && matchesOwnedFilter(item)
+    ));
     const counts = availableItems.reduce((map, item) => {
       map[item.category] = (map[item.category] || 0) + 1;
       return map;
@@ -489,8 +666,12 @@
     els.totalCount.textContent = formatNumber(availableItems.length);
     els.typeTabs.innerHTML = "";
 
-    CATEGORY_META
-      .filter((category) => counts[category.key])
+    [
+      { key: "all", label: "All", color: "#58a6ff", count: availableItems.length },
+      ...CATEGORY_META
+        .filter((category) => VISIBLE_CATEGORIES.has(category.key))
+        .map((category) => ({ ...category, count: counts[category.key] || 0 }))
+    ]
       .forEach((category) => {
         const button = document.createElement("button");
         button.type = "button";
@@ -498,7 +679,7 @@
         button.style.setProperty("--type-color", category.color);
         button.innerHTML = `
           <span>${category.label}</span>
-          <span class="type-tab-count">${formatNumber(counts[category.key])}</span>
+          <span class="type-tab-count">${formatNumber(category.count)}</span>
         `;
         button.addEventListener("click", () => {
           if (state.category === category.key) return;
@@ -512,13 +693,21 @@
 
   function matchesFilters(item) {
     if (!matchesAvailability(item)) return false;
-    if (item.category !== state.category) return false;
+    if (!matchesLocationTags(item)) return false;
+    if (!matchesOwnedFilter(item)) return false;
+    if (state.category !== "all" && item.category !== state.category) return false;
 
     if (item.category === "equipment") {
       if (state.equipmentSlot && String(item.raw.equipSlot || "") !== state.equipmentSlot) return false;
       if (state.equipmentType && String(item.raw.equipType || "") !== state.equipmentType) return false;
       if (state.equipmentSet && !Array.isArray(item.raw.itemSetIds)) return false;
       if (state.equipmentSet && !item.raw.itemSetIds.includes(state.equipmentSet)) return false;
+    }
+
+    if (item.category === "commanders") {
+      if (state.commanderRace && String(item.raw.race || "") !== state.commanderRace) return false;
+      if (state.commanderRole && String(item.raw.role || "") !== state.commanderRole) return false;
+      if (state.commanderTrait && String(item.raw.trait || "") !== state.commanderTrait) return false;
     }
 
     if (item.category === "magics" && state.magicElement && String(item.raw.element || "") !== state.magicElement) {
@@ -567,6 +756,7 @@
   function applyFilters() {
     ensureValidSort();
     ensureValidEquipmentFilters();
+    ensureValidCommanderFilters();
     state.filteredItems = state.items.filter(matchesFilters).sort(compareItems);
 
     if (!state.filteredItems.some((item) => item.id === state.selectedId)) {
@@ -574,9 +764,12 @@
     }
 
     renderTypeTabs();
+    renderLocationTagFilters();
     renderSortOptions();
     renderEquipmentFilters();
+    renderCommanderFilters();
     renderMagicFilters();
+    renderGlobalFilters();
     renderTraitFilters();
     renderControlRow();
     renderResults();
@@ -903,6 +1096,47 @@
     renderSlotList("Troop Slots", raw.troopSlots, parent);
   }
 
+  function renderDetailTabs() {
+    const tabs = document.createElement("div");
+    tabs.className = "detail-tabs";
+
+    [
+      ["info", "Info"],
+      ["locations", "Locations"],
+    ].forEach(([key, label]) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = `detail-tab${state.detailTab === key ? " is-active" : ""}`;
+      button.textContent = label;
+      button.addEventListener("click", () => {
+        if (state.detailTab === key) return;
+        state.detailTab = key;
+        renderDetail();
+      });
+      tabs.append(button);
+    });
+
+    return tabs;
+  }
+
+  function renderDetailHero(item, parent) {
+    const hero = document.createElement("section");
+    hero.className = "detail-hero";
+    hero.append(createImage(item));
+    const heroText = document.createElement("div");
+    const title = document.createElement("h2");
+    title.className = "detail-title";
+    title.textContent = item.name;
+    heroText.append(title);
+    hero.append(heroText);
+    parent.append(hero);
+  }
+
+  function renderLocationDetails(item, parent) {
+    renderTextSection(parent, "Locations", item.locationText.trim() || "No known locations");
+    renderChipSection(parent, "Tags", item.locationTags.map(formatLocationTag));
+  }
+
   function renderDetail() {
     const item = selectedItem();
     els.detailPanel.innerHTML = "";
@@ -926,36 +1160,37 @@
     const body = document.createElement("div");
     body.className = "detail-body";
 
-    const hero = document.createElement("section");
-    hero.className = "detail-hero";
-    hero.append(createImage(item));
-    const heroText = document.createElement("div");
-    const title = document.createElement("h2");
-    title.className = "detail-title";
-    title.textContent = item.name;
-    heroText.append(title);
-    hero.append(heroText);
-    body.append(hero);
+    renderDetailHero(item, body);
 
-    renderStats(item, body);
-    renderStructuredSections(item, body);
-    renderTextSection(body, "Effects", item.raw.effects);
-    renderTextSection(body, "Description", item.raw.description);
+    if (state.detailTab === "locations") {
+      renderLocationDetails(item, body);
+    } else {
+      renderStats(item, body);
+      renderStructuredSections(item, body);
+      renderTextSection(body, "Effects", item.raw.effects);
+      renderTextSection(body, "Description", item.raw.description);
+    }
 
-    els.detailPanel.append(header, body);
+    els.detailPanel.append(header, renderDetailTabs(), body);
   }
 
   function clearFilters() {
     state.query = "";
+    state.hiddenTags.clear();
     state.equipmentSlot = "";
     state.equipmentType = "";
     state.equipmentSet = "";
+    state.commanderRace = "";
+    state.commanderRole = "";
+    state.commanderTrait = "";
     state.magicElement = "";
     state.acquireOnceOnly = false;
     state.uniqueOnly = false;
+    state.hideOwned = false;
     state.sort = "name";
     state.visibleLimit = PAGE_SIZE;
     els.searchInput.value = "";
+    els.hideOwnedFilter.checked = state.hideOwned;
     els.sortSelect.value = state.sort;
     applyFilters();
   }
@@ -1001,6 +1236,21 @@
       applyFilters();
     });
 
+    els.hideOwnedFilter.addEventListener("change", () => {
+      if (!HIDE_OWNED_ENABLED) return;
+      state.ownedItemIds = readOwnedItemIds();
+      state.hideOwned = els.hideOwnedFilter.checked;
+      state.visibleLimit = PAGE_SIZE;
+      applyFilters();
+    });
+
+    window.addEventListener("storage", (event) => {
+      if (!HIDE_OWNED_ENABLED) return;
+      if (event.key !== INVENTORY_STORAGE_KEY) return;
+      state.ownedItemIds = readOwnedItemIds();
+      if (state.hideOwned) applyFilters();
+    });
+
     [
       [els.equipmentSlotFilter, "equipmentSlot"],
       [els.equipmentTypeFilter, "equipmentType"],
@@ -1016,6 +1266,18 @@
       });
     });
 
+    [
+      [els.commanderRaceFilter, "commanderRace"],
+      [els.commanderRoleFilter, "commanderRole"],
+      [els.commanderTraitFilter, "commanderTrait"],
+    ].forEach(([element, key]) => {
+      element.addEventListener("change", () => {
+        state[key] = element.value;
+        state.visibleLimit = PAGE_SIZE;
+        applyFilters();
+      });
+    });
+
     els.clearFilters.addEventListener("click", clearFilters);
   }
 
@@ -1026,6 +1288,7 @@
         loadJson(DATA_PATHS.formations),
         loadJson(DATA_PATHS.itemLocations),
       ]);
+      state.ownedItemIds = HIDE_OWNED_ENABLED ? readOwnedItemIds() : new Set();
       state.items = buildItems(items, formations, itemLocations);
       bindEvents();
       applyFilters();
