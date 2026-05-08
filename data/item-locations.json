@@ -179,9 +179,9 @@
   "a.borjigin-kuyuk": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "a.brawler-simalia": {
     "obtainable": true,
@@ -828,9 +828,9 @@
   "a.half-ent-herbalist": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "a.herbalist-taste-tester": {
     "obtainable": true,
@@ -1115,9 +1115,9 @@
   "a.mero-naghezn": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "a.meropi-demide": {
     "obtainable": true,
@@ -1857,9 +1857,9 @@
   "a.two-sons-mercenary": {
     "obtainable": false,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "a.valfan-whistleboots": {
     "obtainable": true,
@@ -2149,1134 +2149,1134 @@
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Adventurer Class."
+    "locationText": "Given with the Adventurer Class."
   },
   "ba.alchemist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Alchemist Class."
+    "locationText": "Given with the Alchemist Class."
   },
   "ba.archdruid-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Archdruid Class."
+    "locationText": "Given with the Archdruid Class."
   },
   "ba.archmage-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Archmage Class."
+    "locationText": "Given with the Archmage Class."
   },
   "ba.assassin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Assassin Class."
+    "locationText": "Given with the Assassin Class."
   },
   "ba.banneret-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Banneret Class."
+    "locationText": "Given with the Banneret Class."
   },
   "ba.barbarian-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Barbarian Class."
+    "locationText": "Given with the Barbarian Class."
   },
   "ba.bard-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Bard Class."
+    "locationText": "Given with the Bard Class."
   },
   "ba.battlemage-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Battlemage Class."
+    "locationText": "Given with the Battlemage Class."
   },
   "ba.beastmaster-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Beastmaster Class."
+    "locationText": "Given with the Beastmaster Class."
   },
   "ba.berserker-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Berserker Class."
+    "locationText": "Given with the Berserker Class."
   },
   "ba.bishop-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Bishop Class."
+    "locationText": "Given with the Bishop Class."
   },
   "ba.brawler-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Brawler Class."
+    "locationText": "Given with the Brawler Class."
   },
   "ba.buccaneer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Buccaneer Class."
+    "locationText": "Given with the Buccaneer Class."
   },
   "ba.bystander-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Bystander Class."
+    "locationText": "Given with the Bystander Class."
   },
   "ba.captain-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Captain Class."
+    "locationText": "Given with the Captain Class."
   },
   "ba.cavalier-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Cavalier Class."
+    "locationText": "Given with the Cavalier Class."
   },
   "ba.champion-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Champion Class."
+    "locationText": "Given with the Champion Class."
   },
   "ba.chevalier-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Chevalier Class."
+    "locationText": "Given with the Chevalier Class."
   },
   "ba.chieftain-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Chieftain Class."
+    "locationText": "Given with the Chieftain Class."
   },
   "ba.cleric-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Cleric Class."
+    "locationText": "Given with the Cleric Class."
   },
   "ba.commandant-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Commandant Class."
+    "locationText": "Given with the Commandant Class."
   },
   "ba.conjurer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Conjurer Class."
+    "locationText": "Given with the Conjurer Class."
   },
   "ba.corsair-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Corsair Class."
+    "locationText": "Given with the Corsair Class."
   },
   "ba.counsellor-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Counsellor Class."
+    "locationText": "Given with the Counsellor Class."
   },
   "ba.crusader-banner": {
     "obtainable": true,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Crusader Class."
+    "locationText": "Given with the Crusader Class."
   },
   "ba.daring-assassin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Daring Assassin Class."
+    "locationText": "Given with the Daring Assassin Class."
   },
   "ba.daring-corsair-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Daring Corsair Class."
+    "locationText": "Given with the Daring Corsair Class."
   },
   "ba.daring-general-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Daring General Class."
+    "locationText": "Given with the Daring General Class."
   },
   "ba.daring-master-ranger-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Daring Master Ranger Class."
+    "locationText": "Given with the Daring Master Ranger Class."
   },
   "ba.daring-shadowdancer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Daring Shadowdancer Class."
+    "locationText": "Given with the Daring Shadowdancer Class."
   },
   "ba.daring-zen-master-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Daring Zen Master Class."
+    "locationText": "Given with the Daring Zen Master Class."
   },
   "ba.diplomat-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Diplomat Class."
+    "locationText": "Given with the Diplomat Class."
   },
   "ba.dragoon-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Dragoon Class."
+    "locationText": "Given with the Dragoon Class."
   },
   "ba.druid-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Druid Class."
+    "locationText": "Given with the Druid Class."
   },
   "ba.duelist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Duelist Class."
+    "locationText": "Given with the Duelist Class."
   },
   "ba.eldritch-knight-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Eldritch Knight Class."
+    "locationText": "Given with the Eldritch Knight Class."
   },
   "ba.eldritch-warrior-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Eldritch Warrior Class."
+    "locationText": "Given with the Eldritch Warrior Class."
   },
   "ba.elementalist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Elementalist Class."
+    "locationText": "Given with the Elementalist Class."
   },
   "ba.enchanter-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Enchanter Class."
+    "locationText": "Given with the Enchanter Class."
   },
   "ba.esteemed-commandant-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Esteemed Commandant Class."
+    "locationText": "Given with the Esteemed Commandant Class."
   },
   "ba.esteemed-horizon-walker-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Esteemed Horizon Walker Class."
+    "locationText": "Given with the Esteemed Horizon Walker Class."
   },
   "ba.esteemed-major-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Esteemed Major Class."
+    "locationText": "Given with the Esteemed Major Class."
   },
   "ba.esteemed-meitou-kenin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Esteemed Meitou Kenin Class."
+    "locationText": "Given with the Esteemed Meitou Kenin Class."
   },
   "ba.esteemed-noble-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Esteemed Noble Class."
+    "locationText": "Given with the Esteemed Noble Class."
   },
   "ba.esteemed-troubadour-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Esteemed Troubadour Class."
+    "locationText": "Given with the Esteemed Troubadour Class."
   },
   "ba.explorer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Explorer Class."
+    "locationText": "Given with the Explorer Class."
   },
   "ba.fencer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Fencer Class."
+    "locationText": "Given with the Fencer Class."
   },
   "ba.fortunist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Fortunist Class."
+    "locationText": "Given with the Fortunist Class."
   },
   "ba.gambler-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Gambler Class."
+    "locationText": "Given with the Gambler Class."
   },
   "ba.general-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the General Class."
+    "locationText": "Given with the General Class."
   },
   "ba.geomancer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Geomancer Class."
+    "locationText": "Given with the Geomancer Class."
   },
   "ba.gladiator-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Gladiator Class."
+    "locationText": "Given with the Gladiator Class."
   },
   "ba.glorious-archdruid-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Glorious Archdruid Class."
+    "locationText": "Given with the Glorious Archdruid Class."
   },
   "ba.glorious-fortunist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Glorious Fortunist Class."
+    "locationText": "Given with the Glorious Fortunist Class."
   },
   "ba.glorious-grand-shaman-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Glorious Grand Shaman Class."
+    "locationText": "Given with the Glorious Grand Shaman Class."
   },
   "ba.glorious-hierophant-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Glorious Hierophant Class."
+    "locationText": "Given with the Glorious Hierophant Class."
   },
   "ba.glorious-planeswalker-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Glorious Planeswalker Class."
+    "locationText": "Given with the Glorious Planeswalker Class."
   },
   "ba.glorious-wildkin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Glorious Wildkin Class."
+    "locationText": "Given with the Glorious Wildkin Class."
   },
   "ba.grand-shaman-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Grand Shaman Class."
+    "locationText": "Given with the Grand Shaman Class."
   },
   "ba.grandmaster-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Grandmaster Class."
+    "locationText": "Given with the Grandmaster Class."
   },
   "ba.guardian-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Guardian Class."
+    "locationText": "Given with the Guardian Class."
   },
   "ba.haruspex-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Haruspex Class."
+    "locationText": "Given with the Haruspex Class."
   },
   "ba.hero-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Hero Class."
+    "locationText": "Given with the Hero Class."
   },
   "ba.heroic-chevalier-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Heroic Chevalier Class."
+    "locationText": "Given with the Heroic Chevalier Class."
   },
   "ba.heroic-chieftain-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Heroic Chieftain Class."
+    "locationText": "Given with the Heroic Chieftain Class."
   },
   "ba.heroic-dragoon-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Heroic Dragoon Class."
+    "locationText": "Given with the Heroic Dragoon Class."
   },
   "ba.heroic-eldritch-knight-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Heroic Eldritch Knight Class."
+    "locationText": "Given with the Heroic Eldritch Knight Class."
   },
   "ba.heroic-grandmaster-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Heroic Grandmaster Class."
+    "locationText": "Given with the Heroic Grandmaster Class."
   },
   "ba.heroic-templar-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Heroic Templar Class."
+    "locationText": "Given with the Heroic Templar Class."
   },
   "ba.hierophant-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Hierophant Class."
+    "locationText": "Given with the Hierophant Class."
   },
   "ba.horizon-walker-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Horizon Walker Class."
+    "locationText": "Given with the Horizon Walker Class."
   },
   "ba.hunter-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Hunter Class."
+    "locationText": "Given with the Hunter Class."
   },
   "ba.illusionist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Illusionist Class."
+    "locationText": "Given with the Illusionist Class."
   },
   "ba.illustrious-archmage-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Illustrious Archmage Class."
+    "locationText": "Given with the Illustrious Archmage Class."
   },
   "ba.illustrious-oracle-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Illustrious Oracle Class."
+    "locationText": "Given with the Illustrious Oracle Class."
   },
   "ba.illustrious-seer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Illustrious Seer Class."
+    "locationText": "Given with the Illustrious Seer Class."
   },
   "ba.illustrious-spellbinder-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Illustrious Spellbinder Class."
+    "locationText": "Given with the Illustrious Spellbinder Class."
   },
   "ba.illustrious-thaumaturgist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Illustrious Thaumaturgist Class."
+    "locationText": "Given with the Illustrious Thaumaturgist Class."
   },
   "ba.illustrious-warmage-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Illustrious Warmage Class."
+    "locationText": "Given with the Illustrious Warmage Class."
   },
   "ba.inquisitive-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Inquisitive Class."
+    "locationText": "Given with the Inquisitive Class."
   },
   "ba.jouster-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Jouster Class."
+    "locationText": "Given with the Jouster Class."
   },
   "ba.juggernaut-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Juggernaut Class."
+    "locationText": "Given with the Juggernaut Class."
   },
   "ba.kenin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Kenin Class."
+    "locationText": "Given with the Kenin Class."
   },
   "ba.knight-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Knight Class."
+    "locationText": "Given with the Knight Class."
   },
   "ba.labourer-banner": {
     "obtainable": true,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Labourer Class."
+    "locationText": "Given with the Labourer Class."
   },
   "ba.lancer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Lancer Class."
+    "locationText": "Given with the Lancer Class."
   },
   "ba.legionnaire-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Legionnaire Class."
+    "locationText": "Given with the Legionnaire Class."
   },
   "ba.loremaster-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Loremaster Class."
+    "locationText": "Given with the Loremaster Class."
   },
   "ba.mage-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Mage Class."
+    "locationText": "Given with the Mage Class."
   },
   "ba.major-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Major Class."
+    "locationText": "Given with the Major Class."
   },
   "ba.marauder-banner": {
     "obtainable": true,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Marauder Class."
+    "locationText": "Given with the Marauder Class."
   },
   "ba.master-guardian-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Master Guardian Class."
+    "locationText": "Given with the Master Guardian Class."
   },
   "ba.master-juggernaut-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Master Juggernaut Class."
+    "locationText": "Given with the Master Juggernaut Class."
   },
   "ba.master-musketeer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Master Musketeer Class."
+    "locationText": "Given with the Master Musketeer Class."
   },
   "ba.master-ranger-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Master Ranger Class."
+    "locationText": "Given with the Master Ranger Class."
   },
   "ba.master-sage-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Master Sage Class."
+    "locationText": "Given with the Master Sage Class."
   },
   "ba.master-seidr-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Master Seidr Class."
+    "locationText": "Given with the Master Seidr Class."
   },
   "ba.master-warlord-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Master Warlord Class."
+    "locationText": "Given with the Master Warlord Class."
   },
   "ba.mediator-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Mediator Class."
+    "locationText": "Given with the Mediator Class."
   },
   "ba.meitou-kenin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Meitou Kenin Class."
+    "locationText": "Given with the Meitou Kenin Class."
   },
   "ba.mercenary-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Mercenary Class."
+    "locationText": "Given with the Mercenary Class."
   },
   "ba.minstrel-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Minstrel Class."
+    "locationText": "Given with the Minstrel Class."
   },
   "ba.monk-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Monk Class."
+    "locationText": "Given with the Monk Class."
   },
   "ba.musketeer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Musketeer Class."
+    "locationText": "Given with the Musketeer Class."
   },
   "ba.mystic-trickster-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Mystic Trickster Class."
+    "locationText": "Given with the Mystic Trickster Class."
   },
   "ba.neophyte-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Neophyte Class."
+    "locationText": "Given with the Neophyte Class."
   },
   "ba.nightblade-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Nightblade Class."
+    "locationText": "Given with the Nightblade Class."
   },
   "ba.ninja-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Ninja Class."
+    "locationText": "Given with the Ninja Class."
   },
   "ba.noble-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Noble Class."
+    "locationText": "Given with the Noble Class."
   },
   "ba.officer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Officer Class."
+    "locationText": "Given with the Officer Class."
   },
   "ba.official-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Official Class."
+    "locationText": "Given with the Official Class."
   },
   "ba.oracle-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Oracle Class."
+    "locationText": "Given with the Oracle Class."
   },
   "ba.orator-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Orator Class."
+    "locationText": "Given with the Orator Class."
   },
   "ba.paladin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Paladin Class."
+    "locationText": "Given with the Paladin Class."
   },
   "ba.pathfinder-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Pathfinder Class."
+    "locationText": "Given with the Pathfinder Class."
   },
   "ba.planeswalker-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Planeswalker Class."
+    "locationText": "Given with the Planeswalker Class."
   },
   "ba.priest-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Priest Class."
+    "locationText": "Given with the Priest Class."
   },
   "ba.protector-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Protector Class."
+    "locationText": "Given with the Protector Class."
   },
   "ba.psionic-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Psionic Class."
+    "locationText": "Given with the Psionic Class."
   },
   "ba.pugilist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Pugilist Class."
+    "locationText": "Given with the Pugilist Class."
   },
   "ba.ranger-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Ranger Class."
+    "locationText": "Given with the Ranger Class."
   },
   "ba.rascal-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Rascal Class."
+    "locationText": "Given with the Rascal Class."
   },
   "ba.red-magi-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Red Magi Class."
+    "locationText": "Given with the Red Magi Class."
   },
   "ba.rogue-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Rogue Class."
+    "locationText": "Given with the Rogue Class."
   },
   "ba.ronin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Ronin Class."
+    "locationText": "Given with the Ronin Class."
   },
   "ba.runesmith-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Runesmith Class."
+    "locationText": "Given with the Runesmith Class."
   },
   "ba.sage-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Sage Class."
+    "locationText": "Given with the Sage Class."
   },
   "ba.samurai-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Samurai Class."
+    "locationText": "Given with the Samurai Class."
   },
   "ba.scout-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Scout Class."
+    "locationText": "Given with the Scout Class."
   },
   "ba.seer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Seer Class."
+    "locationText": "Given with the Seer Class."
   },
   "ba.seidr-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Seidr Class."
+    "locationText": "Given with the Seidr Class."
   },
   "ba.sentinel-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Sentinel Class."
+    "locationText": "Given with the Sentinel Class."
   },
   "ba.shadowdancer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Shadowdancer Class."
+    "locationText": "Given with the Shadowdancer Class."
   },
   "ba.shaman-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Shaman Class."
+    "locationText": "Given with the Shaman Class."
   },
   "ba.soldier-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Soldier Class."
+    "locationText": "Given with the Soldier Class."
   },
   "ba.soothsayer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Soothsayer Class."
+    "locationText": "Given with the Soothsayer Class."
   },
   "ba.sorcerer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Sorcerer Class."
+    "locationText": "Given with the Sorcerer Class."
   },
   "ba.spellbinder-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Spellbinder Class."
+    "locationText": "Given with the Spellbinder Class."
   },
   "ba.spellsword-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Spellsword Class."
+    "locationText": "Given with the Spellsword Class."
   },
   "ba.stalker-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Stalker Class."
+    "locationText": "Given with the Stalker Class."
   },
   "ba.student-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Student Class."
+    "locationText": "Given with the Student Class."
   },
   "ba.swashbuckler-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Swashbuckler Class."
+    "locationText": "Given with the Swashbuckler Class."
   },
   "ba.templar-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Templar Class."
+    "locationText": "Given with the Templar Class."
   },
   "ba.teutonic-knight-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Teutonic Knight Class."
+    "locationText": "Given with the Teutonic Knight Class."
   },
   "ba.thane-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Thane Class."
+    "locationText": "Given with the Thane Class."
   },
   "ba.thaumaturgist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Thaumaturgist Class."
+    "locationText": "Given with the Thaumaturgist Class."
   },
   "ba.totem-guardian-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Totem Guardian Class."
+    "locationText": "Given with the Totem Guardian Class."
   },
   "ba.trickster-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Trickster Class."
+    "locationText": "Given with the Trickster Class."
   },
   "ba.troubadour-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Troubadour Class."
+    "locationText": "Given with the Troubadour Class."
   },
   "ba.viking-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Viking Class."
+    "locationText": "Given with the Viking Class."
   },
   "ba.vodouist-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Vodouist Class."
+    "locationText": "Given with the Vodouist Class."
   },
   "ba.wanderer-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Wanderer Class."
+    "locationText": "Given with the Wanderer Class."
   },
   "ba.warlock-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Warlock Class."
+    "locationText": "Given with the Warlock Class."
   },
   "ba.warlord-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Warlord Class."
+    "locationText": "Given with the Warlord Class."
   },
   "ba.warmage-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Warmage Class."
+    "locationText": "Given with the Warmage Class."
   },
   "ba.warrior-banner": {
     "obtainable": true,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Warrior Class."
+    "locationText": "Given with the Warrior Class."
   },
   "ba.wildkin-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Wildkin Class."
+    "locationText": "Given with the Wildkin Class."
   },
   "ba.windwalker-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Windwalker Class."
+    "locationText": "Given with the Windwalker Class."
   },
   "ba.wizard-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Wizard Class."
+    "locationText": "Given with the Wizard Class."
   },
   "ba.zealot-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Zealot Class."
+    "locationText": "Given with the Zealot Class."
   },
   "ba.zen-master-banner": {
     "obtainable": false,
     "tags": [
       "class"
     ],
-    "locationText": "Obtained with the Zen Master Class."
+    "locationText": "Given with the Zen Master Class."
   },
   "c.acheralan-skull": {
     "obtainable": true,
@@ -4178,9 +4178,9 @@
   "c.citizens-faith": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "c.clumped-eyes": {
     "obtainable": true,
@@ -5360,9 +5360,9 @@
   "c.knights-favour": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "c.kylli-attack-boost-i": {
     "obtainable": false,
@@ -5755,9 +5755,9 @@
   "c.nobilitys-gratitude": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "c.northern-icejam-berry": {
     "obtainable": true,
@@ -6996,9 +6996,9 @@
   "c.temples-blessing": {
     "obtainable": false,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "c.thiadoran-flour": {
     "obtainable": true,
@@ -8580,44 +8580,49 @@
   "e.bassinian-warder-breeches": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Temple's Blessing\n- 1 Knight's Favour\n- 1 Nobility's Gratitude"
+    "locationText": "Crafted from:\n- 1 Temple's Blessing\n- 1 Knight's Favour - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)\n- 1 Nobility's Gratitude - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.bassinian-warder-coat": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Knight's Favour\n- 1 Nobility's Gratitude"
+    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Knight's Favour - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)\n- 1 Nobility's Gratitude - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.bassinian-warder-gloves": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Knight's Favour"
+    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Knight's Favour - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.bassinian-warder-hat": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Knight's Favour\n- 1 Nobility's Gratitude"
+    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Knight's Favour - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)\n- 1 Nobility's Gratitude - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.bassinian-warder-shoes": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Nobility's Gratitude"
+    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Nobility's Gratitude - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.battle-boar": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.bevis-legplates": {
     "obtainable": true,
@@ -9701,37 +9706,37 @@
   "e.conquerors-cuisses": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "e.conquerors-lamellar-cuirass": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "e.conquerors-sabatons": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.conquerors-sallet": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "e.conquerors-vambraces": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.consecrated-leoegan-akontia": {
     "obtainable": true,
@@ -12051,9 +12056,9 @@
   "e.jida-of-sovereign-hope": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.jiyuu-daduh-hyla": {
     "obtainable": true,
@@ -14926,9 +14931,9 @@
   "e.rokubi-flail": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "e.rolling-stone": {
     "obtainable": true,
@@ -14991,9 +14996,9 @@
   "e.saber-of-bloody-freedom": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.sanctified-leoegan-aspis": {
     "obtainable": true,
@@ -17990,9 +17995,9 @@
   "f.band-of-two-sons": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "f.barons-battalion-i": {
     "obtainable": true,
@@ -18838,9 +18843,9 @@
   "f.shiwei-battalion-i": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "f.siegebreaker-i": {
     "obtainable": true,
@@ -19067,7 +19072,8 @@
   "g.crystals": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
+      "class",
       "recipe"
     ],
     "locationText": "Obtained from various sources throughout the game."
@@ -19276,9 +19282,9 @@
   "m.grasp-of-the-grave": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Parchment of Grasp of the Grave."
+    "locationText": "From Parchment of Grasp of the Grave, which is purchased from the Achievement Market (knight / direct-purchase) for 20000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "m.greater-thrust": {
     "obtainable": true,
@@ -19999,6 +20005,13 @@
     ],
     "locationText": "Crafted from 3 each of Red/Blue/Violet Devil's Artifact - Skliros, Legendary."
   },
+  "u.crusaders-elixir": {
+    "obtainable": true,
+    "tags": [
+      "class"
+    ],
+    "locationText": "Given as a class reward."
+  },
   "u.dark-resilience-potion": {
     "obtainable": false,
     "tags": [
@@ -20164,6 +20177,13 @@
       "limited raids"
     ],
     "locationText": "From Naven Merchant's Bargain Bag; From Venom-Soaked Pack; From Bittersweet Bounty; From Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy); From Beta Starter Pack I; From Dwarven Trader's Bargain Bag; From Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy); From Cultists' Remnants; From Orange Brew Bag, which is from Samurai Starter Pack III; From Beta Starter Pack II; From Three-Hammers Giftbox; From RC Void Crystals Pack; From Navenian Provisions; From Blue Daily Chest; From Naitour Patrol's Provisions; Dropped from Serpent Soldier on legendary difficulty."
+  },
+  "u.explorers-elixir": {
+    "obtainable": true,
+    "tags": [
+      "class"
+    ],
+    "locationText": "Given as a class reward."
   },
   "u.fachins-hidden-sack": {
     "obtainable": true,
@@ -20674,10 +20694,10 @@
   "u.grit-draught": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "market"
     ],
-    "locationText": "From Samurai Starter Pack I; From Sentinel Starter Pack I, which is from Sentinel Starter Pack I, which is available as a cash purchase starter pack; From Lancer Starter Pack I, which is from Lancer Starter Pack I, which is available as a cash purchase starter pack; From Red Brewer's Satchel; From Diplomat Starter Pack II; From Samurai Starter Pack III; From Diplomat Starter Pack IV; From Lancer Starter Pack II; From Ranger Starter Pack III; From Lancer Starter Pack IV; From Venom-Soaked Pack; From Warmage Starter Pack II; From Warmage Starter Pack IV; From Wizard Starter Pack III; From Diplomat Starter Pack III, which is from Diplomat Starter Pack III, which is available as a cash purchase starter pack; From Scout Starter Pack I; From Warmage Starter Pack I; From Sentinel Starter Pack IV, which is from Sentinel Starter Pack IV, which is available as a cash purchase starter pack; From Sentinel Starter Pack II, which is from Sentinel Starter Pack II, which is available as a cash purchase starter pack; From Fighter Starter Pack I; From Tank Starter Pack I; From Ranger Starter Pack I, which is from Ranger Starter Pack I, which is available as a cash purchase starter pack; From Scout Starter Pack II; From Scout Starter Pack IV; From Bittersweet Bounty; From Wizard Starter Pack II, which is from Wizard Starter Pack II, which is available as a cash purchase starter pack; From Wizard Starter Pack IV, which is from Wizard Starter Pack IV, which is available as a cash purchase starter pack; From Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy); From Wizard Starter Pack I; From Scout Starter Pack III, which is from Scout Starter Pack III, which is available as a cash purchase starter pack; From Lancer Starter Pack III, which is from Lancer Starter Pack III, which is available as a cash purchase starter pack; From Diplomat Starter Pack I, which is from Diplomat Starter Pack I, which is available as a cash purchase starter pack; From Fighter Starter Pack III; From Beta Starter Pack I; From Fighter Starter Pack II, which is from Fighter Starter Pack II, which is available as a cash purchase starter pack; From Tank Starter Pack IV, which is from Tank Starter Pack IV, which is available as a cash purchase starter pack; From Fighter Starter Pack IV, which is from Fighter Starter Pack IV, which is available as a cash purchase starter pack; From Tank Starter Pack II, which is from Tank Starter Pack II, which is available as a cash purchase starter pack; From Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy); From Cultists' Remnants; From Peasant's Offering; From Rogue Starter Pack IV, which is from Rogue Starter Pack IV, which is available as a cash purchase starter pack; From Rogue Starter Pack II, which is from Rogue Starter Pack II, which is available as a cash purchase starter pack; From Orange Brew Bag, which is from Samurai Starter Pack III; From Bard Starter Pack III, which is from Bard Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily-bags / wednesday) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy, 5000 CON); From Three-Hammers Giftbox; From Tank Starter Pack III; From Bard Starter Pack I, which is from Bard Starter Pack I, which is available as a cash purchase starter pack; From Rogue Starter Pack III, which is from Rogue Starter Pack III, which is available as a cash purchase starter pack; From Ranger Starter Pack IV, which is from Ranger Starter Pack IV, which is available as a cash purchase starter pack; From Ranger Starter Pack II, which is from Ranger Starter Pack II, which is available as a cash purchase starter pack; From Sentinel Starter Pack III, which is from Sentinel Starter Pack III, which is available as a cash purchase starter pack; From Samurai Starter Pack II, which is from Samurai Starter Pack II, which is available as a cash purchase starter pack; From Warmage Starter Pack III, which is from Warmage Starter Pack III, which is available as a cash purchase starter pack; From Bard Starter Pack IV, which is from Bard Starter Pack IV, which is available as a cash purchase starter pack; From Bard Starter Pack II, which is from Bard Starter Pack II, which is available as a cash purchase starter pack; From Samurai Starter Pack IV, which is from Samurai Starter Pack IV, which is available as a cash purchase starter pack; From Rogue Starter Pack I, which is from Rogue Starter Pack I, which is available as a cash purchase starter pack; Purchased from the market (consumables / grit-draught) for 2 Void Crystals (Requires: Z3 Segment 2 on Easy)."
+    "locationText": "From Samurai Starter Pack I; From Sentinel Starter Pack I, which is from Sentinel Starter Pack I, which is available as a cash purchase starter pack; From Lancer Starter Pack I, which is from Lancer Starter Pack I, which is available as a cash purchase starter pack; From Red Brewer's Satchel; From Diplomat Starter Pack II; From Samurai Starter Pack III; From Diplomat Starter Pack IV; From Lancer Starter Pack II; From Ranger Starter Pack III; From Lancer Starter Pack IV; From Venom-Soaked Pack; From Warmage Starter Pack II; From Warmage Starter Pack IV; From Wizard Starter Pack III; From Diplomat Starter Pack III, which is from Diplomat Starter Pack III, which is available as a cash purchase starter pack; From Scout Starter Pack I; From Warmage Starter Pack I; From Sentinel Starter Pack IV, which is from Sentinel Starter Pack IV, which is available as a cash purchase starter pack; From Sentinel Starter Pack II, which is from Sentinel Starter Pack II, which is available as a cash purchase starter pack; From Fighter Starter Pack I; From Tank Starter Pack I; From Ranger Starter Pack I, which is from Ranger Starter Pack I, which is available as a cash purchase starter pack; From Scout Starter Pack II; From Scout Starter Pack IV; From Bittersweet Bounty; From Wizard Starter Pack II, which is from Wizard Starter Pack II, which is available as a cash purchase starter pack; From Wizard Starter Pack IV, which is from Wizard Starter Pack IV, which is available as a cash purchase starter pack; From Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy); From Wizard Starter Pack I; From Scout Starter Pack III, which is from Scout Starter Pack III, which is available as a cash purchase starter pack; From Lancer Starter Pack III, which is from Lancer Starter Pack III, which is available as a cash purchase starter pack; From Diplomat Starter Pack I, which is from Diplomat Starter Pack I, which is available as a cash purchase starter pack; From Fighter Starter Pack III; From Beta Starter Pack I; From Fighter Starter Pack II, which is from Fighter Starter Pack II, which is available as a cash purchase starter pack; From Tank Starter Pack IV, which is from Tank Starter Pack IV, which is available as a cash purchase starter pack; From Fighter Starter Pack IV, which is from Fighter Starter Pack IV, which is available as a cash purchase starter pack; From Tank Starter Pack II, which is from Tank Starter Pack II, which is available as a cash purchase starter pack; From Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy); From Cultists' Remnants; From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy); From Rogue Starter Pack IV, which is from Rogue Starter Pack IV, which is available as a cash purchase starter pack; From Rogue Starter Pack II, which is from Rogue Starter Pack II, which is available as a cash purchase starter pack; From Orange Brew Bag, which is from Samurai Starter Pack III; From Bard Starter Pack III, which is from Bard Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily-bags / wednesday) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy, 5000 CON); From Three-Hammers Giftbox; From Tank Starter Pack III; From Bard Starter Pack I, which is from Bard Starter Pack I, which is available as a cash purchase starter pack; From Rogue Starter Pack III, which is from Rogue Starter Pack III, which is available as a cash purchase starter pack; From Ranger Starter Pack IV, which is from Ranger Starter Pack IV, which is available as a cash purchase starter pack; From Ranger Starter Pack II, which is from Ranger Starter Pack II, which is available as a cash purchase starter pack; From Sentinel Starter Pack III, which is from Sentinel Starter Pack III, which is available as a cash purchase starter pack; From Samurai Starter Pack II, which is from Samurai Starter Pack II, which is available as a cash purchase starter pack; From Warmage Starter Pack III, which is from Warmage Starter Pack III, which is available as a cash purchase starter pack; From Bard Starter Pack IV, which is from Bard Starter Pack IV, which is available as a cash purchase starter pack; From Bard Starter Pack II, which is from Bard Starter Pack II, which is available as a cash purchase starter pack; From Samurai Starter Pack IV, which is from Samurai Starter Pack IV, which is available as a cash purchase starter pack; From Rogue Starter Pack I, which is from Rogue Starter Pack I, which is available as a cash purchase starter pack; Purchased from the market (consumables / grit-draught) for 2 Void Crystals (Requires: Z3 Segment 2 on Easy)."
   },
   "u.grub-collectors-sack": {
     "obtainable": false,
@@ -20902,6 +20922,13 @@
     ],
     "locationText": "Crafted from:\n- 25 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 40 Mookoman - Witikho, Legendary\n- 15 Regret's Sign - Witikho, Legendary"
   },
+  "u.knights-bounty": {
+    "obtainable": true,
+    "tags": [
+      "achievement-market"
+    ],
+    "locationText": "Purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.lancer-starter-pack-i": {
     "obtainable": true,
     "tags": [
@@ -21091,6 +21118,13 @@
     ],
     "locationText": "From Dwarven Rewards."
   },
+  "u.mages-elixir": {
+    "obtainable": false,
+    "tags": [
+      "class"
+    ],
+    "locationText": "Given as a class reward."
+  },
   "u.magic-resilience-potion": {
     "obtainable": false,
     "tags": [
@@ -21177,16 +21211,17 @@
   "u.mercenarys-elixir": {
     "obtainable": true,
     "tags": [
+      "class",
       "container"
     ],
-    "locationText": "From Sentinel Starter Pack I, which is from Sentinel Starter Pack I, which is available as a cash purchase starter pack; From Warmage Starter Pack II; From Warmage Starter Pack IV; From Warmage Starter Pack I; From Sentinel Starter Pack IV, which is from Sentinel Starter Pack IV, which is available as a cash purchase starter pack; From Sentinel Starter Pack II, which is from Sentinel Starter Pack II, which is available as a cash purchase starter pack; From Tank Starter Pack I; From Beta Starter Pack I; From Tank Starter Pack IV, which is from Tank Starter Pack IV, which is available as a cash purchase starter pack; From Tank Starter Pack II, which is from Tank Starter Pack II, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Tank Starter Pack III; From Sentinel Starter Pack III, which is from Sentinel Starter Pack III, which is available as a cash purchase starter pack; From Warmage Starter Pack III, which is from Warmage Starter Pack III, which is available as a cash purchase starter pack."
+    "locationText": "From Sentinel Starter Pack I, which is from Sentinel Starter Pack I, which is available as a cash purchase starter pack; From Warmage Starter Pack II; From Warmage Starter Pack IV; From Warmage Starter Pack I; From Sentinel Starter Pack IV, which is from Sentinel Starter Pack IV, which is available as a cash purchase starter pack; From Sentinel Starter Pack II, which is from Sentinel Starter Pack II, which is available as a cash purchase starter pack; From Tank Starter Pack I; From Beta Starter Pack I; From Tank Starter Pack IV, which is from Tank Starter Pack IV, which is available as a cash purchase starter pack; From Tank Starter Pack II, which is from Tank Starter Pack II, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Tank Starter Pack III; From Sentinel Starter Pack III, which is from Sentinel Starter Pack III, which is available as a cash purchase starter pack; From Warmage Starter Pack III, which is from Warmage Starter Pack III, which is available as a cash purchase starter pack; Given as a class reward."
   },
   "u.merchants-pouch": {
     "obtainable": false,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "u.mortiday-calverita": {
     "obtainable": true,
@@ -21304,9 +21339,10 @@
   "u.neophytes-elixir": {
     "obtainable": true,
     "tags": [
+      "class",
       "container"
     ],
-    "locationText": "From Warmage Starter Pack II; From Warmage Starter Pack IV; From Wizard Starter Pack III; From Warmage Starter Pack I; From Wizard Starter Pack II, which is from Wizard Starter Pack II, which is available as a cash purchase starter pack; From Wizard Starter Pack IV, which is from Wizard Starter Pack IV, which is available as a cash purchase starter pack; From Wizard Starter Pack I; From Beta Starter Pack I; From Bard Starter Pack III, which is from Bard Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Bard Starter Pack I, which is from Bard Starter Pack I, which is available as a cash purchase starter pack; From Warmage Starter Pack III, which is from Warmage Starter Pack III, which is available as a cash purchase starter pack; From Bard Starter Pack IV, which is from Bard Starter Pack IV, which is available as a cash purchase starter pack; From Bard Starter Pack II, which is from Bard Starter Pack II, which is available as a cash purchase starter pack."
+    "locationText": "From Warmage Starter Pack II; From Warmage Starter Pack IV; From Wizard Starter Pack III; From Warmage Starter Pack I; From Wizard Starter Pack II, which is from Wizard Starter Pack II, which is available as a cash purchase starter pack; From Wizard Starter Pack IV, which is from Wizard Starter Pack IV, which is available as a cash purchase starter pack; From Wizard Starter Pack I; From Beta Starter Pack I; From Bard Starter Pack III, which is from Bard Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Bard Starter Pack I, which is from Bard Starter Pack I, which is available as a cash purchase starter pack; From Warmage Starter Pack III, which is from Warmage Starter Pack III, which is available as a cash purchase starter pack; From Bard Starter Pack IV, which is from Bard Starter Pack IV, which is available as a cash purchase starter pack; From Bard Starter Pack II, which is from Bard Starter Pack II, which is available as a cash purchase starter pack; Given as a class reward."
   },
   "u.nepyren-fireblast-potion": {
     "obtainable": true,
@@ -21319,9 +21355,16 @@
   "u.noblemans-purse": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
+  },
+  "u.nobles-appreciation": {
+    "obtainable": true,
+    "tags": [
+      "achievement-market"
+    ],
+    "locationText": "Purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "u.oceanic-obliteration-potion": {
     "obtainable": true,
@@ -21347,9 +21390,10 @@
   "u.officials-elixir": {
     "obtainable": true,
     "tags": [
+      "class",
       "container"
     ],
-    "locationText": "From Samurai Starter Pack I; From Diplomat Starter Pack II; From Samurai Starter Pack III; From Diplomat Starter Pack IV; From Diplomat Starter Pack III, which is from Diplomat Starter Pack III, which is available as a cash purchase starter pack; From Diplomat Starter Pack I, which is from Diplomat Starter Pack I, which is available as a cash purchase starter pack; From Beta Starter Pack I; From Bard Starter Pack III, which is from Bard Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Bard Starter Pack I, which is from Bard Starter Pack I, which is available as a cash purchase starter pack; From Samurai Starter Pack II, which is from Samurai Starter Pack II, which is available as a cash purchase starter pack; From Bard Starter Pack IV, which is from Bard Starter Pack IV, which is available as a cash purchase starter pack; From Bard Starter Pack II, which is from Bard Starter Pack II, which is available as a cash purchase starter pack; From Samurai Starter Pack IV, which is from Samurai Starter Pack IV, which is available as a cash purchase starter pack."
+    "locationText": "From Samurai Starter Pack I; From Diplomat Starter Pack II; From Samurai Starter Pack III; From Diplomat Starter Pack IV; From Diplomat Starter Pack III, which is from Diplomat Starter Pack III, which is available as a cash purchase starter pack; From Diplomat Starter Pack I, which is from Diplomat Starter Pack I, which is available as a cash purchase starter pack; From Beta Starter Pack I; From Bard Starter Pack III, which is from Bard Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Bard Starter Pack I, which is from Bard Starter Pack I, which is available as a cash purchase starter pack; From Samurai Starter Pack II, which is from Samurai Starter Pack II, which is available as a cash purchase starter pack; From Bard Starter Pack IV, which is from Bard Starter Pack IV, which is available as a cash purchase starter pack; From Bard Starter Pack II, which is from Bard Starter Pack II, which is available as a cash purchase starter pack; From Samurai Starter Pack IV, which is from Samurai Starter Pack IV, which is available as a cash purchase starter pack; Given as a class reward."
   },
   "u.ooleviash-energy-deoch": {
     "obtainable": true,
@@ -21519,6 +21563,13 @@
     ],
     "locationText": "From Mystery Vintner's Satchel, which is purchased from the market (daily-bags / wednesday) for 40 Void Crystals (Requires: Z1 Segment 1 on Easy, 25000 CON)."
   },
+  "u.orators-elixir": {
+    "obtainable": false,
+    "tags": [
+      "class"
+    ],
+    "locationText": "Given as a class reward."
+  },
   "u.parchment-of-ameras-anger": {
     "obtainable": true,
     "tags": [
@@ -21608,9 +21659,9 @@
   "u.parchment-of-grasp-of-the-grave": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy); Purchased from the Achievement Market (knight / direct-purchase) for 20000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "u.parchment-of-holy-hacking": {
     "obtainable": true,
@@ -21683,6 +21734,13 @@
       "guild-purchase"
     ],
     "locationText": "Available at Guild Market (Level 4+ for 1250 Guild Coin)."
+  },
+  "u.peasants-offering": {
+    "obtainable": true,
+    "tags": [
+      "achievement-market"
+    ],
+    "locationText": "Purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "u.perch-filet": {
     "obtainable": false,
@@ -22020,6 +22078,13 @@
     ],
     "locationText": "From Rogue Starter Pack IV, which is available as a cash purchase starter pack."
   },
+  "u.rogues-elixir": {
+    "obtainable": false,
+    "tags": [
+      "class"
+    ],
+    "locationText": "Given as a class reward."
+  },
   "u.samurai-starter-pack-i": {
     "obtainable": true,
     "tags": [
@@ -22079,9 +22144,10 @@
   "u.scouts-elixir": {
     "obtainable": true,
     "tags": [
+      "class",
       "container"
     ],
-    "locationText": "From Sentinel Starter Pack I, which is from Sentinel Starter Pack I, which is available as a cash purchase starter pack; From Ranger Starter Pack III; From Scout Starter Pack I; From Sentinel Starter Pack IV, which is from Sentinel Starter Pack IV, which is available as a cash purchase starter pack; From Sentinel Starter Pack II, which is from Sentinel Starter Pack II, which is available as a cash purchase starter pack; From Ranger Starter Pack I, which is from Ranger Starter Pack I, which is available as a cash purchase starter pack; From Scout Starter Pack II; From Scout Starter Pack IV; From Scout Starter Pack III, which is from Scout Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack I; From Beta Starter Pack II; From Ranger Starter Pack IV, which is from Ranger Starter Pack IV, which is available as a cash purchase starter pack; From Ranger Starter Pack II, which is from Ranger Starter Pack II, which is available as a cash purchase starter pack; From Sentinel Starter Pack III, which is from Sentinel Starter Pack III, which is available as a cash purchase starter pack."
+    "locationText": "From Sentinel Starter Pack I, which is from Sentinel Starter Pack I, which is available as a cash purchase starter pack; From Ranger Starter Pack III; From Scout Starter Pack I; From Sentinel Starter Pack IV, which is from Sentinel Starter Pack IV, which is available as a cash purchase starter pack; From Sentinel Starter Pack II, which is from Sentinel Starter Pack II, which is available as a cash purchase starter pack; From Ranger Starter Pack I, which is from Ranger Starter Pack I, which is available as a cash purchase starter pack; From Scout Starter Pack II; From Scout Starter Pack IV; From Scout Starter Pack III, which is from Scout Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack I; From Beta Starter Pack II; From Ranger Starter Pack IV, which is from Ranger Starter Pack IV, which is available as a cash purchase starter pack; From Ranger Starter Pack II, which is from Ranger Starter Pack II, which is available as a cash purchase starter pack; From Sentinel Starter Pack III, which is from Sentinel Starter Pack III, which is available as a cash purchase starter pack; Given as a class reward."
   },
   "u.script-of-acid-rain": {
     "obtainable": true,
@@ -22206,9 +22272,9 @@
   "u.script-of-holy-flame": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Hero's Inauguration; From Bittersweet Bounty; From Peasant's Offering."
+    "locationText": "From Hero's Inauguration; From Bittersweet Bounty; From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "u.script-of-magic-missile": {
     "obtainable": true,
@@ -22661,9 +22727,10 @@
   "u.tricksters-elixir": {
     "obtainable": true,
     "tags": [
+      "class",
       "container"
     ],
-    "locationText": "From Lancer Starter Pack I, which is from Lancer Starter Pack I, which is available as a cash purchase starter pack; From Lancer Starter Pack II; From Lancer Starter Pack IV; From Scout Starter Pack I; From Scout Starter Pack II; From Scout Starter Pack IV; From Scout Starter Pack III, which is from Scout Starter Pack III, which is available as a cash purchase starter pack; From Lancer Starter Pack III, which is from Lancer Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack I; From Rogue Starter Pack IV, which is from Rogue Starter Pack IV, which is available as a cash purchase starter pack; From Rogue Starter Pack II, which is from Rogue Starter Pack II, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Rogue Starter Pack III, which is from Rogue Starter Pack III, which is available as a cash purchase starter pack; From Rogue Starter Pack I, which is from Rogue Starter Pack I, which is available as a cash purchase starter pack."
+    "locationText": "From Lancer Starter Pack I, which is from Lancer Starter Pack I, which is available as a cash purchase starter pack; From Lancer Starter Pack II; From Lancer Starter Pack IV; From Scout Starter Pack I; From Scout Starter Pack II; From Scout Starter Pack IV; From Scout Starter Pack III, which is from Scout Starter Pack III, which is available as a cash purchase starter pack; From Lancer Starter Pack III, which is from Lancer Starter Pack III, which is available as a cash purchase starter pack; From Beta Starter Pack I; From Rogue Starter Pack IV, which is from Rogue Starter Pack IV, which is available as a cash purchase starter pack; From Rogue Starter Pack II, which is from Rogue Starter Pack II, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Rogue Starter Pack III, which is from Rogue Starter Pack III, which is available as a cash purchase starter pack; From Rogue Starter Pack I, which is from Rogue Starter Pack I, which is available as a cash purchase starter pack; Given as a class reward."
   },
   "u.valto-grapes": {
     "obtainable": true,
@@ -22698,6 +22765,13 @@
       "recipe"
     ],
     "locationText": "From Kenendaman Bag, crafted from:\n- 25 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 40 Mookoman - Witikho, Legendary\n- 15 Regret's Sign - Witikho, Legendary\n\nFrom Jingse Ronshi, crafted from:\n- 30 Jingse Grub - Judah Jingse, Legendary\n- 1 Jingse Offering - Judah Jingse, Legendary\n\nFrom Venom-Soaked Pack.\n\nFrom Green Daily Chest.\n\nFrom Cruel Devil's Loot, crafted from:\n- 10 each of Red/Blue/Violet Devil's Horn - Skliros, Legendary\n- 8 each of Red/Blue/Violet Devil's Artifact - Skliros, Legendary\n- 1 Demon General's Tusk - Skliros, Legendary\n\nFrom Nobleman's Purse.\n\nFrom Medzeh's Secrets, crafted from:\n- 25 Sinah Mark - Bira Biuyom, Legendary\n- 5 Medzeh Trophy - Bira Biuyom, Legendary\n- 1 Agiz Garnet - Bira Biuyom, Legendary\n\nFrom Grub Collector's Sack, crafted from 100 Rock Grub Mandibles - Rock Grubs, Easy.\n\nFrom Witch's Elixir Pouch, which is from Daily Purchase Bag I.\n\nFrom Mortiday Grand Calverita, crafted from:\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 12 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n\nFrom Vozotl's Appreciation, crafted from:\n- 15 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary\n- 1 Mastru Sheephead - Paeknisar, Legendary\n\nFrom Stormchasing Spoils, crafted from:\n- 30 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 24 Stormchimes - Fulgure the Storm, Legendary\n- 36 Stormstruck Ore - Fulgure the Storm, Legendary\n- 14 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n\nFrom Lost Pouch.\n\nFrom Three-Hammers Giftbox.\n\nFrom Festivus Miracle, crafted from:\n- 30 Heart of Ice - Frigidara, Legendary\n- 1 Firestone - Frigidara, Legendary\n- 1 Aegyr Snowbound - Frigidara, Legendary\n- 1 Bellas Inahice\n- 1 Burz\n\nFrom Dwarven Rewards.\n\nFrom Ooleviash Sporran, crafted from:\n- 14 Fachin Mucous - Fachin, Legendary\n- 15 Tuft of Fae Coverings - Fachin, Legendary\n- 1 Love Lilypad - Fachin, Legendary\n\nFrom Blue Daily Chest.\n\nFrom Enchanted Jar, crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nCrafted from:\n- 1 Yelte Demonslayer - Red\n- 1 Orange Dragonslayer Gem - Frigidara, Legendary\n- 8 Shard of Radiance - Frigidara, Legendary\n\nCrafted from:\n- 1 Yelte Bow\n- 1 Red Dragonslayer Gem - Frigidara, Legendary\n- 8 Shard of Radiance - Frigidara, Legendary\n\nCrafted from:\n- 15 Fen Pipe\n- 12 Avian Lure\n- 10 Large Living Bait\n- 8 Scented Blood\n- 5 Flaming Nest\n- 3 Sluagh Feather - Sluagh, Easy\n\nCrafted from:\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 10 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n- 1 Macoli Festival Mark - Abominacion Macabra, Legendary\n\nCrafted from:\n- 1 Mestari Dragonslayer - Red\n- 1 Orange Dragonslayer Gem - Frigidara, Legendary\n\nCrafted from:\n- 1 Yelte Demonslayer - Orange - crafted from 1 Yelte Demonslayer - Red, 1 Orange Dragonslayer Gem (Frigidara, Legendary), and 8 Shard of Radiance (Frigidara, Legendary)\n- 1 Yellow Dragonslayer Gem - Frigidara, Legendary\n- 16 Shard of Radiance - Frigidara, Legendary\n\nCrafted from:\n- 1 Blade of Mestari - crafted from 1 Fractured Sword Hilt (Jagar the Red, Legendary), 1 Fractured Sword Guard (Jagar the Red, Z3 Segment 4, Legendary), 1 Fractured Sword Blade (Jagar the Red, Legendary), and 1 Fractured Sword Emblem (Jagar the Red, Legendary)\n- 1 Red Dragonslayer Gem - Frigidara, Legendary\n\nCrafted from:\n- 1 Mestari Dragonslayer - Orange - crafted from 1 Mestari Dragonslayer - Red and 1 Orange Dragonslayer Gem (Frigidara, Legendary)\n- 1 Yellow Dragonslayer Gem - Frigidara, Legendary\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Secutor on easy difficulty.\n\nDropped from Hrysvalgur on easy difficulty.\n\nDropped from Bira Biuyom on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Skliros on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nDropped from Sluagh on easy difficulty."
+  },
+  "u.vikings-elixir": {
+    "obtainable": true,
+    "tags": [
+      "class"
+    ],
+    "locationText": "Given as a class reward."
   },
   "u.violet-antipoison-potion": {
     "obtainable": true,
@@ -22853,9 +22927,10 @@
   "u.warriors-elixir": {
     "obtainable": true,
     "tags": [
+      "class",
       "container"
     ],
-    "locationText": "From Samurai Starter Pack I; From Lancer Starter Pack I, which is from Lancer Starter Pack I, which is available as a cash purchase starter pack; From Samurai Starter Pack III; From Lancer Starter Pack II; From Lancer Starter Pack IV; From Fighter Starter Pack I; From Lancer Starter Pack III, which is from Lancer Starter Pack III, which is available as a cash purchase starter pack; From Fighter Starter Pack III; From Beta Starter Pack I; From Fighter Starter Pack II, which is from Fighter Starter Pack II, which is available as a cash purchase starter pack; From Fighter Starter Pack IV, which is from Fighter Starter Pack IV, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Samurai Starter Pack II, which is from Samurai Starter Pack II, which is available as a cash purchase starter pack; From Samurai Starter Pack IV, which is from Samurai Starter Pack IV, which is available as a cash purchase starter pack."
+    "locationText": "From Samurai Starter Pack I; From Lancer Starter Pack I, which is from Lancer Starter Pack I, which is available as a cash purchase starter pack; From Samurai Starter Pack III; From Lancer Starter Pack II; From Lancer Starter Pack IV; From Fighter Starter Pack I; From Lancer Starter Pack III, which is from Lancer Starter Pack III, which is available as a cash purchase starter pack; From Fighter Starter Pack III; From Beta Starter Pack I; From Fighter Starter Pack II, which is from Fighter Starter Pack II, which is available as a cash purchase starter pack; From Fighter Starter Pack IV, which is from Fighter Starter Pack IV, which is available as a cash purchase starter pack; From Beta Starter Pack II; From Samurai Starter Pack II, which is from Samurai Starter Pack II, which is available as a cash purchase starter pack; From Samurai Starter Pack IV, which is from Samurai Starter Pack IV, which is available as a cash purchase starter pack; Given as a class reward."
   },
   "u.witchs-elixir-pouch": {
     "obtainable": true,
@@ -23035,181 +23110,6 @@
       "container"
     ],
     "locationText": "From Mystery Vintner's Satchel, which is purchased from the market (daily-bags / wednesday) for 40 Void Crystals (Requires: Z1 Segment 1 on Easy, 25000 CON)."
-  },
-  "y.blue-entrancement-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.blue-fury-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.blue-guard-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.blue-swiftness-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.blue-third-eye-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.green-entrancement-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.green-fury-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.green-guard-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.green-swiftness-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.green-third-eye-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.orange-entrancement-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.orange-fury-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.orange-guard-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.orange-swiftness-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.orange-third-eye-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.red-entrancement-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.red-fury-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.red-guard-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.red-swiftness-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.red-third-eye-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.yellow-entrancement-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.yellow-fury-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.yellow-guard-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.yellow-swiftness-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
-  },
-  "y.yellow-third-eye-tonic": {
-    "obtainable": true,
-    "tags": [
-      "AP drop"
-    ],
-    "locationText": "Attentive Perception drop."
   },
   "a.aaja-orisha": {
     "obtainable": true,
@@ -25221,11 +25121,6 @@
     "tags": [],
     "locationText": ""
   },
-  "u.crusaders-elixir": {
-    "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
   "u.cultists-remnants": {
     "obtainable": true,
     "tags": [],
@@ -25252,11 +25147,6 @@
     "locationText": ""
   },
   "u.dwarven-traders-bargain-bag": {
-    "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
-  "u.explorers-elixir": {
     "obtainable": true,
     "tags": [],
     "locationText": ""
@@ -25331,11 +25221,6 @@
     "tags": [],
     "locationText": ""
   },
-  "u.knights-bounty": {
-    "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
   "u.ladaku-patang": {
     "obtainable": true,
     "tags": [],
@@ -25373,11 +25258,6 @@
   },
   "u.lost-pouch": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
-  "u.mages-elixir": {
-    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -25436,16 +25316,6 @@
     "tags": [],
     "locationText": ""
   },
-  "u.nobles-appreciation": {
-    "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
-  "u.orators-elixir": {
-    "obtainable": false,
-    "tags": [],
-    "locationText": ""
-  },
   "u.parchment-of-azyus-wish": {
     "obtainable": true,
     "tags": [],
@@ -25481,11 +25351,6 @@
     "tags": [],
     "locationText": ""
   },
-  "u.peasants-offering": {
-    "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
   "u.rc-void-crystals-pack": {
     "obtainable": true,
     "tags": [],
@@ -25493,11 +25358,6 @@
   },
   "u.red-daily-chest": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
-  "u.rogues-elixir": {
-    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -25637,11 +25497,6 @@
     "locationText": ""
   },
   "u.venom-soaked-pack": {
-    "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
-  "u.vikings-elixir": {
     "obtainable": true,
     "tags": [],
     "locationText": ""
