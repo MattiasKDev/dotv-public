@@ -859,12 +859,12 @@
 
     if (item.category === "equipment") {
       entries.push(
-        ["Rarity", raw.rarity],
         ["Slot", raw.equipSlot],
         ["Equip Type", raw.equipType],
         ["Attack", raw.attack],
         ["Defense", raw.defense],
       );
+      if (raw.twoHanded) entries.push(["Two Handed", raw.twoHanded]);
     } else if (item.category === "commanders" || item.category === "troops") {
       entries.push(
         ["Race", raw.race],
