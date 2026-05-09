@@ -144,6 +144,7 @@
     acquireOnceOnly: false,
     uniqueOnly: false,
     hideOwned: false,
+    searchSetBonuses: false,
     sort: "name",
     detailTab: "info",
     visibleLimit: PAGE_SIZE,
@@ -153,7 +154,11 @@
     totalCount: document.getElementById("totalCount"),
     typeTabs: document.getElementById("typeTabs"),
     locationTagFilters: document.getElementById("locationTagFilters"),
+    selectAllTags: document.getElementById("selectAllTags"),
+    deselectAllTags: document.getElementById("deselectAllTags"),
     searchInput: document.getElementById("searchInput"),
+    searchSetBonusesField: document.getElementById("searchSetBonusesField"),
+    searchSetBonusesFilter: document.getElementById("searchSetBonusesFilter"),
     controlRow: document.getElementById("controlRow"),
     sortControl: document.getElementById("sortControl"),
     globalFilters: document.getElementById("globalFilters"),
@@ -228,6 +233,17 @@
       .replace(/\bFul\b/g, "Full")
       .replace(/\s+/g, " ")
       .trim();
+  }
+
+  function normalizeSearchText(values) {
+    return values.join(" ").toLowerCase().replace(/\s+/g, " ").trim();
+  }
+
+  function stripSetBonusText(value) {
+    return String(value || "")
+      .split(/\r?\n/)
+      .filter((line) => !/^\s*(?:set bonus|\d+\+:)/i.test(line))
+      .join("\n");
   }
 
   function formatNumber(value) {
@@ -307,7 +323,7 @@
     if (!locationText.trim() && !locationTags.includes(UNKNOWN_LOCATION_TAG)) {
       locationTags.push(UNKNOWN_LOCATION_TAG);
     }
-    const searchText = [
+    const baseSearchValues = [
       id,
       rawItem.name,
       rawItem.type,
@@ -323,12 +339,19 @@
       rawItem.itemSlot,
       rawItem.element,
       rawItem.effectName,
-      rawItem.effects,
       rawItem.description,
       locationText,
       locationTags.join(" "),
       Array.isArray(rawItem.itemSetIds) ? rawItem.itemSetIds.join(" ") : "",
-    ].join(" ").toLowerCase();
+    ];
+    const searchText = normalizeSearchText([
+      ...baseSearchValues,
+      category === "equipment" ? stripSetBonusText(rawItem.effects) : rawItem.effects,
+    ]);
+    const fullSearchText = normalizeSearchText([
+      ...baseSearchValues,
+      rawItem.effects,
+    ]);
 
     return {
       raw: rawItem,
@@ -346,6 +369,7 @@
       locationText,
       obtainable: locationInfo?.obtainable === true,
       searchText,
+      fullSearchText,
     };
   }
 
@@ -501,6 +525,13 @@
       state.hideOwned = false;
     }
     els.hideOwnedFilter.checked = state.hideOwned;
+  }
+
+  function renderSearchOptions() {
+    const showSetBonusToggle = state.category === "equipment";
+    els.searchSetBonusesField.hidden = !showSetBonusToggle;
+    if (!showSetBonusToggle) state.searchSetBonuses = false;
+    els.searchSetBonusesFilter.checked = state.searchSetBonuses;
   }
 
   function renderControlRow() {
@@ -717,8 +748,9 @@
     if (state.acquireOnceOnly && !item.raw.acquireOnce) return false;
     if (state.uniqueOnly && !item.raw.unique) return false;
 
-    const terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
-    return terms.every((term) => item.searchText.includes(term));
+    const query = state.query.toLowerCase().replace(/\s+/g, " ").trim();
+    const searchText = state.searchSetBonuses ? item.fullSearchText : item.searchText;
+    return !query || searchText.includes(query);
   }
 
   function numericSortValue(item, key) {
@@ -765,6 +797,7 @@
 
     renderTypeTabs();
     renderLocationTagFilters();
+    renderSearchOptions();
     renderSortOptions();
     renderEquipmentFilters();
     renderCommanderFilters();
@@ -1187,9 +1220,11 @@
     state.acquireOnceOnly = false;
     state.uniqueOnly = false;
     state.hideOwned = false;
+    state.searchSetBonuses = false;
     state.sort = "name";
     state.visibleLimit = PAGE_SIZE;
     els.searchInput.value = "";
+    els.searchSetBonusesFilter.checked = state.searchSetBonuses;
     els.hideOwnedFilter.checked = state.hideOwned;
     els.sortSelect.value = state.sort;
     applyFilters();
@@ -1198,6 +1233,12 @@
   function bindEvents() {
     els.searchInput.addEventListener("input", () => {
       state.query = els.searchInput.value;
+      state.visibleLimit = PAGE_SIZE;
+      applyFilters();
+    });
+
+    els.searchSetBonusesFilter.addEventListener("change", () => {
+      state.searchSetBonuses = els.searchSetBonusesFilter.checked;
       state.visibleLimit = PAGE_SIZE;
       applyFilters();
     });
@@ -1249,6 +1290,18 @@
       if (event.key !== INVENTORY_STORAGE_KEY) return;
       state.ownedItemIds = readOwnedItemIds();
       if (state.hideOwned) applyFilters();
+    });
+
+    els.selectAllTags.addEventListener("click", () => {
+      state.hiddenTags.clear();
+      state.visibleLimit = PAGE_SIZE;
+      applyFilters();
+    });
+
+    els.deselectAllTags.addEventListener("click", () => {
+      state.items.flatMap((item) => item.locationTags).forEach((tag) => state.hiddenTags.add(tag));
+      state.visibleLimit = PAGE_SIZE;
+      applyFilters();
     });
 
     [

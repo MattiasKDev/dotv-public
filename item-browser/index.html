@@ -25,6 +25,10 @@
             <div class="type-rail-header compact">
               <span>Location Tags</span>
             </div>
+            <div class="tag-filter-actions">
+              <button id="selectAllTags" class="subtle-button" type="button">All</button>
+              <button id="deselectAllTags" class="subtle-button" type="button">None</button>
+            </div>
             <div id="locationTagFilters" class="location-tag-filters"></div>
           </div>
         </aside>
@@ -34,6 +38,10 @@
             <label class="browser-search">
               <span>Search</span>
               <input id="searchInput" type="search" autocomplete="off" placeholder="Name, effect, role, set...">
+            </label>
+            <label id="searchSetBonusesField" class="check-filter search-option">
+              <input id="searchSetBonusesFilter" type="checkbox">
+              <span>Search Set Bonuses</span>
             </label>
 
             <div id="controlRow" class="control-row">
