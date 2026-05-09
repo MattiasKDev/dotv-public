@@ -2582,9 +2582,10 @@
   "a.viscous-alchemist": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Soured Talc and 4 Spell Focus - Acid - Purchased from the market (component / spell-focus) for 250 Crowns (Requires: Z3 Segment 4 on Easy, 10000 INT)."
+    "locationText": "Crafted from:\n- 1 Soured Talc - Previously available in the market (limited-time / viscous-viscount-set)\n- 4 Spell Focus - Acid - Purchased from the market (component / spell-focus) for 250 Crowns (Requires: Z3 Segment 4 on Easy, 10000 INT)\n\nPreviously available in the market (limited-time / viscous-viscount-set)."
   },
   "a.viscous-herbalist": {
     "obtainable": true,
@@ -7614,6 +7615,13 @@
       "recipe"
     ],
     "locationText": "Crafted from:\n- 20 Mastru Flatfish - Paeknisar, Legendary\n- 15 Dolmfaastian Unicornfish - Paeknisar, Legendary\n- 1 River Delicacy - Paeknisar, Legendary"
+  },
+  "c.soured-talc": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / viscous-viscount-set)."
   },
   "c.spell-focus-acid": {
     "obtainable": true,
@@ -20526,9 +20534,10 @@
   "m.caustic-viscosity": {
     "obtainable": true,
     "tags": [
-      "container"
+      "container",
+      "limited-time"
     ],
-    "locationText": "From Parchment of Caustic Viscosity, crafted from 1 Soured Talc and 4 Spell Focus - Acid - Purchased from the market (component / spell-focus) for 250 Crowns (Requires: Z3 Segment 4 on Easy, 10000 INT)."
+    "locationText": "From Parchment of Caustic Viscosity, crafted from:\n- 1 Soured Talc - Previously available in the market (limited-time / viscous-viscount-set)\n- 4 Spell Focus - Acid - Purchased from the market (component / spell-focus) for 250 Crowns (Requires: Z3 Segment 4 on Easy, 10000 INT)"
   },
   "m.chandlers-light": {
     "obtainable": true,
@@ -23240,9 +23249,10 @@
   "u.parchment-of-caustic-viscosity": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Soured Talc and 4 Spell Focus - Acid - Purchased from the market (component / spell-focus) for 250 Crowns (Requires: Z3 Segment 4 on Easy, 10000 INT)."
+    "locationText": "Crafted from:\n- 1 Soured Talc - Previously available in the market (limited-time / viscous-viscount-set)\n- 4 Spell Focus - Acid - Purchased from the market (component / spell-focus) for 250 Crowns (Requires: Z3 Segment 4 on Easy, 10000 INT)"
   },
   "u.parchment-of-chandlers-light": {
     "obtainable": true,
@@ -25315,11 +25325,6 @@
     "locationText": ""
   },
   "c.seal-shatterers-beads": {
-    "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
-  "c.soured-talc": {
     "obtainable": true,
     "tags": [],
     "locationText": ""
