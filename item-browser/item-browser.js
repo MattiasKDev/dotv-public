@@ -314,6 +314,10 @@
     window.history.replaceState(null, "", shareUrl());
   }
 
+  function markdownEscape(value) {
+    return String(value || "").replace(/([\\[\]])/g, "\\$1");
+  }
+
   function applyLinkedState() {
     const params = new URLSearchParams(window.location.search);
     const itemId = params.get("item");
@@ -330,17 +334,18 @@
     }
   }
 
-  async function copyShareLink(button) {
+  async function copyShareLink(button, item) {
     const url = shareUrl();
+    const text = `[${markdownEscape(item.name)}](${url})`;
 
     try {
-      await navigator.clipboard.writeText(url);
+      await navigator.clipboard.writeText(text);
       button.textContent = "Copied";
       setTimeout(() => {
         button.textContent = "Copy Link";
       }, 1200);
     } catch {
-      window.prompt("Copy item link", url);
+      window.prompt("Copy item link", text);
     }
   }
 
@@ -1271,7 +1276,7 @@
     copyButton.type = "button";
     copyButton.className = "subtle-button copy-link-button";
     copyButton.textContent = "Copy Link";
-    copyButton.addEventListener("click", () => copyShareLink(copyButton));
+    copyButton.addEventListener("click", () => copyShareLink(copyButton, item));
     actions.append(copyButton);
     header.append(type, actions);
 
