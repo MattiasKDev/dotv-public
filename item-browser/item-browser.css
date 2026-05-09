@@ -82,8 +82,8 @@
 
 .type-tabs {
   display: grid;
-  gap: 0.35rem;
-  padding: 0.6rem;
+  gap: 0.25rem;
+  padding: 0.45rem;
 }
 
 .type-tab {
@@ -92,12 +92,12 @@
   gap: 0.5rem;
   width: 100%;
   margin: 0;
-  padding: 0.55rem 0.65rem;
+  padding: 0.38rem 0.5rem;
   border-color: transparent;
   border-left: 3px solid var(--type-color, var(--ib-blue));
   color: var(--ib-ink);
   background: transparent;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 700;
   text-align: left;
 }
@@ -111,11 +111,31 @@
 
 .type-tab-count {
   color: var(--ib-muted);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
 }
 
 .location-filter-group {
   border-top: 1px solid var(--ib-line);
+}
+
+.tag-mode-control {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.35rem;
+  padding: 0.45rem 0.45rem 0;
+}
+
+.tag-mode-control .subtle-button {
+  width: 100%;
+  padding: 0.35rem 0.35rem;
+  font-size: 0.62rem;
+  line-height: 1.1;
+}
+
+.tag-mode-control .subtle-button.is-active {
+  color: var(--ib-ink);
+  background: var(--ib-panel-strong);
+  border-color: var(--ib-blue);
 }
 
 .tag-filter-actions {
@@ -167,9 +187,11 @@
   margin: 0;
 }
 
-.tag-filter span {
+.tag-filter-label {
   min-width: 0;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
   text-transform: none;
 }
 

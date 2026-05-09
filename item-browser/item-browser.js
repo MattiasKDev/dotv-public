@@ -8,7 +8,7 @@
   };
   const IMAGE_HOST = "https://files.dragonsofthevoid.com";
   const INVENTORY_STORAGE_KEY = "commander-formation-ranker-inputs-v1";
-  const HIDE_OWNED_ENABLED = false;
+  const HIDE_OWNED_ENABLED = true;
   const UNKNOWN_LOCATION_TAG = "unknown";
   const PAGE_SIZE = 120;
 
@@ -134,6 +134,7 @@
     availability: "obtainable",
     query: "",
     hiddenTags: new Set(),
+    tagFilterMode: "exclude",
     equipmentSlot: "",
     equipmentType: "",
     equipmentSet: "",
@@ -154,6 +155,7 @@
     totalCount: document.getElementById("totalCount"),
     typeTabs: document.getElementById("typeTabs"),
     locationTagFilters: document.getElementById("locationTagFilters"),
+    tagFilterMode: document.getElementById("tagFilterMode"),
     selectAllTags: document.getElementById("selectAllTags"),
     deselectAllTags: document.getElementById("deselectAllTags"),
     searchInput: document.getElementById("searchInput"),
@@ -389,6 +391,9 @@
   }
 
   function matchesLocationTags(item) {
+    if (state.tagFilterMode === "include") {
+      return item.locationTags.some((tag) => !state.hiddenTags.has(tag));
+    }
     return !item.locationTags.some((tag) => state.hiddenTags.has(tag));
   }
 
@@ -534,6 +539,12 @@
     els.searchSetBonusesFilter.checked = state.searchSetBonuses;
   }
 
+  function renderTagModeControl() {
+    els.tagFilterMode.querySelectorAll("[data-tag-mode]").forEach((button) => {
+      button.classList.toggle("is-active", button.dataset.tagMode === state.tagFilterMode);
+    });
+  }
+
   function renderControlRow() {
     els.controlRow.hidden = els.sortControl.hidden
       && els.globalFilters.hidden
@@ -650,6 +661,14 @@
   function renderLocationTagFilters() {
     const tags = [...new Set(state.items.flatMap((item) => item.locationTags))]
       .sort((a, b) => formatLocationTag(a).localeCompare(formatLocationTag(b)));
+    const tagCounts = state.items
+      .filter(matchesFiltersExceptLocationTags)
+      .reduce((counts, item) => {
+        item.locationTags.forEach((tag) => {
+          counts[tag] = (counts[tag] || 0) + 1;
+        });
+        return counts;
+      }, {});
 
     els.locationTagFilters.innerHTML = "";
 
@@ -679,7 +698,8 @@
       });
 
       const text = document.createElement("span");
-      text.textContent = formatLocationTag(tag);
+      text.className = "tag-filter-label";
+      text.textContent = `${formatLocationTag(tag)} (${formatNumber(tagCounts[tag] || 0)})`;
       label.append(input, text);
       els.locationTagFilters.append(label);
     });
@@ -722,9 +742,8 @@
       });
   }
 
-  function matchesFilters(item) {
+  function matchesFiltersExceptLocationTags(item) {
     if (!matchesAvailability(item)) return false;
-    if (!matchesLocationTags(item)) return false;
     if (!matchesOwnedFilter(item)) return false;
     if (state.category !== "all" && item.category !== state.category) return false;
 
@@ -751,6 +770,10 @@
     const query = state.query.toLowerCase().replace(/\s+/g, " ").trim();
     const searchText = state.searchSetBonuses ? item.fullSearchText : item.searchText;
     return !query || searchText.includes(query);
+  }
+
+  function matchesFilters(item) {
+    return matchesFiltersExceptLocationTags(item) && matchesLocationTags(item);
   }
 
   function numericSortValue(item, key) {
@@ -797,6 +820,7 @@
 
     renderTypeTabs();
     renderLocationTagFilters();
+    renderTagModeControl();
     renderSearchOptions();
     renderSortOptions();
     renderEquipmentFilters();
@@ -1210,6 +1234,7 @@
   function clearFilters() {
     state.query = "";
     state.hiddenTags.clear();
+    state.tagFilterMode = "exclude";
     state.equipmentSlot = "";
     state.equipmentType = "";
     state.equipmentSet = "";
@@ -1290,6 +1315,14 @@
       if (event.key !== INVENTORY_STORAGE_KEY) return;
       state.ownedItemIds = readOwnedItemIds();
       if (state.hideOwned) applyFilters();
+    });
+
+    els.tagFilterMode.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-tag-mode]");
+      if (!button || button.dataset.tagMode === state.tagFilterMode) return;
+      state.tagFilterMode = button.dataset.tagMode === "include" ? "include" : "exclude";
+      state.visibleLimit = PAGE_SIZE;
+      applyFilters();
     });
 
     els.selectAllTags.addEventListener("click", () => {
