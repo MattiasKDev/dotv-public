@@ -60,6 +60,17 @@
   border-bottom: 1px solid var(--ib-line);
 }
 
+.detail-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.copy-link-button {
+  padding: 0.35rem 0.55rem;
+  font-size: 0.72rem;
+}
+
 .type-rail-header span,
 .browser-toolbar span,
 .stat-label,

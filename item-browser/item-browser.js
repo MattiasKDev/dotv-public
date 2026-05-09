@@ -297,6 +297,53 @@
     return value ?? "";
   }
 
+  function shareUrl() {
+    const url = new URL(window.location.href);
+    if (state.selectedId) {
+      url.searchParams.set("item", state.selectedId);
+      url.searchParams.set("tab", state.detailTab);
+    } else {
+      url.searchParams.delete("item");
+      url.searchParams.delete("tab");
+    }
+    return url.toString();
+  }
+
+  function updateShareUrl() {
+    if (!window.history?.replaceState) return;
+    window.history.replaceState(null, "", shareUrl());
+  }
+
+  function applyLinkedState() {
+    const params = new URLSearchParams(window.location.search);
+    const itemId = params.get("item");
+    const tab = params.get("tab");
+    const linkedItem = state.items.find((item) => item.id === itemId);
+
+    if (tab === "locations" || tab === "info") {
+      state.detailTab = tab;
+    }
+
+    if (linkedItem) {
+      state.selectedId = linkedItem.id;
+      state.category = linkedItem.category;
+    }
+  }
+
+  async function copyShareLink(button) {
+    const url = shareUrl();
+
+    try {
+      await navigator.clipboard.writeText(url);
+      button.textContent = "Copied";
+      setTimeout(() => {
+        button.textContent = "Copy Link";
+      }, 1200);
+    } catch {
+      window.prompt("Copy item link", url);
+    }
+  }
+
   function imageUrl(path) {
     if (!path) return "";
     if (/^https?:\/\//i.test(path)) return path;
@@ -817,6 +864,7 @@
     if (!state.filteredItems.some((item) => item.id === state.selectedId)) {
       state.selectedId = state.filteredItems[0]?.id || "";
     }
+    updateShareUrl();
 
     renderTypeTabs();
     renderLocationTagFilters();
@@ -886,6 +934,7 @@
       button.append(body);
       button.addEventListener("click", () => {
         state.selectedId = item.id;
+        updateShareUrl();
         renderResults();
         renderDetail();
       });
@@ -1168,6 +1217,7 @@
       button.addEventListener("click", () => {
         if (state.detailTab === key) return;
         state.detailTab = key;
+        updateShareUrl();
         renderDetail();
       });
       tabs.append(button);
@@ -1203,8 +1253,11 @@
       empty.className = "detail-empty";
       empty.textContent = state.items.length ? "No item selected." : "Loading item data...";
       els.detailPanel.append(empty);
+      document.title = "Item Browser | DOTV Tools";
       return;
     }
+
+    document.title = `${item.name} - ${state.detailTab === "locations" ? "Locations" : "Info"} | DOTV Tools`;
 
     const header = document.createElement("div");
     header.className = "detail-header";
@@ -1212,7 +1265,15 @@
     type.className = "result-type";
     type.textContent = item.categoryLabel;
     type.style.color = item.categoryColor;
-    header.append(type);
+    const actions = document.createElement("div");
+    actions.className = "detail-actions";
+    const copyButton = document.createElement("button");
+    copyButton.type = "button";
+    copyButton.className = "subtle-button copy-link-button";
+    copyButton.textContent = "Copy Link";
+    copyButton.addEventListener("click", () => copyShareLink(copyButton));
+    actions.append(copyButton);
+    header.append(type, actions);
 
     const body = document.createElement("div");
     body.className = "detail-body";
@@ -1376,8 +1437,10 @@
       ]);
       state.ownedItemIds = HIDE_OWNED_ENABLED ? readOwnedItemIds() : new Set();
       state.items = buildItems(items, formations, itemLocations);
+      applyLinkedState();
       bindEvents();
       applyFilters();
+      updateShareUrl();
     } catch (error) {
       els.resultCount.textContent = "Could not load item data";
       els.resultList.innerHTML = "";
