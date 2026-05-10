@@ -344,6 +344,13 @@
     ],
     "locationText": "Crafted from:\n- 20 Heart of Ice - Frigidara, Legendary\n- 40 Goblin Frigidara Defender - Hrysvalgur, Easy\n- 40 Dwarven Frigidara Defender - Hrysvalgur, Easy\n- 40 Gnomish Frigidara Defender - Hrysvalgur, Easy\n- 40 Orcish Frigidara Defender - Hrysvalgur, Easy\n- 40 Elven Frigidara Defender - Hrysvalgur, Easy"
   },
+  "a.caimie-seafoam": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / waveblessed-set)."
+  },
   "a.camellia": {
     "obtainable": true,
     "tags": [
@@ -697,6 +704,13 @@
       "guild raid"
     ],
     "locationText": "Dropped from Amanus Charmer on easy and hard difficulties."
+  },
+  "a.ensouled-seawater": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / waveblessed-set)."
   },
   "a.experienced-guild-servant": {
     "obtainable": false,
@@ -25418,11 +25432,6 @@
     "tags": [],
     "locationText": ""
   },
-  "a.caimie-seafoam": {
-    "obtainable": true,
-    "tags": [],
-    "locationText": ""
-  },
   "a.cilva": {
     "obtainable": false,
     "tags": [],
@@ -25445,11 +25454,6 @@
   },
   "a.eloko-wingless": {
     "obtainable": false,
-    "tags": [],
-    "locationText": ""
-  },
-  "a.ensouled-seawater": {
-    "obtainable": true,
     "tags": [],
     "locationText": ""
   },
