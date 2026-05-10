@@ -6,6 +6,7 @@
     { key: "scripts", label: "Scripts", path: "scripts/" },
     { key: "formation-optimizer", label: "Formation Optimizer", path: "formation-optimizer/" },
     { key: "item-browser", label: "Item Browser", path: "item-browser/" },
+    { key: "sp-calc", label: "SP Calc", path: "sp-calc/" },
     { key: "leaderboards", label: "Leaderboards", path: "leaderboards/" },
   ];
 

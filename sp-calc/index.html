@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stat Point Calculator | DOTV Tools</title>
+  <meta name="description" content="Calculate Dragons of the Void stat point costs.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="site-body">
+  <header data-site-header></header>
+
+  <main class="site-main">
+    <section class="site-section sp-calc-section">
+      <div class="site-section-inner">
+        <section class="sp-calc-panel" aria-label="Stat point calculator">
+          <div class="table-wrap sp-calc-table-wrap">
+            <table class="sp-calc-table">
+              <thead>
+                <tr>
+                  <th>Stat</th>
+                  <th>Start</th>
+                  <th>End</th>
+                  <th class="numeric">Gain</th>
+                  <th class="numeric">Cost</th>
+                </tr>
+              </thead>
+              <tbody id="spCalcRows"></tbody>
+            </table>
+          </div>
+
+          <div class="sp-summary-grid" aria-live="polite">
+            <div class="sp-summary-metric">
+              <span>Current SP</span>
+              <strong id="currentSpTotal">0</strong>
+            </div>
+            <div class="sp-summary-metric">
+              <span>Goal SP</span>
+              <strong id="goalSpTotal">0</strong>
+            </div>
+            <div class="sp-summary-metric">
+              <span>Total Cost</span>
+              <strong id="totalCost">0</strong>
+            </div>
+            <div class="sp-forecast-card">
+              <label class="sp-daily-field">
+                <span>SP/day</span>
+                <input id="spPerDay" type="number" min="0" step="1" inputmode="numeric" value="0">
+              </label>
+              <div class="sp-time-metric">
+                <span>Time to Goal</span>
+                <strong id="timeToGoal">Enter SP/day</strong>
+                <small id="timeToGoalMeta"></small>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/site.js"></script>
+  <script src="sp-calc.js"></script>
+</body>
+</html>
