@@ -3,9 +3,10 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Track player statistics including levels, XP, damage, and raid counts
-// @version      2026.05.01
+// @version      2026.05.11
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
+// @grant unsafeWindow
 // @grant GM_getValue
 // @grant GM_setValue
 // @grant GM_info
@@ -21,6 +22,7 @@ const STATVAULT_SUPPORT_URL = "https://github.com/MattiasKDev/dotv-public#suppor
 const STATVAULT_LEADERBOARD_API_URL = STATVAULT_SYNC_API_URL
     ? STATVAULT_SYNC_API_URL.replace(/\/sync$/, "/leaderboards")
     : "";
+const STATVAULT_PAGE_WINDOW = typeof unsafeWindow !== "undefined" ? unsafeWindow : window;
 
 // ============================================================================
 // STYLES
@@ -719,8 +721,8 @@ class StatVaultCore {
     }
 
     getRequestFetch() {
-        return typeof unsafeWindow !== "undefined" && unsafeWindow.fetch
-            ? unsafeWindow.fetch.bind(unsafeWindow)
+        return STATVAULT_PAGE_WINDOW.fetch
+            ? STATVAULT_PAGE_WINDOW.fetch.bind(STATVAULT_PAGE_WINDOW)
             : fetch;
     }
 
@@ -2046,18 +2048,14 @@ class StatVaultNetwork {
 
     setupXHRInterception() {
         const getInterceptionRoute = this.getInterceptionRoute.bind(this);
-        const open = XMLHttpRequest.prototype.open;
-        const send = XMLHttpRequest.prototype.send;
+        const NativeXHR = STATVAULT_PAGE_WINDOW.XMLHttpRequest || XMLHttpRequest;
 
-        XMLHttpRequest.prototype.open = function (method, url) {
-            this._url = url;
-            return open.apply(this, arguments);
-        };
+        function StatVaultXMLHttpRequest() {
+            const xhr = new NativeXHR();
 
-        XMLHttpRequest.prototype.send = function () {
-            this.addEventListener("load", () => {
+            xhr.addEventListener("load", function () {
                 try {
-                    const path = new URL(this._url, location.origin).pathname;
+                    const path = new URL(this.responseURL, location.origin).pathname;
                     const route = getInterceptionRoute(path);
                     if (!route) return;
 
@@ -2067,34 +2065,90 @@ class StatVaultNetwork {
                 }
             });
 
-            return send.apply(this, arguments);
-        };
+            return xhr;
+        }
+
+        StatVaultXMLHttpRequest.prototype = NativeXHR.prototype;
+        Object.setPrototypeOf(StatVaultXMLHttpRequest, NativeXHR);
+        STATVAULT_PAGE_WINDOW.XMLHttpRequest = StatVaultXMLHttpRequest;
     }
 
     setupFetchInterception() {
         const getInterceptionRoute = this.getInterceptionRoute.bind(this);
-        const realFetch = unsafeWindow.fetch;
+        const ResponseCtor = STATVAULT_PAGE_WINDOW.Response || Response;
+        const responsePrototype = ResponseCtor?.prototype;
+        if (!responsePrototype || responsePrototype.__statVaultResponseInterceptionAttached) return;
 
-        unsafeWindow.fetch = function (...args) {
-            const urlInput = typeof args[0] === "string" ? args[0] : args[0]?.url;
+        const realJson = responsePrototype.json;
+        const realText = responsePrototype.text;
+        const realClone = responsePrototype.clone;
+        const responseKeys = new WeakMap();
+        const handledResponseKeys = new Set();
+        let nextResponseKey = 1;
 
-            return realFetch.apply(this, args).then((response) => {
+        responsePrototype.__statVaultResponseInterceptionAttached = true;
+
+        const getResponseKey = (response) => {
+            let key = responseKeys.get(response);
+            if (!key) {
+                key = nextResponseKey++;
+                responseKeys.set(response, key);
+            }
+
+            return key;
+        };
+
+        const scheduleRouteHandler = (response, getDataPromise) => {
+            let route;
+            let key;
+
+            try {
+                const path = new URL(response.url, location.origin).pathname;
+                route = getInterceptionRoute(path);
+                if (!route) return;
+
+                key = getResponseKey(response);
+                if (handledResponseKeys.has(key)) return;
+                handledResponseKeys.add(key);
+            } catch (_e) {
+                // Ignore invalid URLs and keep response behavior unchanged.
+                return;
+            }
+
+            const dataPromise = getDataPromise();
+            dataPromise.then((data) => {
                 try {
-                    const path = new URL(urlInput, location.origin).pathname;
-                    const route = getInterceptionRoute(path);
-                    if (route) {
-                        response.clone().json().then((data) => {
-                            route.handler(data);
-                        }).catch(() => {
-                            // Ignore non-JSON or empty responses.
-                        });
-                    }
+                    route.handler(data);
                 } catch (_e) {
-                    // Ignore invalid URLs and keep fetch behavior unchanged.
+                    // Keep the page response untouched if handling fails.
                 }
-
-                return response;
+            }).catch(() => {
+                // Ignore non-JSON or empty responses.
             });
+        };
+
+        if (typeof realClone === "function") {
+            responsePrototype.clone = function () {
+                const clonedResponse = realClone.apply(this, arguments);
+                responseKeys.set(clonedResponse, getResponseKey(this));
+                return clonedResponse;
+            };
+        }
+
+        if (typeof realJson === "function") {
+            responsePrototype.json = function () {
+                const dataPromise = realJson.apply(this, arguments);
+                scheduleRouteHandler(this, () => dataPromise);
+                return dataPromise;
+            };
+        }
+
+        if (typeof realText === "function") {
+            responsePrototype.text = function () {
+                const textPromise = realText.apply(this, arguments);
+                scheduleRouteHandler(this, () => textPromise.then((text) => JSON.parse(text)));
+                return textPromise;
+            };
         };
     }
 }

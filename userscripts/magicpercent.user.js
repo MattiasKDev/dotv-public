@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Add magic proc percentages to raid battle logs
-// @version      2026.05.04
+// @version      2026.05.11
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
@@ -273,19 +273,14 @@
         scheduleApplyPendingHits();
     }
 
-    const XHR = pageWindow.XMLHttpRequest || XMLHttpRequest;
-    const realOpen = XHR.prototype.open;
-    const realSend = XHR.prototype.send;
+    const NativeXHR = pageWindow.XMLHttpRequest || XMLHttpRequest;
 
-    XHR.prototype.open = function (_method, url) {
-        this.__magicDataExposerUrl = url;
-        return realOpen.apply(this, arguments);
-    };
+    function MagicPercentXMLHttpRequest() {
+        const xhr = new NativeXHR();
 
-    XHR.prototype.send = function () {
-        this.addEventListener("load", () => {
+        xhr.addEventListener("load", function () {
             try {
-                if (isAttackUrl(this.__magicDataExposerUrl)) {
+                if (isAttackUrl(this.responseURL)) {
                     handleAttackResponse(JSON.parse(this.responseText));
                 }
             } catch (_e) {
@@ -293,8 +288,12 @@
             }
         });
 
-        return realSend.apply(this, arguments);
-    };
+        return xhr;
+    }
+
+    MagicPercentXMLHttpRequest.prototype = NativeXHR.prototype;
+    Object.setPrototypeOf(MagicPercentXMLHttpRequest, NativeXHR);
+    pageWindow.XMLHttpRequest = MagicPercentXMLHttpRequest;
 
     observeBattleLog();
 })();
