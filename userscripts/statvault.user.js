@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Track player statistics including levels, XP, damage, and raid counts
-// @version      2026.05.11
+// @version      2026.05.14
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @grant unsafeWindow
@@ -396,6 +396,221 @@ const STATVAULT_UI_CSS = `
     font-weight: 600;
 }
 
+.sv-snapshot-shell {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.sv-snapshot-toolbar {
+    width: min(430px, 100%);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    padding: 10px 12px;
+    border: 1px solid rgba(255, 215, 160, 0.12);
+    border-radius: 14px;
+    background: rgba(34, 24, 15, 0.58);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+    box-sizing: border-box;
+}
+
+.sv-snapshot-toolbar-row {
+    display: contents;
+}
+
+.sv-snapshot-toolbar-title {
+    align-self: center;
+    color: #f8e6c1;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sv-snapshot-date-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    grid-column: 1 / -1;
+}
+
+.sv-snapshot-date-button {
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 215, 160, 0.24);
+    background: linear-gradient(180deg, #4c3522 0%, #3d2b1c 100%);
+    color: #f8e6c1;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.sv-snapshot-date-button:hover:not(:disabled) {
+    background: linear-gradient(180deg, #5a3f29 0%, #473120 100%);
+}
+
+.sv-snapshot-date-button:disabled {
+    cursor: default;
+    opacity: 0.4;
+}
+
+.sv-snapshot-date-display {
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 3px 10px;
+}
+
+.sv-snapshot-date-label,
+.sv-snapshot-stat-label {
+    color: rgba(255, 220, 170, 0.58);
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sv-snapshot-date-value {
+    width: 150px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #f6eee2;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sv-snapshot-date-value::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.92) sepia(0.28) saturate(1.4) hue-rotate(345deg);
+    opacity: 0.72;
+}
+
+.sv-snapshot-date-note {
+    min-height: 12px;
+    color: rgba(255, 220, 170, 0.52);
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sv-snapshot-copy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    padding: 7px 11px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 215, 160, 0.18);
+    background: rgba(255, 255, 255, 0.045);
+    color: #f8e6c1;
+    font-size: 11px;
+    font-weight: 800;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.sv-snapshot-copy-button:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.075);
+}
+
+.sv-snapshot-copy-button:disabled {
+    cursor: default;
+    opacity: 0.58;
+}
+
+.sv-snapshot-card {
+    position: relative;
+    width: min(430px, 100%);
+    display: block;
+    overflow: hidden;
+    border: 1px solid rgba(255, 215, 160, 0.16);
+    border-radius: 12px;
+    background: #22180f;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.28);
+}
+
+.sv-snapshot-class-line {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 12px;
+    color: #f6eee2;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sv-snapshot-class-icon {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    border: 1px solid rgba(255, 215, 160, 0.08);
+    border-radius: 8px;
+    background: rgba(18, 13, 8, 0.58);
+}
+
+.sv-snapshot-body {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 24px 24px 26px;
+}
+
+.sv-snapshot-kicker {
+    color: rgba(255, 220, 170, 0.64);
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sv-snapshot-name {
+    margin-top: 8px;
+    color: #fff6e8;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.05;
+    overflow-wrap: anywhere;
+}
+
+.sv-snapshot-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sv-snapshot-stat {
+    min-width: 0;
+    padding: 13px 14px 14px;
+    border: 1px solid rgba(255, 215, 160, 0.12);
+    border-radius: 8px;
+    background: rgba(7, 10, 9, 0.20);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+.sv-snapshot-stat-value {
+    margin-top: 5px;
+    color: #fff6e8;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.05;
+    font-variant-numeric: tabular-nums;
+    overflow-wrap: anywhere;
+}
+
 .sv-footer {
     display: flex;
     justify-content: space-between;
@@ -533,6 +748,30 @@ const STATVAULT_UI_CSS = `
         border-radius: 999px;
     }
 
+    .sv-snapshot-card {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .sv-snapshot-toolbar {
+        align-items: stretch;
+        grid-template-columns: 1fr;
+    }
+
+    .sv-snapshot-copy-button,
+    .sv-snapshot-date-controls {
+        grid-column: 1;
+    }
+
+    .sv-snapshot-body {
+        padding: 24px;
+    }
+
+    .sv-snapshot-name {
+        font-size: 32px;
+    }
 }
 
 .sv-entry-button {
@@ -598,7 +837,10 @@ class StatVaultCore {
             id: "",
             characterName: "",
             accountCreatedAt: null,
+            className: "",
+            classKey: "",
         };
+        this.classMilestones = [];
         this.lastSyncedAt = null;
         this.hasPendingChanges = false;
         this.lastSyncError = null;
@@ -686,6 +928,10 @@ class StatVaultCore {
         if (minutes > 0) return `${minutes} minute${minutes === 1 ? "" : "s"}`;
 
         return `${totalSec} second${totalSec === 1 ? "" : "s"}`;
+    }
+
+    formatRatio(value, divisor) {
+        return divisor > 0 ? (value / divisor).toFixed(2) : "N/A";
     }
 
     getAllTimeHighestHit() {
@@ -842,21 +1088,28 @@ class StatVaultCore {
     }
 
     infoHandler(data) {
+        const payload = data.payload;
+        const user = payload.user;
+        this.classMilestones = this.extractClassMilestones(payload.inventory?.items || {});
+        const profileMeta = this.extractProfileMeta(payload, this.classMilestones);
+
         this.age = Math.floor(
-            (Date.now() - new Date(data.payload.user.create_dttm).getTime()) / (1000 * 60 * 60 * 24)
+            (Date.now() - new Date(user.create_dttm).getTime()) / (1000 * 60 * 60 * 24)
         );
-        this.userProfile.id = String(data.payload.user.id ?? "");
-        this.userProfile.characterName = String(data.payload.user.characterName ?? "");
-        this.userProfile.accountCreatedAt = this.normalizeDateTime(data.payload.user.create_dttm);
+        this.userProfile.id = String(user.id ?? "");
+        this.userProfile.characterName = String(user.characterName ?? "");
+        this.userProfile.accountCreatedAt = this.normalizeDateTime(user.create_dttm);
+        this.userProfile.className = profileMeta.className;
+        this.userProfile.classKey = profileMeta.classKey;
         this.activateUserStorage(this.userProfile.id);
 
-        const stats = this.parseUserInfo(data.payload);
+        const stats = this.parseUserInfo(payload);
         this.globalStats.lvl = stats.lvl;
         this.globalStats.rc = stats.rc;
         this.globalStats.sp = stats.sp;
         this.globalStats.xp = stats.xp;
         this.updateLog();
-        void this.syncWithRemote(data.payload);
+        void this.syncWithRemote(payload);
         console.log(`[statvault] Info updated: Level ${stats.lvl}, XP ${stats.xp}, SP ${stats.sp}, Raids Joined ${stats.rc}`);
     }
 
@@ -889,34 +1142,193 @@ class StatVaultCore {
     }
 
     findBanners(inventoryItems) {
-        const lvlTiers = [10, 100, 500, 1000, 2000, 3000, 4000, 5000, 6000];
-        let classFromBanners = [];
-        for (const key in inventoryItems) {
-            if (key.startsWith("ba.")) {
-                let stripped = key.slice(3); // remove 'ba.'
-                if (stripped.endsWith("-banner")) {
-                    stripped = stripped.slice(0, -7);
-                }
-                if (stripped.includes("-")) {
-                    stripped = stripped.replace(/-/g, " ");
-                }
-                classFromBanners.push({
-                    className: stripped,
-                    createdAt: inventoryItems[key].created,
-                });
-            }
-        }
-
-        classFromBanners.sort((a, b) => (a.createdAt ?? 0) - (b.createdAt ?? 0));
-
-        classFromBanners = classFromBanners.map((banner, idx) => ({
-            ...banner,
-            lvlTier: lvlTiers[idx] ?? null
-        }));
+        const classFromBanners = this.extractClassMilestones(inventoryItems);
         console.log("[statvault] Banners found in inventory:", classFromBanners);
         const limitedBanners = classFromBanners.slice(0, 4);
         console.log("[statvault] Class from banners:", limitedBanners);
         return limitedBanners;
+    }
+
+    extractClassMilestones(inventoryItems) {
+        const lvlTiers = [10, 100, 500, 1000, 2000, 3000, 4000, 5000, 6000];
+        const banners = [];
+
+        for (const key in inventoryItems || {}) {
+            if (!key.startsWith("ba.")) continue;
+
+            let classKey = key.slice(3);
+            if (classKey.endsWith("-banner")) {
+                classKey = classKey.slice(0, -7);
+            }
+
+            const createdAt = inventoryItems[key]?.created;
+            const earnedAt = this.normalizeBannerReachedAt(createdAt);
+
+            banners.push({
+                classKey,
+                className: this.classKeyToName(classKey),
+                createdAt,
+                earnedAt,
+                earnedAtMs: earnedAt ? new Date(earnedAt).getTime() : 0,
+            });
+        }
+
+        banners.sort((a, b) => (a.earnedAtMs || 0) - (b.earnedAtMs || 0));
+
+        return banners.map((banner, idx) => ({
+            ...banner,
+            lvlTier: lvlTiers[idx] ?? null
+        }));
+    }
+
+    extractProfileMeta(payload, classMilestones = []) {
+        const user = payload?.user || {};
+        const latestMilestone = classMilestones[classMilestones.length - 1] || {};
+        const rawClassName = this.firstText([
+            user.class,
+            user.className,
+            user.class_name,
+            user.characterClass,
+            user.character_class,
+            user.class?.name,
+            user.profession,
+        ]);
+        const rawClassKey = this.firstText([
+            user.classKey,
+            user.class_key,
+            user.class?.key,
+            user.class?.id,
+        ]);
+        const classKey = this.normalizeClassKey(rawClassKey || rawClassName || latestMilestone.classKey || latestMilestone.className);
+        const className = rawClassName
+            ? this.classKeyToName(rawClassName)
+            : latestMilestone.className || this.classKeyToName(classKey);
+
+        return {
+            className: className || "Unknown",
+            classKey,
+        };
+    }
+
+    firstText(values) {
+        for (const value of values) {
+            if (typeof value !== "string" && typeof value !== "number") continue;
+
+            const text = String(value).trim();
+            if (text) return text;
+        }
+
+        return "";
+    }
+
+    normalizeClassKey(value) {
+        return String(value ?? "")
+            .trim()
+            .replace(/^ba\./, "")
+            .replace(/-banner$/, "")
+            .toLowerCase()
+            .replace(/['"]/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-+|-+$/g, "");
+    }
+
+    classKeyToName(value) {
+        return String(value ?? "")
+            .trim()
+            .replace(/^ba\./, "")
+            .replace(/-banner$/, "")
+            .replace(/[_-]+/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
+    }
+
+    isValidDateKey(dateKey) {
+        return /^\d{4}-\d{2}-\d{2}$/.test(String(dateKey ?? ""));
+    }
+
+    getSnapshotDates() {
+        const loggedDates = Object.entries(this.statStore)
+            .filter(([date, stats]) => this.isValidDateKey(date) && !stats?.syntheticBaseline)
+            .map(([date]) => date)
+            .sort((a, b) => a.localeCompare(b));
+
+        if (loggedDates.length > 0) {
+            return loggedDates;
+        }
+
+        return Object.keys(this.statStore)
+            .filter((date) => this.isValidDateKey(date))
+            .sort((a, b) => a.localeCompare(b));
+    }
+
+    getLatestSnapshotDate() {
+        const dates = this.getSnapshotDates();
+        return dates[dates.length - 1] || this.currentDate;
+    }
+
+    getSnapshotStats(dateKey) {
+        if (this.statStore[dateKey]) {
+            return this.normalizeStoredStatRow(this.statStore[dateKey]);
+        }
+
+        if (dateKey === this.currentDate) {
+            return this.createStatSnapshot(this.globalStats);
+        }
+
+        return this.createEmptyStatRow();
+    }
+
+    getAccountAgeForDate(dateKey) {
+        const createdAtMs = new Date(this.userProfile.accountCreatedAt).getTime();
+        if (!Number.isFinite(createdAtMs)) {
+            return this.age || 0;
+        }
+
+        const targetMs = dateKey === this.currentDate
+            ? Date.now()
+            : new Date(`${dateKey}T23:59:59.999Z`).getTime();
+
+        if (!Number.isFinite(targetMs)) {
+            return this.age || 0;
+        }
+
+        return Math.max(0, Math.floor((targetMs - createdAtMs) / (1000 * 60 * 60 * 24)));
+    }
+
+    getClassForDate(dateKey) {
+        const selectedDateMs = new Date(`${dateKey}T23:59:59.999Z`).getTime();
+        let selectedMilestone = null;
+
+        if (Number.isFinite(selectedDateMs)) {
+            for (const milestone of this.classMilestones) {
+                if (!milestone.earnedAtMs || milestone.earnedAtMs > selectedDateMs) continue;
+                selectedMilestone = milestone;
+            }
+        }
+
+        const classKey = selectedMilestone?.classKey || this.userProfile.classKey;
+        const className = selectedMilestone?.className || this.userProfile.className;
+
+        return {
+            classKey: this.normalizeClassKey(classKey),
+            className: className || "Unknown",
+        };
+    }
+
+    getSnapshotData(dateKey) {
+        const date = this.isValidDateKey(dateKey) ? dateKey : this.getLatestSnapshotDate();
+        const stats = this.getSnapshotStats(date);
+        const classInfo = this.getClassForDate(date);
+
+        return {
+            date,
+            characterName: this.userProfile.characterName || "Unknown Hero",
+            className: classInfo.className,
+            classKey: classInfo.classKey,
+            level: stats.lvl,
+            totalStatPoints: stats.sp,
+            statPointsPerLevel: this.formatRatio(stats.sp, stats.lvl),
+        };
     }
 
     normalizeDateTime(value) {
@@ -1220,6 +1632,9 @@ class StatVaultUI {
         this.entryObserver = null;
         this.entryMountQueued = false;
         this.activeView = "personal";
+        this.activeSnapshotDate = "";
+        this.snapshotCopyInFlight = false;
+        this.snapshotCopyStatus = "";
         this.activeLeaderboardGroup = "overall";
         this.activeLeaderboardBoardByGroup = {
             overall: "level",
@@ -1392,6 +1807,8 @@ class StatVaultUI {
         this.activeView = nextView;
         if (nextView === "leaderboards") {
             this.ensureLeaderboardGroupLoaded(this.activeLeaderboardGroup);
+        } else if (nextView === "snapshot") {
+            this.ensureActiveSnapshotDate();
         }
 
         this.refreshOpenUI();
@@ -1454,6 +1871,11 @@ class StatVaultUI {
             return;
         }
 
+        if (this.activeView === "snapshot") {
+            this.renderSnapshotView(content);
+            return;
+        }
+
         this.renderPersonalStatsView(content);
     }
 
@@ -1463,6 +1885,7 @@ class StatVaultUI {
 
         [
             { key: "personal", label: "Personal" },
+            { key: "snapshot", label: "Snapshot" },
             { key: "leaderboards", label: "Leaderboards" },
         ].forEach((view) => {
             tabs.appendChild(this.createTabButton(
@@ -1482,6 +1905,461 @@ class StatVaultUI {
 
         this.appendSection(content, this.genHighlights(), "sv-table-styled sv-highlights-gap");
         this.appendSection(content, this.genTable(), "sv-table-styled");
+    }
+
+    renderSnapshotView(content) {
+        const snapshotDate = this.ensureActiveSnapshotDate();
+        const snapshot = this.core.getSnapshotData(snapshotDate);
+        const shell = document.createElement("div");
+        shell.className = "sv-snapshot-shell";
+
+        shell.appendChild(this.buildSnapshotToolbar(snapshot));
+        shell.appendChild(this.buildSnapshotCard(snapshot));
+        content.appendChild(shell);
+    }
+
+    ensureActiveSnapshotDate() {
+        const dates = this.core.getSnapshotDates();
+        if (!this.activeSnapshotDate || (dates.length > 0 && !dates.includes(this.activeSnapshotDate))) {
+            this.activeSnapshotDate = this.core.getLatestSnapshotDate();
+        }
+
+        return this.activeSnapshotDate || this.core.getLatestSnapshotDate();
+    }
+
+    onSnapshotDateStep(direction) {
+        const dates = this.core.getSnapshotDates();
+        if (dates.length === 0) return;
+
+        const currentDate = this.ensureActiveSnapshotDate();
+        const currentIndex = Math.max(0, dates.indexOf(currentDate));
+        const nextIndex = Math.max(0, Math.min(dates.length - 1, currentIndex + direction));
+        if (nextIndex === currentIndex) return;
+
+        this.activeSnapshotDate = dates[nextIndex];
+        this.refreshOpenUI();
+    }
+
+    onSnapshotDatePick(date) {
+        const dates = this.core.getSnapshotDates();
+        if (dates.length === 0 || !this.core.isValidDateKey(date)) return;
+
+        this.activeSnapshotDate = this.getClosestSnapshotDate(date, dates);
+        this.refreshOpenUI();
+    }
+
+    getClosestSnapshotDate(date, dates) {
+        if (dates.includes(date)) {
+            return date;
+        }
+
+        const earlierDates = dates.filter((loggedDate) => loggedDate <= date);
+        if (earlierDates.length > 0) {
+            return earlierDates[earlierDates.length - 1];
+        }
+
+        return dates[0];
+    }
+
+    buildSnapshotToolbar(snapshot) {
+        const dates = this.core.getSnapshotDates();
+        const currentIndex = dates.indexOf(snapshot.date);
+        const hasPrevious = currentIndex > 0;
+        const hasNext = currentIndex >= 0 && currentIndex < dates.length - 1;
+        const toolbar = document.createElement("div");
+        toolbar.className = "sv-snapshot-toolbar";
+
+        const topRow = document.createElement("div");
+        topRow.className = "sv-snapshot-toolbar-row";
+
+        const title = document.createElement("div");
+        title.className = "sv-snapshot-toolbar-title";
+        title.textContent = "Snapshot";
+
+        const controls = document.createElement("div");
+        controls.className = "sv-snapshot-date-controls";
+        controls.appendChild(this.createSnapshotDateButton("<", "Previous logged date", !hasPrevious, () => this.onSnapshotDateStep(-1)));
+        controls.appendChild(this.buildSnapshotDateDisplay(snapshot.date, dates));
+        controls.appendChild(this.createSnapshotDateButton(">", "Next logged date", !hasNext, () => this.onSnapshotDateStep(1)));
+
+        topRow.appendChild(title);
+        topRow.appendChild(this.createSnapshotCopyButton());
+        toolbar.appendChild(topRow);
+        toolbar.appendChild(controls);
+        return toolbar;
+    }
+
+    createSnapshotCopyButton() {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "sv-snapshot-copy-button";
+        button.textContent = this.snapshotCopyInFlight
+            ? "Copying..."
+            : this.snapshotCopyStatus || "Copy Image";
+        button.disabled = this.snapshotCopyInFlight;
+        button.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            void this.onCopySnapshotImage();
+        });
+        return button;
+    }
+
+    async onCopySnapshotImage() {
+        if (this.snapshotCopyInFlight) return;
+
+        if (!navigator.clipboard?.write || typeof ClipboardItem === "undefined") {
+            this.setSnapshotCopyStatus("Unavailable");
+            return;
+        }
+
+        this.snapshotCopyInFlight = true;
+        this.snapshotCopyStatus = "";
+        this.refreshOpenUI();
+
+        try {
+            const snapshot = this.core.getSnapshotData(this.ensureActiveSnapshotDate());
+            const blob = await this.renderSnapshotImageBlob(snapshot);
+            await navigator.clipboard.write([
+                new ClipboardItem({ [blob.type]: blob }),
+            ]);
+            this.setSnapshotCopyStatus("Copied");
+        } catch (error) {
+            console.error("[statvault] Snapshot image copy failed", error);
+            this.setSnapshotCopyStatus("Copy failed");
+        } finally {
+            this.snapshotCopyInFlight = false;
+            this.refreshOpenUI();
+        }
+    }
+
+    setSnapshotCopyStatus(status) {
+        this.snapshotCopyStatus = status;
+        this.refreshOpenUI();
+
+        window.setTimeout(() => {
+            if (this.snapshotCopyStatus !== status) return;
+
+            this.snapshotCopyStatus = "";
+            this.refreshOpenUI();
+        }, 1800);
+    }
+
+    createSnapshotDateButton(label, ariaLabel, disabled, onClick) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "sv-snapshot-date-button";
+        button.textContent = label;
+        button.disabled = disabled;
+        button.setAttribute("aria-label", ariaLabel);
+        button.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            onClick();
+        });
+        return button;
+    }
+
+    buildSnapshotDateDisplay(date, dates) {
+        const wrapper = document.createElement("div");
+        wrapper.className = "sv-snapshot-date-display";
+
+        const label = document.createElement("div");
+        label.className = "sv-snapshot-date-label";
+        label.textContent = "Date";
+
+        const value = document.createElement("input");
+        const firstDate = dates[0] || date;
+        const lastDate = dates[dates.length - 1] || date;
+        value.className = "sv-snapshot-date-value";
+        value.type = "date";
+        value.value = date;
+        value.min = firstDate;
+        value.max = lastDate;
+        value.setAttribute("aria-label", "Snapshot date");
+        value.addEventListener("change", () => this.onSnapshotDatePick(value.value));
+
+        const note = document.createElement("div");
+        note.className = "sv-snapshot-date-note";
+        note.textContent = dates.includes(date) ? "" : "Nearest logged day";
+
+        wrapper.appendChild(label);
+        wrapper.appendChild(value);
+        wrapper.appendChild(note);
+        return wrapper;
+    }
+
+    buildSnapshotCard(snapshot) {
+        const card = document.createElement("div");
+        card.className = "sv-snapshot-card";
+
+        const body = document.createElement("div");
+        body.className = "sv-snapshot-body";
+
+        const identity = document.createElement("div");
+
+        const kicker = document.createElement("div");
+        kicker.className = "sv-snapshot-kicker";
+        kicker.textContent = this.formatSnapshotDate(snapshot.date);
+
+        const name = document.createElement("div");
+        name.className = "sv-snapshot-name";
+        name.textContent = snapshot.characterName;
+
+        identity.appendChild(kicker);
+        identity.appendChild(name);
+        identity.appendChild(this.buildSnapshotClassLine(snapshot));
+
+        body.appendChild(identity);
+        body.appendChild(this.buildSnapshotStats(snapshot));
+        card.appendChild(body);
+
+        return card;
+    }
+
+    buildSnapshotClassLine(snapshot) {
+        const classLine = document.createElement("div");
+        classLine.className = "sv-snapshot-class-line";
+
+        const src = this.getSnapshotBannerUrl(snapshot.classKey);
+        if (src) {
+            const img = document.createElement("img");
+            img.className = "sv-snapshot-class-icon";
+            img.src = src;
+            img.alt = "";
+            img.addEventListener("error", () => img.remove(), { once: true });
+            classLine.appendChild(img);
+        }
+
+        const className = document.createElement("span");
+        className.textContent = this.toTitleCase(snapshot.className);
+        classLine.appendChild(className);
+
+        return classLine;
+    }
+
+    getSnapshotBannerUrl(classKey) {
+        return classKey
+            ? `https://files.dragonsofthevoid.com/images/item/banners/${encodeURIComponent(classKey)}_banner.png`
+            : "";
+    }
+
+    async renderSnapshotImageBlob(snapshot) {
+        const classIcon = await this.loadSnapshotClassIcon(snapshot);
+        const canvas = document.createElement("canvas");
+        const width = 720;
+        const height = 760;
+        canvas.width = width;
+        canvas.height = height;
+
+        const ctx = canvas.getContext("2d");
+        if (!ctx) {
+            throw new Error("Canvas is unavailable");
+        }
+
+        const colors = {
+            page: "#160f0a",
+            card: "#22180f",
+            panel: "#1a120c",
+            border: "#4a3824",
+            borderSoft: "#3a2a1b",
+            label: "#a89269",
+            text: "#fff6e8",
+            muted: "#d3c0a0",
+        };
+        const fontFamily = 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+
+        ctx.fillStyle = colors.page;
+        ctx.fillRect(0, 0, width, height);
+
+        this.drawRoundedRect(ctx, 24, 24, 672, 712, 18, colors.card, colors.border, 2);
+
+        ctx.fillStyle = colors.label;
+        ctx.font = `800 24px ${fontFamily}`;
+        ctx.textBaseline = "alphabetic";
+        ctx.fillText(this.formatSnapshotDate(snapshot.date).toUpperCase(), 64, 88);
+
+        this.drawFittedText(ctx, snapshot.characterName, 64, 158, 592, 64, 34, 900, colors.text, fontFamily);
+
+        const classY = 196;
+        let classTextX = 64;
+        if (classIcon) {
+            this.drawRoundedRect(ctx, 64, classY - 30, 44, 44, 8, colors.panel, colors.borderSoft, 1);
+            ctx.drawImage(classIcon, 69, classY - 25, 34, 34);
+            classTextX = 122;
+        }
+
+        ctx.fillStyle = colors.text;
+        ctx.font = `800 28px ${fontFamily}`;
+        ctx.textBaseline = "middle";
+        ctx.fillText(this.toTitleCase(snapshot.className), classTextX, classY - 8);
+
+        const rows = [
+            ["LEVEL", this.core.formatNumber(snapshot.level)],
+            ["TOTAL STAT POINTS", this.core.formatNumber(snapshot.totalStatPoints)],
+            ["STAT POINTS / LEVEL", snapshot.statPointsPerLevel],
+        ];
+        const rowX = 58;
+        const rowW = 604;
+        const rowH = 118;
+        const rowGap = 18;
+        let rowY = 292;
+
+        rows.forEach(([label, value]) => {
+            this.drawRoundedRect(ctx, rowX, rowY, rowW, rowH, 12, colors.panel, colors.borderSoft, 1);
+
+            ctx.fillStyle = colors.label;
+            ctx.font = `800 18px ${fontFamily}`;
+            ctx.textBaseline = "alphabetic";
+            ctx.fillText(label, rowX + 26, rowY + 35);
+
+            this.drawFittedText(ctx, value, rowX + 26, rowY + 88, rowW - 52, 42, 28, 900, colors.text, fontFamily);
+
+            rowY += rowH + rowGap;
+        });
+
+        return this.canvasToBlob(canvas);
+    }
+
+    async loadSnapshotClassIcon(snapshot) {
+        const src = this.getSnapshotBannerUrl(snapshot.classKey);
+        if (!src) return null;
+
+        try {
+            const dataUrl = await this.loadImageAsDataUrl(src);
+            return await this.loadImageElement(dataUrl);
+        } catch (_error) {
+            return null;
+        }
+    }
+
+    loadImageAsDataUrl(src) {
+        return fetch(src)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error(`Image request failed with status ${response.status}`);
+                }
+
+                return response.blob();
+            })
+            .then((blob) => this.blobToDataUrl(blob));
+    }
+
+    blobToDataUrl(blob) {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(String(reader.result || ""));
+            reader.onerror = () => reject(new Error("Image could not be read"));
+            reader.readAsDataURL(blob);
+        });
+    }
+
+    loadImageElement(src) {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => resolve(img);
+            img.onerror = () => reject(new Error("Image could not be loaded"));
+            img.src = src;
+        });
+    }
+
+    canvasToBlob(canvas) {
+        return new Promise((resolve, reject) => {
+            canvas.toBlob((blob) => {
+                if (blob) {
+                    resolve(blob);
+                    return;
+                }
+
+                reject(new Error("Snapshot image could not be created"));
+            }, "image/png");
+        });
+    }
+
+    drawRoundedRect(ctx, x, y, width, height, radius, fillStyle, strokeStyle = "", lineWidth = 1) {
+        const safeRadius = Math.min(radius, width / 2, height / 2);
+
+        ctx.beginPath();
+        ctx.moveTo(x + safeRadius, y);
+        ctx.lineTo(x + width - safeRadius, y);
+        ctx.quadraticCurveTo(x + width, y, x + width, y + safeRadius);
+        ctx.lineTo(x + width, y + height - safeRadius);
+        ctx.quadraticCurveTo(x + width, y + height, x + width - safeRadius, y + height);
+        ctx.lineTo(x + safeRadius, y + height);
+        ctx.quadraticCurveTo(x, y + height, x, y + height - safeRadius);
+        ctx.lineTo(x, y + safeRadius);
+        ctx.quadraticCurveTo(x, y, x + safeRadius, y);
+        ctx.closePath();
+
+        if (fillStyle) {
+            ctx.fillStyle = fillStyle;
+            ctx.fill();
+        }
+
+        if (strokeStyle) {
+            ctx.strokeStyle = strokeStyle;
+            ctx.lineWidth = lineWidth;
+            ctx.stroke();
+        }
+    }
+
+    drawFittedText(ctx, text, x, y, maxWidth, maxFontSize, minFontSize, weight, fillStyle, fontFamily) {
+        const safeText = String(text ?? "");
+        let fontSize = maxFontSize;
+
+        while (fontSize > minFontSize) {
+            ctx.font = `${weight} ${fontSize}px ${fontFamily}`;
+            if (ctx.measureText(safeText).width <= maxWidth) break;
+            fontSize -= 1;
+        }
+
+        ctx.fillStyle = fillStyle;
+        ctx.font = `${weight} ${fontSize}px ${fontFamily}`;
+        ctx.textBaseline = "alphabetic";
+        ctx.fillText(safeText, x, y);
+    }
+
+    buildSnapshotStats(snapshot) {
+        const stats = document.createElement("div");
+        stats.className = "sv-snapshot-stats";
+
+        [
+            ["Level", this.core.formatNumber(snapshot.level)],
+            ["Total Stat Points", this.core.formatNumber(snapshot.totalStatPoints)],
+            ["Stat Points / Level", snapshot.statPointsPerLevel],
+        ].forEach(([label, value]) => {
+            stats.appendChild(this.createSnapshotStat(label, value));
+        });
+
+        return stats;
+    }
+
+    createSnapshotStat(label, value) {
+        const stat = document.createElement("div");
+        stat.className = "sv-snapshot-stat";
+
+        const labelEl = document.createElement("div");
+        labelEl.className = "sv-snapshot-stat-label";
+        labelEl.textContent = label;
+
+        const valueEl = document.createElement("div");
+        valueEl.className = "sv-snapshot-stat-value";
+        valueEl.textContent = value;
+
+        stat.appendChild(labelEl);
+        stat.appendChild(valueEl);
+        return stat;
+    }
+
+    formatSnapshotDate(date) {
+        if (!this.core.isValidDateKey(date)) {
+            return date || "Unknown";
+        }
+
+        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        const [year, month, day] = date.split("-");
+        const monthLabel = months[Number(month) - 1] || month;
+        return `${monthLabel} ${Number(day)}, ${year}`;
     }
 
     renderLeaderboardsView(content) {
