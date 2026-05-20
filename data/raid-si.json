@@ -934,7 +934,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Tunnaru",
+        "name": "Tunnanu",
         "difficulty": "easy",
         "damageType": "Physical",
         "weaknesses": "Holy, Nature",
@@ -1099,7 +1099,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Tunnaru",
+        "name": "Tunnanu",
         "difficulty": "hard",
         "damageType": "Physical",
         "weaknesses": "Holy, Nature",
@@ -1264,7 +1264,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Tunnaru",
+        "name": "Tunnanu",
         "difficulty": "legendary",
         "damageType": "Physical",
         "weaknesses": "Holy, Nature",
