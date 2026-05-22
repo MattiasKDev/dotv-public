@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         DOTV Combat Log Plus
+// @name         Combat Log Plus
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Adds passive damage-taken breakdowns to raid battle logs.
