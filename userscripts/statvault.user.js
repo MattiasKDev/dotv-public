@@ -2,17 +2,17 @@
 // @name         stat vault
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
-// @description  Track player statistics including levels, XP, damage, and raid counts
+// @description  Tracks player statistics including levels, XP, damage, and raid counts.
 // @version      2026.05.14
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
-// @grant unsafeWindow
-// @grant GM_getValue
-// @grant GM_setValue
-// @grant GM_info
-// @supportURL https://github.com/MattiasKDev/dotv-public#support
-// @updateURL https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/statvault.user.js
-// @downloadURL https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/statvault.user.js
+// @grant        unsafeWindow
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_info
+// @supportURL   https://github.com/MattiasKDev/dotv-public#support
+// @updateURL    https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/statvault.user.js
+// @downloadURL  https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/statvault.user.js
 // ==/UserScript==
 
 console.log("[statvault] stat vault loaded");

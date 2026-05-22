@@ -2,11 +2,14 @@
 // @name         Magic Percent
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
-// @description  Add magic proc percentages to raid battle logs
+// @description  Adds magic proc percentages to raid battle logs.
 // @version      2026.05.11
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
+// @supportURL   https://github.com/MattiasKDev/dotv-public#support
+// @updateURL    https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/magicpercent.user.js
+// @downloadURL  https://raw.githubusercontent.com/MattiasKDev/dotv-public/main/userscripts/magicpercent.user.js
 // ==/UserScript==
 
 (function () {
