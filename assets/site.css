@@ -198,6 +198,10 @@ body.site-body {
   gap: 1rem;
 }
 
+.script-listing {
+  width: min(1360px, 100%);
+}
+
 .script-card,
 .leaderboard-panel {
   margin: 0;
