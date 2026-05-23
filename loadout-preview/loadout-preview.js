@@ -69,7 +69,6 @@
     { key: "Evasion", label: "Evade" },
     { key: TOTAL_RESOURCE_TARGET, label: "Total Bonus Resources" },
     ...RESISTANCE_STATS.map((key) => ({ key, label: key })),
-    { key: "Raid Cap", label: "Raid Cap" },
     { key: "Heal", label: "Average Healing" },
     { key: DAMAGE_REDUCTION_STAT, label: "Damage Reduction" },
   ];
