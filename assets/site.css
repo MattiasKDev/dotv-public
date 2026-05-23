@@ -13,7 +13,7 @@
   --pico-card-sectioning-background-color: #21262d;
   --pico-border-radius: 0.375rem;
   --pico-spacing: 1rem;
-  --site-max-width: 1120px;
+  --site-max-width: 1280px;
 }
 
 body.site-body {
@@ -75,6 +75,7 @@ body.site-body {
 
 .site-brand-title {
   line-height: 1;
+  white-space: nowrap;
 }
 
 .site-brand-subtitle {
@@ -499,7 +500,7 @@ body.site-body {
   text-align: right;
 }
 
-@media (min-width: 861px) and (max-width: 1040px) {
+@media (min-width: 861px) and (max-width: 1280px) {
   .site-header-inner {
     gap: 0.75rem;
   }

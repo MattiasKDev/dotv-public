@@ -10263,7 +10263,7 @@
         "unitComposition": "Commanders: 3-Str, 3-Con, 3-Agi, 2-Int, 2-Per, Lea, 2-Any, Dwa+Tan, *Sp\nTroops: 3-Mel, 4-Tan, 3-Ran, 3-Cas, 3-Hea, 3-Sup, 4-Lea, 2-Any",
         "bonus": 185,
         "effectName": "Baron of Gold",
-        "effects": "Baron of Gold: 8% chance to proc 12,000 Magic damage",
+        "effects": "Baron of Gold: 12% chance to proc 10,000 Magic damage; +5,000 damage per Baron Aureus' Footman or Baron Aureus' Medic in the Formation",
         "imagePath": "/images/army/formations/limited_time_offer.png",
         "description": "\"If ye've got any brains in there, ye'd listen closely to what Honourable Stone has to say. She may be young, but her pedigree's undeniable. Well, let's be about't then.\"\n-Ramor Metalborn",
         "bonusSpecial": {

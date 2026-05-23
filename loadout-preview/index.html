@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loadout Preview | DOTV Tools</title>
+  <meta name="description" content="Preview and optimize Dragons of the Void equipment loadouts.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="loadout-preview.css">
+</head>
+<body class="site-body">
+  <header data-site-header></header>
+
+  <main class="site-main loadout-page">
+    <section class="loadout-shell">
+      <section class="loadout-toolbar" aria-label="Loadout optimizer controls">
+        <label class="loadout-field">
+          <span>Optimize</span>
+          <select id="optimizerTarget"></select>
+        </label>
+
+        <label class="loadout-field">
+          <span>Source</span>
+          <select id="optimizerScope">
+            <option value="all">All Items</option>
+            <option value="owned">Owned Items</option>
+          </select>
+        </label>
+
+        <label class="loadout-field">
+          <span>Weapon</span>
+          <select id="weaponFocus">
+            <option value="any">Any Weapon</option>
+            <option value="strength">Strength</option>
+            <option value="agility">Agility</option>
+            <option value="intellect">Intellect</option>
+          </select>
+        </label>
+
+        <fieldset class="loadout-field tag-filter-field">
+          <legend>Include</legend>
+          <label class="tag-toggle">
+            <input id="includeLimitedTime" type="checkbox" checked>
+            <span>Limited Time</span>
+          </label>
+          <label class="tag-toggle">
+            <input id="includeLimitedRaids" type="checkbox" checked>
+            <span>Limited Raids</span>
+          </label>
+        </fieldset>
+
+        <div class="loadout-actions">
+          <button id="clearLoadout" class="secondary-action" type="button">Clear</button>
+        </div>
+
+        <div id="optimizerStatus" class="toolbar-status">Loading item data...</div>
+      </section>
+
+      <section class="loadout-layout">
+        <section class="loadout-panel summary-panel" aria-labelledby="summaryHeading">
+          <div class="panel-heading">
+            <h1 id="summaryHeading">Summary</h1>
+            <span id="summaryMeta" class="panel-meta">No items equipped</span>
+          </div>
+          <div class="summary-body">
+            <section class="summary-section">
+              <h2>Sum Of Passives</h2>
+              <div id="passiveSummary" class="stat-list"></div>
+            </section>
+            <section class="summary-section">
+              <h2>Individual Procs</h2>
+              <div id="procSummary" class="proc-list"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="loadout-panel slot-panel" aria-labelledby="slotPanelHeading">
+          <div class="panel-heading">
+            <div class="slot-heading-main">
+              <h1 id="slotPanelHeading">Loadout</h1>
+              <select id="setPicker" class="set-picker" aria-label="Item set"></select>
+            </div>
+            <span id="loadoutMeta" class="panel-meta">0 equipped</span>
+          </div>
+          <div id="slotGrid" class="slot-grid"></div>
+        </section>
+
+        <section class="loadout-panel picker-panel" aria-labelledby="pickerHeading">
+          <div class="panel-heading">
+            <h1 id="pickerHeading">Items</h1>
+            <span id="pickerMeta" class="panel-meta">Select a slot</span>
+          </div>
+          <div class="picker-controls">
+            <label class="loadout-field picker-search">
+              <span>Search</span>
+              <input id="itemSearch" type="search" autocomplete="off" placeholder="Name, effect, type, set...">
+            </label>
+            <label class="loadout-field">
+              <span>Show</span>
+              <select id="pickerScope">
+                <option value="all">All Items</option>
+                <option value="owned">Owned Items</option>
+              </select>
+            </label>
+          </div>
+          <div id="candidateList" class="candidate-list" aria-live="polite"></div>
+        </section>
+
+        <section id="detailPanel" class="loadout-panel detail-panel" aria-live="polite">
+          <div class="empty-detail">Loading item data...</div>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <script src="../assets/site.js"></script>
+  <script src="loadout-preview.js"></script>
+</body>
+</html>

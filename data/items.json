@@ -188,8 +188,8 @@
         "effects": "You make a stealthy, solo 20x strike against the Raid, secretly swiping x Crowns from it as you do so.",
         "effectName": "Pickpocket",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.violet-fury-tonic": {
         "id": "u.violet-fury-tonic",
@@ -1081,8 +1081,8 @@
             "{\"name\":\"offence\",\"amount\":3,\"rate\":1,\"chance\":1000}",
             "{\"name\":\"offence\",\"amount\":4,\"rate\":1,\"chance\":1000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.hearthkeepers-boots": {
         "id": "e.hearthkeepers-boots",
@@ -2962,8 +2962,8 @@
         "effects": "While riding an Inorganic Mount, you expertly take the reins and skillfully maneuver it, improving your combat abilities. For the next 3 attacks your Crit Rate increases by +x%, and your Formation Power increases by +y%.",
         "effectName": "Mount's Potential: Expert Handling",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.bevis-vambraces": {
         "id": "e.bevis-vambraces",
@@ -4627,7 +4627,7 @@
         "reqper": 1600,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Pants)",
-        "effects": "Wandering in a Winter Wasteland (Pants): 10% chance to proc 600 Physical damage; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance; +100 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Pants): 10% chance to proc 600 Physical damage; +100 damage per Snowdrake Slaughterer set item worn; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "pants",
@@ -5427,7 +5427,7 @@
         "reqper": 0,
         "reqlea": 5200,
         "effectName": "Golden Noble (Fowl)",
-        "effects": "Golden Noble (Fowl): 45% chance to proc 200 Holy damage and adding +15% Acid Resistance and +5% Holy Resistance and -10% Fire Resistance and -10% Dark Resistance on this proc; +175 damage per Baron Aureus' set item worn\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: +25% Acid Resistance, +10% Holy Resistance, -10% Fire Resistance and -35% Dark Resistance",
+        "effects": "Golden Noble (Fowl): 45% chance to proc 200 Holy damage and adding +15% Acid Resistance and +5% Holy Resistance and -10% Fire Resistance and -10% Dark Resistance on this proc; +175 damage per Baron Aureus' set item worn\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: +25% Acid Resistance, +10% Holy Resistance, -10% Fire Resistance and -35% Dark Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "mount",
@@ -7188,8 +7188,8 @@
         "green": 215,
         "blue": 0,
         "description": "A vial of colourful dye that can magically improve the appeal of your equipment!",
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.laurentian-mask": {
         "id": "e.laurentian-mask",
@@ -8998,8 +8998,8 @@
         "effects": "An attack designed to target many-limbed creatures. Deals a 20x Nature-type attack to the Raid, but deals 4x the damage, and a bonus (10x Strength) damage if the Raid has the Multistrike Raid Ability.",
         "effectName": "Polycapitation",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.derangement-darts": {
         "id": "e.derangement-darts",
@@ -10133,8 +10133,8 @@
             "{\"name\":\"critDamage\",\"amount\":0.08,\"rate\":1,\"chance\":300}",
             "{\"name\":\"critRate\",\"amount\":0.01,\"rate\":1,\"chance\":500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.swamp-nomad-shirt": {
         "id": "e.swamp-nomad-shirt",
@@ -11745,8 +11745,8 @@
         "effects": "An attack designed to target bloodsucking creatures. Deals a 20x Magic-type attack to the Raid, but deals 4x the damage, and a bonus (12x Intellect) damage if the Raid has the Thirst Quench Raid Ability.",
         "effectName": "Bloodcurdle",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "s.scroll-rotting-fen-lure": {
         "id": "s.scroll-rotting-fen-lure",
@@ -11787,8 +11787,8 @@
         "green": 112,
         "blue": 214,
         "description": "A tub of colourful dye that can magically improve the appeal of your equipment!",
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.diamond-cuisses": {
         "id": "e.diamond-cuisses",
@@ -14882,8 +14882,8 @@
         "effects": "You gain an extra 4 XP on every Quest click for the next xx Quest clicks.",
         "effectName": "Magus Cultivation",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.skliros-devilled-inflicter": {
         "id": "e.skliros-devilled-inflicter",
@@ -15169,8 +15169,8 @@
             "{\"name\":\"resistance\",\"resistance\":\"ice\",\"amount\":0.01,\"rate\":1,\"chance\":1050}",
             "{\"name\":\"resistance\",\"resistance\":\"ice\",\"amount\":0.02,\"rate\":1,\"chance\":450}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.gebalgiz-rune-2": {
         "id": "ru.gebalgiz-rune-2",
@@ -15191,8 +15191,8 @@
             "{\"name\":\"formationPower\",\"amount\":3,\"rate\":1,\"chance\":900}",
             "{\"name\":\"formationPower\",\"amount\":4,\"rate\":1,\"chance\":600}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "a.vittamar": {
         "id": "a.vittamar",
@@ -16090,8 +16090,8 @@
             "{\"name\":\"health\",\"amount\":9,\"rate\":1,\"chance\":1750}",
             "{\"name\":\"health\",\"amount\":10,\"rate\":1,\"chance\":750}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.fanghunters-cowl": {
         "id": "e.fanghunters-cowl",
@@ -16976,8 +16976,8 @@
         "effects": "For your next x attacks, you have a y% chance of finding z Crowns on each attack.",
         "effectName": "Coin Collector",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ba.master-musketeer-banner": {
         "id": "ba.master-musketeer-banner",
@@ -17020,8 +17020,8 @@
         "effects": "While riding a Steed, you distract the Raid with an eloquent prance, protecting your Armies from regular damage for the next 3 attacks. During that time your Formation Power increases by +x%, but you take a bonus y% damage from the Raid.",
         "effectName": "Mount's Potential: Prance",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "s.scroll-rock-grubs": {
         "id": "s.scroll-rock-grubs",
@@ -19269,7 +19269,7 @@
         "reqper": 4200,
         "reqlea": 0,
         "effectName": "Golden Noble (Pants)",
-        "effects": "Golden Noble (Pants): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Pants): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "pants",
@@ -20270,8 +20270,8 @@
         "effects": "You Taunt the Raid, reducing the chance of it targeting your Armies by x% for the next y attacks. You take a bonus 50% damage from the Raid during that time.",
         "effectName": "Taunt",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.robust-skill-elixir": {
         "id": "u.robust-skill-elixir",
@@ -21936,8 +21936,8 @@
         "effects": "You deal an idle attack every 25 seconds for 25 minutes. Each attack deals xx Magic damage.",
         "effectName": "Sustained Spell",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.red-rattler": {
         "id": "c.red-rattler",
@@ -22705,8 +22705,8 @@
             "{\"name\":\"evasion\",\"amount\":0.01,\"rate\":1,\"chance\":1500}",
             "{\"name\":\"healProcOnTwenty\",\"amount\":4,\"rate\":0.25,\"chance\":500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.snowdrake-slaughterer-knife": {
         "id": "e.snowdrake-slaughterer-knife",
@@ -22731,7 +22731,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Knife)",
-        "effects": "Wandering in a Winter Wasteland (Knife): 8% chance to proc 1,000 Physical damage; +2,500 damage vs Winter raids; +2,000 damage vs Dragon raids; +1% Crit Rate; +200 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Knife): 8% chance to proc 1,000 Physical damage; +200 damage per Snowdrake Slaughterer set item worn; +2,500 damage vs Winter raids; +2,000 damage vs Dragon raids; +1% Crit Rate\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -23406,7 +23406,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Glorious Flaming Blades (Blade)",
-        "effects": "Glorious Flaming Blades (Blade): 16% chance to proc 800 Fire damage vs Winter raids; +15% Crit Damage; +0.75% Evasion; +400 damage per Blazen Swiftslicer set item worn\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
+        "effects": "Glorious Flaming Blades (Blade): 16% chance to proc 800 Fire damage vs Winter raids; +400 damage per Blazen Swiftslicer set item worn; +15% Crit Damage; +0.75% Evasion\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "off-hand",
@@ -23672,8 +23672,8 @@
         "effects": "You deal an idle attack every 30 seconds for 30 minutes. Each attack deals xx Physical damage.",
         "effectName": "Open Wounds",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ba.commandant-banner": {
         "id": "ba.commandant-banner",
@@ -27539,8 +27539,8 @@
             "{\"name\":\"resistance\",\"resistance\":\"all\",\"amount\":0.02,\"rate\":1,\"chance\":2000}",
             "{\"name\":\"attentivePerceptionAndEyeForBeautyBoost\",\"amount\":1,\"rate\":1,\"chance\":1000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.morassma-dagger": {
         "id": "e.morassma-dagger",
@@ -28592,8 +28592,8 @@
         "effects": "You automatically evade the next xx attacks from this Raid.",
         "effectName": "Coax Attack",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.thiadoran-vitality-vintage": {
         "id": "u.thiadoran-vitality-vintage",
@@ -28719,8 +28719,8 @@
         "effects": "Heals all of your injured Commanders for x Health, but not exceeding their Max Health.",
         "effectName": "Medical Guidance",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.script-of-mindstorm": {
         "id": "u.script-of-mindstorm",
@@ -31723,8 +31723,8 @@
         "effects": "You deal an idle attack every 15 seconds for 15 minutes. Each attack deals xx Physical damage.",
         "effectName": "Ringing Blow",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.vozotlnaos-blessing-pegasus": {
         "id": "e.vozotlnaos-blessing-pegasus",
@@ -32212,7 +32212,7 @@
         "reqper": 1600,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Boots)",
-        "effects": "Wandering in a Winter Wasteland (Boots): 10% chance to proc 600 Physical damage; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance; +100 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Boots): 10% chance to proc 600 Physical damage; +100 damage per Snowdrake Slaughterer set item worn; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "boots",
@@ -33636,7 +33636,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Glorious Flaming Blades (Staff)",
-        "effects": "Glorious Flaming Blades (Staff): 16% chance to proc 800 Fire damage vs Winter raids; +15% Crit Damage; +0.75% Evasion; +400 damage per Blazen Swiftslicer set item worn\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
+        "effects": "Glorious Flaming Blades (Staff): 16% chance to proc 800 Fire damage vs Winter raids; +400 damage per Blazen Swiftslicer set item worn; +15% Crit Damage; +0.75% Evasion\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "off-hand",
@@ -36682,7 +36682,7 @@
         "reqper": 4200,
         "reqlea": 0,
         "effectName": "Golden Noble (Signet)",
-        "effects": "Golden Noble (Signet): 5% chance to proc 2,000 Physical damage; +1,125 damage per Baron Aureus' set item worn; +2% All Resistance; +250 Magic\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Signet): 5% chance to proc 2,000 Physical damage; +1,125 damage per Baron Aureus' set item worn; +2% All Resistances; +250 Magic\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "ring",
@@ -37956,7 +37956,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Magic Shield (Rod)",
-        "effects": "Magic Shield (Rod): 14% chance to proc 200 Magic damage and add +300 Defence; +350 damage per Warmage Guardian's set item worn; +1% Crit Rate; +5% All Resistance\nSet Bonus (Warmage Guardian's Set) for wearing the stated number of equipment pieces from this set:\n 6+: +1% Crit Rate\n 7+: +500 Defence and +15% Crit Damage\n 9+: +20% chance to proc 200 Magic damage with +6% damage from any Magic damage on that proc",
+        "effects": "Magic Shield (Rod): 14% chance to proc 200 Magic damage and add +300 Defence; +350 damage per Warmage Guardian's set item worn; +1% Crit Rate; +5% All Resistances\nSet Bonus (Warmage Guardian's Set) for wearing the stated number of equipment pieces from this set:\n 6+: +1% Crit Rate\n 7+: +500 Defence and +15% Crit Damage\n 9+: +20% chance to proc 200 Magic damage with +6% damage from any Magic damage on that proc",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -38070,12 +38070,12 @@
         "reqper": 0,
         "reqlea": 5200,
         "effectName": "Golden Noble (Frostchariot)",
-        "effects": "Golden Noble (Frostchariot): 45% chance to proc 200 Ice damage and adding +15% Nature Resistance and +5% Ice Resistance and -10% Dark Resistance and -10% Fire Resistance on this proc; +175 damage per Baron Aureus' set item worn\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: +25% Nature Resistance, +10% Ice Resistance, -10% Dark Resistance and -35% Fire Resistance",
+        "effects": "Golden Noble (Frostchariot): 45% chance to proc 200 Ice damage and adding +15% Nature Resistance and +5% Ice Resistance and -10% Dark Resistance and -10% Fire Resistance on this proc; +175 damage per Baron Aureus' set item worn\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: +25% Nature Resistance, +10% Ice Resistance, -10% Dark Resistance and -35% Fire Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "mount",
         "imagePath": "/images/item/mounts/baron_aureus_frostchariot.png",
-        "description": "After a few moments of resting your hands along th rail, you feel your skin start to stick to it. You'll have to take extra caution not to let anything wet near this chariot while you're riding it.",
+        "description": "After a few moments of resting your hands along the rail, you feel your skin start to stick to it. You'll have to take extra caution not to let anything wet near this chariot while you're riding it.",
         "mesh": null,
         "assetPath": null,
         "gltfPath": "",
@@ -38410,8 +38410,8 @@
             "{\"name\":\"damageProc\",\"type\":\"psychic\",\"amount\":18,\"rate\":0.5,\"chance\":300}",
             "{\"name\":\"damageProc\",\"type\":\"psychic\",\"amount\":20,\"rate\":0.5,\"chance\":200}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.red-thick-fur": {
         "id": "c.red-thick-fur",
@@ -38507,8 +38507,8 @@
             "{\"name\":\"resistance\",\"resistance\":\"holy\",\"amount\":0.01,\"rate\":1,\"chance\":2000}",
             "{\"name\":\"resistance\",\"resistance\":\"dark\",\"amount\":0.01,\"rate\":1,\"chance\":2000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.plain-leather-pants": {
         "id": "e.plain-leather-pants",
@@ -40307,7 +40307,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Behemoth Clasp and Crush",
-        "effects": "Behemoth Clasp and Crush: 24% chance to proc 6200 Physical damage; +900 damage per Colossal Crusherclaw or Bolting Fiddler set item worn; 5% chance to reduce incoming damage to the Player by 50%; +100% Crit Damage; +5% All Resistance\nSet Bonus (Colossal Crusherclaw Set) for wearing the stated number of equipment pieces from this set:\n 9+: +1 Formation Protection Value",
+        "effects": "Behemoth Clasp and Crush: 24% chance to proc 6200 Physical damage; +900 damage per Colossal Crusherclaw or Bolting Fiddler set item worn; 5% chance to reduce incoming damage to the Player by 50%; +100% Crit Damage; +5% All Resistances\nSet Bonus (Colossal Crusherclaw Set) for wearing the stated number of equipment pieces from this set:\n 9+: +1 Formation Protection Value",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "mount",
@@ -41423,7 +41423,7 @@
         "reqper": 1600,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Chest)",
-        "effects": "Wandering in a Winter Wasteland (Chest): 10% chance to proc 600 Physical damage; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance; +100 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Chest): 10% chance to proc 600 Physical damage; +100 damage per Snowdrake Slaughterer set item worn; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "chest",
@@ -41847,8 +41847,8 @@
             "{\"name\":\"magic\",\"amount\":4,\"rate\":1,\"chance\":1500}",
             "{\"name\":\"health\",\"amount\":5,\"rate\":1,\"chance\":3000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.hakano-rune-2": {
         "id": "ru.hakano-rune-2",
@@ -41869,8 +41869,8 @@
             "{\"name\":\"resistance\",\"resistance\":\"fire\",\"amount\":0.01,\"rate\":1,\"chance\":2000}",
             "{\"name\":\"resistance\",\"resistance\":\"ice\",\"amount\":0.01,\"rate\":1,\"chance\":2000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.snowdrake-slayer-ring": {
         "id": "e.snowdrake-slayer-ring",
@@ -42330,8 +42330,8 @@
         "effects": "You deal an idle attack every 10 seconds for 10 minutes. Each attack deals xx Dark damage.",
         "effectName": "Mobilize Riot",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.script-of-mass-renewal": {
         "id": "u.script-of-mass-renewal",
@@ -44067,8 +44067,8 @@
         "effects": "While riding a Terrestrial Mount, you tackle the foe, dealing damage akin to a 35x hit, plus a bonus xx% Offence. For your next 3 attacks, your Defence is increased by +xx%.",
         "effectName": "Mount's Potential: Tackle",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.hooded-veil-gloves": {
         "id": "e.hooded-veil-gloves",
@@ -45183,7 +45183,7 @@
         "reqper": 0,
         "reqlea": 5200,
         "effectName": "Golden Noble (Tenvilu)",
-        "effects": "Golden Noble (Tenvilu): 45% chance to proc 200 Nature damage and adding +15% Ice Resistance and +5% Nature Resistance and +5% Poison Resistance and -10% Dark Resistance and -10% Fire Resistance and -10% Lightning Resistance on this proc; +175 damage per Baron Aureus' set item worn\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: +20% Ice Resistance, +5% Poison Resistance, +5% Nature Resistance, -10% Dark Resistance, -35% Fire Resistance and -35% Lightning Resistance",
+        "effects": "Golden Noble (Tenvilu): 45% chance to proc 200 Nature damage and adding +15% Ice Resistance and +5% Nature Resistance and +5% Poison Resistance and -10% Dark Resistance and -10% Fire Resistance and -10% Lightning Resistance on this proc; +175 damage per Baron Aureus' set item worn\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: +20% Ice Resistance, +5% Poison Resistance, +5% Nature Resistance, -10% Dark Resistance, -35% Fire Resistance and -35% Lightning Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "mount",
@@ -45373,8 +45373,8 @@
         "effects": "Restores your current Vitality, up to your Vitality Cap. Recover xx Vitality.",
         "effectName": "Youth's Vitality",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.blessed-gastonia-spikes": {
         "id": "e.blessed-gastonia-spikes",
@@ -46206,8 +46206,8 @@
         "green": 165,
         "blue": 0,
         "description": "A vial of colourful dye that can magically improve the appeal of your equipment!",
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "k.energy-transfer": {
         "id": "k.energy-transfer",
@@ -46234,8 +46234,8 @@
         "effects": "Restores your current Energy, up to your Energy Cap. Recover xx Energy.",
         "effectName": "Energy Transfer",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.stormshapers-boots": {
         "id": "e.stormshapers-boots",
@@ -46825,8 +46825,8 @@
         "effects": "While equipping a Shield, you slam it into the foe, preventing them from retaliating against you and your armies on this attack, and your next. Deals xx% of your Offence as bonus damage.",
         "effectName": "Shield Bash",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "a.thundrak": {
         "id": "a.thundrak",
@@ -47664,8 +47664,8 @@
         "effects": "Increases your Defence stat. Increases Defence by xx%.",
         "effectName": "Brawny Attitude",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.red-elven-cap": {
         "id": "c.red-elven-cap",
@@ -48046,8 +48046,8 @@
         "effects": "While equipping a Tower Shield, reduces incoming damage to you by 20%, and prevents Raid attack damage to your armies. Lasts for x Raid attacks.",
         "effectName": "Greatshielder's Barricade",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "cp.void-crystals-fifty": {
         "id": "cp.void-crystals-fifty",
@@ -48462,8 +48462,8 @@
         "effects": "You deal an idle attack every 20 seconds for 20 minutes. Each attack deals xx Physical damage.",
         "effectName": "Tendon Strike",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.gipantan-recruit-pants": {
         "id": "e.gipantan-recruit-pants",
@@ -49539,8 +49539,8 @@
         "effects": "Deals a 20x Holy-type attack to the Raid. If the Raid is Undead, this deals a bonus 50% damage, plus (5x Strength) plus (100x Overwhelming Offence Tech Skill Level) damage.",
         "effectName": "Holy Hacking",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "a.bai-juanmahee": {
         "id": "a.bai-juanmahee",
@@ -51961,7 +51961,7 @@
         "reqper": 4200,
         "reqlea": 0,
         "effectName": "Golden Noble (Armor)",
-        "effects": "Golden Noble (Armor): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Armor): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "chest",
@@ -52634,8 +52634,8 @@
             "{\"name\":\"resistance\",\"vsType\":\"all\",\"amount\":0.04,\"rate\":1,\"chance\":150}",
             "{\"name\":\"resistance\",\"vsType\":\"all\",\"amount\":0.05,\"rate\":1,\"chance\":50}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.green-wooden-shackles": {
         "id": "c.green-wooden-shackles",
@@ -53489,7 +53489,7 @@
         "reqper": 4200,
         "reqlea": 0,
         "effectName": "Golden Noble (Boots)",
-        "effects": "Golden Noble (Boots): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Boots): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "boots",
@@ -54123,7 +54123,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Magic Shield (Mace)",
-        "effects": "Magic Shield (Mace): 14% chance to proc 200 Magic damage and add +300 Defence; +350 damage per Warmage Guardian's set item worn; +1% Crit Rate; +5% All Resistance\nSet Bonus (Warmage Guardian's Set) for wearing the stated number of equipment pieces from this set:\n 6+: +1% Crit Rate\n 7+: +500 Defence and +15% Crit Damage\n 9+: +20% chance to proc 200 Magic damage with +6% damage from any Magic damage on that proc",
+        "effects": "Magic Shield (Mace): 14% chance to proc 200 Magic damage and add +300 Defence; +350 damage per Warmage Guardian's set item worn; +1% Crit Rate; +5% All Resistances\nSet Bonus (Warmage Guardian's Set) for wearing the stated number of equipment pieces from this set:\n 6+: +1% Crit Rate\n 7+: +500 Defence and +15% Crit Damage\n 9+: +20% chance to proc 200 Magic damage with +6% damage from any Magic damage on that proc",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -55261,8 +55261,8 @@
         "effects": "Double's your benefits from the Endurance Tech Tree Resistance Tech Skills. Lasts xx minutes.",
         "effectName": "Greater Resistance",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.lesser-nature-resilience-potion": {
         "id": "u.lesser-nature-resilience-potion",
@@ -55848,7 +55848,7 @@
         "id": "c.kyllis-retired-shield",
         "name": "Kylli's Retired Shield",
         "description": "A simple and dated shield, you imagine it has seen more adventuring that you could ever expect to.",
-        "imagePath": "/images/item/craftables/kyllis_best_vintage.png",
+        "imagePath": "/images/item/craftables/kyllis_retired_shield.png",
         "acquireOnce": false,
         "unique": false
     },
@@ -56182,8 +56182,8 @@
         "effects": "Increases your Magic stat by +x% for y minutes.",
         "effectName": "Arcane Concentration",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.restoration-potion": {
         "id": "u.restoration-potion",
@@ -56634,8 +56634,8 @@
             "{\"name\":\"health\",\"amount\":3,\"rate\":1,\"chance\":3000}",
             "{\"name\":\"health\",\"amount\":4,\"rate\":1,\"chance\":2000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.earthshaker-reflex-gloves": {
         "id": "e.earthshaker-reflex-gloves",
@@ -58351,7 +58351,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Mace)",
-        "effects": "Wandering in a Winter Wasteland (Mace): 8% chance to proc 1,000 Physical damage; +2,500 damage vs Winter raids; +2,000 damage vs Dragon raids; +1% Crit Rate; +200 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Mace): 8% chance to proc 1,000 Physical damage; +200 damage per Snowdrake Slaughterer set item worn; +2,500 damage vs Winter raids; +2,000 damage vs Dragon raids; +1% Crit Rate\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -65941,7 +65941,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Glorious Flaming Blades (Rod)",
-        "effects": "Glorious Flaming Blades (Rod): 30% chance to proc 800 Fire damage vs Winter raids; +10% Crit Damage; +1% Evasion; +200 damage per Blazen Swiftslicer set item worn\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
+        "effects": "Glorious Flaming Blades (Rod): 30% chance to proc 800 Fire damage vs Winter raids; +200 damage per Blazen Swiftslicer set item worn; +10% Crit Damage; +1% Evasion\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -66975,8 +66975,8 @@
         "effects": "For the next 20 Quest clicks, you have a x% chance to restore 2-6 Energy on each.",
         "effectName": "Spirit Radar",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.pentwater-helm": {
         "id": "e.pentwater-helm",
@@ -67716,8 +67716,8 @@
             "{\"name\":\"evasion\",\"amount\":0.02,\"rate\":1,\"chance\":200}",
             "{\"name\":\"evasion\",\"amount\":0.03,\"rate\":1,\"chance\":50}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.green-guard-tonic": {
         "id": "u.green-guard-tonic",
@@ -67781,8 +67781,8 @@
             "{\"name\":\"critRate\",\"amount\":0.03,\"rate\":1,\"chance\":200}",
             "{\"name\":\"critRate\",\"amount\":0.04,\"rate\":1,\"chance\":50}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.algimannaz-rune-3": {
         "id": "ru.algimannaz-rune-3",
@@ -67802,8 +67802,8 @@
             "{\"name\":\"damageProcVsRace\",\"vsRace\":\"guild\",\"type\":\"fire\",\"amount\":15,\"rate\":1,\"chance\":700}",
             "{\"name\":\"critDamageVsRace\",\"vsRace\":\"guild\",\"amount\":0.05,\"rate\":1,\"chance\":1500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.algimannaz-rune-4": {
         "id": "ru.algimannaz-rune-4",
@@ -67823,8 +67823,8 @@
             "{\"name\":\"damageProcVsRace\",\"vsRace\":\"guild\",\"type\":\"ice\",\"amount\":22,\"rate\":1,\"chance\":800}",
             "{\"name\":\"honor\",\"amount\":5,\"rate\":1,\"chance\":1000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.algimannaz-rune-5": {
         "id": "ru.algimannaz-rune-5",
@@ -67844,8 +67844,8 @@
             "{\"name\":\"critDamageVsRace\",\"vsRace\":\"guild\",\"amount\":0.1,\"rate\":1,\"chance\":900}",
             "{\"name\":\"dailyRaidCap\",\"amount\":1,\"rate\":1,\"chance\":500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.white-devils-artifact": {
         "id": "c.white-devils-artifact",
@@ -68577,8 +68577,8 @@
             "{\"name\":\"damageProcVsRace\",\"vsRace\":\"flora\",\"type\":\"fire\",\"amount\":20,\"rate\":1,\"chance\":900}",
             "{\"name\":\"resistance\",\"resistance\":\"poison\",\"amount\":0.02,\"rate\":1,\"chance\":1000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.serpentine-stars": {
         "id": "e.serpentine-stars",
@@ -69251,8 +69251,8 @@
             "{\"name\":\"offence\",\"amount\":9,\"rate\":1,\"chance\":500}",
             "{\"name\":\"offence\",\"amount\":10,\"rate\":1,\"chance\":500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.gold-guard-tonic": {
         "id": "u.gold-guard-tonic",
@@ -71294,8 +71294,8 @@
         "effects": "An attack designed to target terrifying creatures. Deals a 20x Holy-type attack to the Raid, but deals 4x the damage, and a bonus (7x Leadership) damage if the Raid has the Horrifying Raid Ability.",
         "effectName": "Brilliant Aura",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.servid-gloves": {
         "id": "e.servid-gloves",
@@ -74563,8 +74563,8 @@
         "green": 181,
         "blue": 213,
         "description": "A tub of colourful dye that can magically improve the appeal of your equipment!",
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ba.soothsayer-banner": {
         "id": "ba.soothsayer-banner",
@@ -78134,7 +78134,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Golden Noble (Exploderer)",
-        "effects": "Golden Noble (Exploderer): 4% chance to proc 3,750 Magic damage; +1,875 damage per Baron Aureus' set item worn; +1% Crit Rate; +20% Crit Damage\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Exploderer): 4% chance to proc 3,750 Magic damage; +1,875 damage per Baron Aureus' set item worn; +1% Crit Rate; +20% Crit Damage\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -78906,8 +78906,8 @@
         "effects": "An attack designed to target pursuing creatures. Deals a 20x Poison-type attack to the Raid, but deals 4x the damage, and a bonus (6x Constitution) damage if the Raid has the Pursuer Raid Ability.",
         "effectName": "Attrition",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "a.orimnenis-disciple": {
         "id": "a.orimnenis-disciple",
@@ -79021,8 +79021,8 @@
         "effects": "While equipping a Melee weapon, you deal an incredible strike to the foe, dealing damage akin to a 50x hit, plus a bonus xx% Offence. The Raid deals an extra 50% damage to you during this attack.",
         "effectName": "Staggering Blow",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "m.branded-blaze": {
         "id": "m.branded-blaze",
@@ -79625,8 +79625,8 @@
         "effects": "Deals a 20x Dark-type attack to the Raid. If the Raid is Human, this deals a bonus 50% damage, plus (10x Leadership) plus (500x Motivating Presence Tech Skill Level) damage.",
         "effectName": "Primeval Fear",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.crestaceo-crab": {
         "id": "e.crestaceo-crab",
@@ -80483,8 +80483,8 @@
         "green": 42,
         "blue": 42,
         "description": "A vial of colourful dye that can magically improve the appeal of your equipment!",
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "a.slygses-werequill-wight": {
         "id": "a.slygses-werequill-wight",
@@ -81092,8 +81092,8 @@
         "effects": "While riding an Aerial Mount, you take to the skies, improving your combat abilities. For the next 4 attacks your Evasion increases by +x%, and your Crit Damage increases by +y%.",
         "effectName": "Mount's Potential: Flight",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.squirming-grub": {
         "id": "c.squirming-grub",
@@ -81248,8 +81248,8 @@
         "effects": "While equipping a Melee weapon, you grapple onto the foe in order to prevent it attacking your armies. For your next x attacks, your armies cannot be hit by regular Raid attacks, but you take 50% bonus damage from the Raid.",
         "effectName": "Grapple",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "cp.wizard-starter-pack-iii": {
         "id": "cp.wizard-starter-pack-iii",
@@ -83419,8 +83419,8 @@
             "{\"name\":\"attentivePerceptionBoost\",\"amount\":1,\"rate\":1,\"chance\":1700}",
             "{\"name\":\"activeSkill\",\"skill\":\"psychic-infusion\",\"rate\":1,\"chance\":500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.violet-elven-cap": {
         "id": "c.violet-elven-cap",
@@ -83628,8 +83628,8 @@
         "effects": "An attack designed to target gazing creatures. Deals a 20x Lightning-type attack to the Raid, but deals 4x the damage, and a bonus (8x Perception) damage if the Raid has the Stone Gaze Raid Ability.",
         "effectName": "Brittlesight",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ba.cavalier-banner": {
         "id": "ba.cavalier-banner",
@@ -85304,7 +85304,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Golden Noble (Lobber)",
-        "effects": "Golden Noble (Lobber): 4% chance to proc 3,750 Physical damage; +1,875 damage per Baron Aureus' set item worn; +1% Crit Rate; +20% Crit Damage\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Lobber): 4% chance to proc 3,750 Physical damage; +1,875 damage per Baron Aureus' set item worn; +1% Crit Rate; +20% Crit Damage\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -87115,7 +87115,7 @@
         "reqper": 0,
         "reqlea": 5200,
         "effectName": "Golden Noble (Floater)",
-        "effects": "Golden Noble (Floater): 45% chance to proc 200 Acid damage and adding +15% Poison Resistance and +5% Acid Resistance and -10% Lightning Resistance and -10% Dark Resistance on this proc; +175 damage per Baron Aureus' set item worn\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: +25% Poison Resistance, +10% Acid Resistance, -10% Lightning Resistance and -35% Dark Resistance",
+        "effects": "Golden Noble (Floater): 45% chance to proc 200 Acid damage and adding +15% Poison Resistance and +5% Acid Resistance and -10% Lightning Resistance and -10% Dark Resistance on this proc; +175 damage per Baron Aureus' set item worn\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: +25% Poison Resistance, +10% Acid Resistance, -10% Lightning Resistance and -35% Dark Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "mount",
@@ -87673,8 +87673,8 @@
             "{\"name\":\"evasion\",\"amount\":0.03,\"rate\":1,\"chance\":200}",
             "{\"name\":\"evasion\",\"amount\":0.04,\"rate\":1,\"chance\":50}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.regrets-sign": {
         "id": "c.regrets-sign",
@@ -89300,7 +89300,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Golden Noble (Fencer)",
-        "effects": "Golden Noble (Fencer): 4% chance to proc 3,750 Physical damage; +1,875 damage per Baron Aureus' set item worn; +1% Crit Rate; +20% Crit Damage\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Fencer): 4% chance to proc 3,750 Physical damage; +1,875 damage per Baron Aureus' set item worn; +1% Crit Rate; +20% Crit Damage\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -90301,8 +90301,8 @@
             "{\"name\":\"formationPower\",\"amount\":1,\"rate\":1,\"chance\":1250}",
             "{\"name\":\"formationPower\",\"amount\":2,\"rate\":1,\"chance\":1250}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ba.warlord-banner": {
         "id": "ba.warlord-banner",
@@ -91640,7 +91640,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Glorious Flaming Blades (Darts)",
-        "effects": "Glorious Flaming Blades (Darts): 30% chance to proc 800 Fire damage vs Winter raids; +10% Crit Damage; +1% Evasion; +200 damage per Blazen Swiftslicer set item worn\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
+        "effects": "Glorious Flaming Blades (Darts): 30% chance to proc 800 Fire damage vs Winter raids; +200 damage per Blazen Swiftslicer set item worn; +10% Crit Damage; +1% Evasion\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -91703,8 +91703,8 @@
         "effects": "Deals a 100x Psychic-type attack to the Raid, and replenishes 30 Energy, up to your Energy Cap.",
         "effectName": "Psychic Infusion",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.viscous-viscount-broilballoon": {
         "id": "e.viscous-viscount-broilballoon",
@@ -92806,7 +92806,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Yakkity Smack",
-        "effects": "Yakkity Smack: 3% chance to proc 2,000 Physical damage and reduce incoming damage to the Player by 50%; 15% chance to proc 250 Physical damage and increase Crit Dmg by 50% \nSet Bonus (Cave Cragsman Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2 Tiers of 'Defensive Rider - Terrestrial' and +2 Tiers of 'Mount Proficiency - Terrestrial'",
+        "effects": "Yakkity Smack: 3% chance to proc 2,000 Physical damage and reduce incoming damage to the Player by 50%; 15% chance to proc 250 Physical damage and increase Crit Damage by 50% \nSet Bonus (Cave Cragsman Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2 Tiers of 'Defensive Rider - Terrestrial' and +2 Tiers of 'Mount Proficiency - Terrestrial'",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "mount",
@@ -93450,8 +93450,8 @@
         "effects": "While riding an Aquatic Mount, you automatically Evade the next 2 attacks while your Armies gain +xx% Formation Power for those attacks. Your Offence is reduced by -yy% during those attacks.",
         "effectName": "Mount's Potential: Dive",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "k.greater-bash": {
         "id": "k.greater-bash",
@@ -93478,8 +93478,8 @@
         "effects": "While equipping a Medium or Tower Shield, you slam it into the foe, preventing them from retaliating against you and your armies on this attack, and your next 2 attacks. Deals xx% of your Offence as bonus damage.",
         "effectName": "Greater Bash",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.fen-pipe": {
         "id": "c.fen-pipe",
@@ -93627,7 +93627,7 @@
         "reqper": 3400,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Shield)",
-        "effects": "Wandering in a Winter Wasteland (Shield): 12% chance to proc 400 Physical damage; +1,400 damage vs Winter raids; +1,100 damage vs Dragon raids; +60 HP; +6% Ice Resistance; +150 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Shield): 12% chance to proc 400 Physical damage; +150 damage per Snowdrake Slaughterer set item worn; +1,400 damage vs Winter raids; +1,100 damage vs Dragon raids; +60 HP; +6% Ice Resistance\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "off-hand",
@@ -93808,8 +93808,8 @@
         "effects": "Your Evasion is doubled for your next xx Attacks.",
         "effectName": "Cascade",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.bolting-fiddler-claws": {
         "id": "e.bolting-fiddler-claws",
@@ -94138,8 +94138,8 @@
             "{\"name\":\"damageProc\",\"type\":\"lightning\",\"amount\":1,\"rate\":1,\"chance\":1250}",
             "{\"name\":\"damageProc\",\"type\":\"lightning\",\"amount\":2,\"rate\":1,\"chance\":1250}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.chiffon-pants": {
         "id": "e.chiffon-pants",
@@ -94512,7 +94512,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Glorious Flaming Blades (Shuriken)",
-        "effects": "Glorious Flaming Blades (Shuriken): 16% chance to proc 800 Fire damage vs Winter raids; +15% Crit Damage; +0.75% Evasion; +400 damage per Blazen Swiftslicer set item worn\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
+        "effects": "Glorious Flaming Blades (Shuriken): 16% chance to proc 800 Fire damage vs Winter raids; +400 damage per Blazen Swiftslicer set item worn; +15% Crit Damage; +0.75% Evasion\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "off-hand",
@@ -95873,8 +95873,8 @@
         "green": 128,
         "blue": 0,
         "description": "A tub of colourful dye that can magically improve the appeal of your equipment!",
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.blessed-gastonia-clubbed-whip": {
         "id": "e.blessed-gastonia-clubbed-whip",
@@ -96603,8 +96603,8 @@
         "effects": "You automatically evade the next xx attacks from this Raid, and gain +15% Evasion for the following xx attacks.",
         "effectName": "Mirror Image",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.grand-pedipalps": {
         "id": "c.grand-pedipalps",
@@ -96665,8 +96665,8 @@
         "effects": "Every Quest click you make has a x% chance to trigger an additional Quest click at no extra Resource cost. This lasts for y Quest clicks.",
         "effectName": "Mystical Bypass",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.honorbounds-pants": {
         "id": "e.honorbounds-pants",
@@ -97898,8 +97898,8 @@
             "{\"name\":\"formationPower\",\"amount\":1,\"rate\":1,\"chance\":1000}",
             "{\"name\":\"formationPower\",\"amount\":2,\"rate\":1,\"chance\":1000}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.aegyr-snowbound-frigidara-defence-boost-i": {
         "id": "c.aegyr-snowbound-frigidara-defence-boost-i",
@@ -98590,8 +98590,8 @@
         "green": 41,
         "blue": 99,
         "description": "A vial of colourful dye that can magically improve the appeal of your equipment!",
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.naven-hunters-leather": {
         "id": "e.naven-hunters-leather",
@@ -98841,7 +98841,7 @@
         "reqper": 5000,
         "reqlea": 0,
         "effectName": "Golden Noble (Shield)",
-        "effects": "Golden Noble (Shield): 8% chance to proc 2,400 Physical damage; +700 damage per Baron Aureus' set item worn; +3% All Resistances; +35 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped\nLight Armor: +0.2% Evasion",
+        "effects": "Golden Noble (Shield): 8% chance to proc 2,400 Physical damage; +700 damage per Baron Aureus' set item worn; +3% All Resistances; +35 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped\nLight Armor: +0.2% Evasion",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "off-hand",
@@ -99440,8 +99440,8 @@
         "effects": "Increases your Formation Power by x% for the next y attacks.",
         "effectName": "Inspiring Words",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.rusted-leoegan-gloves": {
         "id": "e.rusted-leoegan-gloves",
@@ -99517,7 +99517,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Glorious Flaming Blades (Dagger)",
-        "effects": "Glorious Flaming Blades (Dagger): 30% chance to proc 800 Fire damage vs Winter raids; +10% Crit Damage; +1% Evasion; +200 damage per Blazen Swiftslicer set item worn\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
+        "effects": "Glorious Flaming Blades (Dagger): 30% chance to proc 800 Fire damage vs Winter raids; +200 damage per Blazen Swiftslicer set item worn; +10% Crit Damage; +1% Evasion\nSet Bonus (Blazen Swiftslicer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +0.25% Evasion\n 9+: +1.75% Evasion",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -100920,8 +100920,8 @@
             "{\"name\":\"dailyRaidCap\",\"amount\":1,\"rate\":1,\"chance\":350}",
             "{\"name\":\"dailyRaidCap\",\"amount\":2,\"rate\":1,\"chance\":150}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.yelte-bowstring": {
         "id": "c.yelte-bowstring",
@@ -101170,7 +101170,7 @@
         "reqper": 1600,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Helm)",
-        "effects": "Wandering in a Winter Wasteland (Helm): 10% chance to proc 600 Physical damage; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance; +100 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Helm): 10% chance to proc 600 Physical damage; +100 damage per Snowdrake Slaughterer set item worn; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "helm",
@@ -101920,8 +101920,8 @@
             "{\"name\":\"defence\",\"amount\":7,\"rate\":1,\"chance\":900}",
             "{\"name\":\"defence\",\"amount\":8,\"rate\":1,\"chance\":600}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.nagalinguz-rune-2": {
         "id": "ru.nagalinguz-rune-2",
@@ -101945,8 +101945,8 @@
             "{\"name\":\"critRateVsRace\",\"vsRace\":\"aquatic\",\"amount\":0.01,\"rate\":1,\"chance\":1200}",
             "{\"name\":\"critRateVsRace\",\"vsRace\":\"aquatic\",\"amount\":0.02,\"rate\":1,\"chance\":1300}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.spiderskin-cap": {
         "id": "e.spiderskin-cap",
@@ -102486,8 +102486,8 @@
         "effects": "Restores your current Health, up to your Health Cap. Recover xx HP.",
         "effectName": "Supernatural Recovery",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.tedupevair-ring": {
         "id": "e.tedupevair-ring",
@@ -103844,8 +103844,8 @@
         "effects": "Increases your Crit Damage by +x% for the next y attacks.",
         "effectName": "Pinpoint Accuracy",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "a.irus-shroud-porter": {
         "id": "a.irus-shroud-porter",
@@ -105331,8 +105331,8 @@
         "effects": "An attack designed to target flying creatures. Deals a 100% accurate, 20x Dark-type attack to the Raid, but deals 4x the damage, and a bonus (5x Agility) damage if the Raid has the Airborne Raid Ability.",
         "effectName": "Wingshot",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.reindeer-token": {
         "id": "c.reindeer-token",
@@ -106888,8 +106888,8 @@
             "{\"name\":\"formationPower\",\"amount\":1,\"rate\":1,\"chance\":1500}",
             "{\"name\":\"formationPower\",\"amount\":2,\"rate\":1,\"chance\":1500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.creature-crusher-potion": {
         "id": "u.creature-crusher-potion",
@@ -109871,7 +109871,7 @@
         "reqper": 1600,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Gloves)",
-        "effects": "Wandering in a Winter Wasteland (Gloves): 10% chance to proc 600 Physical damage; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance; +100 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Gloves): 10% chance to proc 600 Physical damage; +100 damage per Snowdrake Slaughterer set item worn; +2,000 damage vs Winter raids; +1,000 damage vs Dragon raids; +5% Ice Resistance\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "gloves",
@@ -114901,7 +114901,7 @@
         "reqper": 0,
         "reqlea": 4400,
         "effectName": "Wandering in a Winter Wasteland (Frostwulf)",
-        "effects": "Wandering in a Winter Wasteland (Frostwulf): 16% chance to proc 500 Physical damage; +3,000 damage vs Winter raids; +2,000 damage vs Dragon raids; +5% Ice Resistance; +200 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Frostwulf): 16% chance to proc 500 Physical damage; +200 damage per Snowdrake Slaughterer set item worn; +3,000 damage vs Winter raids; +2,000 damage vs Dragon raids; +5% Ice Resistance\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "mount",
@@ -116182,8 +116182,8 @@
         "green": 94,
         "blue": 59,
         "description": "A vial of colourful dye that can magically improve the appeal of your equipment!",
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.thiadoran-energy-vintage": {
         "id": "u.thiadoran-energy-vintage",
@@ -116413,8 +116413,8 @@
             "{\"name\":\"resistance\",\"resistance\":\"fire\",\"amount\":0.01,\"rate\":1,\"chance\":2100}",
             "{\"name\":\"resistance\",\"resistance\":\"fire\",\"amount\":0.02,\"rate\":1,\"chance\":900}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.green-watchers-humor": {
         "id": "c.green-watchers-humor",
@@ -117565,8 +117565,8 @@
             "{\"name\":\"defenceVsRace\",\"vsRace\":\"guild\",\"amount\":25,\"rate\":1,\"chance\":900}",
             "{\"name\":\"defenceVsRace\",\"vsRace\":\"guild\",\"amount\":26,\"rate\":1,\"chance\":600}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.gemannaz-rune-3": {
         "id": "ru.gemannaz-rune-3",
@@ -117589,8 +117589,8 @@
             "{\"name\":\"critRateVsRace\",\"vsRace\":\"guild\",\"amount\":0.01,\"rate\":1,\"chance\":1600}",
             "{\"name\":\"critRateVsRace\",\"vsRace\":\"guild\",\"amount\":0.02,\"rate\":1,\"chance\":400}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.crestaceo-link": {
         "id": "e.crestaceo-link",
@@ -117778,8 +117778,8 @@
             "{\"name\":\"formationBonus\",\"amount\":4,\"rate\":1,\"chance\":1200}",
             "{\"name\":\"formationBonus\",\"amount\":5,\"rate\":1,\"chance\":300}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.chiefs-feathers": {
         "id": "c.chiefs-feathers",
@@ -117811,8 +117811,8 @@
             "{\"name\":\"critRate\",\"amount\":0.02,\"rate\":1,\"chance\":200}",
             "{\"name\":\"critRate\",\"amount\":0.03,\"rate\":1,\"chance\":50}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.hanauthiz-rune-1": {
         "id": "ru.hanauthiz-rune-1",
@@ -117831,8 +117831,8 @@
             "{\"name\":\"formationPower\",\"amount\":1,\"rate\":1,\"chance\":1500}",
             "{\"name\":\"formationPower\",\"amount\":2,\"rate\":1,\"chance\":1500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "ru.gemannaz-rune-4": {
         "id": "ru.gemannaz-rune-4",
@@ -117854,8 +117854,8 @@
             "{\"name\":\"magic\",\"amount\":15,\"rate\":1,\"chance\":700}",
             "{\"name\":\"evasion\",\"amount\":0.01,\"rate\":1,\"chance\":500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "e.pioneering-pixie-chest": {
         "id": "e.pioneering-pixie-chest",
@@ -117990,8 +117990,8 @@
             "{\"name\":\"health\",\"amount\":25,\"rate\":1,\"chance\":675}",
             "{\"name\":\"critRate\",\"amount\":0.01,\"rate\":1,\"chance\":500}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.violet-mihr-lantern": {
         "id": "c.violet-mihr-lantern",
@@ -118193,7 +118193,7 @@
         "reqper": 4200,
         "reqlea": 0,
         "effectName": "Golden Noble (Gloves)",
-        "effects": "Golden Noble (Gloves): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Gloves): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "gloves",
@@ -118632,8 +118632,8 @@
         "effects": "While riding a Drake Mount, you unleash its Breath Weapon upon your foe, dealing damage akin to a 40x hit, plus a bonus xx$ of your Magic stat. For your next 3 attacks, your Magic stat is increased by +yy%.",
         "effectName": "Mount's Potential: Breath Weapon",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.dragons-flesh": {
         "id": "c.dragons-flesh",
@@ -118668,8 +118668,8 @@
         "effects": "Your Health cannot drop below 4 HP. Lasts for x minutes.",
         "effectName": "Stout Guardian",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.red-devils-artifact": {
         "id": "c.red-devils-artifact",
@@ -118698,7 +118698,7 @@
         "dailyHealAmount": 0,
         "healthDef": "tough",
         "imagePath": "/images/army/commanders/kylli_oakenbrew.png",
-        "effects": "Serviceable Server: 16% chance to proc 6,000 Physical damage; Adds +5 Attack and +0.5 Defence to each Oakenbrew Server in the Formation; +20 Honor",
+        "effects": "Serviceable Server: 16% chance to proc 6,000 Physical damage; Adds +5 Attack and +0.5 Defence to each Oakenbrew Server in the Formation; Adds +20 Honor to the Player",
         "effectName": "Serviceable Server",
         "maxFormationSlots": false,
         "raidAbilityGroup": "",
@@ -119098,8 +119098,8 @@
             "{\"name\":\"defence\",\"amount\":11,\"rate\":1,\"chance\":500}",
             "{\"name\":\"defence\",\"amount\":12,\"rate\":1,\"chance\":250}"
         ],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "c.mark-of-the-undead": {
         "id": "c.mark-of-the-undead",
@@ -121291,7 +121291,7 @@
         "reqper": 0,
         "reqlea": 0,
         "effectName": "Wandering in a Winter Wasteland (Rod)",
-        "effects": "Wandering in a Winter Wasteland (Rod): 8% chance to proc 1,000 Physical damage; +2,500 damage vs Winter raids; +2,000 damage vs Dragon raids; +1% Crit Rate; +200 damage per Snowdrake Slaughterer set item worn\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
+        "effects": "Wandering in a Winter Wasteland (Rod): 8% chance to proc 1,000 Physical damage; +200 damage per Snowdrake Slaughterer set item worn; +2,500 damage vs Winter raids; +2,000 damage vs Dragon raids; +1% Crit Rate\nSet Bonus (Snowdrake Slaughterer Set) for wearing the stated number of equipment pieces from this set:\n 7+: +2% Crit Rate and +30% Crit Damage\n 9+: +10% Ice Resistance",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "main-hand",
@@ -121766,8 +121766,8 @@
         "effects": "You deal an idle attack every 12 seconds for 12 minutes. Each attack deals xx Physical damage.",
         "effectName": "Pressure Point",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.mortiday-treat-bundle": {
         "id": "u.mortiday-treat-bundle",
@@ -124755,7 +124755,7 @@
         "reqper": 4200,
         "reqlea": 0,
         "effectName": "Golden Noble (Helm)",
-        "effects": "Golden Noble (Helm): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+ +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
+        "effects": "Golden Noble (Helm): 5% chance to proc 1,800 Physical damage; +1,275 damage per Baron Aureus' set item worn; +25 Magic; +20 HP\nSet Bonus (Baron Aureus' Set) for wearing the stated number of equipment pieces from this set:\n 5+: +175 HP and +25% Crit Damage\n 6+: +1.5% Crit Rate\n 7+: +5% All Resistances\n 8+: +1 Tiers of 'Keen Eyes'\n 9+: Additional Bonuses depending on Mount equipped",
         "xOffset": 60,
         "yOffset": 185,
         "layer": "helm",
@@ -125667,8 +125667,8 @@
         "effects": "While equipping a Ranged weapon, you deal an incredible strike to the foe, dealing damage akin to a 40x hit, plus a bonus xx% Offence. The Raid deals an extra 25% damage to you during this attack.",
         "effectName": "Precise Shot",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     },
     "u.foaming-energy-bundle-bag-ii": {
         "id": "u.foaming-energy-bundle-bag-ii",
@@ -126186,7 +126186,7 @@
         "effects": "Your Crit Rate is doubled for your next xx Attacks.",
         "effectName": "Decisive Scrutiny",
         "raidComponentDefinitions": [],
-        "acquireOnce": false,
-        "unique": false
+        "unique": false,
+        "acquireOnce": false
     }
 }
