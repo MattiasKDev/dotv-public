@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Adds passive damage-taken breakdowns to raid battle logs.
-// @version      2026.05.21.60
+// @version      2026.05.24
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
@@ -842,9 +842,7 @@
 
     function currentResistance(damage, damageType) {
         const attackResistances = (damage && damage.mods || []).filter(mod => mod && mod.type === 'resistance');
-        const fromAttack = getResistanceEntry(attackResistances, damageType);
-        if (fromAttack != null) return fromAttack;
-        return statsSnapshot ? getResistanceEntry(statsSnapshot.resistances, damageType) : null;
+        return getResistanceEntry(mergeResistanceSources(attackResistances, statsSnapshot && statsSnapshot.resistances), damageType);
     }
 
     function defenseText() {
@@ -1060,6 +1058,38 @@
         rememberInventoryItems(data && data.updatedInventoryItems);
         rememberInventoryItems(data && data.itemResults);
         rememberInventoryItems(data && data.updatedPlayerStats && data.updatedPlayerStats.itemResults);
+    }
+
+    function resistanceSignature(entry) {
+        if (!entry || typeof entry !== 'object') return '';
+        const type = norm(entry.resistanceType || entry.damageType || entry.element || entry.type);
+        const amount = normalizePercent(entry.amount);
+        return [
+            baseItemId(entry.itemId || entry.id || entry.key || ''),
+            type,
+            amount == null ? '' : String(amount)
+        ].join('|');
+    }
+
+    function mergeResistanceSources(primary, secondary) {
+        const merged = [];
+        const seen = new Set();
+
+        for (const source of [primary, secondary]) {
+            if (Array.isArray(source)) {
+                for (const entry of source) {
+                    if (!entry || typeof entry !== 'object') continue;
+                    const signature = resistanceSignature(entry);
+                    if (signature && seen.has(signature)) continue;
+                    if (signature) seen.add(signature);
+                    merged.push(entry);
+                }
+            } else if (source && typeof source === 'object') {
+                merged.push(source);
+            }
+        }
+
+        return merged.length ? merged : null;
     }
 
     function getResistanceEntry(resistances, damageType) {
