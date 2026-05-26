@@ -209,8 +209,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.lobaic-bronzefury": {
         "id": "a.lobaic-bronzefury",
@@ -571,8 +571,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.viscous-viscount-hat": {
         "id": "e.viscous-viscount-hat",
@@ -812,8 +812,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "cp.lancer-starter-pack-i": {
         "id": "cp.lancer-starter-pack-i",
@@ -900,8 +900,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.viscous-herbalist": {
         "id": "a.viscous-herbalist",
@@ -1411,8 +1411,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.script-of-divine-arc": {
         "id": "u.script-of-divine-arc",
@@ -1446,8 +1446,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.script-of-psionic-press": {
         "id": "u.script-of-psionic-press",
@@ -1481,8 +1481,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.medzeh-cuisses": {
         "id": "e.medzeh-cuisses",
@@ -1580,8 +1580,8 @@
                 "errorMsg": "Your health and energy are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.dark-piercer-feathuar": {
         "id": "e.dark-piercer-feathuar",
@@ -1644,6 +1644,67 @@
         },
         "unique": false
     },
+    "e.natures-revolt-greaves": {
+        "id": "e.natures-revolt-greaves",
+        "name": "Nature's Revolt Greaves",
+        "equipType": "heavy-pants",
+        "equipSlot": "pants",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 71,
+        "defense": 211,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 5800,
+        "reqper": 5700,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Greaves)",
+        "effects": "Scenic Uprising (Greaves): 19% chance to proc 800 Nature damage; +2,000 damage vs Legendary raids; +525 damage per Nature's Revolt set item worn; +0.5% Evasion; +1% All Resistances; +20% Crit Damage; +25 HP\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids\n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids\nHeavy Armor: -2% Evasion",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "pants",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_greaves.png",
+        "description": "\"The uprising should be quick, but I fear it will take some time to right the many, many wrongs perpetrated upon the land.\"\n-Brocck of the Revolt",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.heavy-armor-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
+        "unique": false
+    },
     "u.copper-fury-tonic": {
         "id": "u.copper-fury-tonic",
         "name": "Copper Fury Tonic",
@@ -1662,8 +1723,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.reodai-adherent": {
         "id": "a.reodai-adherent",
@@ -1865,8 +1926,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.duty-collectors-legplates": {
         "id": "e.duty-collectors-legplates",
@@ -1950,8 +2011,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.scolfields-sigil": {
         "id": "c.scolfields-sigil",
@@ -2356,8 +2417,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.kanitsume-claws": {
         "id": "e.kanitsume-claws",
@@ -2646,8 +2707,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.velvet-fur": {
         "id": "e.velvet-fur",
@@ -2773,8 +2834,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.mystic-trickster-banner": {
         "id": "ba.mystic-trickster-banner",
@@ -2841,8 +2902,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.zaratans-gauntlets": {
         "id": "e.zaratans-gauntlets",
@@ -2934,8 +2995,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "k.mounts-potential-expert-handling": {
         "id": "k.mounts-potential-expert-handling",
@@ -3407,8 +3468,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "a.veedsamin-trainee-overseer": {
         "id": "a.veedsamin-trainee-overseer",
@@ -3511,8 +3572,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.doiryns-inspection": {
         "id": "c.doiryns-inspection",
@@ -3621,8 +3682,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.orange-mihrish-troop-draft-poster": {
         "id": "u.orange-mihrish-troop-draft-poster",
@@ -3718,8 +3779,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.kornere-warmbelt": {
         "id": "a.kornere-warmbelt",
@@ -3952,8 +4013,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.fiddler-boots": {
         "id": "e.fiddler-boots",
@@ -4045,8 +4106,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.granite-blessers-gauntlets": {
         "id": "e.granite-blessers-gauntlets",
@@ -4235,6 +4296,67 @@
         "maxFormationSlots": false,
         "raidAbilityGroup": "",
         "preReqs": [],
+        "unique": false
+    },
+    "e.natures-revolt-boots": {
+        "id": "e.natures-revolt-boots",
+        "name": "Nature's Revolt Boots",
+        "equipType": "heavy-boots",
+        "equipSlot": "boots",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 71,
+        "defense": 211,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 5800,
+        "reqper": 5700,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Boots)",
+        "effects": "Scenic Uprising (Boots): 19% chance to proc 800 Nature damage; +2,000 damage vs Legendary raids; +525 damage per Nature's Revolt set item worn; +0.5% Evasion; +1% All Resistances; +20% Crit Damage; +25 HP\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids\n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids\nHeavy Armor: -2% Evasion",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "boots",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_boots.png",
+        "description": "\"Tread carefully, adventurer. The land is about to rage, and I cannot promise it can discriminate between one human and another with much accuracy.\"\n-Brocck of the Revolt",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.heavy-armor-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
         "unique": false
     },
     "ba.wanderer-banner": {
@@ -4494,8 +4616,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.jingse-bhow": {
         "id": "u.jingse-bhow",
@@ -4532,8 +4654,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.mikoko-wabawa": {
         "id": "e.mikoko-wabawa",
@@ -4704,8 +4826,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.ranging-scouts-longbow": {
         "id": "e.ranging-scouts-longbow",
@@ -5203,8 +5325,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.robust-brew-of-magics": {
         "id": "c.robust-brew-of-magics",
@@ -5271,8 +5393,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.adventurer-banner": {
         "id": "ba.adventurer-banner",
@@ -5608,8 +5730,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.yellow-explosive-stinger": {
         "id": "c.yellow-explosive-stinger",
@@ -5663,8 +5785,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.leoegan-greaves": {
         "id": "e.leoegan-greaves",
@@ -6088,8 +6210,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.capricious-conducer-shield": {
         "id": "e.capricious-conducer-shield",
@@ -6376,8 +6498,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.firestone": {
         "id": "c.firestone",
@@ -6691,7 +6813,41 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
+        "unique": false,
+        "raidItem": false
+    },
+    "a.natures-revenge": {
+        "id": "a.natures-revenge",
+        "name": "Nature's Revenge",
+        "isUnique": false,
+        "acquireOnce": false,
+        "description": "It is perhaps fitting that a being of the sea is available to seek revenge on behalf of the land, but you quickly realize that nature would include the oceans, as well.",
+        "type": "troop",
+        "race": "merfolk",
+        "role": "ranged",
+        "trait": "perception",
+        "healCost": 28,
+        "healTimer": 7,
+        "att": 20,
+        "def": 3,
+        "health": 0,
+        "reserve": 25,
+        "dailyHealAmount": 0,
+        "healthDef": "average",
+        "imagePath": "/images/army/troops/natures_revenge.png",
+        "effects": "Adds +10 Attack to Brocck of the Revolt in the active Formation",
+        "effectName": "",
+        "maxFormationSlots": false,
+        "raidAbilityGroup": "",
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.distance-employer",
+                "val": "5",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
         "unique": false
     },
     "a.sir-tybalt-of-the-heroic-dusk": {
@@ -6928,8 +7084,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": true
+        "unique": true,
+        "raidItem": true
     },
     "e.praetoran-gloves": {
         "id": "e.praetoran-gloves",
@@ -7407,8 +7563,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.monk-banner": {
         "id": "ba.monk-banner",
@@ -7573,8 +7729,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.blue-xaphegorgh-claws": {
         "id": "c.blue-xaphegorgh-claws",
@@ -7847,8 +8003,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.frigidara-defenders-frigidara-defence-boost-i": {
         "id": "c.frigidara-defenders-frigidara-defence-boost-i",
@@ -8001,8 +8157,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.diplomat-starter-pack-ii": {
         "id": "u.diplomat-starter-pack-ii",
@@ -8075,8 +8231,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.chandler-deacon": {
         "id": "a.chandler-deacon",
@@ -8141,8 +8297,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.serpents-eye": {
         "id": "e.serpents-eye",
@@ -8407,8 +8563,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.platinum-guard-tonic": {
         "id": "u.platinum-guard-tonic",
@@ -8428,8 +8584,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.crusherclaw-warhammer": {
         "id": "e.crusherclaw-warhammer",
@@ -8646,8 +8802,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "s.scroll-greater-ent": {
         "id": "s.scroll-greater-ent",
@@ -8690,8 +8846,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-undamaged-retina": {
         "id": "c.green-undamaged-retina",
@@ -8864,8 +9020,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.crestaceo-loop": {
         "id": "e.crestaceo-loop",
@@ -9244,8 +9400,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "p.stat-leadership": {
         "id": "p.stat-leadership",
@@ -9466,8 +9622,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.parchment-of-mindscorch": {
         "id": "u.parchment-of-mindscorch",
@@ -9500,8 +9656,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "ba.soldier-banner": {
         "id": "ba.soldier-banner",
@@ -9731,8 +9887,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.fogcreeks-leather-gloves": {
         "id": "e.fogcreeks-leather-gloves",
@@ -10302,8 +10458,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.niek-mira": {
         "id": "a.niek-mira",
@@ -10568,8 +10724,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.blue-codex-of-wisdom": {
         "id": "u.blue-codex-of-wisdom",
@@ -10594,8 +10750,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.legacy-ring": {
         "id": "e.legacy-ring",
@@ -10721,6 +10877,67 @@
         "vanity": {
             "vanitySet": "red-dragonhunter",
             "vanity": true
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
+        "unique": false
+    },
+    "e.natures-revolt-demi-gaunt": {
+        "id": "e.natures-revolt-demi-gaunt",
+        "name": "Nature's Revolt Demi-Gaunt",
+        "equipType": "heavy-gloves",
+        "equipSlot": "gloves",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 71,
+        "defense": 211,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 5800,
+        "reqper": 5700,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Demi-Gaunt)",
+        "effects": "Scenic Uprising (Demi-Gaunt): 19% chance to proc 800 Nature damage; +2,000 damage vs Legendary raids; +525 damage per Nature's Revolt set item worn; +0.5% Evasion; +1% All Resistances; +20% Crit Damage; +25 HP\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids\n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids\nHeavy Armor: -2% Evasion",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "gloves",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_demi_gaunt.png",
+        "description": "\"These hands, that once tilled and scarred the land, can now be used to enact its revenge.\"\n-Brocck of the Revolt",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.heavy-armor-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
         },
         "characterDisplay": {
             "imagePath": null,
@@ -11043,8 +11260,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.naitour-patrol-officer": {
         "id": "a.naitour-patrol-officer",
@@ -12053,8 +12270,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.violet-xaphegorgh-wing": {
         "id": "c.violet-xaphegorgh-wing",
@@ -12112,8 +12329,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.pioneering-pixie-bladder": {
         "id": "e.pioneering-pixie-bladder",
@@ -12330,8 +12547,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "cp.sentinel-starter-pack-ii": {
         "id": "cp.sentinel-starter-pack-ii",
@@ -12434,8 +12651,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.tankard-of-mass-curing": {
         "id": "u.tankard-of-mass-curing",
@@ -12455,8 +12672,8 @@
         "potion": false,
         "effectName": "Tankard of Mass Curing",
         "preReqs": [],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.mortiday-darts": {
         "id": "e.mortiday-darts",
@@ -12872,8 +13089,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.heroic-dusk-helm": {
         "id": "e.heroic-dusk-helm",
@@ -12962,8 +13179,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.crusherclaw-helm": {
         "id": "e.crusherclaw-helm",
@@ -13190,8 +13407,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.frostwarden-pants": {
         "id": "e.frostwarden-pants",
@@ -14307,8 +14524,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.shudder-sailors-gloves": {
         "id": "e.shudder-sailors-gloves",
@@ -14572,8 +14789,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.copperhead-hat": {
         "id": "e.copperhead-hat",
@@ -14720,8 +14937,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.blue-fury-tonic": {
         "id": "u.blue-fury-tonic",
@@ -14741,8 +14958,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.shudder-sailors-chaser": {
         "id": "e.shudder-sailors-chaser",
@@ -15106,8 +15323,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.cork-stopper": {
         "id": "c.cork-stopper",
@@ -15439,8 +15656,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.blue-pickaxe": {
         "id": "c.blue-pickaxe",
@@ -15767,8 +15984,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.void-token": {
         "id": "c.void-token",
@@ -15880,8 +16097,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.hammerclaw-claws": {
         "id": "e.hammerclaw-claws",
@@ -16225,8 +16442,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.stormshapers-stormrider": {
         "id": "e.stormshapers-stormrider",
@@ -16479,8 +16696,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "m.chandlers-light": {
         "id": "m.chandlers-light",
@@ -16586,8 +16803,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.yelte-demonslayer-yellow": {
         "id": "e.yelte-demonslayer-yellow",
@@ -16755,8 +16972,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "a.bellas-inahice": {
         "id": "a.bellas-inahice",
@@ -16871,8 +17088,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.blue-seared-stone": {
         "id": "c.blue-seared-stone",
@@ -17380,8 +17597,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.pentwater-sabatons": {
         "id": "e.pentwater-sabatons",
@@ -17465,8 +17682,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.greater-healing-potion": {
         "id": "u.greater-healing-potion",
@@ -17499,8 +17716,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.vibrant-band": {
         "id": "e.vibrant-band",
@@ -17675,8 +17892,8 @@
                 "errorMsg": "Your health and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.scolfields-bodice": {
         "id": "e.scolfields-bodice",
@@ -18122,8 +18339,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.mero-naghezn": {
         "id": "a.mero-naghezn",
@@ -18169,8 +18386,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "m.boiling-deluge": {
         "id": "m.boiling-deluge",
@@ -18222,8 +18439,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "cp.tank-starter-pack-ii": {
         "id": "cp.tank-starter-pack-ii",
@@ -18398,8 +18615,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "cp.tank-starter-pack-iv": {
         "id": "cp.tank-starter-pack-iv",
@@ -18560,8 +18777,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.colossal-crusherclaw-helm": {
         "id": "e.colossal-crusherclaw-helm",
@@ -18934,8 +19151,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.large-healing-potion": {
         "id": "u.large-healing-potion",
@@ -18968,8 +19185,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.nepyren-tumblerstone": {
         "id": "c.nepyren-tumblerstone",
@@ -19002,8 +19219,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.tromos-ink-cap": {
         "id": "c.tromos-ink-cap",
@@ -19367,8 +19584,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.millennium-island-ring": {
         "id": "e.millennium-island-ring",
@@ -19457,8 +19674,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.valto-grapes": {
         "id": "u.valto-grapes",
@@ -19495,8 +19712,8 @@
                 "errorMsg": "Your health and energy are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.magestalker-knight": {
         "id": "a.magestalker-knight",
@@ -19720,8 +19937,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.giant-nepyren-acanthosaur-egg": {
         "id": "c.giant-nepyren-acanthosaur-egg",
@@ -19928,8 +20145,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.eloko-wingless": {
         "id": "a.eloko-wingless",
@@ -20121,8 +20338,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.widowmaker-shroom": {
         "id": "c.widowmaker-shroom",
@@ -20316,8 +20533,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.eldritch-warrior-banner": {
         "id": "ba.eldritch-warrior-banner",
@@ -20561,8 +20778,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.mastru-river-swigger": {
         "id": "u.mastru-river-swigger",
@@ -20599,8 +20816,8 @@
                 "errorMsg": "Your health and honor are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.shudder-sailors-bandana": {
         "id": "e.shudder-sailors-bandana",
@@ -20688,8 +20905,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.entwood-shortbow": {
         "id": "e.entwood-shortbow",
@@ -20959,8 +21176,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.silver-entrancement-tonic": {
         "id": "u.silver-entrancement-tonic",
@@ -20980,8 +21197,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.blazebrand-sabatons": {
         "id": "e.blazebrand-sabatons",
@@ -21423,8 +21640,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "c.red-leftover-claw": {
         "id": "c.red-leftover-claw",
@@ -21970,8 +22187,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.parchment-of-bloodcurdle": {
         "id": "u.parchment-of-bloodcurdle",
@@ -22004,8 +22221,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "ba.champion-banner": {
         "id": "ba.champion-banner",
@@ -22090,8 +22307,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.red-mihrish-poster": {
         "id": "c.red-mihrish-poster",
@@ -22390,8 +22607,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.viscous-alchemist": {
         "id": "a.viscous-alchemist",
@@ -22511,8 +22728,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.bonaguido": {
         "id": "a.bonaguido",
@@ -22625,8 +22842,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.songbird-of-radiance": {
         "id": "e.songbird-of-radiance",
@@ -22948,8 +23165,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.script-of-soul-burst": {
         "id": "u.script-of-soul-burst",
@@ -22983,8 +23200,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.smugglers-trousers": {
         "id": "e.smugglers-trousers",
@@ -23532,8 +23749,8 @@
                 "errorMsg": "Your health and energy are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.pioneering-pixie-blade": {
         "id": "e.pioneering-pixie-blade",
@@ -23754,8 +23971,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.large-potion-of-valour": {
         "id": "u.large-potion-of-valour",
@@ -23775,8 +23992,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.kanitsume-boots": {
         "id": "e.kanitsume-boots",
@@ -23871,8 +24088,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.gipantan-timekeeper": {
         "id": "c.gipantan-timekeeper",
@@ -23918,8 +24135,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.thiadoran-energy-cask": {
         "id": "u.thiadoran-energy-cask",
@@ -23950,8 +24167,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.alchemist-banner": {
         "id": "ba.alchemist-banner",
@@ -24564,8 +24781,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.vozotlnaos-blessing-paravdos": {
         "id": "e.vozotlnaos-blessing-paravdos",
@@ -24779,8 +24996,8 @@
                 "errorMsg": "Your energy and honor and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.violet-horsewhistle": {
         "id": "c.violet-horsewhistle",
@@ -24808,8 +25025,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.lancer-starter-pack-iv": {
         "id": "u.lancer-starter-pack-iv",
@@ -24878,8 +25095,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.officer-banner": {
         "id": "ba.officer-banner",
@@ -24936,8 +25153,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.chaosoldiers-castoff-claws": {
         "id": "e.chaosoldiers-castoff-claws",
@@ -25102,8 +25319,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.mark-of-the-troll": {
         "id": "c.mark-of-the-troll",
@@ -25354,8 +25571,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.conquerors-cuisses": {
         "id": "e.conquerors-cuisses",
@@ -25513,8 +25730,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.leyshen-ring": {
         "id": "e.leyshen-ring",
@@ -25944,8 +26161,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.wand-of-fire-blast": {
         "id": "e.wand-of-fire-blast",
@@ -26240,8 +26457,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.ooleviash-health-deoch": {
         "id": "u.ooleviash-health-deoch",
@@ -26274,8 +26491,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.blue-guild-kit-iii": {
         "id": "u.blue-guild-kit-iii",
@@ -26486,8 +26703,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.soulless-striking-slaughter-potion": {
         "id": "u.soulless-striking-slaughter-potion",
@@ -26507,8 +26724,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.river-skimmer": {
         "id": "a.river-skimmer",
@@ -26692,8 +26909,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.chandlers-guard": {
         "id": "e.chandlers-guard",
@@ -26908,8 +27125,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.adroits-fusion-guardian": {
         "id": "a.adroits-fusion-guardian",
@@ -27256,8 +27473,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.parchment-of-branded-blaze": {
         "id": "u.parchment-of-branded-blaze",
@@ -27290,8 +27507,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.jida-of-sovereign-hope": {
         "id": "e.jida-of-sovereign-hope",
@@ -28120,8 +28337,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.ooleviash-ring": {
         "id": "e.ooleviash-ring",
@@ -28495,8 +28712,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.daring-zen-master-banner": {
         "id": "ba.daring-zen-master-banner",
@@ -28632,8 +28849,8 @@
                 "errorMsg": "Your health and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.oresnatchs-great-rainbow-ring": {
         "id": "e.oresnatchs-great-rainbow-ring",
@@ -28754,8 +28971,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "c.violet-watchers-humor": {
         "id": "c.violet-watchers-humor",
@@ -28942,8 +29159,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.yotinpekew-knife": {
         "id": "e.yotinpekew-knife",
@@ -29258,8 +29475,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.violet-naitour-helm": {
         "id": "c.violet-naitour-helm",
@@ -29356,8 +29573,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.praetoran-ring": {
         "id": "e.praetoran-ring",
@@ -29520,8 +29737,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.veedsamin-trainees-gloves": {
         "id": "e.veedsamin-trainees-gloves",
@@ -30498,8 +30715,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.fanghunter-warden": {
         "id": "a.fanghunter-warden",
@@ -30773,8 +30990,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.greater-restoration-potion": {
         "id": "u.greater-restoration-potion",
@@ -30807,8 +31024,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.stoneworker": {
         "id": "a.stoneworker",
@@ -30854,8 +31071,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.violet-shield-of-amera": {
         "id": "c.violet-shield-of-amera",
@@ -31168,8 +31385,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.bevis-pernach": {
         "id": "e.bevis-pernach",
@@ -31299,8 +31516,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.horn-of-myth": {
         "id": "c.horn-of-myth",
@@ -31634,8 +31851,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.dark-piercer-darts": {
         "id": "e.dark-piercer-darts",
@@ -31924,8 +32141,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.reverent-titanslayer-hippogryph": {
         "id": "e.reverent-titanslayer-hippogryph",
@@ -32355,8 +32572,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.legendary-esteemed-elixir": {
         "id": "u.legendary-esteemed-elixir",
@@ -32407,8 +32624,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.bountiful-byhew-gloves": {
         "id": "e.bountiful-byhew-gloves",
@@ -32565,8 +32782,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.myksor-frostmane": {
         "id": "a.myksor-frostmane",
@@ -32847,8 +33064,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.earthshaker-reflex-mace": {
         "id": "e.earthshaker-reflex-mace",
@@ -32950,8 +33167,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.troubadour-banner": {
         "id": "ba.troubadour-banner",
@@ -33274,8 +33491,8 @@
                 "errorMsg": "Your health and honor are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.onishaygu-tendril-steed": {
         "id": "e.onishaygu-tendril-steed",
@@ -33443,8 +33660,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.derzis-thunderclap-eye": {
         "id": "e.derzis-thunderclap-eye",
@@ -34149,8 +34366,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.burnet-cap": {
         "id": "e.burnet-cap",
@@ -34284,8 +34501,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.battle-boar": {
         "id": "e.battle-boar",
@@ -34456,8 +34673,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.red-devils-horn": {
         "id": "c.red-devils-horn",
@@ -34722,8 +34939,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.snowdrake-slayers-strongbox": {
         "id": "u.snowdrake-slayers-strongbox",
@@ -34748,8 +34965,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.hatuumin-whip": {
         "id": "e.hatuumin-whip",
@@ -35017,8 +35234,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.lesser-restoration-potion": {
         "id": "u.lesser-restoration-potion",
@@ -35051,8 +35268,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.orange-guard-tonic": {
         "id": "u.orange-guard-tonic",
@@ -35072,8 +35289,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.highland-scout": {
         "id": "a.highland-scout",
@@ -35434,8 +35651,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.veteran-dwarven-demoguard": {
         "id": "a.veteran-dwarven-demoguard",
@@ -35843,8 +36060,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.glorious-fortunist-banner": {
         "id": "ba.glorious-fortunist-banner",
@@ -36588,8 +36805,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.hero-banner": {
         "id": "ba.hero-banner",
@@ -36831,7 +37048,15 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
+        "unique": false,
+        "raidItem": false
+    },
+    "c.repentant-dusk-ice-boost": {
+        "id": "c.repentant-dusk-ice-boost",
+        "name": "Repentant Dusk Ice Boost",
+        "description": "It seems Sar Qina has continued to develop her icy skills, courtesy the resources you have been able to provide her. Now, how you use those skills will be up to you. Passively adds 50,000 Ice damage to the Repentant Dusk Set 8 proc. (Max 1)",
+        "imagePath": "/images/item/craftables/repentant_dusk_ice_boost.png",
+        "acquireOnce": false,
         "unique": false
     },
     "e.swiftslicer-blade": {
@@ -36918,8 +37143,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.mikoko-mishigama": {
         "id": "e.mikoko-mishigama",
@@ -37168,8 +37393,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.dwarven-sharpshooter": {
         "id": "a.dwarven-sharpshooter",
@@ -37869,8 +38094,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.spore-muncher-mite": {
         "id": "c.spore-muncher-mite",
@@ -38211,8 +38436,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.mephitic-chiffon-pants": {
         "id": "e.mephitic-chiffon-pants",
@@ -38311,8 +38536,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.demonic-seals-heart": {
         "id": "c.demonic-seals-heart",
@@ -38604,8 +38829,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.guild-spy": {
         "id": "a.guild-spy",
@@ -38957,8 +39182,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.keyrics-ring-of-levitation": {
         "id": "e.keyrics-ring-of-levitation",
@@ -39108,8 +39333,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.dwarven-demoguard": {
         "id": "a.dwarven-demoguard",
@@ -39155,8 +39380,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.musketeer-banner": {
         "id": "ba.musketeer-banner",
@@ -39197,8 +39422,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.warmage-starter-pack-ii": {
         "id": "u.warmage-starter-pack-ii",
@@ -39279,8 +39504,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.frostwarden-staff": {
         "id": "e.frostwarden-staff",
@@ -39496,8 +39721,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.warmage-starter-pack-iv": {
         "id": "u.warmage-starter-pack-iv",
@@ -39566,8 +39791,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.onishaygu-seedling-ida": {
         "id": "e.onishaygu-seedling-ida",
@@ -39640,8 +39865,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.swiftslicer-rod": {
         "id": "e.swiftslicer-rod",
@@ -39725,8 +39950,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.grand-vitality-potion": {
         "id": "u.grand-vitality-potion",
@@ -39759,8 +39984,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.cumberworld-paddle": {
         "id": "e.cumberworld-paddle",
@@ -40169,8 +40394,8 @@
                 "errorMsg": "Your health and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.smugglers-sling": {
         "id": "e.smugglers-sling",
@@ -40597,8 +40822,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.farmers-diary": {
         "id": "u.farmers-diary",
@@ -40627,8 +40852,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.hatuumin-crossbow": {
         "id": "e.hatuumin-crossbow",
@@ -40760,8 +40985,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "m.aureus-aegis": {
         "id": "m.aureus-aegis",
@@ -41336,8 +41561,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.vibrant-sabatons": {
         "id": "e.vibrant-sabatons",
@@ -41479,8 +41704,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.oresnatchs-grand-violet-ring": {
         "id": "e.oresnatchs-grand-violet-ring",
@@ -42156,8 +42381,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-glowstone": {
         "id": "c.green-glowstone",
@@ -42206,8 +42431,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.potion-of-tenacity": {
         "id": "u.potion-of-tenacity",
@@ -42227,8 +42452,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.devils-mark": {
         "id": "c.devils-mark",
@@ -42359,8 +42584,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "c.red-poisonous-tendril": {
         "id": "c.red-poisonous-tendril",
@@ -42502,8 +42727,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.wizard-starter-pack-iii": {
         "id": "u.wizard-starter-pack-iii",
@@ -42580,8 +42805,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-jagar-scale": {
         "id": "c.green-jagar-scale",
@@ -42884,8 +43109,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.brew-of-frost": {
         "id": "c.brew-of-frost",
@@ -43009,7 +43234,68 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
+        "unique": false,
+        "raidItem": false
+    },
+    "e.natures-revolt-targeter": {
+        "id": "e.natures-revolt-targeter",
+        "name": "Nature's Revolt Targeter",
+        "equipType": "darts",
+        "equipSlot": "main-hand",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 214,
+        "defense": 175,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 6000,
+        "reqint": 0,
+        "reqcon": 0,
+        "reqper": 5800,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Targeter)",
+        "effects": "Scenic Uprising (Targeter): 13% chance to proc 1,280 Nature damage and give +15% Crit Damage on that hit; +3,700 damage vs Legendary raids; +965 damage per Nature's Revolt set item worn; +1.75% Crit Rate; +20% Crit Damage\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids \n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "main-hand",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_targeter.png",
+        "description": "\"Many have indiscriminately devastated the land with their selfish pursuits. We are better than that, and will strike with precision as we rise up.\"\n-Brocck of the Revolt",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.dart-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
         "unique": false
     },
     "e.chandlers-chestplate": {
@@ -43744,8 +44030,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.violet-brewmasters-satchel": {
         "id": "u.violet-brewmasters-satchel",
@@ -43851,8 +44137,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.hatuumin-rod": {
         "id": "e.hatuumin-rod",
@@ -44039,8 +44325,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "k.mounts-potential-tackle": {
         "id": "k.mounts-potential-tackle",
@@ -44248,8 +44534,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.vozotlnaos-blessing-crepida": {
         "id": "e.vozotlnaos-blessing-crepida",
@@ -45255,8 +45541,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.praetoran-boots": {
         "id": "e.praetoran-boots",
@@ -45345,8 +45631,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "k.youths-vitality": {
         "id": "k.youths-vitality",
@@ -45649,8 +45935,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.yellow-guild-kit-ii": {
         "id": "u.yellow-guild-kit-ii",
@@ -45781,8 +46067,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.honourable-gohlehm": {
         "id": "a.honourable-gohlehm",
@@ -46070,8 +46356,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.captain-banner": {
         "id": "ba.captain-banner",
@@ -46278,6 +46564,67 @@
         "vanity": {
             "vanitySet": "stormshapers",
             "vanity": true
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
+        "unique": false
+    },
+    "e.natures-revolt-barrier": {
+        "id": "e.natures-revolt-barrier",
+        "name": "Nature's Revolt Barrier",
+        "equipType": "medium-shield",
+        "equipSlot": "off-hand",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 68,
+        "defense": 97,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 6000,
+        "reqper": 5800,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Barrier)",
+        "effects": "Scenic Uprising (Barrier): 6% chance to proc 2,600 Nature damage and reduce incoming damage to the Player by 15%; +6,500 damage vs Legendary raids; +1,675 damage per Nature's Revolt set item worn; +1.5% Evasion; +3% All Resistances\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids\n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "off-hand",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_barrier.png",
+        "description": "\"You see, even enraged the land is willing to protect you. Will you do the same for it?\"\n-Brocck of the Revolt",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.medium-shield-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
         },
         "characterDisplay": {
             "imagePath": null,
@@ -46588,8 +46935,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "a.alice-the-redeemed": {
         "id": "a.alice-the-redeemed",
@@ -46901,8 +47248,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-demon-bindings": {
         "id": "c.green-demon-bindings",
@@ -47013,8 +47360,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "c.amytus-reflection": {
         "id": "c.amytus-reflection",
@@ -47055,8 +47402,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.swamp-nomad-band": {
         "id": "e.swamp-nomad-band",
@@ -47190,8 +47537,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.phermitic-battlegarb-gauntlets": {
         "id": "e.phermitic-battlegarb-gauntlets",
@@ -47285,8 +47632,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.mystery-brewmasters-satchel": {
         "id": "u.mystery-brewmasters-satchel",
@@ -47342,8 +47689,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.sinderklaz-arbeider": {
         "id": "a.sinderklaz-arbeider",
@@ -47480,8 +47827,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.cumberworld-benefactors-heels": {
         "id": "e.cumberworld-benefactors-heels",
@@ -48091,8 +48438,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.cowering-guild-servant": {
         "id": "a.cowering-guild-servant",
@@ -48208,8 +48555,8 @@
                 "errorMsg": "Your health and honor are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.cave-cragsmans-knife": {
         "id": "e.cave-cragsmans-knife",
@@ -48562,8 +48909,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.griphornis-pants": {
         "id": "e.griphornis-pants",
@@ -48679,8 +49026,8 @@
                 "errorMsg": "Your energy and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.psionic-guild-guardian": {
         "id": "a.psionic-guild-guardian",
@@ -48914,8 +49261,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.slygses-werecanid-wight": {
         "id": "a.slygses-werecanid-wight",
@@ -48942,6 +49289,40 @@
         "raidAbilityGroup": "",
         "preReqs": [],
         "unique": false
+    },
+    "a.brocck-of-the-revolt": {
+        "id": "a.brocck-of-the-revolt",
+        "name": "Brocck of the Revolt",
+        "isUnique": true,
+        "acquireOnce": false,
+        "description": "An unusually stoic gnome, Brocck moves with an air that makes clear he has spent much time away from society, though an aura of command clearly emanates from him - almost as much as his odour does. Brocck makes no bones about his general dislike for large settlements, and is even more prickly when the notion of deforestation comes up, but what really seems to set him off is unnatural magics, such as fire and ice, being turned on the nature he has chosen to protect.",
+        "type": "commander",
+        "race": "gnome",
+        "role": "support",
+        "trait": "intellect",
+        "healCost": 41,
+        "healTimer": 6,
+        "att": 140,
+        "def": 4,
+        "health": 130,
+        "reserve": 0,
+        "dailyHealAmount": 0,
+        "healthDef": "tough",
+        "imagePath": "/images/army/commanders/brocck_of_the_revolt.png",
+        "effects": "Return From This Land: 20% chance to proc 12,000 Nature damage; +5,000 damage vs Legendary raids; +830 damage per Nature's Revolt set item and Formation owned; Adds +9 Attack and +0.7 Defence to each Nature's Revenge and Nature's Frustration in the Formation; Gains +4 Attack and +0.2 Defence per distinct Nature's Revolt set item and Formation owned",
+        "effectName": "Return From This Land",
+        "maxFormationSlots": false,
+        "raidAbilityGroup": "",
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.supportive-supervisor",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "unique": true
     },
     "cp.diplomat-starter-pack-i": {
         "id": "cp.diplomat-starter-pack-i",
@@ -49137,8 +49518,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "c.green-infernal-bracer": {
         "id": "c.green-infernal-bracer",
@@ -49285,8 +49666,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.guild-formation-boost-ii": {
         "id": "c.guild-formation-boost-ii",
@@ -49378,8 +49759,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.irus-shroud-crusade-chakram": {
         "id": "e.irus-shroud-crusade-chakram",
@@ -49972,8 +50353,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.information-vendor": {
         "id": "a.information-vendor",
@@ -50245,8 +50626,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.darkveil-retriever": {
         "id": "a.darkveil-retriever",
@@ -50642,8 +51023,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "p.stat-intellect": {
         "id": "p.stat-intellect",
@@ -50688,8 +51069,8 @@
                 "errorMsg": "Your health and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.red-dragonhunters-shield": {
         "id": "e.red-dragonhunters-shield",
@@ -50777,8 +51158,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.hooded-veil-pants": {
         "id": "e.hooded-veil-pants",
@@ -51036,8 +51417,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "a.naga-smasher": {
         "id": "a.naga-smasher",
@@ -51382,8 +51763,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.fen-lure-bud": {
         "id": "c.fen-lure-bud",
@@ -51487,8 +51868,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.frostwarden-shieldformer": {
         "id": "a.frostwarden-shieldformer",
@@ -51619,8 +52000,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.seer-banner": {
         "id": "ba.seer-banner",
@@ -51901,8 +52282,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.indigo-cloak": {
         "id": "c.indigo-cloak",
@@ -52180,6 +52561,67 @@
         },
         "unique": false
     },
+    "e.natures-revolt-burgonet": {
+        "id": "e.natures-revolt-burgonet",
+        "name": "Nature's Revolt Burgonet",
+        "equipType": "heavy-helm",
+        "equipSlot": "helm",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 71,
+        "defense": 211,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 5800,
+        "reqper": 5700,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Burgonet)",
+        "effects": "Scenic Uprising (Burgonet): 19% chance to proc 800 Nature damage; +2,000 damage vs Legendary raids; +525 damage per Nature's Revolt set item worn; +0.5% Evasion; +1% All Resistances; +20% Crit Damage; +25 HP\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids\n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids\nHeavy Armor: -2% Evasion",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "helm",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_burgonet.png",
+        "description": "\"This is one issue you cannot avert you gaze from. Look at the devastation for yourself and understand the outrage.\"\n-Brocck of the Revolt",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.heavy-armor-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
+        "unique": false
+    },
     "u.parchment-of-chandlers-light": {
         "id": "u.parchment-of-chandlers-light",
         "name": "Parchment of Chandler's Light",
@@ -52211,8 +52653,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "s.scroll-lesser-ent": {
         "id": "s.scroll-lesser-ent",
@@ -52350,8 +52792,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.tedupevair-staff": {
         "id": "e.tedupevair-staff",
@@ -52501,8 +52943,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.leather-jarl-boots": {
         "id": "e.leather-jarl-boots",
@@ -52781,8 +53223,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.earthshaker-reflex-chest": {
         "id": "e.earthshaker-reflex-chest",
@@ -52863,8 +53305,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.diplomat-starter-pack-iii": {
         "id": "u.diplomat-starter-pack-iii",
@@ -52941,8 +53383,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.ionic-guild-guardian": {
         "id": "a.ionic-guild-guardian",
@@ -53229,8 +53671,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.zephyr-aberron": {
         "id": "a.zephyr-aberron",
@@ -53351,8 +53793,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.blue-brewmasters-strength-spirit": {
         "id": "u.blue-brewmasters-strength-spirit",
@@ -53372,8 +53814,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.thiadoran-vitality-barrel": {
         "id": "u.thiadoran-vitality-barrel",
@@ -53404,8 +53846,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-devils-horn": {
         "id": "c.green-devils-horn",
@@ -53643,8 +54085,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.tedupevair-gloves": {
         "id": "e.tedupevair-gloves",
@@ -53764,8 +54206,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.werequill-zombie": {
         "id": "a.werequill-zombie",
@@ -53995,8 +54437,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.brittle-cattle-whip": {
         "id": "e.brittle-cattle-whip",
@@ -54187,8 +54629,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.mastru-provisions": {
         "id": "u.mastru-provisions",
@@ -54282,8 +54724,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.capricious-conducer-wand": {
         "id": "e.capricious-conducer-wand",
@@ -54380,8 +54822,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.lesser-ent-wood-bracers": {
         "id": "e.lesser-ent-wood-bracers",
@@ -54917,8 +55359,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.medzehs-potion-bag": {
         "id": "u.medzehs-potion-bag",
@@ -54977,8 +55419,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.basic-obstacles": {
         "id": "c.basic-obstacles",
@@ -55079,8 +55521,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.mestari-dragonslayer-violet": {
         "id": "e.mestari-dragonslayer-violet",
@@ -55233,8 +55675,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "k.greater-resistance": {
         "id": "k.greater-resistance",
@@ -55282,8 +55724,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.vitality-potion": {
         "id": "u.vitality-potion",
@@ -55316,8 +55758,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.sinderklaz-pants": {
         "id": "e.sinderklaz-pants",
@@ -55965,8 +56407,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.thiadoran-energy-barrel": {
         "id": "u.thiadoran-energy-barrel",
@@ -55997,8 +56439,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.rune-adorned-golemstone": {
         "id": "c.rune-adorned-golemstone",
@@ -56067,8 +56509,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.yellow-naven-troop-draft-poster": {
         "id": "u.yellow-naven-troop-draft-poster",
@@ -56154,8 +56596,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "k.arcane-concentration": {
         "id": "k.arcane-concentration",
@@ -56216,8 +56658,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.tralen-boldkind": {
         "id": "a.tralen-boldkind",
@@ -56391,8 +56833,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.quilltips-cap": {
         "id": "e.quilltips-cap",
@@ -56850,8 +57292,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.military-guide-book": {
         "id": "c.military-guide-book",
@@ -57219,8 +57661,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.blue-guard-tonic": {
         "id": "u.blue-guard-tonic",
@@ -57240,8 +57682,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.heroic-dusk-darts": {
         "id": "e.heroic-dusk-darts",
@@ -57378,8 +57820,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.avian-lure": {
         "id": "c.avian-lure",
@@ -57468,8 +57910,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.daduh-hyla": {
         "id": "e.daduh-hyla",
@@ -57542,8 +57984,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.mordant-moswas-wand": {
         "id": "e.mordant-moswas-wand",
@@ -57705,8 +58147,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.nebekinessurs-secret-tome": {
         "id": "c.nebekinessurs-secret-tome",
@@ -57968,8 +58410,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.tank-starter-pack-i": {
         "id": "u.tank-starter-pack-i",
@@ -58058,8 +58500,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.morassma-mace": {
         "id": "e.morassma-mace",
@@ -58721,8 +59163,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.meftets-pants": {
         "id": "e.meftets-pants",
@@ -58835,8 +59277,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.elven-packhandler": {
         "id": "a.elven-packhandler",
@@ -59044,8 +59486,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "cp.fighter-starter-pack-iv": {
         "id": "cp.fighter-starter-pack-iv",
@@ -59185,8 +59627,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.repentant-zombie": {
         "id": "a.repentant-zombie",
@@ -59516,8 +59958,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.khadgar-silverguard": {
         "id": "a.khadgar-silverguard",
@@ -59646,8 +60088,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.onishaygu-seedling-gloves": {
         "id": "e.onishaygu-seedling-gloves",
@@ -59744,8 +60186,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.indigo-brewmasters-satchel": {
         "id": "u.indigo-brewmasters-satchel",
@@ -59856,8 +60298,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.script-of-vine-whip": {
         "id": "u.script-of-vine-whip",
@@ -59891,8 +60333,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.naitour-patrol-sabatons": {
         "id": "e.naitour-patrol-sabatons",
@@ -60034,8 +60476,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.parchment-of-conducive-capriciousness": {
         "id": "u.parchment-of-conducive-capriciousness",
@@ -60075,8 +60517,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "c.watchers-iris": {
         "id": "c.watchers-iris",
@@ -60216,8 +60658,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.naven-hunters-pants": {
         "id": "e.naven-hunters-pants",
@@ -60351,8 +60793,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.istovins-swift-courier": {
         "id": "a.istovins-swift-courier",
@@ -60784,8 +61226,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.alanis": {
         "id": "a.alanis",
@@ -60839,8 +61281,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "c.soggy-boot": {
         "id": "c.soggy-boot",
@@ -61069,8 +61511,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.snowdrake-slayer-helm": {
         "id": "e.snowdrake-slayer-helm",
@@ -61689,8 +62131,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.scout-starter-pack-ii": {
         "id": "u.scout-starter-pack-ii",
@@ -61767,8 +62209,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.igir": {
         "id": "a.igir",
@@ -61912,8 +62354,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.scout-starter-pack-iv": {
         "id": "u.scout-starter-pack-iv",
@@ -61982,8 +62424,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.greater-caster-token": {
         "id": "c.greater-caster-token",
@@ -62019,8 +62461,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.medzeh-restraint": {
         "id": "e.medzeh-restraint",
@@ -62191,8 +62633,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.ooleviash-honor-deoch": {
         "id": "u.ooleviash-honor-deoch",
@@ -62225,8 +62667,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.sinderklaz-ring": {
         "id": "e.sinderklaz-ring",
@@ -62299,8 +62741,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.greater-tank-token": {
         "id": "c.greater-tank-token",
@@ -62406,8 +62848,8 @@
                 "errorMsg": "Your health and energy are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.vazz-oresnatch": {
         "id": "a.vazz-oresnatch",
@@ -62632,8 +63074,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "cp.void-crystals-two": {
         "id": "cp.void-crystals-two",
@@ -63301,8 +63743,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.drake-destruction-potion": {
         "id": "u.drake-destruction-potion",
@@ -63322,8 +63764,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.sanctified-leoegan-boots": {
         "id": "e.sanctified-leoegan-boots",
@@ -63436,8 +63878,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.claws-of-justice-claws": {
         "id": "e.claws-of-justice-claws",
@@ -63754,8 +64196,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.manatisiwin-bag": {
         "id": "u.manatisiwin-bag",
@@ -63814,8 +64256,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.oakenbrew-server": {
         "id": "a.oakenbrew-server",
@@ -64017,8 +64459,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.dromaeon-signet": {
         "id": "e.dromaeon-signet",
@@ -64317,8 +64759,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "cp.scout-starter-pack-ii": {
         "id": "cp.scout-starter-pack-ii",
@@ -64484,8 +64926,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.potion-of-valour": {
         "id": "u.potion-of-valour",
@@ -64505,8 +64947,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.fiddler-shield": {
         "id": "e.fiddler-shield",
@@ -64666,8 +65108,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.fachin-mucous": {
         "id": "c.fachin-mucous",
@@ -65086,8 +65528,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.laurentian-shirt": {
         "id": "e.laurentian-shirt",
@@ -65524,8 +65966,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.quilltips-rod": {
         "id": "e.quilltips-rod",
@@ -65718,8 +66160,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.fallen-warmage": {
         "id": "a.fallen-warmage",
@@ -66010,8 +66452,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.wyrmhide-feet": {
         "id": "e.wyrmhide-feet",
@@ -66585,8 +67027,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.brew-of-bolts": {
         "id": "c.brew-of-bolts",
@@ -67108,8 +67550,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.dromaeon-chest": {
         "id": "e.dromaeon-chest",
@@ -67299,8 +67741,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.dhiva": {
         "id": "a.dhiva",
@@ -67490,8 +67932,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.servid-hooves": {
         "id": "e.servid-hooves",
@@ -67576,8 +68018,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "a.mihrish-acolyte": {
         "id": "a.mihrish-acolyte",
@@ -67737,8 +68179,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.yellow-fury-tonic": {
         "id": "u.yellow-fury-tonic",
@@ -67758,8 +68200,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ru.algimannaz-rune-9": {
         "id": "ru.algimannaz-rune-9",
@@ -67999,8 +68441,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.script-of-frost-cone": {
         "id": "u.script-of-frost-cone",
@@ -68034,8 +68476,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.threofor-pants": {
         "id": "e.threofor-pants",
@@ -68139,8 +68581,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.oceanic-overwhelming-obliteration-potion": {
         "id": "u.oceanic-overwhelming-obliteration-potion",
@@ -68160,8 +68602,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.thundreag-stormchest": {
         "id": "a.thundreag-stormchest",
@@ -68350,8 +68792,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.dilays-dirk": {
         "id": "e.dilays-dirk",
@@ -68558,8 +69000,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "ru.thurigebo-rune-3": {
         "id": "ru.thurigebo-rune-3",
@@ -68818,8 +69260,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.claws-of-justice-rapier": {
         "id": "e.claws-of-justice-rapier",
@@ -68961,8 +69403,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.warmage-guardians-warboar": {
         "id": "e.warmage-guardians-warboar",
@@ -69125,8 +69567,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.arena-nymph": {
         "id": "a.arena-nymph",
@@ -69272,8 +69714,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.repentant-dusk-sabatons": {
         "id": "e.repentant-dusk-sabatons",
@@ -69370,8 +69812,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.sung-leather-boots": {
         "id": "e.sung-leather-boots",
@@ -69513,8 +69955,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.blue-cloak": {
         "id": "c.blue-cloak",
@@ -69616,8 +70058,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.script-of-radiant-light": {
         "id": "u.script-of-radiant-light",
@@ -69651,8 +70093,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.gold-swiftness-tonic": {
         "id": "u.gold-swiftness-tonic",
@@ -69672,8 +70114,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.heart-of-ice": {
         "id": "c.heart-of-ice",
@@ -69701,8 +70143,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.kylli-boost-i": {
         "id": "c.kylli-boost-i",
@@ -69856,8 +70298,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "c.green-bowstring": {
         "id": "c.green-bowstring",
@@ -69890,8 +70332,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.duty-collectors-visor": {
         "id": "e.duty-collectors-visor",
@@ -69984,8 +70426,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.burnet-shoes": {
         "id": "e.burnet-shoes",
@@ -70257,8 +70699,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.thunderbirds-swordbreaker": {
         "id": "e.thunderbirds-swordbreaker",
@@ -70390,8 +70832,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.cumberworld-benefactors-skirts": {
         "id": "e.cumberworld-benefactors-skirts",
@@ -70574,8 +71016,8 @@
                 "errorMsg": "Your health and energy are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.derzis-thunderclap-gloves": {
         "id": "e.derzis-thunderclap-gloves",
@@ -70890,8 +71332,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "m.fallen-forgiveness": {
         "id": "m.fallen-forgiveness",
@@ -71205,8 +71647,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.earthshaker-reflex-helmet": {
         "id": "e.earthshaker-reflex-helmet",
@@ -71557,8 +71999,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.skliros-devilled-cleaver": {
         "id": "e.skliros-devilled-cleaver",
@@ -71796,8 +72238,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "p.skill-acumen": {
         "id": "p.skill-acumen",
@@ -72005,8 +72447,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "s.scroll-xarbruutu": {
         "id": "s.scroll-xarbruutu",
@@ -72156,8 +72598,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.oresnatchs-great-orange-ring": {
         "id": "e.oresnatchs-great-orange-ring",
@@ -72720,8 +73162,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.stevedores-cudgel": {
         "id": "e.stevedores-cudgel",
@@ -73077,8 +73519,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.violet-mihrish-poster": {
         "id": "c.violet-mihrish-poster",
@@ -73240,8 +73682,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "c.glasha-brunbruk-boost-i": {
         "id": "c.glasha-brunbruk-boost-i",
@@ -74208,6 +74650,67 @@
         "acquireOnce": false,
         "unique": false
     },
+    "e.natures-revolt-chestplate": {
+        "id": "e.natures-revolt-chestplate",
+        "name": "Nature's Revolt Chestplate",
+        "equipType": "heavy-chest",
+        "equipSlot": "chest",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 71,
+        "defense": 211,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 5800,
+        "reqper": 5700,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Chestplate)",
+        "effects": "Scenic Uprising (Chestplate): 19% chance to proc 800 Nature damage; +2,000 damage vs Legendary raids; +525 damage per Nature's Revolt set item worn; +0.5% Evasion; +1% All Resistances; +20% Crit Damage; +25 HP\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids\n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids\nHeavy Armor: -2% Evasion",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "chest",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_chestplate.png",
+        "description": "\"The land has hurt, it has wept, and now it is time for anger.\"\n-Brocck of the Revolt",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.heavy-armor-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
+        "unique": false
+    },
     "e.reodai-staff": {
         "id": "e.reodai-staff",
         "name": "Reodai Staff",
@@ -74487,8 +74990,8 @@
                 "errorMsg": "Your health and energy are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.tunnel-hopping-miner": {
         "id": "a.tunnel-hopping-miner",
@@ -74653,8 +75156,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.marble-golem": {
         "id": "a.marble-golem",
@@ -74787,8 +75290,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.stormspike": {
         "id": "c.stormspike",
@@ -74888,8 +75391,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.yotinpekew-sling": {
         "id": "e.yotinpekew-sling",
@@ -75015,8 +75518,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.deluxe-hook": {
         "id": "c.deluxe-hook",
@@ -75304,8 +75807,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.jumbojay": {
         "id": "e.jumbojay",
@@ -75452,8 +75955,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.threofor-helm": {
         "id": "e.threofor-helm",
@@ -75707,6 +76210,59 @@
         ],
         "unique": true
     },
+    "e.natures-revolt-band": {
+        "id": "e.natures-revolt-band",
+        "name": "Nature's Revolt Band",
+        "equipType": "ring",
+        "equipSlot": "ring",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 65,
+        "defense": 48,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 6400,
+        "reqper": 6300,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Band)",
+        "effects": "Scenic Uprising (Band): 10% chance to proc 1,000 Nature damage; +4,000 damage vs Legendary raids; +875 damage per Nature's Revolt set item worn; +100 HP; +10% Crit Damage; +0.75% Evasion; +10% Crit Damage; +4 Tiers of 'Elemental Expertise - Nature'\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids\n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "ring",
+        "imagePath": "/images/item/rings/natures_revolt_band.png",
+        "description": "This band seems to pulsate, as though it is alive. This would be fine, except that it seems to constrict tighter and tighter on your finger the longer you wear it.",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
+        "unique": false
+    },
     "e.embersin-legplates": {
         "id": "e.embersin-legplates",
         "name": "Embersin Legplates",
@@ -75776,8 +76332,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.heroic-dusk-cuisses": {
         "id": "e.heroic-dusk-cuisses",
@@ -76169,8 +76725,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.oresnatchs-great-red-ring": {
         "id": "e.oresnatchs-great-red-ring",
@@ -76563,8 +77119,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.guardian-servid": {
         "id": "e.guardian-servid",
@@ -76836,8 +77392,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.daring-assassin-banner": {
         "id": "ba.daring-assassin-banner",
@@ -77188,8 +77744,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "ba.marauder-banner": {
         "id": "ba.marauder-banner",
@@ -77309,8 +77865,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.nebekinessurs-hovering-chariot": {
         "id": "e.nebekinessurs-hovering-chariot",
@@ -77476,8 +78032,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.scout-banner": {
         "id": "ba.scout-banner",
@@ -78002,8 +78558,8 @@
                 "errorMsg": "Your health and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.red-xaphegorgh-horn": {
         "id": "c.red-xaphegorgh-horn",
@@ -78108,8 +78664,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.baron-aureus-exploderer": {
         "id": "e.baron-aureus-exploderer",
@@ -78231,8 +78787,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.swashbuckler-banner": {
         "id": "ba.swashbuckler-banner",
@@ -78446,8 +79002,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "p.skill-charisma": {
         "id": "p.skill-charisma",
@@ -79067,8 +79623,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.quilltips-shoes": {
         "id": "e.quilltips-shoes",
@@ -79716,8 +80272,8 @@
                 "errorMsg": "Your health and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.gipantan-caligae": {
         "id": "e.gipantan-caligae",
@@ -79853,8 +80409,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.frostwarden-shieldwielder": {
         "id": "a.frostwarden-shieldwielder",
@@ -80199,8 +80755,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.red-stained-snakescale": {
         "id": "c.red-stained-snakescale",
@@ -80300,8 +80856,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.zircon-ring": {
         "id": "e.zircon-ring",
@@ -80389,8 +80945,8 @@
                 "errorMsg": "Your health and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.river-windbringer": {
         "id": "a.river-windbringer",
@@ -80660,8 +81216,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.rusted-hewing-axe": {
         "id": "e.rusted-hewing-axe",
@@ -80873,8 +81429,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.northern-brownie": {
         "id": "a.northern-brownie",
@@ -81453,8 +82009,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.mounted-antlers": {
         "id": "c.mounted-antlers",
@@ -81620,8 +82176,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.viscous-viscount-pants": {
         "id": "e.viscous-viscount-pants",
@@ -81808,8 +82364,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.norsic-bittermail": {
         "id": "a.norsic-bittermail",
@@ -81944,8 +82500,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.viscous-viscount-occultopus": {
         "id": "e.viscous-viscount-occultopus",
@@ -82466,8 +83022,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.sterling-bone-saw-kit": {
         "id": "c.sterling-bone-saw-kit",
@@ -82703,8 +83259,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.gladiator-banner": {
         "id": "ba.gladiator-banner",
@@ -83105,8 +83661,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "c.violet-faecage": {
         "id": "c.violet-faecage",
@@ -83296,8 +83852,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.yotinpekew-gauntlets": {
         "id": "e.yotinpekew-gauntlets",
@@ -83933,8 +84489,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.naven-hunters-gloves": {
         "id": "e.naven-hunters-gloves",
@@ -84256,8 +84812,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.gilded-crossbow": {
         "id": "e.gilded-crossbow",
@@ -84578,8 +85134,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.mephitic-chiffon-buckler-shield": {
         "id": "e.mephitic-chiffon-buckler-shield",
@@ -84673,8 +85229,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.threofor-boots": {
         "id": "e.threofor-boots",
@@ -84821,8 +85377,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "c.lesser-ranged-token": {
         "id": "c.lesser-ranged-token",
@@ -84906,8 +85462,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.violet-overlord-helm": {
         "id": "c.violet-overlord-helm",
@@ -85431,8 +85987,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.threofor-gloves": {
         "id": "e.threofor-gloves",
@@ -85890,8 +86446,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.sepulcher-strongbox": {
         "id": "u.sepulcher-strongbox",
@@ -85962,8 +86518,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-explosive-stinger": {
         "id": "c.green-explosive-stinger",
@@ -86415,8 +86971,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.lesser-potion-of-valour": {
         "id": "u.lesser-potion-of-valour",
@@ -86436,8 +86992,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.warmage-guardians-sabatons": {
         "id": "e.warmage-guardians-sabatons",
@@ -86601,8 +87157,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.script-of-shocking-grasp": {
         "id": "u.script-of-shocking-grasp",
@@ -86636,8 +87192,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.nakanos-gi": {
         "id": "e.nakanos-gi",
@@ -86723,8 +87279,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.meftets-shoes": {
         "id": "e.meftets-shoes",
@@ -86939,8 +87495,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "ba.heroic-dragoon-banner": {
         "id": "ba.heroic-dragoon-banner",
@@ -87055,8 +87611,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.guild-lookout": {
         "id": "a.guild-lookout",
@@ -87230,8 +87786,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.script-of-malicious-massacre": {
         "id": "u.script-of-malicious-massacre",
@@ -87265,8 +87821,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.psionic-screener-helm": {
         "id": "e.psionic-screener-helm",
@@ -87360,8 +87916,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.indigo-wooden-shackles": {
         "id": "c.indigo-wooden-shackles",
@@ -88237,8 +88793,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.repentant-dusk-ring": {
         "id": "e.repentant-dusk-ring",
@@ -88409,8 +88965,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "m.pink-mist": {
         "id": "m.pink-mist",
@@ -88725,8 +89281,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.greater-melee-token": {
         "id": "c.greater-melee-token",
@@ -89044,8 +89600,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-acheralan-bracer": {
         "id": "c.green-acheralan-bracer",
@@ -89402,8 +89958,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.yaomori-cap": {
         "id": "e.yaomori-cap",
@@ -89725,8 +90281,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.red-stone-claws": {
         "id": "c.red-stone-claws",
@@ -89837,8 +90393,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.hooded-veil-ring": {
         "id": "e.hooded-veil-ring",
@@ -90109,8 +90665,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.dromaeon-darts": {
         "id": "e.dromaeon-darts",
@@ -90387,8 +90943,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.burnet-tunic": {
         "id": "e.burnet-tunic",
@@ -90671,8 +91227,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.oresnatchs-great-yellow-ring": {
         "id": "e.oresnatchs-great-yellow-ring",
@@ -90967,8 +91523,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.irus-shroud-crusade-sabatons": {
         "id": "e.irus-shroud-crusade-sabatons",
@@ -91106,8 +91662,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.red-watchers-humor": {
         "id": "c.red-watchers-humor",
@@ -91580,8 +92136,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.ostarian-coxswain": {
         "id": "a.ostarian-coxswain",
@@ -91920,8 +92476,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.sloughed-naga-torso": {
         "id": "e.sloughed-naga-torso",
@@ -92116,8 +92672,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.noble-banner": {
         "id": "ba.noble-banner",
@@ -92145,8 +92701,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.stevedores-boots": {
         "id": "e.stevedores-boots",
@@ -92517,8 +93073,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.derzis-temple-acolyte": {
         "id": "a.derzis-temple-acolyte",
@@ -92763,6 +93319,40 @@
         "element": "poison",
         "acquireOnce": false,
         "unique": true
+    },
+    "a.natures-frustration": {
+        "id": "a.natures-frustration",
+        "name": "Nature's Frustration",
+        "isUnique": false,
+        "acquireOnce": false,
+        "description": "As brawny of a naga as you've come across, this being personifies the anguish that the land feels at its abuse.",
+        "type": "troop",
+        "race": "naga",
+        "role": "tank",
+        "trait": "strength",
+        "healCost": 52,
+        "healTimer": 3,
+        "att": 16,
+        "def": 6,
+        "health": 0,
+        "reserve": 45,
+        "dailyHealAmount": 0,
+        "healthDef": "large",
+        "imagePath": "/images/army/troops/natures_frustration.png",
+        "effects": "Adds +0.8 Defence to Brocck of the Revolt in the active Formation",
+        "effectName": "",
+        "maxFormationSlots": false,
+        "raidAbilityGroup": "",
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.brawns-commander",
+                "val": "5",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "unique": false
     },
     "m.sinderklaz-tovenaray": {
         "id": "m.sinderklaz-tovenaray",
@@ -93037,8 +93627,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "c.catchy-chants": {
         "id": "c.catchy-chants",
@@ -93532,8 +94122,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "c.red-milkweed": {
         "id": "c.red-milkweed",
@@ -94279,8 +94869,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.orange-fae-candle": {
         "id": "c.orange-fae-candle",
@@ -94385,8 +94975,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "cp.lancer-starter-pack-ii": {
         "id": "cp.lancer-starter-pack-ii",
@@ -94653,8 +95243,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "cp.warmage-starter-pack-iv": {
         "id": "cp.warmage-starter-pack-iv",
@@ -94908,8 +95498,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.sloughed-naga-tail": {
         "id": "e.sloughed-naga-tail",
@@ -95109,8 +95699,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.heroic-dusk-shield": {
         "id": "e.heroic-dusk-shield",
@@ -95267,8 +95857,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.shudder-sailors-shirt": {
         "id": "e.shudder-sailors-shirt",
@@ -95639,8 +96229,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.yelte-demonslayer-red": {
         "id": "e.yelte-demonslayer-red",
@@ -95719,8 +96309,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.ooleviash-horsebow": {
         "id": "e.ooleviash-horsebow",
@@ -96131,8 +96721,8 @@
                 "errorMsg": "Your energy is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.knights-favour": {
         "id": "c.knights-favour",
@@ -96246,8 +96836,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.corrissa-swiftfin": {
         "id": "a.corrissa-swiftfin",
@@ -96606,6 +97196,67 @@
         "unique": false,
         "acquireOnce": false
     },
+    "e.natures-revolt-channeler": {
+        "id": "e.natures-revolt-channeler",
+        "name": "Nature's Revolt Channeler",
+        "equipType": "staff",
+        "equipSlot": "main-hand",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 214,
+        "defense": 175,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 6000,
+        "reqcon": 0,
+        "reqper": 5800,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Channeler)",
+        "effects": "Scenic Uprising (Channeler): 13% chance to proc 1,280 Nature damage and give +15% Crit Damage on that hit; +3,700 damage vs Legendary raids; +965 damage per Nature's Revolt set item worn; +1.75% Crit Rate; +20% Crit Damage\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids \n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "main-hand",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_channeler.png",
+        "description": "\"If you listen to its anger, the land will allow its rage to flow through you, fueling your magics.\"\n-Brocck of the Revolt",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.staff-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
+        "unique": false
+    },
     "c.grand-pedipalps": {
         "id": "c.grand-pedipalps",
         "name": "Grand Pedipalps",
@@ -96934,6 +97585,67 @@
         "acquireOnce": false,
         "unique": false
     },
+    "e.natures-revolt-noose": {
+        "id": "e.natures-revolt-noose",
+        "name": "Nature's Revolt Noose",
+        "equipType": "whip",
+        "equipSlot": "main-hand",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 214,
+        "defense": 175,
+        "magic": 0,
+        "reqstr": 6000,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 0,
+        "reqper": 5800,
+        "reqlea": 0,
+        "effectName": "Scenic Uprising (Noose)",
+        "effects": "Scenic Uprising (Noose): 13% chance to proc 1,280 Nature damage and give +15% Crit Damage on that hit; +3,700 damage vs Legendary raids; +965 damage per Nature's Revolt set item worn; +1.75% Crit Rate; +20% Crit Damage\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids \n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "main-hand",
+        "imagePath": "/images/item-icons/2dicons/natures_revolt_noose.png",
+        "description": "You are not keen on the symbolism behind this particular weapon, but Rarsik pointed out that a foe is no less dead when you stab them or blast them with magic than they would be with this, so you suppose you'll have to settle for the efficacy and disregard the form.",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.whip-proficiency",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
+        "unique": false
+    },
     "u.blue-camp-supplies": {
         "id": "u.blue-camp-supplies",
         "name": "Blue Camp Supplies",
@@ -97053,8 +97765,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.morassma-rod": {
         "id": "e.morassma-rod",
@@ -97323,8 +98035,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.chiffon-buckler-shield": {
         "id": "e.chiffon-buckler-shield",
@@ -97675,8 +98387,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.vozotlnaos-blessing-vali": {
         "id": "e.vozotlnaos-blessing-vali",
@@ -97875,8 +98587,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ru.algilaguz-rune-1": {
         "id": "ru.algilaguz-rune-1",
@@ -98409,8 +99121,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.colossal-crusherclaw-tower-shield": {
         "id": "e.colossal-crusherclaw-tower-shield",
@@ -98703,8 +99415,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.paresthisy-stone-helm": {
         "id": "e.paresthisy-stone-helm",
@@ -98987,8 +99699,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.elven-nomad": {
         "id": "a.elven-nomad",
@@ -99412,8 +100124,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "k.inspiring-words": {
         "id": "k.inspiring-words",
@@ -99722,8 +100434,8 @@
                 "errorMsg": "Your energy and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "m.frisky-fingers": {
         "id": "m.frisky-fingers",
@@ -99917,8 +100629,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.suppression-muffs": {
         "id": "e.suppression-muffs",
@@ -100512,8 +101224,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.parchment-of-caustic-viscosity": {
         "id": "u.parchment-of-caustic-viscosity",
@@ -100546,8 +101258,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "ba.master-sage-banner": {
         "id": "ba.master-sage-banner",
@@ -100640,8 +101352,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.watchers-pantaloons": {
         "id": "e.watchers-pantaloons",
@@ -100712,8 +101424,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.laurentian-bat-wing": {
         "id": "c.laurentian-bat-wing",
@@ -100849,8 +101561,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.fiddler-pants": {
         "id": "e.fiddler-pants",
@@ -101031,8 +101743,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.hatuumin-buster": {
         "id": "a.hatuumin-buster",
@@ -101840,8 +102552,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.red-tattered-pelt": {
         "id": "c.red-tattered-pelt",
@@ -102079,8 +102791,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.krozana-titanslayer": {
         "id": "a.krozana-titanslayer",
@@ -102591,8 +103303,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.mikoko-nikway": {
         "id": "e.mikoko-nikway",
@@ -102844,8 +103556,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.capricious-conducer-mask": {
         "id": "e.capricious-conducer-mask",
@@ -103224,8 +103936,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.dwarven-rewards": {
         "id": "u.dwarven-rewards",
@@ -103258,8 +103970,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "a.arrosa": {
         "id": "a.arrosa",
@@ -103449,8 +104161,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.valley-verdure-staff": {
         "id": "e.valley-verdure-staff",
@@ -103680,8 +104392,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.tungsten-gauntlets": {
         "id": "e.tungsten-gauntlets",
@@ -104019,8 +104731,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.nakanos-odachi": {
         "id": "e.nakanos-odachi",
@@ -104238,8 +104950,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-elven-cap": {
         "id": "c.green-elven-cap",
@@ -104346,8 +105058,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.waveblessed-hat": {
         "id": "e.waveblessed-hat",
@@ -104481,8 +105193,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.griphornis-darts": {
         "id": "e.griphornis-darts",
@@ -104699,8 +105411,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.field-rangers-gloves": {
         "id": "e.field-rangers-gloves",
@@ -105105,8 +105817,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.drake-distressing-destruction-potion": {
         "id": "u.drake-distressing-destruction-potion",
@@ -105126,8 +105838,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "s.scroll-frenzied-fae-flock": {
         "id": "s.scroll-frenzied-fae-flock",
@@ -105377,8 +106089,8 @@
                 "errorMsg": "Your health and energy are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.wayguard-numees": {
         "id": "a.wayguard-numees",
@@ -105519,8 +106231,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.stevedores-vest": {
         "id": "e.stevedores-vest",
@@ -105898,8 +106610,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.valley-verdure-crossbow": {
         "id": "e.valley-verdure-crossbow",
@@ -106261,8 +106973,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "c.green-mihrish-poster": {
         "id": "c.green-mihrish-poster",
@@ -106868,8 +107580,8 @@
                 "errorMsg": "Your health and honor are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ru.nagaleihwaz-rune-1": {
         "id": "ru.nagaleihwaz-rune-1",
@@ -106909,8 +107621,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.red-explosive-stinger": {
         "id": "c.red-explosive-stinger",
@@ -107131,8 +107843,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.derzis-thunderclap-cowl": {
         "id": "e.derzis-thunderclap-cowl",
@@ -107375,8 +108087,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.tririana-cobblestomp": {
         "id": "a.tririana-cobblestomp",
@@ -107435,8 +108147,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.sinah-health-spirit": {
         "id": "u.sinah-health-spirit",
@@ -107469,8 +108181,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.script-of-lightning-bolt": {
         "id": "u.script-of-lightning-bolt",
@@ -107504,8 +108216,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.cave-cragsman-leathers": {
         "id": "e.cave-cragsman-leathers",
@@ -107956,8 +108668,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.psionic-screener-gloves": {
         "id": "e.psionic-screener-gloves",
@@ -108570,8 +109282,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.friskfingers-tunic": {
         "id": "e.friskfingers-tunic",
@@ -108665,8 +109377,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.stevedores-dirk": {
         "id": "e.stevedores-dirk",
@@ -108838,8 +109550,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.stormshapers-spark": {
         "id": "e.stormshapers-spark",
@@ -109032,8 +109744,8 @@
         "potion": false,
         "effectName": "Feather of Grace",
         "preReqs": [],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.derzis-lightning-rod": {
         "id": "e.derzis-lightning-rod",
@@ -109217,8 +109929,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.oresnatchs-blue-ring": {
         "id": "e.oresnatchs-blue-ring",
@@ -109408,8 +110120,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.parchment-of-fallen-forgiveness": {
         "id": "u.parchment-of-fallen-forgiveness",
@@ -109442,8 +110154,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "ba.rascal-banner": {
         "id": "ba.rascal-banner",
@@ -110122,8 +110834,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.gastonia-clubbed-whip": {
         "id": "e.gastonia-clubbed-whip",
@@ -110909,8 +111621,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.adroits-divine-guardian": {
         "id": "a.adroits-divine-guardian",
@@ -111046,8 +111758,8 @@
                 "errorMsg": "Your honor is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.heroic-dusk-ring": {
         "id": "e.heroic-dusk-ring",
@@ -111245,8 +111957,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "e.repentant-dusk-helm": {
         "id": "e.repentant-dusk-helm",
@@ -111348,8 +112060,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.lesser-holy-resilience-potion": {
         "id": "u.lesser-holy-resilience-potion",
@@ -111369,8 +112081,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.crusherclaw-claws": {
         "id": "e.crusherclaw-claws",
@@ -111740,8 +112452,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "a.geos-faithful-servant": {
         "id": "a.geos-faithful-servant",
@@ -111834,8 +112546,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.violet-spiderpelt": {
         "id": "c.violet-spiderpelt",
@@ -112134,8 +112846,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.samurai-starter-pack-ii": {
         "id": "u.samurai-starter-pack-ii",
@@ -112212,8 +112924,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.wyrmhide-cap": {
         "id": "e.wyrmhide-cap",
@@ -112347,8 +113059,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.violet-guild-kit-iv": {
         "id": "u.violet-guild-kit-iv",
@@ -112509,8 +113221,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.bard-starter-pack-iv": {
         "id": "u.bard-starter-pack-iv",
@@ -112579,8 +113291,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "s.scroll-niever-the-slain": {
         "id": "s.scroll-niever-the-slain",
@@ -112695,8 +113407,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.hearthkeepers-legplates": {
         "id": "e.hearthkeepers-legplates",
@@ -112942,8 +113654,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.sinderklaz-bol": {
         "id": "e.sinderklaz-bol",
@@ -113114,8 +113826,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "s.scroll-xaphegorgh": {
         "id": "s.scroll-xaphegorgh",
@@ -113339,8 +114051,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.dromaeon-pants": {
         "id": "e.dromaeon-pants",
@@ -113440,8 +114152,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.tromos-latria-sealbreaker": {
         "id": "e.tromos-latria-sealbreaker",
@@ -113657,8 +114369,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.rankats": {
         "id": "a.rankats",
@@ -113692,6 +114404,67 @@
         "description": "Unlike other cloths, these wrappings seem to be imbued with a strange aura, and a deathly stench.",
         "imagePath": "/images/item/craftables/ghoul_wrappings.png",
         "acquireOnce": false,
+        "unique": false
+    },
+    "e.natures-lumbering-mosses": {
+        "id": "e.natures-lumbering-mosses",
+        "name": "Nature's Lumbering Mosses",
+        "equipType": "inorganic",
+        "equipSlot": "mount",
+        "itemSetIds": [
+            "is.natures-revolt"
+        ],
+        "rarity": "common",
+        "acquireOnce": false,
+        "crownVal": 0,
+        "vcVal": 0,
+        "emVal": 10,
+        "attack": 212,
+        "defense": 266,
+        "magic": 0,
+        "reqstr": 0,
+        "reqagi": 0,
+        "reqint": 0,
+        "reqcon": 6100,
+        "reqper": 0,
+        "reqlea": 6200,
+        "effectName": "Scenic Uprising (Mosses)",
+        "effects": "Scenic Uprising (Mosses): 30% chance to proc 1,260 Nature damage with +15% damage from any Nature damage, and +120% Crit Damage on that proc; +2,500 damage vs Legendary Raids; +780 damage per Nature's Revolt set item worn; +25% Formation Power; +4% All Resistances; 5% chance to reduce incoming damage to your Armies by 25%\nSet Bonus (Nature's Revolt Set) for wearing the stated number of equipment pieces from this set:\n 5+: +25% Crit Damage and +2% Crit Rate\n 6+: 30% chance to reduce incoming damage to the Player by 10%; +30% vs Easy Raids, and +1% Evasion; +3% Evasion vs Easy Raids\n 7+: +5% All Resistances and +150 HP\n 8+: 25% chance to reduce incoming damage to your Armies by 20%; +30% vs Legendary Raids, and +1% Crit Rate; +2% Crit Rate vs Legendary Raids\n 9+: 3% chance to heal the Player 2 HP; +4 HP healed vs Hard Raids, and +15% Crit Damage; +25% Crit Damage vs Hard Raids",
+        "xOffset": 60,
+        "yOffset": 185,
+        "layer": "mount",
+        "imagePath": "/images/item/mounts/natures_lumbering_mosses.png",
+        "description": "You had figured Brocck was being figurative with all his talk of 'the land' feeling one way or another. However, this literal, rolling wave of earth, creeping vines and moss seems to have a mind of its own. Perhaps there is some more to his words...",
+        "mesh": null,
+        "assetPath": null,
+        "gltfPath": "",
+        "gltfName": "",
+        "twoHanded": false,
+        "hideHair": false,
+        "hideFacialHair": false,
+        "preReqs": [
+            {
+                "name": "tech",
+                "type": "z.mount-proficiency-inorganic",
+                "val": "6",
+                "val2": "",
+                "errorMsg": ""
+            }
+        ],
+        "scripts": [],
+        "vanity": {
+            "vanitySet": "",
+            "vanity": false
+        },
+        "characterDisplay": {
+            "imagePath": null,
+            "maskImagePath": null,
+            "overrides": {
+                "equipSlots": [],
+                "ids": []
+            },
+            "pose": null
+        },
         "unique": false
     },
     "e.blessed-gastonia-boots": {
@@ -113765,8 +114538,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.navenian-provisions": {
         "id": "u.navenian-provisions",
@@ -113835,8 +114608,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "u.healing-potion": {
         "id": "u.healing-potion",
@@ -113869,8 +114642,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.hatuumin-eye": {
         "id": "e.hatuumin-eye",
@@ -114067,8 +114840,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.warmage-guardians-gauntlets": {
         "id": "e.warmage-guardians-gauntlets",
@@ -114317,8 +115090,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "ba.windwalker-banner": {
         "id": "ba.windwalker-banner",
@@ -114407,8 +115180,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.clyburn-softshadow": {
         "id": "a.clyburn-softshadow",
@@ -114764,8 +115537,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.leoegan-helmet": {
         "id": "e.leoegan-helmet",
@@ -114979,8 +115752,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.greater-ice-resilience-potion": {
         "id": "u.greater-ice-resilience-potion",
@@ -115000,8 +115773,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.reodai-apostle": {
         "id": "a.reodai-apostle",
@@ -115390,8 +116163,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.friskfingers-ring": {
         "id": "e.friskfingers-ring",
@@ -115822,8 +116595,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.stormshapers-signet": {
         "id": "e.stormshapers-signet",
@@ -116220,8 +116993,8 @@
                 "errorMsg": "Your health and energy are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.vigilant-servid": {
         "id": "e.vigilant-servid",
@@ -116294,8 +117067,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.stormshapers-bolt": {
         "id": "a.stormshapers-bolt",
@@ -116389,8 +117162,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "ru.gewunjo-rune-3": {
         "id": "ru.gewunjo-rune-3",
@@ -116456,8 +117229,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.thunderbirds-ring": {
         "id": "e.thunderbirds-ring",
@@ -116618,8 +117391,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "m.stormsurge": {
         "id": "m.stormsurge",
@@ -116779,8 +117552,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.onishaygu-tendril-helm": {
         "id": "e.onishaygu-tendril-helm",
@@ -116925,8 +117698,8 @@
                 "errorMsg": "Your health is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.serpentine-darts": {
         "id": "e.serpentine-darts",
@@ -117010,8 +117783,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "c.lubid-feather": {
         "id": "c.lubid-feather",
@@ -117302,8 +118075,8 @@
                 "errorMsg": "Your health and vitality are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.arachnean-gloves": {
         "id": "e.arachnean-gloves",
@@ -117525,8 +118298,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.spell-focus-ice": {
         "id": "c.spell-focus-ice",
@@ -118048,8 +118821,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.pentwater-gauntlets": {
         "id": "e.pentwater-gauntlets",
@@ -118572,8 +119345,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "p.stat-agility": {
         "id": "p.stat-agility",
@@ -118964,8 +119737,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.nyxifur-pants": {
         "id": "e.nyxifur-pants",
@@ -119141,8 +119914,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "a.voithos-erevnetis": {
         "id": "a.voithos-erevnetis",
@@ -119725,8 +120498,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.greater-dark-resilience-potion": {
         "id": "u.greater-dark-resilience-potion",
@@ -119746,8 +120519,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.rod-of-enchanting-light": {
         "id": "e.rod-of-enchanting-light",
@@ -120112,8 +120885,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.orange-gipantan-troop-draft-poster": {
         "id": "u.orange-gipantan-troop-draft-poster",
@@ -120209,8 +120982,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.green-chaosoldier-hide": {
         "id": "c.green-chaosoldier-hide",
@@ -120238,8 +121011,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.orange-opal-ring": {
         "id": "e.orange-opal-ring",
@@ -120647,8 +121420,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.oiled-leather-chest": {
         "id": "e.oiled-leather-chest",
@@ -121025,8 +121798,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.naitour-patrols-provisions": {
         "id": "u.naitour-patrols-provisions",
@@ -121103,8 +121876,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": true
+        "unique": true,
+        "raidItem": false
     },
     "a.gravanguard-initiate": {
         "id": "a.gravanguard-initiate",
@@ -121817,8 +122590,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.serpents-staff": {
         "id": "e.serpents-staff",
@@ -121974,8 +122747,8 @@
                 "errorMsg": "Your vitality is full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.bronze-humanitarian-token": {
         "id": "u.bronze-humanitarian-token",
@@ -121995,8 +122768,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.copper-gauntlets": {
         "id": "e.copper-gauntlets",
@@ -122081,8 +122854,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "u.greater-lightning-resilience-potion": {
         "id": "u.greater-lightning-resilience-potion",
@@ -122102,8 +122875,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.corros-glorymuth-boost-i": {
         "id": "c.corros-glorymuth-boost-i",
@@ -122184,8 +122957,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.sloughed-naga-head": {
         "id": "e.sloughed-naga-head",
@@ -122337,8 +123110,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.firedrakes-veil": {
         "id": "e.firedrakes-veil",
@@ -122866,8 +123639,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.spiderskin-pants": {
         "id": "e.spiderskin-pants",
@@ -123078,8 +123851,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.lesser-psychic-resilience-potion": {
         "id": "u.lesser-psychic-resilience-potion",
@@ -123099,8 +123872,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "a.woodsmans-apprentice": {
         "id": "a.woodsmans-apprentice",
@@ -123345,8 +124118,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.waveblessed-blade": {
         "id": "e.waveblessed-blade",
@@ -123432,8 +124205,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.frostblossom-seed": {
         "id": "c.frostblossom-seed",
@@ -123688,8 +124461,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.glasha-brunbruk-boost-ii": {
         "id": "c.glasha-brunbruk-boost-ii",
@@ -123979,8 +124752,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.blue-decorative-gloves": {
         "id": "c.blue-decorative-gloves",
@@ -124008,8 +124781,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.derzis-thunderclap-thunder": {
         "id": "e.derzis-thunderclap-thunder",
@@ -124687,8 +125460,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.mark-of-the-naga-jailer": {
         "id": "c.mark-of-the-naga-jailer",
@@ -124972,8 +125745,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "c.orange-explosive-stinger": {
         "id": "c.orange-explosive-stinger",
@@ -125094,8 +125867,8 @@
                 "errorMsg": ""
             }
         ],
-        "raidItem": true,
-        "unique": false
+        "unique": false,
+        "raidItem": true
     },
     "e.moswa-antlers": {
         "id": "e.moswa-antlers",
@@ -125206,8 +125979,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.chaunaths-warpriests-gauntlets": {
         "id": "e.chaunaths-warpriests-gauntlets",
@@ -125397,8 +126170,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.nyxifur-wand": {
         "id": "e.nyxifur-wand",
@@ -125693,8 +126466,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.green-camp-supplies": {
         "id": "u.green-camp-supplies",
@@ -125815,8 +126588,8 @@
         "potion": false,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.capon-cane": {
         "id": "e.capon-cane",
@@ -126018,8 +126791,8 @@
                 "errorMsg": "Your health and honor are full already."
             }
         ],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "u.infernal-immolation-potion": {
         "id": "u.infernal-immolation-potion",
@@ -126039,8 +126812,8 @@
         "potion": true,
         "effectName": null,
         "preReqs": [],
-        "raidItem": false,
-        "unique": false
+        "unique": false,
+        "raidItem": false
     },
     "e.cumberworld-mask": {
         "id": "e.cumberworld-mask",
