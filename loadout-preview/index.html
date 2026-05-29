@@ -60,7 +60,18 @@
       <section class="loadout-layout">
         <section class="loadout-panel summary-panel" aria-labelledby="summaryHeading">
           <div class="panel-heading">
-            <h1 id="summaryHeading">Summary</h1>
+            <div class="summary-heading-main">
+              <h1 id="summaryHeading">Summary</h1>
+              <label class="summary-difficulty">
+                <span>Target</span>
+                <select id="targetDifficulty">
+                  <option value="any">Any Raid</option>
+                  <option value="easy">Easy</option>
+                  <option value="hard">Hard</option>
+                  <option value="legendary">Legendary</option>
+                </select>
+              </label>
+            </div>
             <span id="summaryMeta" class="panel-meta">No items equipped</span>
           </div>
           <div class="summary-body">

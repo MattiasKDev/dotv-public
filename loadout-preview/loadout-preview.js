@@ -5,6 +5,8 @@
     items: "../data/items.json",
     itemLocations: "../data/item-locations.json",
   };
+  const INCLUDE_UNOBTAINABLE_PARAMS = ["includeUnobtainable", "debugUnobtainable"];
+  const INCLUDE_UNOBTAINABLE_BACKDOOR = shouldIncludeUnobtainableItems();
   const IMAGE_HOST = "https://files.dragonsofthevoid.com";
   const INVENTORY_STORAGE_KEY = "commander-formation-ranker-inputs-v1";
   const LOADOUT_STORAGE_KEY = "dotv-loadout-preview-v1";
@@ -25,6 +27,13 @@
     "ring",
     "mount",
   ];
+
+  const RAID_DIFFICULTIES = {
+    any: { label: "Any Raid", pattern: null },
+    easy: { label: "Easy", pattern: /\bEasy\s+Raids?\b/i },
+    hard: { label: "Hard", pattern: /\bHard\s+Raids?\b/i },
+    legendary: { label: "Legendary", pattern: /\bLegendary\s+Raids?\b/i },
+  };
 
   const EQUIP_SLOTS = [
     { key: "helm", label: "Helm", color: "#f0b35a" },
@@ -54,6 +63,8 @@
 
   const TOTAL_RESOURCE_TARGET = "Total Bonus Resources";
   const DAMAGE_REDUCTION_STAT = "Damage Reduction";
+  const AVERAGE_PROC_DAMAGE_STAT = "Average Proc Damage";
+  const OPTIMIZER_NONE_TARGET = "__none__";
   const BLESSING_STATS = [
     { key: "Consecrated", label: "% Consecrated" },
     { key: "Sanctified", label: "% Sanctified" },
@@ -61,9 +72,11 @@
   const LEGACY_TARGET_ALIASES = {
     "Total Resistances": TOTAL_RESOURCE_TARGET,
     "Effective Damage Reduction": DAMAGE_REDUCTION_STAT,
+    "None": OPTIMIZER_NONE_TARGET,
   };
 
   const OPTIMIZER_TARGETS = [
+    { key: OPTIMIZER_NONE_TARGET, label: "None" },
     { key: "Crit Damage", label: "Crit Damage" },
     { key: "Crit Rate", label: "Crit Rate" },
     { key: "Evasion", label: "Evade" },
@@ -103,6 +116,7 @@
     "HP",
     "Max HP",
     "Heal",
+    AVERAGE_PROC_DAMAGE_STAT,
     TOTAL_RESOURCE_TARGET,
     "Energy",
     "Vitality",
@@ -136,6 +150,7 @@
     ["Fire Resistance", "Fire Resistance"],
     ["Holy Resistance", "Holy Resistance"],
     ["Ice Resistance", "Ice Resistance"],
+    ["Formation Bonus", "Formation Power"],
     ["Formation Bonus", "Formation Bonus"],
     ["Crit Damage", "Crit Damage"],
     ["Crit Rate", "Crit Rate"],
@@ -202,9 +217,10 @@
     selectedId: "",
     pickerQuery: "",
     pickerScope: "all",
-    optimizerTarget: "Crit Damage",
+    optimizerTarget: OPTIMIZER_NONE_TARGET,
     optimizerScope: "all",
     weaponFocus: "any",
+    targetDifficulty: "any",
     detailTab: "info",
     includeLimitedTime: true,
     includeLimitedRaids: true,
@@ -218,6 +234,7 @@
     optimizerTarget: document.getElementById("optimizerTarget"),
     optimizerScope: document.getElementById("optimizerScope"),
     weaponFocus: document.getElementById("weaponFocus"),
+    targetDifficulty: document.getElementById("targetDifficulty"),
     includeLimitedTime: document.getElementById("includeLimitedTime"),
     includeLimitedRaids: document.getElementById("includeLimitedRaids"),
     clearLoadout: document.getElementById("clearLoadout"),
@@ -280,6 +297,17 @@
     return OPTIMIZER_TARGETS.find((target) => target.key === key)?.label || key;
   }
 
+  function isOptimizerEnabled(targetKey = state.optimizerTarget) {
+    return targetKey !== OPTIMIZER_NONE_TARGET;
+  }
+
+  function normalizeOptimizerTarget(targetKey) {
+    const normalized = LEGACY_TARGET_ALIASES[targetKey] || targetKey;
+    return OPTIMIZER_TARGETS.some((target) => target.key === normalized)
+      ? normalized
+      : OPTIMIZER_NONE_TARGET;
+  }
+
   function statDisplayLabel(key) {
     if (key === TOTAL_RESOURCE_TARGET) return optimizerTargetLabel(key);
     const blessing = BLESSING_STATS.find((stat) => stat.key === key);
@@ -307,6 +335,22 @@
     return values.join(" ").toLowerCase().replace(/\s+/g, " ").trim();
   }
 
+  function queryFlagEnabled(name) {
+    if (typeof window === "undefined") return false;
+    try {
+      const params = new URLSearchParams(window.location.search);
+      if (!params.has(name)) return false;
+      const value = String(params.get(name) || "").trim().toLowerCase();
+      return value === "" || ["1", "true", "yes", "on"].includes(value);
+    } catch {
+      return false;
+    }
+  }
+
+  function shouldIncludeUnobtainableItems() {
+    return INCLUDE_UNOBTAINABLE_PARAMS.some((name) => queryFlagEnabled(name));
+  }
+
   function readStoredState() {
     if (typeof localStorage === "undefined") return {};
     try {
@@ -325,6 +369,7 @@
         pickerScope: state.pickerScope,
         optimizerScope: state.optimizerScope,
         weaponFocus: state.weaponFocus,
+        targetDifficulty: state.targetDifficulty,
         optimizerTarget: state.optimizerTarget,
         detailTab: state.detailTab,
         includeLimitedTime: state.includeLimitedTime,
@@ -419,6 +464,36 @@
       .filter(Boolean);
   }
 
+  function raidDifficultyKey(value) {
+    const key = String(value || "").trim().toLowerCase();
+    return RAID_DIFFICULTIES[key] ? key : "any";
+  }
+
+  function difficultyFromLabel(value) {
+    const key = String(value || "").trim().toLowerCase();
+    return RAID_DIFFICULTIES[key] && key !== "any" ? key : "";
+  }
+
+  function createDifficultyMap(factory) {
+    return new Map(
+      Object.keys(RAID_DIFFICULTIES)
+        .filter((key) => key !== "any")
+        .map((key) => [key, factory()]),
+    );
+  }
+
+  function removeDifficultyRaidClauses(value) {
+    return String(value || "")
+      .replace(
+        /(^|,\s*(?:and\s*)?|\band\s+)[+-]?\s*\d[\d,]*(?:\.\d+)?\s*%?\s*(?:HP\s+healed\s+)?(?:[A-Za-z][A-Za-z\s']*?\s+)?vs\s+(?:Easy|Hard|Legendary)\s+Raids?/ig,
+        "$1",
+      )
+      .replace(/^\s*(?:,|and)\s*/i, "")
+      .replace(/\s*,\s*(?:and\s*)?$/i, "")
+      .replace(/\s{2,}/g, " ")
+      .trim();
+  }
+
   function passiveCandidateText(segment) {
     let text = String(segment || "").trim();
     if (!text) return "";
@@ -428,6 +503,9 @@
     const chanceIndex = text.search(/\b\d+(?:\.\d+)?%\s+chance\b/i);
     if (chanceIndex === 0) return "";
     if (chanceIndex > 0) text = text.slice(0, chanceIndex);
+
+    text = removeDifficultyRaidClauses(text);
+    if (!text) return "";
 
     if (/\b(?:on that|on this|on proc|on hit|for that|during this)\b/i.test(text)) return "";
     if (/\bdamage\b.*\b(?:per|vs)\b/i.test(text)) return "";
@@ -450,28 +528,53 @@
     stats.set(key, (stats.get(key) || 0) + amount);
   }
 
+  function addPassiveStatsFromText(stats, text) {
+    STAT_ALIAS_PATTERN.lastIndex = 0;
+    for (const match of String(text || "").matchAll(STAT_ALIAS_PATTERN)) {
+      const after = String(text).slice(match.index + match[0].length, match.index + match[0].length + 16);
+      if (String(match[3]).toLowerCase() === "hp" && /^\s*healed\b/i.test(after)) continue;
+      const sign = match[1] === "-" ? -1 : 1;
+      const amount = parseNumber(match[2]) * sign;
+      const key = STAT_ALIAS_BY_TEXT[String(match[3]).toLowerCase()];
+      addStat(stats, key, amount);
+    }
+
+    DAMAGE_REDUCTION_PATTERN.lastIndex = 0;
+    for (const match of String(text || "").matchAll(DAMAGE_REDUCTION_PATTERN)) {
+      addStat(stats, DAMAGE_REDUCTION_STAT, parseNumber(match[1]));
+    }
+  }
+
   function parsePassiveStats(text) {
     const stats = new Map();
 
     splitEffectSegments(text).forEach((segment) => {
       const passiveText = passiveCandidateText(segment);
       if (!passiveText) return;
-
-      STAT_ALIAS_PATTERN.lastIndex = 0;
-      for (const match of passiveText.matchAll(STAT_ALIAS_PATTERN)) {
-        const sign = match[1] === "-" ? -1 : 1;
-        const amount = parseNumber(match[2]) * sign;
-        const key = STAT_ALIAS_BY_TEXT[String(match[3]).toLowerCase()];
-        addStat(stats, key, amount);
-      }
-
-      DAMAGE_REDUCTION_PATTERN.lastIndex = 0;
-      for (const match of passiveText.matchAll(DAMAGE_REDUCTION_PATTERN)) {
-        addStat(stats, DAMAGE_REDUCTION_STAT, parseNumber(match[1]));
-      }
+      addPassiveStatsFromText(stats, passiveText);
     });
 
     return stats;
+  }
+
+  function parseDifficultyPassiveStats(text) {
+    const statsByDifficulty = createDifficultyMap(() => new Map());
+    const difficultyClausePattern = /(?:^|,\s*(?:and\s*)?|\band\s+)([+-]\s*\d[\d,]*(?:\.\d+)?\s*%?\s*(?:HP\s+healed\s+)?(?:[A-Za-z][A-Za-z\s']*?)?)\s+vs\s+(Easy|Hard|Legendary)\s+Raids?/ig;
+
+    splitEffectSegments(text).forEach((segment) => {
+      const clean = String(segment || "").replace(/^[^:+-]{1,80}:\s*/, "");
+      if (/\b\d+(?:\.\d+)?%\s+chance\b/i.test(clean)) return;
+
+      difficultyClausePattern.lastIndex = 0;
+      for (const match of clean.matchAll(difficultyClausePattern)) {
+        const difficulty = difficultyFromLabel(match[2]);
+        const clause = String(match[1] || "").trim();
+        if (!difficulty || !clause || /\bHP\s+healed\b/i.test(clause)) continue;
+        addPassiveStatsFromText(statsByDifficulty.get(difficulty), clause);
+      }
+    });
+
+    return statsByDifficulty;
   }
 
   function parseConditionalStatBoosts(text, source) {
@@ -594,13 +697,67 @@
     ];
   }
 
+  function parseDifficultyConditionalEffects(text, source) {
+    const boostsByDifficulty = createDifficultyMap(() => []);
+    const damageReductionChancePattern = /(\d+(?:\.\d+)?)%\s+chance\s+to\s+reduce\s+incoming\s+damage\s+to\s+(?:the\s+)?player\s+by\s+(\d[\d,]*(?:\.\d+)?)\s*%\s*;\s*\+(\d+(?:\.\d+)?)%\s+vs\s+(Easy|Hard|Legendary)\s+Raids?/ig;
+    const healingAmountPattern = /(\d+(?:\.\d+)?)%\s+chance\s+to\s+(?:heal|healing)\s+(?:the\s+)?player\s*\+?(\d[\d,]*(?:\.\d+)?)\s*HP\s*;\s*\+(\d[\d,]*(?:\.\d+)?)\s*HP\s+healed\s+vs\s+(Easy|Hard|Legendary)\s+Raids?/ig;
+
+    for (const match of String(text || "").matchAll(damageReductionChancePattern)) {
+      const difficulty = difficultyFromLabel(match[4]);
+      if (!difficulty) continue;
+      const bonusChance = parseNumber(match[3]) / 100;
+      const amount = parseNumber(match[2]);
+      if (!bonusChance || !amount) continue;
+      boostsByDifficulty.get(difficulty).push({
+        source,
+        key: DAMAGE_REDUCTION_STAT,
+        chance: bonusChance,
+        amount,
+        procAmount: 0,
+        avg: amount * bonusChance,
+        text: `${match[0].trim()} (${RAID_DIFFICULTIES[difficulty].label})`,
+      });
+    }
+
+    for (const match of String(text || "").matchAll(healingAmountPattern)) {
+      const difficulty = difficultyFromLabel(match[4]);
+      if (!difficulty) continue;
+      const chance = parseNumber(match[1]) / 100;
+      const amount = parseNumber(match[3]);
+      if (!chance || !amount) continue;
+      boostsByDifficulty.get(difficulty).push({
+        source,
+        key: "Heal",
+        chance,
+        amount,
+        avg: amount * chance,
+        text: `${match[0].trim()} (${RAID_DIFFICULTIES[difficulty].label})`,
+      });
+    }
+
+    return boostsByDifficulty;
+  }
+
   function conditionalStatsFromBoosts(boosts, valueKey) {
     const stats = new Map();
-    boosts.forEach((boost) => addStat(stats, boost.key, boost[valueKey]));
+    boosts.forEach((boost) => {
+      const value = valueKey === "amount" && boost.procAmount !== undefined
+        ? boost.procAmount
+        : boost[valueKey];
+      addStat(stats, boost.key, value);
+    });
     return stats;
   }
 
-  function procEntriesFromText(text, source) {
+  function conditionalStatsByDifficultyFromBoosts(boostsByDifficulty, valueKey) {
+    const statsByDifficulty = createDifficultyMap(() => new Map());
+    boostsByDifficulty.forEach((boosts, difficulty) => {
+      statsByDifficulty.set(difficulty, conditionalStatsFromBoosts(boosts, valueKey));
+    });
+    return statsByDifficulty;
+  }
+
+  function procEntriesFromText(text, source, extra = {}) {
     const entries = [];
     let current = null;
 
@@ -613,7 +770,7 @@
 
       if (startsProc) {
         if (current) entries.push(current);
-        current = { source, text: clean };
+        current = { source, text: clean, ...extra };
         return;
       }
 
@@ -674,6 +831,77 @@
     return combinedIndependentChance(chances.map((chance) => Math.max(0, Math.min(100, chance)) / 100)) * 100;
   }
 
+  function normalizedSetMatch(value) {
+    return cleanIdLikeText(value)
+      .replace(/\bSet\b/ig, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "");
+  }
+
+  function setIdForName(setName) {
+    const normalized = normalizedSetMatch(setName);
+    if (!normalized) return "";
+
+    for (const [setId, setInfo] of state.setBonuses.entries()) {
+      if (
+        normalizedSetMatch(setId.replace(/^is\./, "")) === normalized
+        || normalizedSetMatch(setInfo.name || setLabel(setId)) === normalized
+      ) {
+        return setId;
+      }
+    }
+    return "";
+  }
+
+  function procDamageBreakdown(proc, result) {
+    const text = String(proc?.text || "");
+    const chanceMatch = text.match(/(\d+(?:\.\d+)?)%\s+chance\b/i);
+    const damageMatch = text.match(/\b(?:proc|deal)\s+(\d[\d,]*(?:\.\d+)?)\s+([A-Za-z]+)\s+damage\b/i);
+    if (!chanceMatch || !damageMatch) return null;
+
+    const chance = parseNumber(chanceMatch[1]) / 100;
+    const baseDamage = parseNumber(damageMatch[1]);
+    if (!chance || !baseDamage) return null;
+
+    let totalDamage = baseDamage;
+    const difficulty = raidDifficultyKey(state.targetDifficulty);
+    const difficultyDamagePattern = /([+-])?\s*(\d[\d,]*(?:\.\d+)?)\s+(?:[A-Za-z]+\s+)?damage\s+vs\s+(Easy|Hard|Legendary)\s+Raids?/ig;
+    for (const match of text.matchAll(difficultyDamagePattern)) {
+      if (difficulty !== difficultyFromLabel(match[3])) continue;
+      const sign = match[1] === "-" ? -1 : 1;
+      totalDamage += parseNumber(match[2]) * sign;
+    }
+
+    const perSetPattern = /([+-])?\s*(\d[\d,]*(?:\.\d+)?)\s+(?:[A-Za-z]+\s+)?damage\s+per\s+(.+?)\s+set\s+item\s+worn\b/ig;
+    for (const match of text.matchAll(perSetPattern)) {
+      const setId = setIdForName(match[3]);
+      if (!setId) continue;
+      const owner = itemById(proc.itemId);
+      const ownerIsSetItem = owner?.itemSetIds.includes(setId);
+      const setCount = Math.max(0, (result.setCounts.get(setId) || 0) - (ownerIsSetItem ? 1 : 0));
+      const sign = match[1] === "-" ? -1 : 1;
+      totalDamage += parseNumber(match[2]) * setCount * sign;
+    }
+
+    return {
+      chance,
+      damageType: damageMatch[2],
+      totalDamage,
+      averageDamage: totalDamage * chance,
+    };
+  }
+
+  function formatProcDamageBreakdown(breakdown) {
+    return `Avg ${formatNumber(breakdown.averageDamage)} ${breakdown.damageType} damage (${formatNumber(breakdown.totalDamage)} x ${formatNumber(breakdown.chance * 100)}%)`;
+  }
+
+  function totalAverageProcDamage(result) {
+    return result.procs.reduce((total, proc) => {
+      const breakdown = procDamageBreakdown(proc, result);
+      return total + (breakdown?.averageDamage || 0);
+    }, 0);
+  }
+
   function mergeStats(target, source) {
     for (const [key, value] of source.entries()) {
       addStat(target, key, value);
@@ -690,6 +918,23 @@
   function averageStats(baseStats, conditionalStats) {
     const stats = new Map(baseStats);
     mergeStats(stats, conditionalStats);
+    return stats;
+  }
+
+  function statsForDifficulty(statsByDifficulty, difficulty = state.targetDifficulty) {
+    const key = raidDifficultyKey(difficulty);
+    return key === "any" ? new Map() : (statsByDifficulty?.get(key) || new Map());
+  }
+
+  function boostsForDifficulty(boostsByDifficulty, difficulty = state.targetDifficulty) {
+    const key = raidDifficultyKey(difficulty);
+    return key === "any" ? [] : (boostsByDifficulty?.get(key) || []);
+  }
+
+  function itemAverageStats(item) {
+    const stats = new Map(item.averageStats);
+    mergeStats(stats, statsForDifficulty(item.difficultyStats));
+    mergeStats(stats, statsForDifficulty(item.difficultyConditionalStats));
     return stats;
   }
 
@@ -737,15 +982,21 @@
     const setName = bonus.setName || setLabel(bonus.setIds[0]);
     const source = `${setName} ${bonus.threshold}+`;
     const stats = parsePassiveStats(bonus.text);
+    const difficultyStats = parseDifficultyPassiveStats(bonus.text);
     const conditionalBoosts = parseConditionalEffects(bonus.text, source);
+    const difficultyConditionalBoosts = parseDifficultyConditionalEffects(bonus.text, source);
 
     return {
       ...bonus,
       setName,
       stats,
+      difficultyStats,
       conditionalBoosts,
+      difficultyConditionalBoosts,
       conditionalStats: conditionalStatsFromBoosts(conditionalBoosts, "avg"),
+      difficultyConditionalStats: conditionalStatsByDifficultyFromBoosts(difficultyConditionalBoosts, "avg"),
       conditionalProcStats: conditionalStatsFromBoosts(conditionalBoosts, "amount"),
+      difficultyConditionalProcStats: conditionalStatsByDifficultyFromBoosts(difficultyConditionalBoosts, "amount"),
       procEntries: procEntriesFromText(bonus.text, source),
     };
   }
@@ -762,9 +1013,13 @@
     }
     const baseEffects = stripSetBonusText(rawItem.effects);
     const passiveStats = parsePassiveStats(baseEffects);
+    const difficultyStats = parseDifficultyPassiveStats(baseEffects);
     const conditionalBoosts = parseConditionalEffects(baseEffects, String(rawItem.name || id || "Unknown"));
+    const difficultyConditionalBoosts = parseDifficultyConditionalEffects(baseEffects, String(rawItem.name || id || "Unknown"));
     const conditionalStats = conditionalStatsFromBoosts(conditionalBoosts, "avg");
+    const difficultyConditionalStats = conditionalStatsByDifficultyFromBoosts(difficultyConditionalBoosts, "avg");
     const conditionalProcStats = conditionalStatsFromBoosts(conditionalBoosts, "amount");
+    const difficultyConditionalProcStats = conditionalStatsByDifficultyFromBoosts(difficultyConditionalBoosts, "amount");
     const itemName = String(rawItem.name || id || "Unknown");
     const blessingChances = blessingChancesFromText(`${itemName}\n${baseEffects}`);
     const item = {
@@ -786,11 +1041,15 @@
       effects: String(rawItem.effects || ""),
       description: String(rawItem.description || ""),
       passiveStats,
+      difficultyStats,
       conditionalBoosts,
+      difficultyConditionalBoosts,
       conditionalStats,
+      difficultyConditionalStats,
       conditionalProcStats,
+      difficultyConditionalProcStats,
       blessingChances,
-      procEntries: procEntriesFromText(baseEffects, itemName),
+      procEntries: procEntriesFromText(baseEffects, itemName, { itemId: id }),
     };
 
     item.baseStats = statsWithBase(item);
@@ -833,7 +1092,13 @@
             threshold: bonus.threshold,
             text: bonus.text,
             stats: bonus.stats,
+            difficultyStats: bonus.difficultyStats,
             conditionalBoosts: bonus.conditionalBoosts,
+            difficultyConditionalBoosts: bonus.difficultyConditionalBoosts,
+            conditionalStats: bonus.conditionalStats,
+            difficultyConditionalStats: bonus.difficultyConditionalStats,
+            conditionalProcStats: bonus.conditionalProcStats,
+            difficultyConditionalProcStats: bonus.difficultyConditionalProcStats,
           });
         });
       });
@@ -860,7 +1125,15 @@
           if (seen.has(key)) return;
           seen.add(key);
 
-          if (!bonus.stats.size && !bonus.conditionalBoosts.length && !bonus.procEntries.length) return;
+          const hasDifficultyStats = [...bonus.difficultyStats.values()].some((stats) => stats.size);
+          const hasDifficultyBoosts = [...bonus.difficultyConditionalBoosts.values()].some((boosts) => boosts.length);
+          if (
+            !bonus.stats.size
+            && !bonus.conditionalBoosts.length
+            && !hasDifficultyStats
+            && !hasDifficultyBoosts
+            && !bonus.procEntries.length
+          ) return;
 
           active.push({
             setId,
@@ -868,9 +1141,13 @@
             threshold: bonus.threshold,
             text: bonus.text,
             stats: bonus.stats,
+            difficultyStats: bonus.difficultyStats,
             conditionalBoosts: bonus.conditionalBoosts,
+            difficultyConditionalBoosts: bonus.difficultyConditionalBoosts,
             conditionalStats: bonus.conditionalStats,
+            difficultyConditionalStats: bonus.difficultyConditionalStats,
             conditionalProcStats: bonus.conditionalProcStats,
+            difficultyConditionalProcStats: bonus.difficultyConditionalProcStats,
             procEntries: bonus.procEntries,
           });
         });
@@ -884,7 +1161,7 @@
     return Object.values(items)
       .filter((item) => String(item.id || "").startsWith("e.") && item.equipSlot)
       .map((item) => normalizeItem(item, itemLocations))
-      .filter((item) => item.obtainable)
+      .filter((item) => item.obtainable || INCLUDE_UNOBTAINABLE_BACKDOOR)
       .sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id));
   }
 
@@ -1094,24 +1371,33 @@
     const stats = new Map();
     const procs = [];
     const blessingChanceInputs = new Map(BLESSING_STATS.map(({ key }) => [key, []]));
+    const setCounts = buildSetCounts(items);
 
     items.forEach((item) => {
       mergeStats(baseStats, item.baseStats);
+      mergeStats(baseStats, statsForDifficulty(item.difficultyStats));
       mergeStats(conditionalStats, item.conditionalStats);
+      mergeStats(conditionalStats, statsForDifficulty(item.difficultyConditionalStats));
       mergeStats(conditionalProcStats, item.conditionalProcStats);
+      mergeStats(conditionalProcStats, statsForDifficulty(item.difficultyConditionalProcStats));
       item.conditionalBoosts.forEach((boost) => conditionalBoosts.push(boost));
+      boostsForDifficulty(item.difficultyConditionalBoosts).forEach((boost) => conditionalBoosts.push(boost));
       item.procEntries.forEach((entry) => procs.push(entry));
       item.blessingChances.forEach((chance, key) => {
         if (blessingChanceInputs.has(key)) blessingChanceInputs.get(key).push(chance);
       });
     });
 
-    const activeSetBonuses = activeSetBonusesForItems(items);
+    const activeSetBonuses = setBonusesFromEquippedItems(items, setCounts);
     activeSetBonuses.forEach((bonus) => {
       mergeStats(baseStats, bonus.stats);
+      mergeStats(baseStats, statsForDifficulty(bonus.difficultyStats));
       mergeStats(conditionalStats, bonus.conditionalStats);
+      mergeStats(conditionalStats, statsForDifficulty(bonus.difficultyConditionalStats));
       mergeStats(conditionalProcStats, bonus.conditionalProcStats);
+      mergeStats(conditionalProcStats, statsForDifficulty(bonus.difficultyConditionalProcStats));
       bonus.conditionalBoosts.forEach((boost) => conditionalBoosts.push(boost));
+      boostsForDifficulty(bonus.difficultyConditionalBoosts).forEach((boost) => conditionalBoosts.push(boost));
       bonus.procEntries.forEach((entry) => procs.push(entry));
     });
 
@@ -1131,6 +1417,7 @@
       conditionalBoosts,
       stats,
       blessingStats,
+      setCounts,
       procs,
       activeSetBonuses,
     };
@@ -1143,6 +1430,8 @@
   }
 
   function targetValueFromStats(stats, targetKey) {
+    if (!isOptimizerEnabled(targetKey)) return 0;
+
     if (targetKey === TOTAL_RESOURCE_TARGET) {
       return totalResourceValue(stats);
     }
@@ -1161,11 +1450,11 @@
   }
 
   function itemTargetValue(item, targetKey) {
-    return targetValueFromStats(item.averageStats, targetKey);
+    return targetValueFromStats(itemAverageStats(item), targetKey);
   }
 
   function itemMitigationValue(item) {
-    return effectiveDamageReductionValue(item.averageStats);
+    return effectiveDamageReductionValue(itemAverageStats(item));
   }
 
   function candidatePassiveEntries(item) {
@@ -1195,7 +1484,9 @@
     const stats = new Map();
     activeSetBonuses.forEach((bonus) => {
       mergeStats(stats, bonus.stats);
+      mergeStats(stats, statsForDifficulty(bonus.difficultyStats));
       mergeStats(stats, bonus.conditionalStats);
+      mergeStats(stats, statsForDifficulty(bonus.difficultyConditionalStats));
     });
     return stats;
   }
@@ -1252,8 +1543,11 @@
 
   function setBonusTargetValue(bonus, targetKey) {
     const bonusStats = averageStats(
-      bonus.stats,
-      conditionalStatsFromBoosts(bonus.conditionalBoosts || [], "avg"),
+      averageStats(bonus.stats, statsForDifficulty(bonus.difficultyStats)),
+      averageStats(
+        conditionalStatsFromBoosts(bonus.conditionalBoosts || [], "avg"),
+        statsForDifficulty(bonus.difficultyConditionalStats),
+      ),
     );
     return targetValueFromStats(bonusStats, targetKey);
   }
@@ -1570,6 +1864,45 @@
     return best?.loadout || null;
   }
 
+  function betterSetPickerHandLoadout(candidate, current, setId) {
+    if (!current) return true;
+    const candidateSetCount = setCountInLoadout(candidate.loadout, setId);
+    const currentSetCount = setCountInLoadout(current.loadout, setId);
+    return candidateSetCount > currentSetCount
+      || (candidateSetCount === currentSetCount && compareScoredLoadouts(candidate, current) < 0);
+  }
+
+  function partialSetHandLoadout(loadout, items, targetKey, setId) {
+    let best = loadoutScore(loadout, targetKey);
+    const mainCandidates = itemsForSlot(items, "main-hand")
+      .filter((item) => item.itemSetIds.includes(setId));
+    const offCandidates = itemsForSlot(items, "off-hand")
+      .filter((item) => item.itemSetIds.includes(setId));
+
+    mainCandidates.forEach((mainItem) => {
+      let trial = putItemInLoadout(loadout, "main-hand", mainItem);
+      let scored = loadoutScore(trial, targetKey);
+      if (betterSetPickerHandLoadout(scored, best, setId)) best = scored;
+
+      if (mainItem.twoHanded) return;
+
+      offCandidates.forEach((offItem) => {
+        trial = putItemInLoadout(loadout, "main-hand", mainItem);
+        trial = putItemInLoadout(trial, "off-hand", offItem);
+        scored = loadoutScore(trial, targetKey);
+        if (betterSetPickerHandLoadout(scored, best, setId)) best = scored;
+      });
+    });
+
+    offCandidates.forEach((offItem) => {
+      const trial = putItemInLoadout(loadout, "off-hand", offItem);
+      const scored = loadoutScore(trial, targetKey);
+      if (betterSetPickerHandLoadout(scored, best, setId)) best = scored;
+    });
+
+    return best.loadout;
+  }
+
   function fullSetLoadout(items, targetKey, setId) {
     let loadout = {};
 
@@ -1580,6 +1913,19 @@
     }
 
     return bestSetHandLoadout(loadout, items, targetKey, setId);
+  }
+
+  function partialSetLoadout(items, targetKey, setId) {
+    let loadout = {};
+
+    REAL_SLOT_KEYS
+      .filter((slotKey) => !["main-hand", "off-hand"].includes(slotKey))
+      .forEach((slotKey) => {
+        const item = bestSetItemForSlot(items, setId, slotKey, targetKey);
+        if (item) loadout = putItemInLoadout(loadout, slotKey, item);
+      });
+
+    return partialSetHandLoadout(loadout, items, targetKey, setId);
   }
 
   function fullLoadoutSetId(loadout = state.loadout) {
@@ -1602,6 +1948,7 @@
       targetKey,
       state.optimizerScope,
       state.weaponFocus,
+      state.targetDifficulty,
       state.includeLimitedTime,
       state.includeLimitedRaids,
       state.optimizerScope === "owned" ? [...state.ownedItemIds].sort().join(",") : "",
@@ -1621,11 +1968,21 @@
     const items = sourceItems(state.optimizerScope);
     const setIds = new Set();
     items.forEach((item) => item.itemSetIds.forEach((setId) => setIds.add(setId)));
+    const showScores = isOptimizerEnabled(targetKey);
 
     const options = [...setIds]
       .map((setId) => {
-        const loadout = fullSetLoadout(items, targetKey, setId);
-        if (!loadout) return null;
+        if (!showScores) {
+          return {
+            id: setId,
+            name: setLabel(setId),
+            loadout: null,
+            score: null,
+          };
+        }
+
+        const loadout = partialSetLoadout(items, targetKey, setId);
+        if (!equippedCount(loadout)) return null;
         const score = loadoutScore(loadout, targetKey).score;
         return {
           id: setId,
@@ -1635,12 +1992,23 @@
         };
       })
       .filter(Boolean)
-      .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
+      .sort((a, b) => (
+        showScores
+          ? b.score - a.score || a.name.localeCompare(b.name)
+          : a.name.localeCompare(b.name)
+      ));
 
     state.setOptionsSignature = signature;
     state.setOptionsCache = options;
     state.setOptionsCacheBySignature.set(signature, options);
     return options;
+  }
+
+  function setOptionLabel(option, targetKey = state.optimizerTarget) {
+    if (!isOptimizerEnabled(targetKey) || option.score === null || option.score === undefined) {
+      return option.name;
+    }
+    return `${option.name} (${formatSignedStatValue(targetKey, option.score)})`;
   }
 
   function renderSetPicker() {
@@ -1657,14 +2025,17 @@
     if (currentSetId && !hasCurrentSet) {
       const current = document.createElement("option");
       current.value = currentSetId;
-      current.textContent = `${setLabel(currentSetId)} (${formatSignedStatValue(state.optimizerTarget, loadoutScore(state.loadout, state.optimizerTarget).score)})`;
+      current.textContent = setOptionLabel({
+        name: setLabel(currentSetId),
+        score: isOptimizerEnabled() ? loadoutScore(state.loadout, state.optimizerTarget).score : null,
+      });
       els.setPicker.append(current);
     }
 
     options.forEach((option) => {
       const element = document.createElement("option");
       element.value = option.id;
-      element.textContent = `${option.name} (${formatSignedStatValue(state.optimizerTarget, option.score)})`;
+      element.textContent = setOptionLabel(option);
       els.setPicker.append(element);
     });
 
@@ -1680,12 +2051,23 @@
     const option = availableSetOptions().find((entry) => entry.id === setId);
     if (!option) {
       renderSetPicker();
-      setStatus("That set cannot make a full loadout with the current filters.", true);
+      setStatus("No pieces from that set are available with the current filters.", true);
       return;
     }
 
-    applyScoredLoadout(loadoutScore(option.loadout, state.optimizerTarget));
-    setStatus(`Loaded ${option.name}: ${formatStatValue(state.optimizerTarget, option.score)} ${optimizerTargetLabel(state.optimizerTarget)}.`);
+    const loadout = option.loadout || partialSetLoadout(sourceItems(state.optimizerScope), state.optimizerTarget, option.id);
+    const setPieces = setCountInLoadout(loadout, option.id);
+    if (!setPieces) {
+      renderSetPicker();
+      setStatus("No pieces from that set are available with the current filters.", true);
+      return;
+    }
+
+    const scored = loadoutScore(loadout, state.optimizerTarget);
+    applyScoredLoadout(scored);
+    setStatus(isOptimizerEnabled()
+      ? `Loaded ${option.name} (${formatNumber(setPieces)} pieces): ${formatStatValue(state.optimizerTarget, scored.score)} ${optimizerTargetLabel(state.optimizerTarget)}.`
+      : `Loaded ${option.name} (${formatNumber(setPieces)} pieces). Optimizer is off.`);
   }
 
   function uniqueItems(items) {
@@ -1857,9 +2239,12 @@
   }
 
   function scheduleOptimizationPrewarm() {
+    if (!isOptimizerEnabled()) return;
+
     const token = ++optimizationPrewarmToken;
     const pendingTargets = OPTIMIZER_TARGETS
       .map((target) => target.key)
+      .filter((targetKey) => isOptimizerEnabled(targetKey))
       .filter((targetKey) => targetKey !== state.optimizerTarget)
       .filter((targetKey) => !state.optimizedLoadoutCache.has(optimizerSignature(targetKey)));
 
@@ -1876,10 +2261,29 @@
 
   function autoOptimizeLoadout() {
     optimizationPrewarmToken += 1;
+    if (!isOptimizerEnabled()) {
+      saveStoredState();
+      renderAll();
+      setStatus("Optimizer off. Pick a target when you want it to rebuild the loadout.");
+      return;
+    }
+
     const result = optimizedLoadoutForCurrentSettings();
     applyScoredLoadout(result.scored);
     setStatus(result.message, result.isError);
     scheduleOptimizationPrewarm();
+  }
+
+  function refreshOptimizerSettings() {
+    if (isOptimizerEnabled()) {
+      autoOptimizeLoadout();
+      return;
+    }
+
+    optimizationPrewarmToken += 1;
+    saveStoredState();
+    renderAll();
+    setStatus("Optimizer off. Filters update item lists without changing this loadout.");
   }
 
   function setStatus(message, isError = false) {
@@ -1894,7 +2298,7 @@
 
   function renderOptimizerTargets() {
     const keys = new Set(OPTIMIZER_TARGETS.map((target) => target.key));
-    state.optimizerTarget = LEGACY_TARGET_ALIASES[state.optimizerTarget] || state.optimizerTarget;
+    state.optimizerTarget = normalizeOptimizerTarget(state.optimizerTarget);
     els.optimizerTarget.innerHTML = "";
     OPTIMIZER_TARGETS.forEach(({ key, label }) => {
       const option = document.createElement("option");
@@ -1903,7 +2307,7 @@
       els.optimizerTarget.append(option);
     });
 
-    if (!keys.has(state.optimizerTarget)) state.optimizerTarget = OPTIMIZER_TARGETS[0].key;
+    if (!keys.has(state.optimizerTarget)) state.optimizerTarget = OPTIMIZER_NONE_TARGET;
     els.optimizerTarget.value = state.optimizerTarget;
   }
 
@@ -2117,6 +2521,16 @@
       rows.push({ key, label: statDisplayLabel(key), value, target: false });
     });
 
+    const averageProcDamage = totalAverageProcDamage(result);
+    if (averageProcDamage) {
+      rows.push({
+        key: AVERAGE_PROC_DAMAGE_STAT,
+        label: AVERAGE_PROC_DAMAGE_STAT,
+        value: averageProcDamage,
+        target: false,
+      });
+    }
+
     const seen = new Set();
     const uniqueRows = rows
       .filter((row) => {
@@ -2186,6 +2600,13 @@
         text.className = "proc-text";
         text.textContent = proc.text;
         div.append(source, text);
+        const damageBreakdown = procDamageBreakdown(proc, result);
+        if (damageBreakdown) {
+          const average = document.createElement("div");
+          average.className = "proc-average";
+          average.textContent = formatProcDamageBreakdown(damageBreakdown);
+          div.append(average);
+        }
         els.procSummary.append(div);
       });
     }
@@ -2378,23 +2799,28 @@
   function updateLocationFilters() {
     state.includeLimitedTime = els.includeLimitedTime.checked;
     state.includeLimitedRaids = els.includeLimitedRaids.checked;
-    autoOptimizeLoadout();
+    refreshOptimizerSettings();
   }
 
   function bindEvents() {
     els.optimizerTarget.addEventListener("change", () => {
-      state.optimizerTarget = els.optimizerTarget.value;
-      autoOptimizeLoadout();
+      state.optimizerTarget = normalizeOptimizerTarget(els.optimizerTarget.value);
+      refreshOptimizerSettings();
     });
 
     els.optimizerScope.addEventListener("change", () => {
       state.optimizerScope = els.optimizerScope.value === "owned" ? "owned" : "all";
-      autoOptimizeLoadout();
+      refreshOptimizerSettings();
     });
 
     els.weaponFocus.addEventListener("change", () => {
       state.weaponFocus = WEAPON_FOCUS_META[els.weaponFocus.value] ? els.weaponFocus.value : "any";
-      autoOptimizeLoadout();
+      refreshOptimizerSettings();
+    });
+
+    els.targetDifficulty.addEventListener("change", () => {
+      state.targetDifficulty = raidDifficultyKey(els.targetDifficulty.value);
+      refreshOptimizerSettings();
     });
 
     els.includeLimitedTime.addEventListener("change", updateLocationFilters);
@@ -2417,7 +2843,7 @@
     window.addEventListener("storage", (event) => {
       if (event.key !== INVENTORY_STORAGE_KEY) return;
       state.ownedItemIds = readOwnedItemIds();
-      if (state.optimizerScope === "owned") {
+      if (state.optimizerScope === "owned" && isOptimizerEnabled()) {
         autoOptimizeLoadout();
       } else {
         renderAll();
@@ -2437,17 +2863,21 @@
     state.pickerScope = stored.pickerScope === "owned" ? "owned" : "all";
     state.optimizerScope = stored.optimizerScope === "owned" ? "owned" : "all";
     state.weaponFocus = WEAPON_FOCUS_META[stored.weaponFocus] ? stored.weaponFocus : "any";
+    state.targetDifficulty = raidDifficultyKey(stored.targetDifficulty);
     state.detailTab = stored.detailTab === "locations" ? "locations" : "info";
     state.includeLimitedTime = stored.includeLimitedTime !== false;
     state.includeLimitedRaids = stored.includeLimitedRaids !== false;
     enforceItemFiltersOnLoadout();
-    state.optimizerTarget = typeof stored.optimizerTarget === "string" ? stored.optimizerTarget : "Crit Damage";
+    state.optimizerTarget = normalizeOptimizerTarget(
+      typeof stored.optimizerTarget === "string" ? stored.optimizerTarget : state.optimizerTarget,
+    );
     state.selectedId = slotDisplayItem(state.selectedSlot)?.id || "";
 
     els.itemSearch.value = state.pickerQuery;
     els.pickerScope.value = state.pickerScope;
     els.optimizerScope.value = state.optimizerScope;
     els.weaponFocus.value = state.weaponFocus;
+    els.targetDifficulty.value = state.targetDifficulty;
     els.includeLimitedTime.checked = state.includeLimitedTime;
     els.includeLimitedRaids.checked = state.includeLimitedRaids;
   }
@@ -2465,7 +2895,7 @@
       applyStoredState();
       renderOptimizerTargets();
       bindEvents();
-      autoOptimizeLoadout();
+      refreshOptimizerSettings();
     } catch (error) {
       setStatus(error.message, true);
       els.candidateList.innerHTML = `<div class="empty-state">${error.message}</div>`;
