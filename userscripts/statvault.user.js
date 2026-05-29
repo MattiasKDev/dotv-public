@@ -333,6 +333,103 @@ const STATVAULT_UI_CSS = `
     min-width: 110px;
 }
 
+.sv-content-leaderboards {
+    padding: 10px 16px;
+}
+
+.sv-content-leaderboards .sv-leaderboard-shell {
+    --sv-leaderboard-sidebar-width: 320px;
+    --sv-leaderboard-shell-gap: 20px;
+}
+
+.sv-content-leaderboards .sv-leaderboard-main,
+.sv-content-leaderboards .sv-leaderboard-stage,
+.sv-content-leaderboards .sv-leaderboard-board {
+    align-items: stretch;
+}
+
+.sv-content-leaderboards .sv-leaderboard-table-stage {
+    width: min(760px, 100%);
+    max-width: 100%;
+    align-self: center;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.sv-content-leaderboards .sv-leaderboard-nav {
+    display: grid;
+    grid-template-columns: minmax(145px, 1fr) minmax(120px, 0.86fr);
+    gap: 10px;
+    align-items: start;
+}
+
+.sv-content-leaderboards .sv-leaderboard-board {
+    gap: 8px;
+    width: 100%;
+}
+
+.sv-content-leaderboards .sv-leaderboard-board-tabs {
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: visible;
+    overflow-y: visible;
+    gap: 7px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    border-left: 1px solid rgba(255, 215, 160, 0.14);
+}
+
+.sv-content-leaderboards .sv-leaderboard-board-tabs .sv-tab-button {
+    width: 100%;
+    justify-content: flex-start;
+    border-radius: 12px;
+    padding: 11px 14px;
+    font-size: 14px;
+}
+
+.sv-content-leaderboards .sv-leaderboard-group-tabs .sv-tab-button {
+    padding: 13px 16px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.sv-content-leaderboards .sv-table-leaderboard .sv-td {
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 1.15;
+}
+
+.sv-content-leaderboards .sv-table-leaderboard {
+    width: 100%;
+    min-width: 0;
+    table-layout: fixed;
+}
+
+.sv-content-leaderboards .sv-table-leaderboard .sv-td-rank {
+    width: 52px;
+    min-width: 52px;
+}
+
+.sv-content-leaderboards .sv-table-leaderboard .sv-td-name {
+    min-width: 0;
+}
+
+.sv-content-leaderboards .sv-table-leaderboard .sv-td-class {
+    min-width: 0;
+}
+
+.sv-content-leaderboards .sv-table-leaderboard .sv-td-value,
+.sv-content-leaderboards .sv-table-leaderboard .sv-td-date {
+    width: 150px;
+    min-width: 0;
+}
+
+.sv-content-leaderboards .sv-viewer-separator,
+.sv-content-leaderboards .sv-viewer-separator .sv-td {
+    height: 6px;
+}
+
 .sv-th {
     border-right: 1px solid rgba(255, 255, 255, 0.08);
     border-bottom: 1px solid rgba(255, 215, 160, 0.14);
@@ -725,6 +822,21 @@ const STATVAULT_UI_CSS = `
     }
 }
 
+@media (min-width: 1500px) {
+    .sv-content-leaderboards .sv-leaderboard-table-stage {
+        width: min(780px, 100%);
+        transform: translateX(calc((var(--sv-leaderboard-sidebar-width) + var(--sv-leaderboard-shell-gap)) / -2));
+    }
+}
+
+@media (min-width: 1500px) and (min-height: 1050px) {
+    .sv-content-leaderboards .sv-table-leaderboard .sv-td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 1100px) {
     .sv-header-main {
         gap: 10px;
@@ -742,7 +854,25 @@ const STATVAULT_UI_CSS = `
         overflow-y: hidden;
     }
 
-    .sv-leaderboard-group-tabs .sv-tab-button {
+    .sv-content-leaderboards .sv-leaderboard-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .sv-content-leaderboards .sv-leaderboard-board-tabs {
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-left: 0;
+        border-left: 0;
+        border-top: 1px solid rgba(255, 215, 160, 0.12);
+    }
+
+    .sv-leaderboard-group-tabs .sv-tab-button,
+    .sv-content-leaderboards .sv-leaderboard-board-tabs .sv-tab-button {
         width: auto;
         justify-content: center;
         border-radius: 999px;
@@ -1747,6 +1877,7 @@ class StatVaultUI {
 
     renderUI(box) {
         box.innerHTML = "";
+        box.className = "sv-box";
 
         box.appendChild(this.buildHeader());
 
@@ -1861,7 +1992,7 @@ class StatVaultUI {
 
     buildContentContainer() {
         const content = document.createElement("div");
-        content.className = "sv-content";
+        content.className = `sv-content sv-content-${this.activeView}`;
         return content;
     }
 
@@ -2384,7 +2515,10 @@ class StatVaultUI {
             return;
         }
 
-        sidebar.appendChild(this.buildLeaderboardGroupTabs());
+        const nav = document.createElement("div");
+        nav.className = "sv-leaderboard-nav";
+        nav.appendChild(this.buildLeaderboardGroupTabs());
+        sidebar.appendChild(nav);
 
         const group = this.activeLeaderboardGroup;
         const groupData = this.core.getCachedLeaderboardGroup(group);
@@ -2418,7 +2552,7 @@ class StatVaultUI {
             return;
         }
 
-        stage.appendChild(this.buildLeaderboardBoardTabs(group, boardOptions));
+        nav.appendChild(this.buildLeaderboardBoardTabs(group, boardOptions));
 
         const board = groupData.boards?.[activeBoardKey];
         if (!board) {
@@ -2437,8 +2571,25 @@ class StatVaultUI {
         content.appendChild(shell);
     }
 
-    formatRatio(value, divisor) {
-        return divisor > 0 ? (value / divisor).toFixed(2) : "N/A";
+    formatRatio(value, divisor, precision = 2) {
+        const numericValue = Number(value);
+        const numericDivisor = Number(divisor);
+
+        return numericDivisor > 0 && Number.isFinite(numericValue)
+            ? (numericValue / numericDivisor).toFixed(precision)
+            : "N/A";
+    }
+
+    formatRatioChange(currentValue, currentDivisor, previousValue, previousDivisor, precision = 3) {
+        const currentRatio = Number(currentDivisor) > 0 ? Number(currentValue) / Number(currentDivisor) : NaN;
+        const previousRatio = Number(previousDivisor) > 0 ? Number(previousValue) / Number(previousDivisor) : NaN;
+        const change = currentRatio - previousRatio;
+
+        if (!Number.isFinite(change)) return "N/A";
+
+        const rounded = Number(change.toFixed(precision));
+        const absoluteValue = Math.abs(rounded).toFixed(precision);
+        return rounded < 0 ? `-${absoluteValue}` : `+${absoluteValue}`;
     }
 
     buildMainStatInfoRow() {
@@ -2447,6 +2598,7 @@ class StatVaultUI {
 
         statInfoContainer.appendChild(this.createStatInfoItem("Account Age:", `${this.core.age} days`));
         statInfoContainer.appendChild(this.createStatInfoItem("Stat Points/Age:", this.formatRatio(this.core.globalStats.sp, this.core.age)));
+        statInfoContainer.appendChild(this.createStatInfoItem("Stat Points/XP:", this.formatRatio(this.core.globalStats.sp, this.core.globalStats.xp, 3)));
         statInfoContainer.appendChild(this.createStatInfoItem("Stat Points/Level:", this.formatRatio(this.core.globalStats.sp, this.core.globalStats.lvl)));
         statInfoContainer.appendChild(this.createStatInfoItem("Stats/Level:", this.formatRatio(this.core.statSum, this.core.globalStats.lvl)));
         statInfoContainer.appendChild(this.createStatInfoItem("All-time Highest Hit:", this.core.formatNumber(this.core.getAllTimeHighestHit())));
@@ -2582,6 +2734,7 @@ class StatVaultUI {
                     { key: "level", label: "Level" },
                     { key: "total_sp", label: "Total SP" },
                     { key: "sp_per_level", label: "SP / Level" },
+                    { key: "sp_per_xp", label: "SP / XP" },
                 ];
             case "destroyers":
                 return [
@@ -2638,11 +2791,25 @@ class StatVaultUI {
             return wrapper;
         }
 
+        let viewerIsInTopRows = false;
+
         topRows.forEach((row, index) => {
-            this.appendLeaderboardTableRow(table, columns, index + 1, row, index % 2 === 0 ? "sv-row-even" : "sv-row-odd");
+            const rank = index + 1;
+            const isViewerRow = this.isLeaderboardViewerRow(row, board.viewer, rank, board.viewerRank);
+            if (isViewerRow) {
+                viewerIsInTopRows = true;
+            }
+
+            this.appendLeaderboardTableRow(
+                table,
+                columns,
+                rank,
+                row,
+                isViewerRow ? "sv-row-viewer" : index % 2 === 0 ? "sv-row-even" : "sv-row-odd"
+            );
         });
 
-        if (board.viewer && board.viewerRank) {
+        if (board.viewer && board.viewerRank && !viewerIsInTopRows) {
             const spacer = table.insertRow();
             spacer.className = "sv-viewer-separator";
             const spacerCell = spacer.insertCell();
@@ -2659,6 +2826,69 @@ class StatVaultUI {
         return wrapper;
     }
 
+    isLeaderboardViewerRow(row, viewer, rank, viewerRank) {
+        if (!row) return false;
+
+        const rowId = this.getLeaderboardRowIdentity(row);
+        const viewerId = this.getLeaderboardRowIdentity(viewer);
+        const activeUserId = String(this.core.userProfile.id ?? "").trim();
+
+        if (rowId && (rowId === viewerId || rowId === activeUserId)) {
+            return true;
+        }
+
+        const rowName = this.normalizeLeaderboardIdentity(row.characterName);
+        const viewerName = this.normalizeLeaderboardIdentity(viewer?.characterName);
+        const activeName = this.normalizeLeaderboardIdentity(this.core.userProfile.characterName);
+        const activeNameMatches = rowName && rowName === activeName;
+
+        if (activeNameMatches) {
+            return true;
+        }
+
+        const nameMatches = rowName && rowName === viewerName;
+
+        if (!nameMatches) return false;
+
+        if (Number(viewerRank) === rank) {
+            return true;
+        }
+
+        return Boolean(viewer) && this.areLeaderboardValuesEquivalent(row.value, viewer.value);
+    }
+
+    getLeaderboardRowIdentity(row) {
+        if (!row || typeof row !== "object") return "";
+
+        for (const key of ["userId", "userID", "playerId", "characterId", "id"]) {
+            const value = row[key];
+            if (value !== null && value !== undefined && String(value).trim()) {
+                return String(value).trim();
+            }
+        }
+
+        return "";
+    }
+
+    normalizeLeaderboardIdentity(value) {
+        return String(value ?? "").trim().toLowerCase();
+    }
+
+    areLeaderboardValuesEquivalent(a, b) {
+        if (a === null || a === undefined || b === null || b === undefined) {
+            return false;
+        }
+
+        const numericA = Number(a);
+        const numericB = Number(b);
+
+        if (Number.isFinite(numericA) && Number.isFinite(numericB)) {
+            return Math.abs(numericA - numericB) < 0.0000001;
+        }
+
+        return String(a) === String(b);
+    }
+
     appendLeaderboardTableRow(table, columns, rank, row, rowClassName) {
         const tableRow = table.insertRow();
         tableRow.className = rowClassName;
@@ -2673,7 +2903,7 @@ class StatVaultUI {
                 return;
             }
 
-            td.textContent = this.formatLeaderboardCellValue(column.key, row[column.key]);
+            td.textContent = this.formatLeaderboardCellValue(column, row[column.key]);
         });
     }
 
@@ -2690,7 +2920,12 @@ class StatVaultUI {
         return [
             { key: "rank", label: "#", rank: true },
             { key: "characterName", label: "Name", cellClass: "sv-td-center sv-td-name" },
-            { key: "value", label: this.getLeaderboardValueLabel(group, boardKey), cellClass: "sv-td-right sv-td-value" },
+            {
+                key: "value",
+                label: this.getLeaderboardValueLabel(group, boardKey),
+                cellClass: "sv-td-right sv-td-value",
+                precision: this.getLeaderboardValuePrecision(group, boardKey),
+            },
         ];
     }
 
@@ -2718,6 +2953,8 @@ class StatVaultUI {
                     return "Total SP";
                 case "sp_per_level":
                     return "SP / Level";
+                case "sp_per_xp":
+                    return "Stat Points / XP";
                 default:
                     return "Value";
             }
@@ -2739,7 +2976,18 @@ class StatVaultUI {
         }
     }
 
-    formatLeaderboardCellValue(key, value) {
+    getLeaderboardValuePrecision(group, boardKey) {
+        if (group === "overall" && boardKey === "sp_per_xp") {
+            return 4;
+        }
+
+        return null;
+    }
+
+    formatLeaderboardCellValue(column, value) {
+        const key = typeof column === "string" ? column : column.key;
+        const precision = typeof column === "object" ? column.precision : null;
+
         if (key === "className") {
             return this.toTitleCase(value);
         }
@@ -2755,6 +3003,13 @@ class StatVaultUI {
         }
 
         if (typeof value === "number") {
+            if (Number.isInteger(precision)) {
+                return value.toLocaleString(undefined, {
+                    minimumFractionDigits: precision,
+                    maximumFractionDigits: precision,
+                });
+            }
+
             return this.core.formatNumber(value);
         }
 
@@ -2791,6 +3046,7 @@ class StatVaultUI {
             { key: "dmg", label: "Total Damage" },
             { key: "dmgMax", label: "Highest Hit" },
             { key: "spLvl", label: "SP/Level" },
+            { key: "spXp", label: "SP/XP" },
         ];
 
         const thead = table.createTHead();
@@ -2819,6 +3075,7 @@ class StatVaultUI {
                 dmg: stats.dmg,
                 dmgMax: stats.dmgMax,
                 spLvl: stats.lvl > 0 ? (stats.sp / stats.lvl).toFixed(2) : 0,
+                spXp: this.formatRatio(stats.sp, stats.xp, 3),
             };
 
             const row = table.insertRow();
@@ -2841,7 +3098,7 @@ class StatVaultUI {
         table.className = "sv-table";
 
         const hr = table.createTHead().insertRow();
-        ["Last", "Levels", "XP", "Stats", "Total Raids", "SP/Raids", "Total Damage", "Highest Hit"].forEach((t, index) => {
+        ["Last", "Levels", "XP", "Stats", "Total Raids", "SP/Raids", "SP/XP +/-", "Total Damage", "Highest Hit"].forEach((t, index) => {
             const th = document.createElement("th");
             th.textContent = t;
             th.className = index === 0 ? "sv-th sv-th-left" : "sv-th";
@@ -2872,6 +3129,13 @@ class StatVaultUI {
             if ([1, 7, 30].includes(i)) {
                 const spGain = this.core.globalStats.sp - (stats.sp ?? oldestData.sp);
                 const raidsInWindow = i === 1 ? this.core.globalStats.rc : totalRc;
+                const spXpChange = this.formatRatioChange(
+                    this.core.globalStats.sp,
+                    this.core.globalStats.xp,
+                    stats.sp ?? oldestData.sp,
+                    stats.xp ?? oldestData.xp,
+                    3
+                );
                 const row = table.insertRow();
                 row.className = "sv-row-even";
 
@@ -2882,6 +3146,7 @@ class StatVaultUI {
                     spGain,
                     raidsInWindow,
                     spGain > 0 && raidsInWindow > 0 ? (spGain / raidsInWindow).toFixed(2) : "N/A",
+                    spXpChange,
                     i === 1 ? this.core.globalStats.dmg : dmgTotal,
                     i === 1 ? this.core.globalStats.dmgMax : dmgMax,
                 ].forEach((v, index) => {
