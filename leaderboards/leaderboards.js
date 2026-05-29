@@ -16,6 +16,7 @@
       { key: "level", label: "Level" },
       { key: "total_sp", label: "Total SP" },
       { key: "sp_per_level", label: "SP / Level" },
+      { key: "sp_per_xp", label: "SP / XP" },
     ],
     destroyers: [
       { key: "1d", label: "Daily" },
@@ -42,15 +43,22 @@
     content: document.getElementById("leaderboardContent"),
   };
 
-  function formatNumber(value) {
+  function formatNumber(value, precision = null) {
+    if (Number.isInteger(precision)) {
+      return Number(value).toLocaleString("en-US", {
+        minimumFractionDigits: precision,
+        maximumFractionDigits: precision,
+      });
+    }
+
     return Number(value).toLocaleString("en-US", {
       maximumFractionDigits: Number.isInteger(value) ? 0 : 2,
     });
   }
 
-  function formatValue(value) {
+  function formatValue(value, precision = null) {
     if (typeof value === "number" && Number.isFinite(value)) {
-      return formatNumber(value);
+      return formatNumber(value, precision);
     }
     return value ?? "";
   }
@@ -213,7 +221,7 @@
       : [
         { label: "#", key: "rank", className: "rank-cell numeric" },
         { label: "Name", key: "characterName" },
-        { label: getValueLabel(), key: "value", className: "numeric" },
+        { label: getValueLabel(), key: "value", className: "numeric", precision: getValuePrecision() },
       ];
 
     columns.forEach((column) => {
@@ -229,7 +237,7 @@
       columns.forEach((column) => {
         const td = tr.insertCell();
         td.className = column.className || "";
-        td.textContent = cellValue(column.key, row, index);
+        td.textContent = cellValue(column, row, index);
       });
     });
 
@@ -245,6 +253,8 @@
           return "Total SP";
         case "sp_per_level":
           return "SP / Level";
+        case "sp_per_xp":
+          return "Stat Points / XP";
         default:
           return "Value";
       }
@@ -266,7 +276,17 @@
     }
   }
 
-  function cellValue(key, row, index) {
+  function getValuePrecision() {
+    if (state.group === "overall" && state.board === "sp_per_xp") {
+      return 4;
+    }
+
+    return null;
+  }
+
+  function cellValue(column, row, index) {
+    const key = column.key;
+
     switch (key) {
       case "rank":
         return formatNumber(index + 1);
@@ -275,7 +295,7 @@
       case "date":
         return formatDate(row.date);
       default:
-        return formatValue(row[key]);
+        return formatValue(row[key], column.precision);
     }
   }
 
