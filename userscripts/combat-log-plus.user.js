@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Adds passive damage-taken breakdowns to raid battle logs.
-// @version      2026.05.24
+// @version      2026.06.06
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
@@ -474,16 +474,42 @@
         };
     }
 
-    function getAttackRequestInfo(requestBody) {
+    function getAttackRequestInfo(rawAttack, requestBody) {
         const request = parseRequestBody(requestBody) || {};
         return {
-            raidId: request.raidId ?? request.userRaidId ?? request.id,
+            raidId: request.raidId
+                ?? request.userRaidId
+                ?? request.id
+                ?? rawAttack?.raidId
+                ?? rawAttack?.userRaidId
+                ?? rawAttack?.raid?.id
+                ?? rawAttack?.userRaid?.id
+                ?? rawAttack?.request?.raidId
+                ?? rawAttack?.request?.userRaidId
+                ?? rawAttack?.payload?.raidId
+                ?? rawAttack?.payload?.userRaidId
+                ?? rawAttack?.payload?.raid?.id
+                ?? rawAttack?.payload?.userRaid?.id
+                ?? rawAttack?.damage?.raidId
+                ?? rawAttack?.damage?.userRaidId,
             attackType: request.attackType
+                ?? rawAttack?.attackType
+                ?? rawAttack?.attacks
+                ?? rawAttack?.attackCount
+                ?? rawAttack?.request?.attackType
+                ?? rawAttack?.request?.attacks
+                ?? rawAttack?.request?.attackCount
+                ?? rawAttack?.payload?.attackType
+                ?? rawAttack?.payload?.attacks
+                ?? rawAttack?.payload?.attackCount
+                ?? rawAttack?.damage?.attackType
+                ?? rawAttack?.damage?.attacks
+                ?? rawAttack?.damage?.attackCount
         };
     }
 
-    function findRaidEntry(_rawAttack, requestBody) {
-        const attack = getAttackRequestInfo(requestBody);
+    function findRaidEntry(rawAttack, requestBody) {
+        const attack = getAttackRequestInfo(rawAttack, requestBody);
         const userRaid = attack.raidId != null ? userRaidById.get(String(attack.raidId)) : null;
         if (userRaid) {
             const raid = raidDataById.get(userRaid.raidXmlId);
@@ -2405,47 +2431,29 @@
     }
 
     function patchXHR() {
-        const XHR = pageWindow.XMLHttpRequest || XMLHttpRequest;
-        if (!XHR || XHR.prototype.__dotvClpPatched) return;
+        const NativeXHR = pageWindow.XMLHttpRequest || XMLHttpRequest;
+        if (!NativeXHR || NativeXHR.__dotvClpPatched) return;
 
-        const realOpen = XHR.prototype.open;
-        const realSend = XHR.prototype.send;
+        function CombatLogPlusXMLHttpRequest() {
+            const xhr = new NativeXHR();
 
-        XHR.prototype.open = function (_method, url) {
-            const requestUrl = String(url || '');
-            this.__dotvClpUrl = requestUrl;
-            this.__dotvClpBody = null;
-            const result = realOpen.apply(this, arguments);
+            xhr.addEventListener('load', function () {
+                try {
+                    const url = this.responseURL || '';
+                    if (!shouldInspectUrl(url)) return;
 
-            if (shouldInspectUrl(requestUrl)) {
-                this.addEventListener('load', function () {
-                    try {
-                        const url = this.responseURL || this.__dotvClpUrl || requestUrl;
-                        const data = JSON.parse(this.responseText);
-                        handleResponse(url, data, this.__dotvClpBody);
-                    } catch { }
-                });
+                    const data = JSON.parse(this.responseText);
+                    handleResponse(url, data, null);
+                } catch { }
+            });
 
-                if (isAttackUrl(requestUrl)) {
-                    Object.defineProperty(this, 'send', {
-                        configurable: true,
-                        writable: true,
-                        value(body) {
-                            this.__dotvClpBody = body;
-                            return realSend.apply(this, arguments);
-                        }
-                    });
-                } else if (Object.prototype.hasOwnProperty.call(this, 'send')) {
-                    delete this.send;
-                }
-            } else if (Object.prototype.hasOwnProperty.call(this, 'send')) {
-                delete this.send;
-            }
+            return xhr;
+        }
 
-            return result;
-        };
-
-        XHR.prototype.__dotvClpPatched = true;
+        CombatLogPlusXMLHttpRequest.prototype = NativeXHR.prototype;
+        Object.setPrototypeOf(CombatLogPlusXMLHttpRequest, NativeXHR);
+        CombatLogPlusXMLHttpRequest.__dotvClpPatched = true;
+        pageWindow.XMLHttpRequest = CombatLogPlusXMLHttpRequest;
     }
 
     restoreStats();
