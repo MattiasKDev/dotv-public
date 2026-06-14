@@ -288,6 +288,14 @@
     ],
     "locationText": "Crafted from:\n- 1 Meftet Whelp - crafted from 16 Elderberry Bushel (Attentive Perception drop)\n- 3 Sinnamurgh Feather - Attentive Perception drop\n- 5 Elderberry Bushel - Attentive Perception drop"
   },
+  "e.natures-revolt-greaves": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Orange Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
+  },
   "u.copper-fury-tonic": {
     "obtainable": true,
     "tags": [
@@ -779,6 +787,14 @@
     ],
     "locationText": "Crafted at Guild Alchemist Level XX+ from:\n- 1 Guild Beastmaster - crafted at Guild Alchemist Level XIV+ from 1 Guild Beasthandler (Available at Guild Market (Level 14+ for 600 Guild Coin)) and 2 Robust Brew of Physicality (Purchased from Guild Alchemist (Guild Alchemist XIV) for 8000 Crowns)\n- 2 Greater Melee Token - Purchased from Guild Alchemist (Guild Alchemist XI) for 1250 Guild Coin\n- 1 Sigil of Devoted Experience - Purchased from Guild Alchemist (Guild Alchemist XX) for 7500 Guild Coin"
   },
+  "e.natures-revolt-boots": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark"
+  },
   "ba.wanderer-banner": {
     "obtainable": false,
     "tags": [
@@ -868,7 +884,7 @@
       "limited raids",
       "limited-time"
     ],
-    "locationText": "From Yellow-Green Repentant Dusk Chest, crafted from 10 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Yellow-Green Repentant Dusk Chest, which was previously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "From Yellow-Green Repentant Dusk Chest, crafted from 10 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Yellow-Green Repentant Dusk Chest, which is purchased from the market (limited-time / repentant-dusk) for 10 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.snowdrake-slaughterer-pants": {
     "obtainable": true,
@@ -885,7 +901,7 @@
       "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 10 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nDropped from Jolly Gelatin on legendary difficulty.\nPreviously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "Crafted from 10 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nDropped from Jolly Gelatin on legendary difficulty.\nPurchased from the market (limited-time / repentant-dusk) for 10 Void Crystals (Requires: Z1 Segment 1 on Easy).\nPreviously available in the market (limited-time / repentant-dusk-set)."
   },
   "e.ranging-scouts-longbow": {
     "obtainable": true,
@@ -1258,6 +1274,14 @@
       "guild-recipe"
     ],
     "locationText": "Crafted at Guild Alchemist Level XV+ from:\n- 2 Greater Potion of Valour - crafted at Guild Alchemist Level XI+ from 2 Large Potion of Valour (Crafted at Guild Alchemist Level VIII+ from 2 Potion of Valour (Crafted at Guild Alchemist Level V+ from 2 Lesser Potion of Valour (Crafted at Guild Alchemist Level II+ from 1 Thinned Brew of Physicality (Purchased from Guild Alchemist (Guild Alchemist II) for 300 Crowns) and 2 Brew of Steadfastness (Purchased from Guild Alchemist (Guild Alchemist I) for 20 Crowns)) and 1 Potash Powder (Purchased from Guild Alchemist (Guild Alchemist V) for 500 Guild Coin)) and 1 Brew of Petals (Purchased from Guild Alchemist (Guild Alchemist VIII) for 4000 Crowns)) and 1 Greater Support Token\n- 1 Robust Brew of Flames - Purchased from Guild Alchemist (Guild Alchemist XV) for 9000 Crowns\n- 1 Robust Brew of Frost - Purchased from Guild Alchemist (Guild Alchemist XV) for 9000 Crowns"
+  },
+  "a.natures-revenge": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n\nCrafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
   },
   "a.sir-tybalt-of-the-heroic-dusk": {
     "obtainable": true,
@@ -2056,6 +2080,14 @@
       "raid"
     ],
     "locationText": "Dropped from Jagar the Red on legendary difficulty."
+  },
+  "e.natures-revolt-demi-gaunt": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Orange Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark"
   },
   "e.sloughed-naga-body": {
     "obtainable": true,
@@ -3899,7 +3931,7 @@
     "tags": [
       "limited-time"
     ],
-    "locationText": "Previously available in the market (limited-time / chaunaths-warpriests-set)."
+    "locationText": "Purchased from the market (limited-time / chaunaths-warpriests-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.blue-dragonslayer-gem": {
     "obtainable": true,
@@ -5748,7 +5780,7 @@
       "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 20 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nDropped from Jolly Gelatin on legendary difficulty.\nPreviously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "Crafted from:\n- 2 Red Repentant Dusk Mark\n- 2 Orange Repentant Dusk Mark\n- 2 Yellow Repentant Dusk Mark\n- 2 Green Repentant Dusk Mark\n- 2 Blue Repentant Dusk Mark\n- 2 Indigo Repentant Dusk Mark\n\nCrafted from 20 Grey Repenting Dusk Token - Hrysvalgur, Easy.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nPurchased from the market (limited-time / repentant-dusk) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nPreviously available in the market (limited-time / repentant-dusk-set)."
   },
   "ba.daring-zen-master-banner": {
     "obtainable": false,
@@ -7357,6 +7389,14 @@
     ],
     "locationText": "From Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON)."
   },
+  "c.repentant-dusk-ice-boost": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 2 Red Repentant Dusk Mark\n- 2 Orange Repentant Dusk Mark\n- 2 Yellow Repentant Dusk Mark\n- 2 Green Repentant Dusk Mark\n- 2 Blue Repentant Dusk Mark\n- 2 Indigo Repentant Dusk Mark"
+  },
   "e.swiftslicer-blade": {
     "obtainable": true,
     "tags": [
@@ -8147,7 +8187,7 @@
       "container",
       "limited-time"
     ],
-    "locationText": "From Parchment of Aureus' Aegis, which was previously available in the market (limited-time / baron-aureus-set)."
+    "locationText": "From Parchment of Aureus' Aegis, which is purchased from the market (limited-time / baron-aureus-set) for 50 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.demonsbanes-cursed-helm": {
     "obtainable": true,
@@ -8236,7 +8276,7 @@
       "limited raids",
       "limited-time"
     ],
-    "locationText": "From Blue-Indigo Repentant Dusk Chest, crafted from 20 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Blue-Indigo Repentant Dusk Chest, which was previously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "From Blue-Indigo Repentant Dusk Chest, crafted from:\n- 2 Red Repentant Dusk Mark\n- 2 Orange Repentant Dusk Mark\n- 2 Yellow Repentant Dusk Mark\n- 2 Green Repentant Dusk Mark\n- 2 Blue Repentant Dusk Mark\n- 2 Indigo Repentant Dusk Mark\n\nFrom Blue-Indigo Repentant Dusk Chest, crafted from 20 Grey Repenting Dusk Token - Hrysvalgur, Easy.\n\nFrom Blue-Indigo Repentant Dusk Chest, which is purchased from the market (limited-time / repentant-dusk) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.snowdrake-slaughterer-chest": {
     "obtainable": true,
@@ -8555,6 +8595,14 @@
       "daily-login"
     ],
     "locationText": "Daily login reward (days 11-20)."
+  },
+  "e.natures-revolt-targeter": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
   },
   "e.chandlers-chestplate": {
     "obtainable": true,
@@ -9166,6 +9214,14 @@
     ],
     "locationText": "Previously available in the market (limited-time / stormshapers-set)."
   },
+  "e.natures-revolt-barrier": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Yellow Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
+  },
   "a.glorimmeal-minegut": {
     "obtainable": true,
     "tags": [
@@ -9731,6 +9787,14 @@
       "guild-recipe"
     ],
     "locationText": "Crafted at Guild Alchemist Level XX+ from:\n- 1 Werecanid Zombie - crafted at Guild Alchemist Level XI+ from 1 Decaying Carthand (Available at Guild Market (Level 8+ for 500 Crowns)) and 2 Greater Melee Token (Purchased from Guild Alchemist (Guild Alchemist XI) for 1250 Guild Coin)\n- 4 Brew of Caustics - Purchased from Guild Alchemist (Guild Alchemist IX) for 5000 Crowns\n- 1 Sigil of Devoted Experience - Purchased from Guild Alchemist (Guild Alchemist XX) for 7500 Guild Coin"
+  },
+  "a.brocck-of-the-revolt": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
   },
   "cp.diplomat-starter-pack-i": {
     "obtainable": true,
@@ -10475,6 +10539,14 @@
     ],
     "locationText": "Previously available in the market (limited-time / viscous-viscount-set)."
   },
+  "e.natures-revolt-burgonet": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
+  },
   "u.parchment-of-chandlers-light": {
     "obtainable": true,
     "tags": [
@@ -10713,7 +10785,7 @@
       "limited raids",
       "limited-time"
     ],
-    "locationText": "From Blue-Indigo Repentant Dusk Chest, crafted from 20 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Blue-Indigo Repentant Dusk Chest, which was previously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "From Blue-Indigo Repentant Dusk Chest, crafted from:\n- 2 Red Repentant Dusk Mark\n- 2 Orange Repentant Dusk Mark\n- 2 Yellow Repentant Dusk Mark\n- 2 Green Repentant Dusk Mark\n- 2 Blue Repentant Dusk Mark\n- 2 Indigo Repentant Dusk Mark\n\nFrom Blue-Indigo Repentant Dusk Chest, crafted from 20 Grey Repenting Dusk Token - Hrysvalgur, Easy.\n\nFrom Blue-Indigo Repentant Dusk Chest, which is purchased from the market (limited-time / repentant-dusk) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.vibrant-gauntlets": {
     "obtainable": true,
@@ -10933,7 +11005,7 @@
       "limited raids",
       "limited-time"
     ],
-    "locationText": "From Red-Orange Repentant Dusk Chest, crafted from 5 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Red-Orange Repentant Dusk Chest, which was previously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "From Red-Orange Repentant Dusk Chest, crafted from 5 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Red-Orange Repentant Dusk Chest, which is purchased from the market (limited-time / repentant-dusk) for 3 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.bellas-inahice-frigidara-defence-boost-i": {
     "obtainable": true,
@@ -12601,7 +12673,7 @@
     "tags": [
       "limited-time"
     ],
-    "locationText": "Previously available in the market (limited-time / baron-aureus-set)."
+    "locationText": "Purchased from the market (limited-time / baron-aureus-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "u.thiadoran-fig": {
     "obtainable": true,
@@ -14674,7 +14746,7 @@
       "limited raids",
       "limited-time"
     ],
-    "locationText": "From Yellow-Green Repentant Dusk Chest, crafted from 10 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Yellow-Green Repentant Dusk Chest, which was previously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "From Yellow-Green Repentant Dusk Chest, crafted from 10 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Yellow-Green Repentant Dusk Chest, which is purchased from the market (limited-time / repentant-dusk) for 10 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.violet-demon-bindings": {
     "obtainable": true,
@@ -14754,6 +14826,14 @@
       "raid"
     ],
     "locationText": "Dropped from Jagar the Red on legendary difficulty."
+  },
+  "e.natures-revolt-chestplate": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark"
   },
   "e.reodai-staff": {
     "obtainable": true,
@@ -15079,6 +15159,14 @@
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / psyguard-bulwark-set)."
+  },
+  "e.natures-revolt-band": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
   },
   "e.embersin-legplates": {
     "obtainable": true,
@@ -15634,7 +15722,7 @@
       "daily-login",
       "market"
     ],
-    "locationText": "From Violet Daily Chest, which is daily login reward (days 26-31).\nPurchased from the market (daily bags / sunday) (Requires: Z1 Segment 1 on Easy)."
+    "locationText": "From Violet Daily Chest, which is daily login reward (days 26-31).\nPurchased from the market (daily-bags / sunday) for 40 Void Crystals (Requires: Z1 Segment 1 on Easy).\nPurchased from the market (daily bags / sunday) (Requires: Z1 Segment 1 on Easy)."
   },
   "p.skill-charisma": {
     "obtainable": true,
@@ -16348,7 +16436,7 @@
       "limited raids",
       "limited-time"
     ],
-    "locationText": "From Red-Orange Repentant Dusk Chest, crafted from 5 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Red-Orange Repentant Dusk Chest, which was previously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "From Red-Orange Repentant Dusk Chest, crafted from 5 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Red-Orange Repentant Dusk Chest, which is purchased from the market (limited-time / repentant-dusk) for 3 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.yellow-thick-fur": {
     "obtainable": true,
@@ -16953,7 +17041,7 @@
     "tags": [
       "limited-time"
     ],
-    "locationText": "Previously available in the market (limited-time / baron-aureus-set)."
+    "locationText": "Purchased from the market (limited-time / baron-aureus-set) for 50 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.lesser-ranged-token": {
     "obtainable": true,
@@ -18507,6 +18595,14 @@
     ],
     "locationText": "Crafted at Guild Alchemist Level IX+ from:\n- 1 Whiplash\n- 4 Brew of Toxins - Purchased from Guild Alchemist (Guild Alchemist IX) for 5000 Crowns\n- 2 Brew of Shadow - Purchased from Guild Alchemist (Guild Alchemist IX) for 5000 Crowns\n- 1 Spell Focus - Poison - Purchased from the market (component / spell-focus) for 250 Crowns (Requires: Z3 Segment 4 on Easy, 12500 INT)"
   },
+  "a.natures-frustration": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n\nCrafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
+  },
   "m.sinderklaz-tovenaray": {
     "obtainable": true,
     "tags": [
@@ -19323,6 +19419,14 @@
     "tags": [],
     "locationText": ""
   },
+  "e.natures-revolt-channeler": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
+  },
   "c.grand-pedipalps": {
     "obtainable": true,
     "tags": [
@@ -19393,6 +19497,14 @@
       "class"
     ],
     "locationText": "Given with the Glorious Wildkin Class."
+  },
+  "e.natures-revolt-noose": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
   },
   "u.blue-camp-supplies": {
     "obtainable": true,
@@ -22497,6 +22609,14 @@
     ],
     "locationText": "Dropped from Shambling Ghoul on all difficulties."
   },
+  "e.natures-lumbering-mosses": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
+  },
   "e.blessed-gastonia-boots": {
     "obtainable": false,
     "tags": [
@@ -22836,7 +22956,7 @@
       "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 5 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nDropped from Jolly Gelatin on legendary difficulty.\nPreviously available in the market (limited-time / repentant-dusk-set)."
+    "locationText": "Crafted from 5 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nDropped from Jolly Gelatin on legendary difficulty.\nPurchased from the market (limited-time / repentant-dusk) for 3 Void Crystals (Requires: Z1 Segment 1 on Easy).\nPreviously available in the market (limited-time / repentant-dusk-set)."
   },
   "e.friskfingers-ring": {
     "obtainable": true,
@@ -25277,7 +25397,7 @@
     "tags": [
       "limited-time"
     ],
-    "locationText": "Previously available in the market (limited-time / baron-aureus-set)."
+    "locationText": "Purchased from the market (limited-time / baron-aureus-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "f.religiousity-i": {
     "obtainable": false,
@@ -25407,7 +25527,7 @@
     "tags": [
       "limited-time"
     ],
-    "locationText": "Previously available in the market (limited-time / baron-aureus-set)."
+    "locationText": "Purchased from the market (limited-time / baron-aureus-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "f.harmonious-band-ii": {
     "obtainable": false,
@@ -25705,6 +25825,14 @@
       "AP drop"
     ],
     "locationText": "Attentive Perception drop."
+  },
+  "f.natures-upheaval-i": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
   },
   "f.siegebreaker-i": {
     "obtainable": true,
