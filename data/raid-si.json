@@ -934,7 +934,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Tunnanu",
+        "name": "Tunnaru",
         "difficulty": "easy",
         "damageType": "Physical",
         "weaknesses": "Holy, Nature",
@@ -1099,7 +1099,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Tunnanu",
+        "name": "Tunnaru",
         "difficulty": "hard",
         "damageType": "Physical",
         "weaknesses": "Holy, Nature",
@@ -1264,7 +1264,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Tunnanu",
+        "name": "Tunnaru",
         "difficulty": "legendary",
         "damageType": "Physical",
         "weaknesses": "Holy, Nature",
@@ -2707,6 +2707,20 @@
         "topTier": "15,000,000,000",
         "baseDmg": "0.7",
         "formDmg": "0.5",
+        "bonusTiers": "None",
+        "onHitDrops": "None",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "No"
+      },
+      {
+        "name": "Paeknisar 3.0",
+        "damageType": "Physical",
+        "weaknesses": "Acid, Lightning",
+        "resistances": "Fire, Ice",
+        "topTier": "40,000,000,000",
+        "baseDmg": "0.8",
+        "formDmg": "0.55",
         "bonusTiers": "None",
         "onHitDrops": "None",
         "summonerLoot": "None",
