@@ -2714,6 +2714,20 @@
         "lootExpansion": "No"
       },
       {
+        "name": "Paeknisar 3.0",
+        "damageType": "Physical",
+        "weaknesses": "Acid, Lightning",
+        "resistances": "Fire, Ice",
+        "topTier": "40,000,000,000",
+        "baseDmg": "0.8",
+        "formDmg": "0.55",
+        "bonusTiers": "None",
+        "onHitDrops": "None",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "No"
+      },
+      {
         "name": "Fulgure The Storm",
         "damageType": "Lightning",
         "weaknesses": "Dark, Poison",
