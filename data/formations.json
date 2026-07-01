@@ -4524,6 +4524,470 @@
             "amount": 85
         }
     },
+    "f.effective-in-exile-iii": {
+        "id": "f.effective-in-exile-iii",
+        "name": "Effective in Exile III",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.shana-copperfox"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.winterbark-grimson"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.speckled-shroom-chef"
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.winterbark-grimson"
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.speckled-shroom-chef"
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 15,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 16,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 17,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 18,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.shana-copperfox"
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 4,
+        "unitComposition": "Commanders: Str, Con, Agi, Int, Per, Lea, 4-Any, *Sp\nTroops: 2-Mel, 2-Tan, 2-Ran, 2-Cas, 2-Hea, 4-Sup, 3-Any, 2-*Sp",
+        "bonus": 60,
+        "effectName": "Homeless Abound",
+        "effects": "Homeless Abound: 8% chance to proc 36,000 Dark damage",
+        "imagePath": "/images/army/formations/largesize.png",
+        "description": "\"Oh, that was marvelous fare! And to make it taste like that with such meager ingredients, you are truly gifted. You wouldn't happen to be looking for a new place to put those skills to use, would you?\"\n-Shana Copperfox, sampling a chef's soup",
+        "bonusSpecial": {
+            "vsType": "",
+            "amount": 0
+        }
+    },
     "f.frostwardens": {
         "id": "f.frostwardens",
         "name": "Frostwardens",
@@ -7292,6 +7756,479 @@
             "amount": 0
         }
     },
+    "f.inhuman-intensity-ii": {
+        "id": "f.inhuman-intensity-ii",
+        "name": "Inhuman Intensity II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 4,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 3,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 3,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 3,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 2,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 15,
+                "slots": 1,
+                "def": 2,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 16,
+                "slots": 1,
+                "def": 2,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 17,
+                "slots": 1,
+                "def": 2,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 18,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 19,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "naga",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 2,
+        "unitComposition": "Commanders: 2-Cns, 2-Fae, Gob, Nag, 6-Any\nTroops: 3-Cns, 7-Fae, 2-Gob, 5-Nag, 3-Any",
+        "bonus": 80,
+        "effectName": "Anti-Human Movement",
+        "effects": "Anti-Human Movement: 20% chance to proc 4,000 Dark damage; +2,000 damage vs Human raids; +45% Formation Special vs Human raids",
+        "imagePath": "/images/army/formations/practiceyardup.png",
+        "description": "You hate feeling excluded by those you call your allies, but after watching Alanis cover her face with a palm upon your sharing this, you suspect that this is actually the point.",
+        "bonusSpecial": {
+            "vsType": "Human",
+            "amount": 45
+        }
+    },
     "f.fast-and-furious-i": {
         "id": "f.fast-and-furious-i",
         "name": "Fast and Furious I",
@@ -8462,6 +9399,380 @@
         "bonusSpecial": {
             "vsType": "",
             "amount": 0
+        }
+    },
+    "f.fins-and-fashion-ii": {
+        "id": "f.fins-and-fashion-ii",
+        "name": "Fins and Fashion II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.luminarara"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.luminarara"
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 2,
+        "unitComposition": "Commanders: Mel, Tan, Ran, 2-Sup, Lea, 2-Any, *Sp\nTroops: 2-Mel, 2-Tan, 2-Ran, 2-Cas, 4-Sup, 3-Any",
+        "bonus": 60,
+        "effectName": "Pearl Necklace",
+        "effects": "Pearl Necklace: 3% chance to proc 18,000 Magic damage; +30,000 damage vs Aquatic raids; +55% Formation Special vs Aquatic raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"What was that? No, don't speak, it will only distract me from the now. Luck favours the prepared.\"\n-Luminarara",
+        "bonusSpecial": {
+            "vsType": "Aquatic",
+            "amount": 55
         }
     },
     "f.packraiders-marauding-i": {
@@ -12529,6 +13840,389 @@
             "amount": 0
         }
     },
+    "f.fae-foolery-ii": {
+        "id": "f.fae-foolery-ii",
+        "name": "Fae Foolery II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 3,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 3,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 3,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 3,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 15,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 16,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 17,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 18,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 19,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "fae",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "goblin",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "construct",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 3.5,
+        "unitComposition": "Commanders: 2-Cns, 2-Gob, 4-Fae, 2-Any\nTroops: 4-Cns, 4-Gob, 8-Fae, 4-Any",
+        "bonus": 70,
+        "effectName": "Fairy Frivolity",
+        "effects": "Fairy Frivolity: 5% chance to proc 16,000 Magic damage",
+        "imagePath": "/images/army/formations/practiceyardup.png",
+        "description": "\"I know you've heard of words being twisted, but focus less on that and more upon whatever your heart desires.\"\n-Sishara",
+        "bonusSpecial": {
+            "vsType": "",
+            "amount": 0
+        }
+    },
     "f.mortiday-llorona-i": {
         "id": "f.mortiday-llorona-i",
         "name": "Mortiday Llorona I",
@@ -12757,6 +14451,371 @@
         "bonusSpecial": {
             "vsType": "Human",
             "amount": 45
+        }
+    },
+    "f.hallowed-hermeticism-ii": {
+        "id": "f.hallowed-hermeticism-ii",
+        "name": "Hallowed Hermeticism II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.mairaja-bluebrew"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.mairaja-bluebrew"
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 3.5,
+        "unitComposition": "Commanders: Cas, Str, Con, 2-Int, 2-Any, *Sp\nTroops: 3-Cas, 2-Str, 2-Con, 2-Int, 3-Mer, 3-Any",
+        "bonus": 35,
+        "effectName": "Consecrated Chemistry",
+        "effects": "Consecrated Chemistry: 15% chance to proc 6,000 Holy damage and protect your Armies from Brimstone Aura - Fire; +6,000 damage vs Demon raids; +90% Formation Special vs Demon raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"What? Why wouldn't those in my profession dedicate ourselves to our Gods? If They are willing to bequeath us the ground we live upon, the ingredients for us to study, and the knowledge of how to create, we should owe Them our gratitude in accompanying our work.\"\n-Mairaja Bluebrew",
+        "bonusSpecial": {
+            "vsType": "Demon",
+            "amount": 90
         }
     },
     "f.viscous-preparations-i": {
@@ -16364,6 +18423,326 @@
             "amount": 0
         }
     },
+    "f.snowslopers-i": {
+        "id": "f.snowslopers-i",
+        "name": "Snowslopers I",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 1.5,
+        "unitComposition": "Commanders: Str, Con, Int, 2-Per, HEl, Any\nTroops: Mel, Tan, Ran, Cas, Hea, 3-Sup, 2-HEl, 2-Any",
+        "bonus": 40,
+        "effectName": "Snowy Climb",
+        "effects": "Snowy Climb: 12% chance to proc 3,000 Fire damage vs Winter; +60% Formation Special vs Winter raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"Ah, these gentle slopes aren't so bad. Just watch out for the deep snow covering the- Oh, looks like Rarsik found one of the holes.\"\n-Elian Greysky",
+        "bonusSpecial": {
+            "vsType": "Winter",
+            "amount": 60
+        }
+    },
     "f.harmonious-band-ii": {
         "id": "f.harmonious-band-ii",
         "name": "Harmonious Band II",
@@ -18667,6 +21046,425 @@
             "amount": 0
         }
     },
+    "f.salty-seadogs-ii": {
+        "id": "f.salty-seadogs-ii",
+        "name": "Salty Seadogs II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.captain-neventon"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 15,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.captain-neventon"
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 3,
+        "unitComposition": "Commanders: Ran, Cas, Str, Con, Agi, Per, Lea, Mer, 2-Any, *Sp\nTroops: Mel, 3-Ran, Con, 3-Per, 5-Mer, 3-Any",
+        "bonus": 65,
+        "effectName": "Humanic Hostility",
+        "effects": "Humanic Hostility: 6% chance to proc 12,000 Nature damage; +16,000 damage vs Human raids; +80% Formation Special vs Human raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"We shan't regret how things turned out, for t'is the price for being free. Now come join with us as we sing of the shanty sea.\"\n-A modestly inebriated Captain Neventon",
+        "bonusSpecial": {
+            "vsType": "Human",
+            "amount": 80
+        }
+    },
     "f.musclebound-i": {
         "id": "f.musclebound-i",
         "name": "Musclebound I",
@@ -18859,6 +21657,398 @@
         "bonusSpecial": {
             "vsType": "",
             "amount": 0
+        }
+    },
+    "f.excursions-and-exterminations-ii": {
+        "id": "f.excursions-and-exterminations-ii",
+        "name": "Excursions and Exterminations II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.morth-longtrek"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 5,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.morth-longtrek"
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 3,
+        "unitComposition": "Commanders: Str, 4-Con, Agi, Int, Per, 2-Any, *Sp\nTroops: 7-Con, Agi, Int, Per, Lea, 3-Any",
+        "bonus": 75,
+        "effectName": "Ranging Eradication",
+        "effects": "Ranging Eradication: 45% chance to proc 2,000 Physical damage; +8,000 damage vs Beast raids; +45% Formation Special vs Beast raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"I did have one close-call, where a foolish noble's brat threw a sharp stone and actually managed to strike a large bear. As much as I should have let the fool reap the rewards of his idiocy, I was able to triple-charge his father for the danger pay. Most of it went to my recovery, unfortunately...\"\n-Morth Longtrek",
+        "bonusSpecial": {
+            "vsType": "Beast",
+            "amount": 45
         }
     },
     "f.brawns-and-brains-i": {
@@ -30485,7 +33675,7 @@
         "unitComposition": "Commanders: 2-Mel, 2-Tan, Ran, Cas, 3-Sup, Str, Con, Int, Per, 2-Lea, 3-Any, *Sp\nTroops: 2-Mel, 2-Tan, 2-Ran, 2-Cas, 2-Hea, 2-Sup, 2-Str, 2-Per, 3-Mer, 3-Nag, 3-Any",
         "bonus": 110,
         "effectName": "Topographical Revolt",
-        "effects": "Topographical Revolt: 40% chance to proc 3,000 Nature damage and reduce incoming damage to the Player from Legendary raids by 15%; +3,000 damage vs Legendary raids; 5% chance to proc 10,000 Nature damage; +2,000 damage per Nature's Revenge or Nature's Frustration in the Formation; +65% Formation Special vs Legendary raids",
+        "effects": "Topographical Revolt: 40% chance to proc 3,000 Nature damage and reduce incoming damage to the Player from Legendary raids by 15%; +3,000 damage vs Legendary raids; 5% chance to proc 10,000 Nature damage; +2,000 damage per Nature's Revenge or Nature's Frustration in the Formation; +75% Formation Special vs Legendary raids",
         "imagePath": "/images/army/formations/specialevent.png",
         "description": "\"First thing's first... We will rid the land of these foul, unnatural spawn that seem to be popping up and creating mayhem. After that, we'll settle into the real challenging work and start fixing what has been broken over several generations.\"\n-Brocck of the Revolt",
         "bonusSpecial": {
@@ -31032,6 +34222,470 @@
         "bonusSpecial": {
             "vsType": "Human",
             "amount": 40
+        }
+    },
+    "f.snowslopers-iii": {
+        "id": "f.snowslopers-iii",
+        "name": "Snowslopers III",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.elian-greysky"
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 15,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 16,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 17,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 18,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.elian-greysky"
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 2.5,
+        "unitComposition": "Commanders: Str, Con, Agi, Int, 2-Per, Lea, HEl, 3-Any, *Sp\nTroops: Mel, Tan, Ran, Cas, Hea, 4-Sup, 4-HEl, 6-Any",
+        "bonus": 60,
+        "effectName": "Avalancher",
+        "effects": "Avalancher: 12% chance to proc 4,000 Fire damage; +16,000 damage vs Winter raids; +90% Formation Special vs Winter raids",
+        "imagePath": "/images/army/formations/largesize.png",
+        "description": "\"There are better things to wear on your feet than those heavy boots, and you might want to seriously consider them if you're going to be spending any more time climbing these hills. Unless you like your feet wet, cold and blistered, that is.\"\n-Elian Greysky",
+        "bonusSpecial": {
+            "vsType": "Winter",
+            "amount": 90
         }
     },
     "f.stone-titanslayers": {
@@ -36296,6 +39950,407 @@
         "bonusSpecial": {
             "vsType": "Undead",
             "amount": 65
+        }
+    },
+    "f.siegebreaker-ii": {
+        "id": "f.siegebreaker-ii",
+        "name": "Siegebreaker II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 15,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 16,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 2,
+        "unitComposition": "Commanders: Mel, 3-Ran, Cas, 2-Hea, Sup, 2-Lea, Any\nTroops: 2-Mel, 2-Tan, 4-Ran, 2-Cas, 3-Hea, 2-Sup, 2-Any",
+        "bonus": 90,
+        "effectName": "Machines of War",
+        "effects": "Machines of War: 20% chance to proc 40,000 Physical damage vs Immense, Epic or Gigantic raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"To answer your earlier question, it seems that some of my earlier strategies work just as well as predicted when it comes to these enormous beasties. That's to say, not at all.\"\n-Hamond",
+        "bonusSpecial": {
+            "vsType": "",
+            "amount": 0
         }
     },
     "f.kerstavond-generosity": {
@@ -42540,6 +46595,335 @@
         "bonusSpecial": {
             "vsType": "Flora",
             "amount": 50
+        }
+    },
+    "f.effective-in-exile-i": {
+        "id": "f.effective-in-exile-i",
+        "name": "Effective in Exile I",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 2.5,
+        "unitComposition": "Commanders: Str, Con, Agi, Int, Per, Lea, Any\nTroops: 2-Mel, 2-Tan, 2-Ran, 2-Cas, 2-Hea, 4-Sup",
+        "bonus": 45,
+        "effectName": "Homeless",
+        "effects": "Homeless: 8% chance to proc 6,000 Dark damage",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"I know, I know... We've all lost so much. It's all the more important that we stick together. I'm sure I can help find a place for you...\"\n-Shana Copperfox, comforting a refugee",
+        "bonusSpecial": {
+            "vsType": "",
+            "amount": 0
         }
     },
     "f.swarm-storm-ii": {
@@ -52727,6 +57111,380 @@
             "amount": 50
         }
     },
+    "f.snowslopers-ii": {
+        "id": "f.snowslopers-ii",
+        "name": "Snowslopers II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.elian-greysky"
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "half-elf",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.elian-greysky"
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 2,
+        "unitComposition": "Commanders: Str, Con, Int, 2-Per, HEl, 2-Any, *Sp\nTroops: Mel, Tan, Ran, Cas, Hea, 3-Sup, 3-HEl, 4-Any",
+        "bonus": 50,
+        "effectName": "Snowball's Chance",
+        "effects": "Snowball's Chance: 12% chance to proc 2,000 Fire damage; +8,000 damage vs Winter raids; +75% Formation Special vs Winter raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"Going up is the easy part, as much as that may seem unlikely. You can ensure solid footing before heading up another step, but on the descent, all it takes is one slippery spot and you're on the fast-track down!\"\n-Elian Greysky",
+        "bonusSpecial": {
+            "vsType": "Winter",
+            "amount": 75
+        }
+    },
     "f.stone-worshippers-ii": {
         "id": "f.stone-worshippers-ii",
         "name": "Stone Worshippers II",
@@ -59917,6 +64675,263 @@
             "amount": 40
         }
     },
+    "f.fins-and-fashion-i": {
+        "id": "f.fins-and-fashion-i",
+        "name": "Fins and Fashion I",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.luminarara"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.luminarara"
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 1.5,
+        "unitComposition": "Commanders: Mel, Tan, Ran, Sup, Any, *Sp\nTroops: 2-Mel, 2-Tan, 4-Sup, 2-Any",
+        "bonus": 50,
+        "effectName": "Pearl Collection",
+        "effects": "Pearl Collection: 3% chance to proc 9,000 Magic damage; +15,000 damage vs Aquatic raids; +40% Formation Special vs Aquatic raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"Ah, those watery beasts. Words are useless, blubba-blubba-blubba. Too much of it, darling. This is why you should see my work.\"\n-Luminarara",
+        "bonusSpecial": {
+            "vsType": "Aquatic",
+            "amount": 40
+        }
+    },
     "f.fae-foolery-i": {
         "id": "f.fae-foolery-i",
         "name": "Fae Foolery I",
@@ -61310,6 +66325,673 @@
             "amount": 0
         }
     },
+    "f.hallowed-hermeticism-i": {
+        "id": "f.hallowed-hermeticism-i",
+        "name": "Hallowed Hermeticism I",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            }
+        ],
+        "protect": 2.5,
+        "unitComposition": "Commanders: Cas, Str, Con, 2-Int, Any\nTroops: 2-Cas, Str, 2-Con, 2-Int, Any",
+        "bonus": 20,
+        "effectName": "Moral Mixtures",
+        "effects": "Moral Mixtures: 15% chance to proc 4,000 Holy damage; +6,000 damage vs Demon raids; +75% Formation Special vs Demon raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"Hmmm... Yes, I imagine what you speak of could be feasible, with the right ingredients and enough study. However, would it not be better to focus on draughts to ward off more of those demons?\"\n-Mairaja Bluebrew",
+        "bonusSpecial": {
+            "vsType": "Demon",
+            "amount": 75
+        }
+    },
+    "f.stone-struggles-ii": {
+        "id": "f.stone-struggles-ii",
+        "name": "Stone Struggles II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 15,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 16,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 17,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 18,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 19,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 20,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 21,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 3,
+        "unitComposition": "Commanders: 3-Tan, 3-Cas, 3-Per, 3-Any\nTroops: 3-Ran, 3-Cas, 3-Sup, 3-Str, 3-Con, 3-Agi, 4-Any",
+        "bonus": 65,
+        "effectName": "The Rubble That Follows",
+        "effects": "The Rubble That Follows: 14% chance to proc 5,000 Physical damage; Prevents damage to Armies from the Stone Gaze Ability",
+        "imagePath": "/images/army/formations/practiceyardup.png",
+        "description": "\"Stone has many benefits. Hard to hurt. Not mind rain. But many troubles, too. Not quiet. Bad at swimming.\"\n-Gaudann",
+        "bonusSpecial": {
+            "vsType": "",
+            "amount": 0
+        }
+    },
     "f.warpriests-of-chaunath-i": {
         "id": "f.warpriests-of-chaunath-i",
         "name": "Warpriests of Chaunath I",
@@ -62678,6 +68360,290 @@
         "bonusSpecial": {
             "vsType": "",
             "amount": 0
+        }
+    },
+    "f.excursions-and-exterminations-i": {
+        "id": "f.excursions-and-exterminations-i",
+        "name": "Excursions and Exterminations I",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.morth-longtrek"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.morth-longtrek"
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            }
+        ],
+        "protect": 2,
+        "unitComposition": "Commanders: Str, 3-Con, Agi, Int, Per, *Sp\nTroops: 3-Con, Agi, Int, Per, Lea, 2-Any",
+        "bonus": 40,
+        "effectName": "Backwoods Beasties",
+        "effects": "Backwoods Beasties: 45% chance to proc 3,000 Physical damage vs Beast raids; +30% Formation Special vs Beast raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "D\"Oh, I've seen plenty of wildlife during my expeditions, and am proud to say that I've only sparingly had to harm any of them. As much as my party has requested such wanton violence, I've little desire to properly skin and carve a poor creature, only for them to refuse to partake in any of it.\"\n-Morth Longtrekesc",
+        "bonusSpecial": {
+            "vsType": "Beast",
+            "amount": 30
         }
     },
     "f.organ-grinding-ii": {
@@ -66245,6 +72211,407 @@
             "amount": 60
         }
     },
+    "f.effective-in-exile-ii": {
+        "id": "f.effective-in-exile-ii",
+        "name": "Effective in Exile II",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.winterbark-grimson"
+            },
+            {
+                "index": 0,
+                "slots": 4,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.winterbark-grimson"
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "support",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "caster",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "healer",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 14,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "tank",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 15,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 16,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 3,
+        "unitComposition": "Commanders: Str, Con, Agi, Int, Per, Lea, 3-Any\nTroops: 2-Mel, 2-Tan, 2-Ran, 2-Cas, 2-Hea, 4-Sup, 2-Any, *Sp",
+        "bonus": 55,
+        "effectName": "Homeless Away From Home",
+        "effects": "Homeless Away From Home: 8% chance to proc 16,000 Dark damage",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"Your skill with those horses is masterful, and if your previous masters failed to see it, that is their loss. Now, how do you fare with... more exotic creatures?\"\n-Shana Copperfox, observing a groom",
+        "bonusSpecial": {
+            "vsType": "",
+            "amount": 0
+        }
+    },
     "f.harder-to-breathe": {
         "id": "f.harder-to-breathe",
         "name": "Harder to Breathe",
@@ -67834,6 +74201,353 @@
         "bonusSpecial": {
             "vsType": "",
             "amount": 0
+        }
+    },
+    "f.salty-seadogs-i": {
+        "id": "f.salty-seadogs-i",
+        "name": "Salty Seadogs I",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.captain-neventon"
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 4,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "ranged",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 2,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "melee",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": "a.captain-neventon"
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "merfolk",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "agility",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "leadership",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "protect": 2.5,
+        "unitComposition": "Commanders: Str, Con, Agi, Per, Lea, Mer, Any, *Sp\nTroops: Mel, 3-Ran, Con, 3-Per, 3-Mer, 2-Any",
+        "bonus": 50,
+        "effectName": "Swab the Decks",
+        "effects": "Swab the Decks: 6% chance to proc 6,000 Nature damage; +8,000 damage vs Human raids; +60% Formation Special vs Human raids",
+        "imagePath": "/images/army/formations/mediumsize.png",
+        "description": "\"Aie, we roved the seas, free and clear. We may not have always played fair, but we never treated with such... cruelty.\"\n-Captain Neventon",
+        "bonusSpecial": {
+            "vsType": "Human",
+            "amount": 60
         }
     },
     "f.veedsamin-rangers-quarry-i": {
