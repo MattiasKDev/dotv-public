@@ -54,7 +54,7 @@
       "quest",
       "tech-tree"
     ],
-    "locationText": "Professional Recruiter 1-10 reward from Z5 Segment 4 Node 4 on Hard. Professional Recruiter tier range unconfirmed."
+    "locationText": "Professional Recruiter 8-10 reward from Z5 Segment 4 Node 4 on Hard."
   },
   "c.blue-overlord-helm": {
     "obtainable": true,
@@ -661,7 +661,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Paeknisar on legendary difficulty."
+    "locationText": "Dropped from Paeknisar on legendary difficulty.\nCommunity tier reward from Paeknisar on Legendary (requires 200,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "c.blue-fallen-headstone": {
     "obtainable": true,
@@ -923,7 +923,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 10 Jingse Grub - Judah Jingse, Legendary\n- 6 Jingse Ward - Judah Jingse, Legendary"
+    "locationText": "Crafted from:\n- 10 Jingse Grub - Judah Jingse, Legendary\n- 6 Jingse Ward - Judah Jingse, Legendary\n\nCommunity tier reward from Judah Jingse on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage).\n\nCommunity tier reward from Judah Jingse on Legendary (requires 10,000,000,000 personal damage and 4,000,000,000,000 community damage)."
   },
   "e.mikoko-wabawa": {
     "obtainable": true,
@@ -948,7 +948,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Pants - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Yellow/Green Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Pants - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Yellow/Green Frigidara Defence Banner - Frigidara, Legendary"
   },
   "u.yellow-green-repentant-dusk-chest": {
     "obtainable": true,
@@ -1000,7 +1000,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 500,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "a.keylsa": {
     "obtainable": true,
@@ -1060,7 +1060,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 20 Heart of Ice - Frigidara, Legendary\n- 40 Goblin Frigidara Defender - Hrysvalgur, Easy\n- 40 Dwarven Frigidara Defender - Hrysvalgur, Easy\n- 40 Gnomish Frigidara Defender - Hrysvalgur, Easy\n- 40 Orcish Frigidara Defender - Hrysvalgur, Easy\n- 40 Elven Frigidara Defender - Hrysvalgur, Easy\n\nCrafted from:\n- 1 Snowy Drake Slayers I - Frigidara, Legendary\n- 10 Heart of Ice - Frigidara, Legendary\n- 35 each of Red/Orange/Yellow/Green Frigidara Defence Banner - Frigidara, Legendary\n\nCrafted from:\n- 1 Swiftslicers I - crafted from 30 each of Red/Orange/Yellow/Green/Blue/Indigo Frigidara Defence Banner (Frigidara, Legendary)\n- 15 Heart of Ice - Frigidara, Legendary\n- 25 Mounting Blades - Frigidara, Legendary\n- 25 Thick-bound Cloth - Frigidara, Legendary\n- 25 Leather Straps - Frigidara, Legendary\n- 25 Lightmail - Frigidara, Legendary\n\nCrafted from:\n- 5 Heart of Ice - Frigidara, Legendary\n- 30 Yellow Frigidara Defence Banner - Frigidara, Legendary\n- 30 Green Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 20 Heart of Ice - Frigidara, Legendary\n- 40 Goblin Frigidara Defender - Hrysvalgur, Easy\n- 40 Dwarven Frigidara Defender - Hrysvalgur, Easy\n- 40 Gnomish Frigidara Defender - Hrysvalgur, Easy\n- 40 Orcish Frigidara Defender - Hrysvalgur, Easy\n- 40 Elven Frigidara Defender - Hrysvalgur, Easy\n\nCrafted from:\n- 1 Snowy Drake Slayers I - Frigidara, Legendary\n- 10 Heart of Ice - Frigidara, Legendary\n- 35 each of Red/Orange/Yellow/Green Frigidara Defence Banner - Frigidara, Legendary\n\nCrafted from:\n- 1 Swiftslicers I - crafted from 30 each of Red/Orange/Yellow/Green/Blue/Indigo Frigidara Defence Banner (Frigidara, Legendary)\n- 15 Heart of Ice - Frigidara, Legendary\n- 25 Mounting Blades - Frigidara, Legendary\n- 25 Thick-bound Cloth - Frigidara, Legendary\n- 25 Leather Straps - Frigidara, Legendary\n- 25 Lightmail - Frigidara, Legendary\n\nCrafted from:\n- 5 Heart of Ice - Frigidara, Legendary\n- 30 Yellow Frigidara Defence Banner - Frigidara, Legendary\n- 30 Green Frigidara Defence Banner - Frigidara, Legendary\n\nCommunity tier reward from Frigidara on Legendary (requires 2,500,000,000 personal damage and 1,500,000,000,000 community damage).\n\nCommunity tier reward from Frigidara on Legendary (requires 20,000,000,000 personal damage and 3,000,000,000,000 community damage).\n\nCommunity tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)."
   },
   "ba.adventurer-banner": {
     "obtainable": true,
@@ -1283,7 +1283,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 100,000,000,000 personal damage and 8,000,000,000,000 community damage)."
   },
   "e.frostwarden-armament": {
     "obtainable": true,
@@ -1502,7 +1502,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 20 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n\nCrafted from:\n- 3 Mookoman - Witikho, Legendary\n- 1 Regret's Sign - Witikho, Legendary\n\nCrafted from 3 Sapling's Roots - Witikho, Legendary.\n\nDropped from Witikho on legendary difficulty."
+    "locationText": "Crafted from:\n- 20 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n\nCrafted from:\n- 3 Mookoman - Witikho, Legendary\n- 1 Regret's Sign - Witikho, Legendary\n\nCrafted from 3 Sapling's Roots - Witikho, Legendary.\n\nDropped from Witikho on legendary difficulty.\n\nCommunity tier reward from Witikho on Legendary (requires 250,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "a.stone-spinner": {
     "obtainable": true,
@@ -2175,9 +2175,10 @@
   "e.oresnatchs-green-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 100 Rainbow Ore."
+    "locationText": "Crafted from 100 Rainbow Ore - Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids."
   },
   "e.paresthisy-armor": {
     "obtainable": true,
@@ -2278,7 +2279,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 500,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "a.rhona-hewson": {
     "obtainable": true,
@@ -2308,7 +2309,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Judah Jingse on legendary difficulty."
+    "locationText": "Dropped from Judah Jingse on legendary difficulty.\nCommunity tier reward from Judah Jingse on Legendary (requires 60,000,000,000 personal damage and 7,500,000,000,000 community damage)."
   },
   "u.greater-agliata-potion": {
     "obtainable": false,
@@ -3267,14 +3268,14 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 30 Jingse Grub - Judah Jingse, Legendary\n- 1 Jingse Offering - Judah Jingse, Legendary"
+    "locationText": "Crafted from:\n- 30 Jingse Grub - Judah Jingse, Legendary\n- 1 Jingse Offering - Judah Jingse, Legendary\n\nCommunity tier reward from Judah Jingse on Legendary (requires 60,000,000,000 personal damage and 7,500,000,000,000 community damage)."
   },
   "c.cork-stopper": {
     "obtainable": true,
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Aufling on legendary difficulty."
+    "locationText": "Dropped from Aufling on legendary difficulty.\nCommunity tier reward from Aufling on Legendary (requires 500,000,000 personal damage and 1,500,000,000,000 community damage).\nCommunity tier reward from Aufling on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "a.malon-roris": {
     "obtainable": true,
@@ -3405,7 +3406,7 @@
       "guild raid",
       "limited raids"
     ],
-    "locationText": "Dropped from various guild raids on all difficulties. From Mystery Guild Kit II, which is dropped from Vurdith the Green on legendary difficulty.\nFrom Mystery Guild Kit IV.\nFrom Guild Purse III.\nFrom Mystery Guild Kit I, which is dropped from Vurdith the Green on legendary difficulty.\nFrom Mystery Guild Kit V.\nFrom Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\nFrom Guild Purse IV.\nFrom Guild Purse II, which is dropped from Vurdith the Green on legendary difficulty.\nFrom Guild Purse I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Guild Purse I, which is dropped from Vurdith the Green on legendary difficulty.\nDropped from Vurdith the Green on legendary difficulty.\n"
+    "locationText": "Dropped from various guild raids on all difficulties. From Mystery Guild Kit II, which is dropped from Vurdith the Green on legendary difficulty.\nFrom Mystery Guild Kit IV.\nFrom Guild Purse III.\nFrom Mystery Guild Kit I, which is dropped from Vurdith the Green on legendary difficulty.\nFrom Mystery Guild Kit V.\nFrom Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\nFrom Guild Purse IV.\nFrom Guild Purse II, which is dropped from Vurdith the Green on legendary difficulty.\nFrom Guild Purse I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Guild Purse I, which is dropped from Vurdith the Green on legendary difficulty.\nDropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 50,000,000,000 personal damage and 1,500,000,000,000 guild community damage).\n"
   },
   "c.forgiving-feather": {
     "obtainable": true,
@@ -3772,10 +3773,11 @@
       "AP drop",
       "container",
       "limited raids",
+      "limited-time",
       "market",
       "quest"
     ],
-    "locationText": "From Hero's Inauguration, which is summoner loot from Jagar the Red on Legendary (Summoner's Leftovers I). Requires top tier of 28,800,000 dmg (unconfirmed).\n\nFrom Kenendaman Bag, crafted from:\n- 25 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 40 Mookoman - Witikho, Legendary\n- 15 Regret's Sign - Witikho, Legendary\n\nFrom Stormy Sack, crafted from:\n- 10 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 4 Stormchimes - Fulgure the Storm, Legendary\n\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Manatisiwin Bag, crafted from:\n- 8 Sapling's Roots - Witikho, Legendary\n- 5 Forgetting Leaf - Witikho, Legendary\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Hero's Confirmation, which is summoner loot from Xarbruutu on Legendary (Summoner's Leftovers II). Requires top tier of 69,120,000 dmg (unconfirmed).\n\nFrom Impromptu Provisions, crafted from:\n- 12 Cork Stopper - Aufling, Legendary\n- 10 Recursive Funnel - Aufling, Legendary\n\nFrom Stormchasing Spoils, crafted from:\n- 30 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 24 Stormchimes - Fulgure the Storm, Legendary\n- 36 Stormstruck Ore - Fulgure the Storm, Legendary\n- 14 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Mortiday Treat Bundle.\n\nFrom Wintry Provisions.\n\nFrom Enchanted Jar, crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Blue Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nPurchased from the market (consumables / healing) for 3 Void Crystals (Requires: Z3 Segment 4 on Easy, 7500 CON).\n\nAttentive Perception drop."
+    "locationText": "From Hero's Inauguration, which is summoner loot from Jagar the Red on Legendary (Summoner's Leftovers I). Requires top tier of 28,800,000 dmg (unconfirmed).\n\nFrom Kenendaman Bag, crafted from:\n- 25 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 40 Mookoman - Witikho, Legendary\n- 15 Regret's Sign - Witikho, Legendary\n\nFrom Stormy Sack, crafted from:\n- 10 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 4 Stormchimes - Fulgure the Storm, Legendary\n\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Manatisiwin Bag, crafted from:\n- 8 Sapling's Roots - Witikho, Legendary\n- 5 Forgetting Leaf - Witikho, Legendary\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Hero's Confirmation, which is summoner loot from Xarbruutu on Legendary (Summoner's Leftovers II). Requires top tier of 69,120,000 dmg (unconfirmed).\n\nFrom Impromptu Provisions, crafted from:\n- 12 Cork Stopper - Aufling, Legendary\n- 10 Recursive Funnel - Aufling, Legendary\n\nFrom Stormchasing Spoils, crafted from:\n- 30 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 24 Stormchimes - Fulgure the Storm, Legendary\n- 36 Stormstruck Ore - Fulgure the Storm, Legendary\n- 14 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Mortiday Treat Bundle, which was previously available in the market (limited-time / resource lto).\n\nFrom Wintry Provisions.\n\nFrom Enchanted Jar, crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Blue Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nPurchased from the market (consumables / healing) for 3 Void Crystals (Requires: Z3 Segment 4 on Easy, 7500 CON).\n\nAttentive Perception drop."
   },
   "e.vibrant-band": {
     "obtainable": true,
@@ -3896,7 +3898,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 500,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "a.vozotl-latris": {
     "obtainable": true,
@@ -4047,7 +4049,7 @@
       "limited raids",
       "quest"
     ],
-    "locationText": "From Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\nFrom Venom-Soaked Pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Three-Hammers Giftbox.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nFrom Wintry Provisions.\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nDropped from Serpent Soldier on legendary difficulty."
+    "locationText": "From Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nFrom Wintry Provisions.\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nDropped from Serpent Soldier on legendary difficulty."
   },
   "e.colossal-crusherclaw-helm": {
     "obtainable": false,
@@ -4506,7 +4508,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 each of Red/Blue/Violet Devil's Horn - Skliros, Legendary.\nDropped from Skliros on legendary difficulty."
+    "locationText": "Crafted from 1 each of Red/Blue/Violet Devil's Horn - Skliros, Legendary.\nDropped from Skliros on legendary difficulty.\nCommunity tier reward from Skliros on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage).\nCommunity tier reward from Skliros on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "e.psyguard-bulwark-rhino": {
     "obtainable": true,
@@ -5026,7 +5028,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Knife\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Knife\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
   },
   "c.violet-stone-claws": {
     "obtainable": true,
@@ -5174,9 +5176,10 @@
   "u.makari-ladoo": {
     "obtainable": true,
     "tags": [
-      "container"
+      "container",
+      "limited-time"
     ],
-    "locationText": "From Sahayuk Patang.\nFrom Ladaku Patang."
+    "locationText": "From Sahayuk Patang, which was previously available in the market (limited-time / resource lto).\nFrom Ladaku Patang, which was previously available in the market (limited-time / resource lto)."
   },
   "e.pioneering-pixie-blade": {
     "obtainable": true,
@@ -5616,8 +5619,10 @@
   },
   "u.sahayuk-patang": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / resource lto)."
   },
   "e.conquerors-cuisses": {
     "obtainable": true,
@@ -5865,7 +5870,7 @@
       "limited raids",
       "quest"
     ],
-    "locationText": "From Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\n\nFrom Venom-Soaked Pack.\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Three-Hammers Giftbox.\n\nFrom Sinah Desert Pack, crafted from:\n- 10 Sinah Mark - Bira Biuyom, Legendary\n- 3 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\n\nFrom Wintry Provisions."
+    "locationText": "From Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\n\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\n\nFrom Sinah Desert Pack, crafted from:\n- 10 Sinah Mark - Bira Biuyom, Legendary\n- 3 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\n\nFrom Wintry Provisions."
   },
   "a.adroits-fusion-guardian": {
     "obtainable": false,
@@ -5971,7 +5976,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Judah Jingse on legendary difficulty."
+    "locationText": "Dropped from Judah Jingse on legendary difficulty.\nCommunity tier reward from Judah Jingse on Legendary (requires 60,000,000,000 personal damage and 7,500,000,000,000 community damage)."
   },
   "e.watchers-gloves": {
     "obtainable": true,
@@ -6024,8 +6029,11 @@
   },
   "a.pael-habre": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "quest",
+      "tech-tree"
+    ],
+    "locationText": "Professional Recruiter 2-5 reward from Z4 Segment 1. Difficulty and node unconfirmed."
   },
   "e.demonsbanes-armor": {
     "obtainable": true,
@@ -6249,9 +6257,10 @@
   "e.oresnatchs-great-rainbow-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Oresnatch's Orange Ring - crafted from 100 Rainbow Ore\n- 1 Oresnatch's Green Ring\n- 1 Oresnatch's Violet Ring - crafted from 100 Rainbow Ore\n- 1 Oresnatch's Red Ring\n- 1 Oresnatch's Yellow Ring\n- 1 Oresnatch's Blue Ring - crafted from 100 Rainbow Ore"
+    "locationText": "Crafted from:\n- 1 Oresnatch's Orange Ring - crafted from 100 Rainbow Ore (Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids)\n- 1 Oresnatch's Green Ring\n- 1 Oresnatch's Violet Ring - crafted from 100 Rainbow Ore (Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids)\n- 1 Oresnatch's Red Ring\n- 1 Oresnatch's Yellow Ring\n- 1 Oresnatch's Blue Ring - crafted from 100 Rainbow Ore (Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids)"
   },
   "c.mortiday-ornament": {
     "obtainable": true,
@@ -6367,8 +6376,10 @@
   },
   "u.venom-soaked-pack": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "quest"
+    ],
+    "locationText": "First clear reward from Z2 Segment 3 Boss (Galeohog) on Easy."
   },
   "e.praetoran-ring": {
     "obtainable": true,
@@ -6510,14 +6521,14 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Dropped from various guild raids on all difficulties. From Guild Purse III.\n\nFrom Guild Purse IV.\n\nFrom Guild Purse II, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Guild Purse I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Guild Purse I, which is dropped from Vurdith the Green on legendary difficulty.\n\nCrafted from:\n- 140 Grave Replugger - Gargouille Sentry, Easy\n- 100 Perpetual Watchman - Gargouille Sentry, Hard\n- 70 Darkveil Retriever - Gargouille Sentry, Legendary\n\nCrafted from:\n- 6000 Ghoul Wrappings - Shambling Ghoul, Easy\n- 80 Orc Graveseeker - Shambling Ghoul, Easy\n- 50 Gravanguard Initiate - Shambling Ghoul, Hard\n- 40 Orcen Necromender - Shambling Ghoul, Legendary\n\nCrafted from:\n- 120 Vanhel Vanguard - Lord Kaspar Laurent, Easy\n- 100 Vanhel Firetosser - Lord Kaspar Laurent, Hard\n- 80 Vanhel Cleric - Lord Kaspar Laurent, Legendary\n\nDropped from Vurdith the Green on legendary difficulty.\n\n"
+    "locationText": "Dropped from various guild raids on all difficulties. From Guild Purse III.\n\nFrom Guild Purse IV.\n\nFrom Guild Purse II, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Guild Purse I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Guild Purse I, which is dropped from Vurdith the Green on legendary difficulty.\n\nCrafted from:\n- 140 Grave Replugger - Gargouille Sentry, Easy\n- 100 Perpetual Watchman - Gargouille Sentry, Hard\n- 70 Darkveil Retriever - Gargouille Sentry, Legendary\n\nCrafted from:\n- 6000 Ghoul Wrappings - Shambling Ghoul, Easy\n- 80 Orc Graveseeker - Shambling Ghoul, Easy\n- 50 Gravanguard Initiate - Shambling Ghoul, Hard\n- 40 Orcen Necromender - Shambling Ghoul, Legendary\n\nCrafted from:\n- 120 Vanhel Vanguard - Lord Kaspar Laurent, Easy\n- 100 Vanhel Firetosser - Lord Kaspar Laurent, Hard\n- 80 Vanhel Cleric - Lord Kaspar Laurent, Legendary\n\nDropped from Vurdith the Green on legendary difficulty.\n\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 50,000,000,000 personal damage and 1,500,000,000,000 guild community damage).\n\n"
   },
   "c.metallic-mantid-claws": {
     "obtainable": true,
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Judah Jingse on legendary difficulty."
+    "locationText": "Dropped from Judah Jingse on legendary difficulty.\nCommunity tier reward from Judah Jingse on Legendary (requires 10,000,000,000 personal damage and 4,000,000,000,000 community damage)."
   },
   "c.red-overlord-assegai": {
     "obtainable": true,
@@ -6560,7 +6571,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 2,500,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "a.veteran-orcish-frigidara-defender": {
     "obtainable": true,
@@ -6927,7 +6938,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Venom-Soaked Pack.\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Three-Hammers Giftbox.\n\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Sinah Desert Pack, crafted from:\n- 10 Sinah Mark - Bira Biuyom, Legendary\n- 3 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\n\nFrom Wintry Provisions.\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nPurchased from the market (consumables / resource) for 2 Void Crystals (Requires: Z3 Segment 4 on Easy)."
+    "locationText": "From Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\n\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Sinah Desert Pack, crafted from:\n- 10 Sinah Mark - Bira Biuyom, Legendary\n- 3 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\n\nFrom Wintry Provisions.\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nPurchased from the market (consumables / resource) for 2 Void Crystals (Requires: Z3 Segment 4 on Easy)."
   },
   "e.reverent-titanslayer-hippogryph": {
     "obtainable": true,
@@ -6969,7 +6980,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Boots - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Red/Orange Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Boots - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Red/Orange Frigidara Defence Banner - Frigidara, Legendary"
   },
   "e.bronzed-pants": {
     "obtainable": true,
@@ -7049,7 +7060,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Three-Factioned Defence and 100 each of Orange/Green Frigidara Defence Banner - Frigidara, Legendary."
+    "locationText": "Crafted from:\n- 1 Three-Factioned Defence - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 100 each of Orange/Green Frigidara Defence Banner - Frigidara, Legendary"
   },
   "a.vanhel-firetosser": {
     "obtainable": true,
@@ -7215,9 +7226,10 @@
   "u.makari-dahi": {
     "obtainable": true,
     "tags": [
-      "container"
+      "container",
+      "limited-time"
     ],
-    "locationText": "From Sahayuk Patang.\nFrom Ladaku Patang."
+    "locationText": "From Sahayuk Patang, which was previously available in the market (limited-time / resource lto).\nFrom Ladaku Patang, which was previously available in the market (limited-time / resource lto)."
   },
   "e.onishaygu-tendril-steed": {
     "obtainable": true,
@@ -7627,9 +7639,10 @@
   "e.oresnatchs-red-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 100 Rainbow Ore."
+    "locationText": "Crafted from 100 Rainbow Ore - Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids."
   },
   "e.mordant-moswa-antlers": {
     "obtainable": false,
@@ -7821,6 +7834,7 @@
   "e.oresnatchs-great-green-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Green Ring."
@@ -8220,7 +8234,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary"
+    "locationText": "Crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nCommunity tier reward from Witikho on Legendary (requires 17,500,000,000 personal damage and 3,500,000,000,000 community damage)."
   },
   "e.mephitic-chiffon-pants": {
     "obtainable": false,
@@ -8329,7 +8343,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 3 each of Red/Blue/Violet Devil's Artifact - Skliros, Legendary."
+    "locationText": "Crafted from 3 each of Red/Blue/Violet Devil's Artifact - Skliros, Legendary.\nCommunity tier reward from Skliros on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage).\nCommunity tier reward from Skliros on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "a.guild-spy": {
     "obtainable": false,
@@ -8446,7 +8460,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 each of Red/Blue/Violet Devil's Horn - Skliros, Legendary.\nDropped from Skliros on legendary difficulty."
+    "locationText": "Crafted from 1 each of Red/Blue/Violet Devil's Horn - Skliros, Legendary.\nDropped from Skliros on legendary difficulty.\nCommunity tier reward from Skliros on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage).\nCommunity tier reward from Skliros on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "u.arthropod-absurd-annihilation-potion": {
     "obtainable": false,
@@ -8469,7 +8483,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack.\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\nFrom Green Daily Chest, which is daily login reward (days 11-20).\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nDropped from Elven Drills on legendary difficulty.\nDropped from Spooky Ghouls on legendary difficulty.\nDropped from Barren Foliage on legendary difficulty.\nDropped from Serpent Soldier on legendary difficulty.\nDropped from Feast Fixings on legendary difficulty.\nPurchased from the market (consumables / resource) for 1 Void Crystals (Requires: Z1 Segment 3 on Easy)."
+    "locationText": "From Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\nFrom Green Daily Chest, which is daily login reward (days 11-20).\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nDropped from Elven Drills on legendary difficulty.\nDropped from Spooky Ghouls on legendary difficulty.\nDropped from Barren Foliage on legendary difficulty.\nDropped from Serpent Soldier on legendary difficulty.\nDropped from Feast Fixings on legendary difficulty.\nPurchased from the market (consumables / resource) for 1 Void Crystals (Requires: Z1 Segment 3 on Easy)."
   },
   "u.warmage-starter-pack-ii": {
     "obtainable": true,
@@ -8563,7 +8577,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Venom-Soaked Pack.\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Three-Hammers Giftbox.\n\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Sinah Desert Pack, crafted from:\n- 10 Sinah Mark - Bira Biuyom, Legendary\n- 3 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\n\nFrom Wintry Provisions.\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nPurchased from the market (consumables / resource) for 2 Void Crystals (Requires: Z3 Segment 4 on Easy)."
+    "locationText": "From Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\n\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Sinah Desert Pack, crafted from:\n- 10 Sinah Mark - Bira Biuyom, Legendary\n- 3 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\n\nFrom Wintry Provisions.\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nPurchased from the market (consumables / resource) for 2 Void Crystals (Requires: Z3 Segment 4 on Easy)."
   },
   "e.cumberworld-paddle": {
     "obtainable": true,
@@ -8862,7 +8876,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Chest - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Yellow/Green Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Chest - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Yellow/Green Frigidara Defence Banner - Frigidara, Legendary"
   },
   "u.herb-hewing-potion": {
     "obtainable": true,
@@ -8874,6 +8888,7 @@
   "e.oresnatchs-grand-violet-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Great Violet Ring."
@@ -9394,7 +9409,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary"
+    "locationText": "Crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCommunity tier reward from Paeknisar on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage).\n\nCommunity tier reward from Paeknisar on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage)."
   },
   "k.mounts-potential-tackle": {
     "obtainable": false,
@@ -9435,7 +9450,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Aufling on legendary difficulty."
+    "locationText": "Dropped from Aufling on legendary difficulty.\nCommunity tier reward from Aufling on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage)."
   },
   "e.chandlers-pantera": {
     "obtainable": true,
@@ -9456,7 +9471,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 2,500,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "s.scroll-niever-the-slayer": {
     "obtainable": false,
@@ -9645,7 +9660,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 20,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "u.script-of-greater-restoration": {
     "obtainable": false,
@@ -9724,8 +9739,10 @@
   },
   "a.honourable-gohlehm": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / vibrant-victors-set)."
   },
   "p.stat-constitution": {
     "obtainable": true,
@@ -9790,7 +9807,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Faction's Felicity I - Vurdith the Green, Legendary and 2 Kylli's Best Vintage."
+    "locationText": "Crafted from:\n- 1 Faction's Felicity I - Vurdith the Green, Legendary\n- 2 Kylli's Best Vintage - Guild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage)\n\nGuild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage)."
   },
   "ba.paladin-banner": {
     "obtainable": false,
@@ -9806,7 +9823,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Venom-Soaked Pack.\nFrom Lost Pouch, which is first clear reward from Z1 Segment 1 Boss (Lesser Tree Ent) on Easy.\nFrom Three-Hammers Giftbox.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nDropped from Superior Watcher in Z1 Segment 2 on Legendary.\nPurchased from the market (consumables / healing) for 10 Crowns (Requires: Z1 Segment 2 on Easy)."
+    "locationText": "From Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Lost Pouch, which is first clear reward from Z1 Segment 1 Boss (Lesser Tree Ent) on Easy.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nDropped from Superior Watcher in Z1 Segment 2 on Legendary.\nPurchased from the market (consumables / healing) for 10 Crowns (Requires: Z1 Segment 2 on Easy)."
   },
   "ba.captain-banner": {
     "obtainable": false,
@@ -10217,7 +10234,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 4 Cork Stopper - Aufling, Legendary.\n\nCrafted from:\n- 1 Glorymuth's Grin I - Aufling, Legendary\n- 40 Cork Stopper - Aufling, Legendary\n- 20 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nCrafted from:\n- 1 Glorymuth's Grin II - crafted from 1 Glorymuth's Grin I (Aufling, Legendary), 40 Cork Stopper (Aufling, Legendary), 20 Recursive Funnel (Aufling, Legendary), and 1 Enchanted Dropper (Aufling, Legendary)\n- 30 Cork Stopper - Aufling, Legendary\n- 15 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n- 1 Moss-Covered Bark - Aufling, Legendary\n\nDropped from Aufling on legendary difficulty."
+    "locationText": "Crafted from 4 Cork Stopper - Aufling, Legendary.\n\nCrafted from:\n- 1 Glorymuth's Grin I - Aufling, Legendary\n- 40 Cork Stopper - Aufling, Legendary\n- 20 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nCrafted from:\n- 1 Glorymuth's Grin II - crafted from 1 Glorymuth's Grin I (Aufling, Legendary), 40 Cork Stopper (Aufling, Legendary), 20 Recursive Funnel (Aufling, Legendary), and 1 Enchanted Dropper (Aufling, Legendary)\n- 30 Cork Stopper - Aufling, Legendary\n- 15 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n- 1 Moss-Covered Bark - Aufling, Legendary\n\nDropped from Aufling on legendary difficulty.\n\nCommunity tier reward from Aufling on Legendary (requires 500,000,000 personal damage and 1,500,000,000,000 community damage).\n\nCommunity tier reward from Aufling on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "s.scroll-sentry-ghoul": {
     "obtainable": true,
@@ -10245,7 +10262,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Witikho on legendary difficulty."
+    "locationText": "Dropped from Witikho on legendary difficulty.\nCommunity tier reward from Witikho on Legendary (requires 17,500,000,000 personal damage and 3,500,000,000,000 community damage)."
   },
   "e.tromos-latria-blaute": {
     "obtainable": true,
@@ -10514,9 +10531,10 @@
   "u.script-of-fireball": {
     "obtainable": true,
     "tags": [
-      "container"
+      "container",
+      "quest"
     ],
-    "locationText": "From Three-Hammers Giftbox."
+    "locationText": "From Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy."
   },
   "e.picaroons-shirt": {
     "obtainable": false,
@@ -10560,7 +10578,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Swarm Storm III\n- 10 Jingse Grub - Judah Jingse, Legendary\n- 10 Jingse Ward - Judah Jingse, Legendary\n- 1 Jingse Offering - Judah Jingse, Legendary\n- 1 Spring Omens - Judah Jingse, Legendary\n\nCrafted from:\n- 1 Swarm Storm II - crafted from 1 Swarm Storm I (Crafted from 5 Jingse Grub (Judah Jingse, Legendary)) and 4 Jingse Ward (Judah Jingse, Legendary)\n- 1 Jingse Offering - Judah Jingse, Legendary\n\nCrafted from:\n- 4 Jingse Ward - Judah Jingse, Legendary\n- 1 Jingse Offering - Judah Jingse, Legendary\n\nDropped from Judah Jingse on legendary difficulty."
+    "locationText": "Crafted from:\n- 1 Swarm Storm III\n- 10 Jingse Grub - Judah Jingse, Legendary\n- 10 Jingse Ward - Judah Jingse, Legendary\n- 1 Jingse Offering - Judah Jingse, Legendary\n- 1 Spring Omens - Judah Jingse, Legendary\n\nCrafted from:\n- 1 Swarm Storm II - crafted from 1 Swarm Storm I (Crafted from 5 Jingse Grub (Judah Jingse, Legendary)) and 4 Jingse Ward (Judah Jingse, Legendary)\n- 1 Jingse Offering - Judah Jingse, Legendary\n\nCrafted from:\n- 4 Jingse Ward - Judah Jingse, Legendary\n- 1 Jingse Offering - Judah Jingse, Legendary\n\nDropped from Judah Jingse on legendary difficulty.\n\nCommunity tier reward from Judah Jingse on Legendary (requires 10,000,000,000 personal damage and 4,000,000,000,000 community damage)."
   },
   "u.violet-guard-tonic": {
     "obtainable": true,
@@ -11039,7 +11057,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Aufling on legendary difficulty."
+    "locationText": "Dropped from Aufling on legendary difficulty.\nCommunity tier reward from Aufling on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "c.guild-stone": {
     "obtainable": true,
@@ -11061,7 +11079,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 10 each of Red/Blue/Violet Devil's Horn - Skliros, Legendary\n- 8 each of Red/Blue/Violet Devil's Artifact - Skliros, Legendary\n- 1 Demon General's Tusk - Skliros, Legendary"
+    "locationText": "Crafted from:\n- 10 each of Red/Blue/Violet Devil's Horn - Skliros, Legendary\n- 8 each of Red/Blue/Violet Devil's Artifact - Skliros, Legendary\n- 1 Demon General's Tusk - Skliros, Legendary\n\nCommunity tier reward from Skliros on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage)."
   },
   "c.fen-lure-bud": {
     "obtainable": true,
@@ -11178,16 +11196,17 @@
   "e.oresnatchs-violet-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 100 Rainbow Ore."
+    "locationText": "Crafted from 100 Rainbow Ore - Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids."
   },
   "u.gold-tinged-apple": {
     "obtainable": true,
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Fachin on legendary difficulty."
+    "locationText": "Dropped from Fachin on legendary difficulty.\nCommunity tier reward from Fachin on Legendary (requires 100,000,000 personal damage and 750,000,000,000 community damage).\nCommunity tier reward from Fachin on Legendary (requires 10,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "c.indigo-cloak": {
     "obtainable": true,
@@ -11518,9 +11537,10 @@
   "u.script-of-telekinetic-plunge": {
     "obtainable": true,
     "tags": [
-      "container"
+      "container",
+      "quest"
     ],
-    "locationText": "From Three-Hammers Giftbox."
+    "locationText": "From Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy."
   },
   "u.blue-brewmasters-strength-spirit": {
     "obtainable": true,
@@ -11896,7 +11916,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack.\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\nFrom Green Daily Chest, which is daily login reward (days 11-20).\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nDropped from Elven Drills on legendary difficulty.\nDropped from Spooky Ghouls on legendary difficulty.\nDropped from Barren Foliage on legendary difficulty.\nDropped from Serpent Soldier on legendary difficulty.\nDropped from Feast Fixings on legendary difficulty.\nPurchased from the market (consumables / resource) for 1 Void Crystals (Requires: Z1 Segment 3 on Easy)."
+    "locationText": "From Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\nFrom Green Daily Chest, which is daily login reward (days 11-20).\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nDropped from Elven Drills on legendary difficulty.\nDropped from Spooky Ghouls on legendary difficulty.\nDropped from Barren Foliage on legendary difficulty.\nDropped from Serpent Soldier on legendary difficulty.\nDropped from Feast Fixings on legendary difficulty.\nPurchased from the market (consumables / resource) for 1 Void Crystals (Requires: Z1 Segment 3 on Easy)."
   },
   "e.sinderklaz-pants": {
     "obtainable": true,
@@ -11910,7 +11930,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 20,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "e.vyldas-supplicant-gugel": {
     "obtainable": true,
@@ -11999,7 +12019,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Faction's Felicity II and 2 Kylli's Retired Shield."
+    "locationText": "Crafted from 1 Faction's Felicity II and 2 Kylli's Retired Shield - Guild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage)."
   },
   "e.millennium-island-bascinet": {
     "obtainable": true,
@@ -12435,7 +12455,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Mace\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Mace\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
   },
   "e.duty-collectors-sabatons": {
     "obtainable": true,
@@ -13131,7 +13151,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Kylli's Retired Shield - crafted from 1 Faction's Felicity II and 2 Kylli's Retired Shield."
+    "locationText": "Crafted from:\n- 1 Kylli's Retired Shield - crafted from 1 Faction's Felicity II and 2 Kylli's Retired Shield (Guild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage))"
   },
   "u.parchment-of-reodai-mikyou": {
     "obtainable": true,
@@ -13257,7 +13277,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 500,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "e.demonsbanes-legs": {
     "obtainable": true,
@@ -13442,9 +13462,10 @@
     "obtainable": true,
     "tags": [
       "container",
-      "limited raids"
+      "limited raids",
+      "limited-time"
     ],
-    "locationText": "From Mortiday Calverita, crafted from:\n- 15 Mortiday Vigil - Abominacion Macabra, Legendary\n- 10 Macoli Peppers - Abominacion Macabra, Legendary\n\nFrom Mortiday Grand Calverita, crafted from:\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 12 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n\nFrom Mortiday Treat Bundle.\n\nDropped from Spooky Ghouls on legendary difficulty."
+    "locationText": "From Mortiday Calverita, crafted from:\n- 15 Mortiday Vigil - Abominacion Macabra, Legendary\n- 10 Macoli Peppers - Abominacion Macabra, Legendary\n\nFrom Mortiday Grand Calverita, crafted from:\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 12 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n\nFrom Mortiday Treat Bundle, which was previously available in the market (limited-time / resource lto).\n\nDropped from Spooky Ghouls on legendary difficulty."
   },
   "u.drake-destruction-potion": {
     "obtainable": true,
@@ -13538,7 +13559,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 8 Sapling's Roots - Witikho, Legendary\n- 5 Forgetting Leaf - Witikho, Legendary\n\nDropped from Witikho on legendary difficulty."
+    "locationText": "Crafted from:\n- 8 Sapling's Roots - Witikho, Legendary\n- 5 Forgetting Leaf - Witikho, Legendary\n\nDropped from Witikho on legendary difficulty.\n\nCommunity tier reward from Witikho on Legendary (requires 250,000,000 personal damage and 750,000,000,000 community damage).\n\nCommunity tier reward from Witikho on Legendary (requires 1,000,000,000 personal damage and 1,250,000,000,000 community damage)."
   },
   "a.oakenbrew-server": {
     "obtainable": true,
@@ -13546,7 +13567,7 @@
       "guild raid",
       "limited raids"
     ],
-    "locationText": "Dropped from Vurdith the Green on legendary difficulty."
+    "locationText": "Dropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage)."
   },
   "e.mephitic-chiffon-staff": {
     "obtainable": false,
@@ -13864,6 +13885,7 @@
   "e.oresnatchs-grand-yellow-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Great Yellow Ring - crafted from 6 Oresnatch's Yellow Ring."
@@ -13957,7 +13979,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Hero's Inauguration, which is summoner loot from Jagar the Red on Legendary (Summoner's Leftovers I). Requires top tier of 28,800,000 dmg (unconfirmed).\n\nFrom Kenendaman Bag, crafted from:\n- 25 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 40 Mookoman - Witikho, Legendary\n- 15 Regret's Sign - Witikho, Legendary\n\nFrom Samurai Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Stormy Sack, crafted from:\n- 10 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 4 Stormchimes - Fulgure the Storm, Legendary\n\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Foaming Energy Bundle Bag I, which was previously available in the market (limited-time / foaming bundle bags).\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Green Daily Chest, which is daily login reward (days 11-20).\n\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Medzeh's Potion Bag, crafted from:\n- 20 Sinah Mark - Bira Biuyom, Legendary\n- 8 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Manatisiwin Bag, crafted from:\n- 8 Sapling's Roots - Witikho, Legendary\n- 5 Forgetting Leaf - Witikho, Legendary\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Red Daily Chest, which is daily login reward (days 1-10).\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Hero's Confirmation, which is summoner loot from Xarbruutu on Legendary (Summoner's Leftovers II). Requires top tier of 69,120,000 dmg (unconfirmed).\n\nFrom Impromptu Provisions, crafted from:\n- 12 Cork Stopper - Aufling, Legendary\n- 10 Recursive Funnel - Aufling, Legendary\n\nFrom Stormchasing Spoils, crafted from:\n- 30 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 24 Stormchimes - Fulgure the Storm, Legendary\n- 36 Stormstruck Ore - Fulgure the Storm, Legendary\n- 14 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Three-Hammers Giftbox.\n\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\n\nFrom Violet Daily Chest, which is daily login reward (days 26-31).\n\nFrom Wintry Provisions.\n\nFrom Enchanted Jar, crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nFrom Foaming Energy Bundle Bag II, which was previously available in the market (limited-time / foaming bundle bags).\n\nFrom Blue Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Blue Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Red Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Violet Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Orange Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Yellow Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nPurchased from the market (consumables / resource) for 3 Void Crystals (Requires: Z1 Segment 3 on Easy)."
+    "locationText": "From Hero's Inauguration, which is summoner loot from Jagar the Red on Legendary (Summoner's Leftovers I). Requires top tier of 28,800,000 dmg (unconfirmed).\n\nFrom Kenendaman Bag, crafted from:\n- 25 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 40 Mookoman - Witikho, Legendary\n- 15 Regret's Sign - Witikho, Legendary\n\nFrom Samurai Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Stormy Sack, crafted from:\n- 10 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 4 Stormchimes - Fulgure the Storm, Legendary\n\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Foaming Energy Bundle Bag I, which was previously available in the market (limited-time / foaming bundle bags).\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Green Daily Chest, which is daily login reward (days 11-20).\n\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Medzeh's Potion Bag, crafted from:\n- 20 Sinah Mark - Bira Biuyom, Legendary\n- 8 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Manatisiwin Bag, crafted from:\n- 8 Sapling's Roots - Witikho, Legendary\n- 5 Forgetting Leaf - Witikho, Legendary\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Red Daily Chest, which is daily login reward (days 1-10).\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Hero's Confirmation, which is summoner loot from Xarbruutu on Legendary (Summoner's Leftovers II). Requires top tier of 69,120,000 dmg (unconfirmed).\n\nFrom Impromptu Provisions, crafted from:\n- 12 Cork Stopper - Aufling, Legendary\n- 10 Recursive Funnel - Aufling, Legendary\n\nFrom Stormchasing Spoils, crafted from:\n- 30 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 24 Stormchimes - Fulgure the Storm, Legendary\n- 36 Stormstruck Ore - Fulgure the Storm, Legendary\n- 14 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\n\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\n\nFrom Violet Daily Chest, which is daily login reward (days 26-31).\n\nFrom Wintry Provisions.\n\nFrom Enchanted Jar, crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nFrom Foaming Energy Bundle Bag II, which was previously available in the market (limited-time / foaming bundle bags).\n\nFrom Blue Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Blue Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Red Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Violet Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Orange Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Yellow Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nPurchased from the market (consumables / resource) for 3 Void Crystals (Requires: Z1 Segment 3 on Easy)."
   },
   "e.wyrmhide-feet": {
     "obtainable": true,
@@ -14012,6 +14034,7 @@
   "e.oresnatchs-grand-orange-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Great Orange Ring - crafted from 6 Oresnatch's Orange Ring."
@@ -14156,8 +14179,11 @@
   },
   "c.kylli-boost-ii": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "guild raid",
+      "limited raids"
+    ],
+    "locationText": "Guild tier reward from Vurdith the Green on Legendary (requires 50,000,000,000 personal damage and 1,500,000,000,000 guild community damage)."
   },
   "e.spiderskin-chest": {
     "obtainable": true,
@@ -14648,7 +14674,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 5 Mastru Flatfish - Paeknisar, Legendary\n- 3 Dolmfaastian Unicornfish - Paeknisar, Legendary"
+    "locationText": "Crafted from:\n- 5 Mastru Flatfish - Paeknisar, Legendary\n- 3 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCommunity tier reward from Paeknisar on Legendary (requires 200,000,000 personal damage and 750,000,000,000 community damage).\n\nCommunity tier reward from Paeknisar on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "a.arena-nymph": {
     "obtainable": false,
@@ -14787,7 +14813,7 @@
       "guild raid",
       "limited raids"
     ],
-    "locationText": "Dropped from Vurdith the Green on legendary difficulty."
+    "locationText": "Dropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage)."
   },
   "a.alagbato": {
     "obtainable": true,
@@ -14972,9 +14998,10 @@
   "u.loaf-of-dark-bread": {
     "obtainable": true,
     "tags": [
-      "container"
+      "container",
+      "quest"
     ],
-    "locationText": "From Dwarven Rewards."
+    "locationText": "From Dwarven Rewards, which is first clear reward from Z2 Segment 2 Boss (Greater Ent) on Easy."
   },
   "e.derzis-thunderclap-gloves": {
     "obtainable": true,
@@ -15262,6 +15289,7 @@
   "e.oresnatchs-great-orange-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Orange Ring."
@@ -15272,7 +15300,7 @@
       "container",
       "limited raids"
     ],
-    "locationText": "From Snowdrake Slayer's Strongbox, crafted from:\n- 1 Snowdrake Snowflake - Frigidara, Legendary\n- 1 Firestone - Frigidara, Legendary\n- 50 Mounting Blades - Frigidara, Legendary\n- 50 Thick-bound Cloth - Frigidara, Legendary\n- 50 Leather Straps - Frigidara, Legendary\n- 50 Lightmail - Frigidara, Legendary"
+    "locationText": "From Snowdrake Slayer's Strongbox, crafted from:\n- 1 Snowdrake Snowflake - Frigidara, Legendary\n- 1 Firestone - Frigidara, Legendary\n- 50 Mounting Blades - Frigidara, Legendary\n- 50 Thick-bound Cloth - Frigidara, Legendary\n- 50 Leather Straps - Frigidara, Legendary\n- 50 Lightmail - Frigidara, Legendary\n\nCommunity tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)."
   },
   "e.mikoko-miskwas": {
     "obtainable": true,
@@ -15611,7 +15639,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 500,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "e.veiled-griphornis-pants": {
     "obtainable": false,
@@ -15934,7 +15962,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack.\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox.\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\nDropped from Feast Fixings on legendary difficulty.\nPurchased from the market (component / profile) for 8 Void Crystals (Requires: Z4 Segment 4 on Easy)."
+    "locationText": "From Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\nDropped from Feast Fixings on legendary difficulty.\nPurchased from the market (component / profile) for 8 Void Crystals (Requires: Z4 Segment 4 on Easy)."
   },
   "c.fulgure-tooth": {
     "obtainable": true,
@@ -16081,6 +16109,7 @@
   "e.oresnatchs-grand-red-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Great Red Ring - crafted from 6 Oresnatch's Red Ring."
@@ -16209,6 +16238,7 @@
   "e.oresnatchs-great-red-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Red Ring."
@@ -16225,7 +16255,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 2,500,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "c.violet-tattered-pelt": {
     "obtainable": true,
@@ -16285,7 +16315,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Kylli's Best Vintage."
+    "locationText": "Crafted from 1 Kylli's Best Vintage - Guild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage)."
   },
   "a.camellia": {
     "obtainable": true,
@@ -16696,7 +16726,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Hrysvalgur on easy difficulty."
+    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nCommunity tier reward from Hrysvalgur on Easy (requires 100,000,000 personal damage and 25,000,000,000 community damage)."
   },
   "ba.swashbuckler-banner": {
     "obtainable": false,
@@ -17013,9 +17043,10 @@
   "u.makari-tilkut": {
     "obtainable": true,
     "tags": [
-      "container"
+      "container",
+      "limited-time"
     ],
-    "locationText": "From Sahayuk Patang.\nFrom Ladaku Patang."
+    "locationText": "From Sahayuk Patang, which was previously available in the market (limited-time / resource lto).\nFrom Ladaku Patang, which was previously available in the market (limited-time / resource lto)."
   },
   "e.gipantan-caligae": {
     "obtainable": true,
@@ -17174,9 +17205,10 @@
     "obtainable": true,
     "tags": [
       "container",
-      "limited raids"
+      "limited raids",
+      "quest"
     ],
-    "locationText": "From Dwarven Rewards.\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nDropped from Elven Drills on legendary difficulty.\nDropped from Spooky Ghouls on legendary difficulty.\nDropped from Barren Foliage on legendary difficulty.\nDropped from Jolly Gelatin on legendary difficulty.\nDropped from Lubid on legendary difficulty.\nDropped from Itsy-Bitsy on legendary difficulty.\nDropped from Feast Fixings on legendary difficulty.\nDropped from Elven Fever Dreams on legendary difficulty."
+    "locationText": "From Dwarven Rewards, which is first clear reward from Z2 Segment 2 Boss (Greater Ent) on Easy.\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nDropped from Elven Drills on legendary difficulty.\nDropped from Spooky Ghouls on legendary difficulty.\nDropped from Barren Foliage on legendary difficulty.\nDropped from Jolly Gelatin on legendary difficulty.\nDropped from Lubid on legendary difficulty.\nDropped from Itsy-Bitsy on legendary difficulty.\nDropped from Feast Fixings on legendary difficulty.\nDropped from Elven Fever Dreams on legendary difficulty."
   },
   "a.river-windbringer": {
     "obtainable": true,
@@ -17294,7 +17326,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Ring - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Ring - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
   },
   "e.helm-of-longeares": {
     "obtainable": true,
@@ -17309,7 +17341,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 100 Lubid Feather - Lubid, Legendary\n- 100 Tainted Arrow - Lubid, Legendary\n- 6 Lost Love - Lubid, Legendary\n\nCrafted from:\n- 3 Lubid Feather - Lubid, Legendary\n- 3 Tainted Arrow - Lubid, Legendary\n\nCrafted from:\n- 150 Lubid Feather - Lubid, Legendary\n- 150 Tainted Arrow - Lubid, Legendary\n- 10 Lost Love - Lubid, Legendary\n\nCrafted from:\n- 1 Overwhelming Desire I - crafted from 150 Lubid Feather (Lubid, Legendary), 150 Tainted Arrow (Lubid, Legendary), and 10 Lost Love (Lubid, Legendary)\n- 300 Lubid Feather - Lubid, Legendary\n- 300 Tainted Arrow - Lubid, Legendary\n- 20 Lost Love - Lubid, Legendary\n\nDropped from Fachin on legendary difficulty.\n\nDropped from Sluagh on easy difficulty."
+    "locationText": "Crafted from:\n- 100 Lubid Feather - Lubid, Legendary\n- 100 Tainted Arrow - Lubid, Legendary\n- 6 Lost Love - Lubid, Legendary\n\nCrafted from:\n- 3 Lubid Feather - Lubid, Legendary\n- 3 Tainted Arrow - Lubid, Legendary\n\nCrafted from:\n- 150 Lubid Feather - Lubid, Legendary\n- 150 Tainted Arrow - Lubid, Legendary\n- 10 Lost Love - Lubid, Legendary\n\nCrafted from:\n- 1 Overwhelming Desire I - crafted from 150 Lubid Feather (Lubid, Legendary), 150 Tainted Arrow (Lubid, Legendary), and 10 Lost Love (Lubid, Legendary)\n- 300 Lubid Feather - Lubid, Legendary\n- 300 Tainted Arrow - Lubid, Legendary\n- 20 Lost Love - Lubid, Legendary\n\nDropped from Fachin on legendary difficulty.\n\nCommunity tier reward from Fachin on Legendary (requires 100,000,000 personal damage and 750,000,000,000 community damage).\n\nCommunity tier reward from Fachin on Legendary (requires 50,000,000,000 personal damage and 5,000,000,000,000 community damage).\n\nDropped from Sluagh on easy difficulty."
   },
   "k.mounts-potential-flight": {
     "obtainable": false,
@@ -17446,7 +17478,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 10 Fachin Mucous - Fachin, Legendary\n- 5 Tuft of Fae Coverings - Fachin, Legendary\n- 2 Gold-tinged Apple - Fachin, Legendary\n\nDropped from Fachin on legendary difficulty."
+    "locationText": "Crafted from:\n- 10 Fachin Mucous - Fachin, Legendary\n- 5 Tuft of Fae Coverings - Fachin, Legendary\n- 2 Gold-tinged Apple - Fachin, Legendary\n\nDropped from Fachin on legendary difficulty.\n\nCommunity tier reward from Fachin on Legendary (requires 10,000,000,000 personal damage and 3,000,000,000,000 community damage).\n\nCommunity tier reward from Fachin on Legendary (requires 50,000,000,000 personal damage and 5,000,000,000,000 community damage)."
   },
   "u.tank-starter-pack-iv": {
     "obtainable": true,
@@ -17651,8 +17683,10 @@
   },
   "a.seksehsa": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "quest"
+    ],
+    "locationText": "First clear reward from Z4 Segment 4 Node 1 (Raided Reptiles) on Easy."
   },
   "ba.conjurer-banner": {
     "obtainable": false,
@@ -17680,7 +17714,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 2,500,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "e.tedupevair-helm": {
     "obtainable": true,
@@ -17825,9 +17859,10 @@
   "e.oresnatchs-orange-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 100 Rainbow Ore."
+    "locationText": "Crafted from 100 Rainbow Ore - Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids."
   },
   "e.mortiday-gloves": {
     "obtainable": true,
@@ -17938,7 +17973,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Paeknisar on legendary difficulty."
+    "locationText": "Dropped from Paeknisar on legendary difficulty.\nCommunity tier reward from Paeknisar on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "e.polar-herdguard": {
     "obtainable": true,
@@ -18032,9 +18067,10 @@
   "e.oresnatchs-yellow-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 100 Rainbow Ore."
+    "locationText": "Crafted from 100 Rainbow Ore - Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids."
   },
   "c.slime-juice": {
     "obtainable": true,
@@ -18617,7 +18653,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 12 Cork Stopper - Aufling, Legendary\n- 10 Recursive Funnel - Aufling, Legendary\n\nDropped from Aufling on legendary difficulty."
+    "locationText": "Crafted from:\n- 12 Cork Stopper - Aufling, Legendary\n- 10 Recursive Funnel - Aufling, Legendary\n\nDropped from Aufling on legendary difficulty.\n\nCommunity tier reward from Aufling on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "u.script-of-malicious-massacre": {
     "obtainable": true,
@@ -18685,7 +18721,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "From Fisher's Celebratory Satchel, crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCrafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 8 Dolmfaastian Unicornfish - Paeknisar, Legendary\n- 1 Mastru Sheephead - Paeknisar, Legendary\n\nCrafted from 2 Mastru Flatfish - Paeknisar, Legendary.\n\nDropped from Paeknisar on legendary difficulty."
+    "locationText": "From Fisher's Celebratory Satchel, crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCrafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 8 Dolmfaastian Unicornfish - Paeknisar, Legendary\n- 1 Mastru Sheephead - Paeknisar, Legendary\n\nCrafted from 2 Mastru Flatfish - Paeknisar, Legendary.\n\nDropped from Paeknisar on legendary difficulty.\n\nCommunity tier reward from Paeknisar on Legendary (requires 200,000,000 personal damage and 750,000,000,000 community damage).\n\nCommunity tier reward from Paeknisar on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "e.sung-leather-pants": {
     "obtainable": true,
@@ -18735,7 +18771,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Witikho on legendary difficulty."
+    "locationText": "Dropped from Witikho on legendary difficulty.\nCommunity tier reward from Witikho on Legendary (requires 1,000,000,000 personal damage and 1,250,000,000,000 community damage)."
   },
   "e.dromaeon-helm": {
     "obtainable": false,
@@ -18964,9 +19000,10 @@
     "obtainable": true,
     "tags": [
       "container",
-      "limited raids"
+      "limited raids",
+      "limited-time"
     ],
-    "locationText": "From Mortiday Calverita, crafted from:\n- 15 Mortiday Vigil - Abominacion Macabra, Legendary\n- 10 Macoli Peppers - Abominacion Macabra, Legendary\n\nFrom Mortiday Grand Calverita, crafted from:\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 12 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n\nFrom Mortiday Treat Bundle.\n\nDropped from Spooky Ghouls on legendary difficulty."
+    "locationText": "From Mortiday Calverita, crafted from:\n- 15 Mortiday Vigil - Abominacion Macabra, Legendary\n- 10 Macoli Peppers - Abominacion Macabra, Legendary\n\nFrom Mortiday Grand Calverita, crafted from:\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 12 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n\nFrom Mortiday Treat Bundle, which was previously available in the market (limited-time / resource lto).\n\nDropped from Spooky Ghouls on legendary difficulty."
   },
   "c.greater-melee-token": {
     "obtainable": true,
@@ -19290,7 +19327,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Hero's Inauguration, which is summoner loot from Jagar the Red on Legendary (Summoner's Leftovers I). Requires top tier of 28,800,000 dmg (unconfirmed).\n\nFrom Kenendaman Bag, crafted from:\n- 25 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 40 Mookoman - Witikho, Legendary\n- 15 Regret's Sign - Witikho, Legendary\n\nFrom Samurai Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Stormy Sack, crafted from:\n- 10 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 4 Stormchimes - Fulgure the Storm, Legendary\n\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Green Daily Chest, which is daily login reward (days 11-20).\n\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Medzeh's Potion Bag, crafted from:\n- 20 Sinah Mark - Bira Biuyom, Legendary\n- 8 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Manatisiwin Bag, crafted from:\n- 8 Sapling's Roots - Witikho, Legendary\n- 5 Forgetting Leaf - Witikho, Legendary\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Foaming Vitality Bundle Bag I, which was previously available in the market (limited-time / foaming bundle bags).\n\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Red Daily Chest, which is daily login reward (days 1-10).\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Hero's Confirmation, which is summoner loot from Xarbruutu on Legendary (Summoner's Leftovers II). Requires top tier of 69,120,000 dmg (unconfirmed).\n\nFrom Impromptu Provisions, crafted from:\n- 12 Cork Stopper - Aufling, Legendary\n- 10 Recursive Funnel - Aufling, Legendary\n\nFrom Stormchasing Spoils, crafted from:\n- 30 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 24 Stormchimes - Fulgure the Storm, Legendary\n- 36 Stormstruck Ore - Fulgure the Storm, Legendary\n- 14 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Foaming Vitality Bundle Bag II, which was previously available in the market (limited-time / foaming bundle bags).\n\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Three-Hammers Giftbox.\n\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\n\nFrom Violet Daily Chest, which is daily login reward (days 26-31).\n\nFrom Wintry Provisions.\n\nFrom Enchanted Jar, crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nFrom Blue Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Blue Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Red Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Violet Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Orange Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Yellow Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nPurchased from the market (consumables / resource) for 3 Void Crystals (Requires: Z1 Segment 3 on Easy)."
+    "locationText": "From Hero's Inauguration, which is summoner loot from Jagar the Red on Legendary (Summoner's Leftovers I). Requires top tier of 28,800,000 dmg (unconfirmed).\n\nFrom Kenendaman Bag, crafted from:\n- 25 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 40 Mookoman - Witikho, Legendary\n- 15 Regret's Sign - Witikho, Legendary\n\nFrom Samurai Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Stormy Sack, crafted from:\n- 10 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 4 Stormchimes - Fulgure the Storm, Legendary\n\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Nakatotaw Bag, crafted from:\n- 24 Mookoman - Witikho, Legendary\n- 12 Regret's Sign - Witikho, Legendary\n\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Green Daily Chest, which is daily login reward (days 11-20).\n\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Medzeh's Potion Bag, crafted from:\n- 20 Sinah Mark - Bira Biuyom, Legendary\n- 8 Medzeh Trophy - Bira Biuyom, Legendary\n\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Manatisiwin Bag, crafted from:\n- 8 Sapling's Roots - Witikho, Legendary\n- 5 Forgetting Leaf - Witikho, Legendary\n\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\n\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Stormchaser's Supplies, crafted from:\n- 20 Stormstruck Ore - Fulgure the Storm, Legendary\n- 10 Fulgure Tooth - Fulgure the Storm, Legendary\n\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Foaming Vitality Bundle Bag I, which was previously available in the market (limited-time / foaming bundle bags).\n\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Red Daily Chest, which is daily login reward (days 1-10).\n\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\n\nFrom Hero's Confirmation, which is summoner loot from Xarbruutu on Legendary (Summoner's Leftovers II). Requires top tier of 69,120,000 dmg (unconfirmed).\n\nFrom Impromptu Provisions, crafted from:\n- 12 Cork Stopper - Aufling, Legendary\n- 10 Recursive Funnel - Aufling, Legendary\n\nFrom Stormchasing Spoils, crafted from:\n- 30 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 24 Stormchimes - Fulgure the Storm, Legendary\n- 36 Stormstruck Ore - Fulgure the Storm, Legendary\n- 14 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Foaming Vitality Bundle Bag II, which was previously available in the market (limited-time / foaming bundle bags).\n\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\n\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\n\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\n\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\n\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\n\nFrom Violet Daily Chest, which is daily login reward (days 26-31).\n\nFrom Wintry Provisions.\n\nFrom Enchanted Jar, crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nFrom Blue Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Blue Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Red Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Violet Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Orange Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Yellow Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Red Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Indigo Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\n\nFrom Yellow Vintner's Satchel, which is from Mystery Vintner's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 25000 CON).\n\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\n\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Green Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nFrom Green Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\n\nFrom Yellow Brewmaster's Satchel, which is from Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON).\n\nDropped from Elven Drills on legendary difficulty.\n\nDropped from Spooky Ghouls on legendary difficulty.\n\nDropped from Barren Foliage on legendary difficulty.\n\nDropped from Jolly Gelatin on legendary difficulty.\n\nDropped from Serpent Soldier on legendary difficulty.\n\nDropped from Lubid on legendary difficulty.\n\nDropped from Itsy-Bitsy on legendary difficulty.\n\nDropped from Feast Fixings on legendary difficulty.\n\nDropped from Elven Fever Dreams on legendary difficulty.\n\nPurchased from the market (consumables / resource) for 3 Void Crystals (Requires: Z1 Segment 3 on Easy)."
   },
   "e.dromaeon-darts": {
     "obtainable": false,
@@ -19379,6 +19416,7 @@
   "e.oresnatchs-grand-rainbow-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Great Rainbow Ring."
@@ -19393,6 +19431,7 @@
   "e.oresnatchs-great-yellow-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Yellow Ring."
@@ -19856,7 +19895,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 4 Cork Stopper - Aufling, Legendary.\n\nCrafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 20 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nDropped from Aufling on legendary difficulty."
+    "locationText": "Crafted from 4 Cork Stopper - Aufling, Legendary.\n\nCrafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 20 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nDropped from Aufling on legendary difficulty.\n\nCommunity tier reward from Aufling on Legendary (requires 500,000,000 personal damage and 1,500,000,000,000 community damage).\n\nCommunity tier reward from Aufling on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "e.servid-link": {
     "obtainable": false,
@@ -19900,7 +19939,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "From Fisher's Celebratory Satchel, crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCrafted from:\n- 1 Fisher Fights I - Paeknisar, Legendary\n- 14 Mastru Flatfish - Paeknisar, Legendary\n- 6 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCrafted from 2 Mastru Flatfish - Paeknisar, Legendary.\n\nDropped from Paeknisar on legendary difficulty."
+    "locationText": "From Fisher's Celebratory Satchel, crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCrafted from:\n- 1 Fisher Fights I - Paeknisar, Legendary\n- 14 Mastru Flatfish - Paeknisar, Legendary\n- 6 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCrafted from 2 Mastru Flatfish - Paeknisar, Legendary.\n\nDropped from Paeknisar on legendary difficulty.\n\nCommunity tier reward from Paeknisar on Legendary (requires 200,000,000 personal damage and 750,000,000,000 community damage).\n\nCommunity tier reward from Paeknisar on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "e.yotinpekew-whip": {
     "obtainable": true,
@@ -19999,14 +20038,14 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Shield - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Yellow/Green Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Shield - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Yellow/Green Frigidara Defence Banner - Frigidara, Legendary"
   },
   "c.defenders-trilliant-ruby": {
     "obtainable": true,
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)."
   },
   "a.onishaygu-lyowo": {
     "obtainable": true,
@@ -20176,16 +20215,17 @@
   "e.oresnatchs-great-blue-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 6 Oresnatch's Blue Ring - crafted from 100 Rainbow Ore."
+    "locationText": "Crafted from 6 Oresnatch's Blue Ring - crafted from 100 Rainbow Ore (Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids)."
   },
   "c.yellow-frigidara-defence-banner": {
     "obtainable": true,
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 500,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "a.rokovok-harpooner": {
     "obtainable": true,
@@ -20260,8 +20300,10 @@
   },
   "u.ladaku-patang": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / resource lto)."
   },
   "e.sloughed-naga-tail": {
     "obtainable": true,
@@ -20445,7 +20487,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 100,000,000,000 personal damage and 8,000,000,000,000 community damage)."
   },
   "dy.olive-green-dye-tub": {
     "obtainable": true,
@@ -20817,8 +20859,10 @@
   },
   "u.three-hammers-giftbox": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "quest"
+    ],
+    "locationText": "First clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy."
   },
   "e.vozotlnaos-blessing-vali": {
     "obtainable": true,
@@ -21076,7 +21120,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Hrysvalgur on easy difficulty."
+    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nCommunity tier reward from Hrysvalgur on Easy (requires 100,000,000 personal damage and 25,000,000,000 community damage)."
   },
   "a.elven-nomad": {
     "obtainable": true,
@@ -21123,7 +21167,7 @@
       "limited raids",
       "quest"
     ],
-    "locationText": "From Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wintry Provisions.\nDropped from Elven Drills on legendary difficulty.\nDropped from Abominacion Macabra on legendary difficulty.\nDropped from Bira Biuyom on legendary difficulty.\nDropped from Vurdith the Green on legendary difficulty.\nDropped from Judah Jingse on legendary difficulty.\nDropped from Skliros on legendary difficulty.\nDropped from Aufling on legendary difficulty.\nDropped from Paeknisar on legendary difficulty.\nDropped from Fachin on legendary difficulty."
+    "locationText": "From Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wintry Provisions.\nDropped from Elven Drills on legendary difficulty.\nDropped from Abominacion Macabra on legendary difficulty.\nDropped from Bira Biuyom on legendary difficulty.\nDropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 50,000,000,000 personal damage and 1,500,000,000,000 guild community damage).\nDropped from Judah Jingse on legendary difficulty.\nCommunity tier reward from Judah Jingse on Legendary (requires 60,000,000,000 personal damage and 7,500,000,000,000 community damage).\nDropped from Skliros on legendary difficulty.\nCommunity tier reward from Skliros on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage).\nCommunity tier reward from Frigidara on Legendary (requires 100,000,000,000 personal damage and 8,000,000,000,000 community damage).\nDropped from Aufling on legendary difficulty.\nCommunity tier reward from Aufling on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage).\nDropped from Paeknisar on legendary difficulty.\nCommunity tier reward from Paeknisar on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage).\nCommunity tier reward from Witikho on Legendary (requires 17,500,000,000 personal damage and 3,500,000,000,000 community damage).\nDropped from Fachin on legendary difficulty.\nCommunity tier reward from Fachin on Legendary (requires 50,000,000,000 personal damage and 5,000,000,000,000 community damage)."
   },
   "e.onishaygu-seedling-javelin": {
     "obtainable": true,
@@ -21487,7 +21531,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Hrysvalgur on easy difficulty.\nDropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 2,500,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "e.vyldas-supplicant-frock": {
     "obtainable": true,
@@ -21507,9 +21551,10 @@
     "obtainable": true,
     "tags": [
       "container",
-      "limited raids"
+      "limited raids",
+      "limited-time"
     ],
-    "locationText": "From Mortiday Calverita, crafted from:\n- 15 Mortiday Vigil - Abominacion Macabra, Legendary\n- 10 Macoli Peppers - Abominacion Macabra, Legendary\n\nFrom Mortiday Grand Calverita, crafted from:\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 12 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n\nFrom Mortiday Treat Bundle.\n\nDropped from Spooky Ghouls on legendary difficulty."
+    "locationText": "From Mortiday Calverita, crafted from:\n- 15 Mortiday Vigil - Abominacion Macabra, Legendary\n- 10 Macoli Peppers - Abominacion Macabra, Legendary\n\nFrom Mortiday Grand Calverita, crafted from:\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 12 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n\nFrom Mortiday Treat Bundle, which was previously available in the market (limited-time / resource lto).\n\nDropped from Spooky Ghouls on legendary difficulty."
   },
   "e.fiddler-pants": {
     "obtainable": false,
@@ -21589,7 +21634,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Helm - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Red/Orange Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Helm - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Red/Orange Frigidara Defence Banner - Frigidara, Legendary"
   },
   "c.dysphorvartan": {
     "obtainable": true,
@@ -21697,7 +21742,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Paeknisar on legendary difficulty."
+    "locationText": "Dropped from Paeknisar on legendary difficulty.\nCommunity tier reward from Paeknisar on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "m.conducive-capriciousness": {
     "obtainable": true,
@@ -21804,7 +21849,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 30 Heart of Ice - Frigidara, Legendary\n- 1 Firestone - Frigidara, Legendary\n- 1 Aegyr Snowbound - Frigidara, Legendary\n- 1 Bellas Inahice - crafted from 20 Heart of Ice (Frigidara, Legendary), 40 Goblin Frigidara Defender (Hrysvalgur, Easy), 40 Dwarven Frigidara Defender (Hrysvalgur, Easy), 40 Gnomish Frigidara Defender (Hrysvalgur, Easy), 40 Orcish Frigidara Defender (Hrysvalgur, Easy), and 40 Elven Frigidara Defender (Hrysvalgur, Easy)\n- 1 Burz"
+    "locationText": "Crafted from:\n- 30 Heart of Ice - Frigidara, Legendary\n- 1 Firestone - Frigidara, Legendary\n- 1 Aegyr Snowbound - Frigidara, Legendary\n- 1 Bellas Inahice - crafted from 20 Heart of Ice (Frigidara, Legendary), 40 Goblin Frigidara Defender (Hrysvalgur, Easy), 40 Dwarven Frigidara Defender (Hrysvalgur, Easy), 40 Gnomish Frigidara Defender (Hrysvalgur, Easy), 40 Orcish Frigidara Defender (Hrysvalgur, Easy), and 40 Elven Frigidara Defender (Hrysvalgur, Easy)\n- 1 Burz\n\nCommunity tier reward from Frigidara on Legendary (requires 100,000,000,000 personal damage and 8,000,000,000,000 community damage)."
   },
   "a.krozana-titanslayer": {
     "obtainable": true,
@@ -22020,8 +22065,10 @@
   },
   "u.dwarven-rewards": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "quest"
+    ],
+    "locationText": "First clear reward from Z2 Segment 2 Boss (Greater Ent) on Easy."
   },
   "a.arrosa": {
     "obtainable": true,
@@ -22062,6 +22109,7 @@
   "e.oresnatchs-grand-green-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Great Green Ring - crafted from 6 Oresnatch's Green Ring."
@@ -22450,7 +22498,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 3 Mookoman - Witikho, Legendary\n- 1 Regret's Sign - Witikho, Legendary\n\nCrafted from 3 Sapling's Roots - Witikho, Legendary.\n\nCrafted from:\n- 1 Awasinin Wiikwan I - Witikho, Legendary\n- 15 Sapling's Roots - Witikho, Legendary\n- 10 Forgetting Leaf - Witikho, Legendary\n\nCrafted from:\n- 1 Awasinin Wiikwan II - crafted from 1 Awasinin Wiikwan I (Witikho, Legendary), 15 Sapling's Roots (Witikho, Legendary), and 10 Forgetting Leaf (Witikho, Legendary)\n- 20 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 20 Mookoman - Witikho, Legendary\n- 10 Regret's Sign - Witikho, Legendary\n\nDropped from Witikho on legendary difficulty."
+    "locationText": "Crafted from:\n- 3 Mookoman - Witikho, Legendary\n- 1 Regret's Sign - Witikho, Legendary\n\nCrafted from 3 Sapling's Roots - Witikho, Legendary.\n\nCrafted from:\n- 1 Awasinin Wiikwan I - Witikho, Legendary\n- 15 Sapling's Roots - Witikho, Legendary\n- 10 Forgetting Leaf - Witikho, Legendary\n\nCrafted from:\n- 1 Awasinin Wiikwan II - crafted from 1 Awasinin Wiikwan I (Witikho, Legendary), 15 Sapling's Roots (Witikho, Legendary), and 10 Forgetting Leaf (Witikho, Legendary)\n- 20 Sapling's Roots - Witikho, Legendary\n- 20 Forgetting Leaf - Witikho, Legendary\n- 1 Freshlife Sapling - Witikho, Legendary\n- 20 Mookoman - Witikho, Legendary\n- 10 Regret's Sign - Witikho, Legendary\n\nDropped from Witikho on legendary difficulty.\n\nCommunity tier reward from Witikho on Legendary (requires 250,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "a.vyldas-bloody-supplicant": {
     "obtainable": true,
@@ -23210,7 +23258,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Fachin on legendary difficulty."
+    "locationText": "Dropped from Fachin on legendary difficulty.\nCommunity tier reward from Fachin on Legendary (requires 10,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "u.nepyren-fireblast-potion": {
     "obtainable": true,
@@ -23223,9 +23271,10 @@
   "e.oresnatchs-blue-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 100 Rainbow Ore."
+    "locationText": "Crafted from 100 Rainbow Ore - Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids."
   },
   "e.onishaygu-seedling-steed": {
     "obtainable": true,
@@ -23319,7 +23368,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Gloves - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Red/Orange Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Gloves - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Red/Orange Frigidara Defence Banner - Frigidara, Legendary"
   },
   "e.tungsten-ring": {
     "obtainable": true,
@@ -23642,7 +23691,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 3 Jingse Grub - Judah Jingse, Legendary.\n\nCrafted from 5 Jingse Grub - Judah Jingse, Legendary.\n\nCrafted from:\n- 1 Swarm Storm I - crafted from 5 Jingse Grub (Judah Jingse, Legendary)\n- 4 Jingse Ward - Judah Jingse, Legendary\n\nDropped from Judah Jingse on legendary difficulty."
+    "locationText": "Crafted from 3 Jingse Grub - Judah Jingse, Legendary.\n\nCrafted from 5 Jingse Grub - Judah Jingse, Legendary.\n\nCrafted from:\n- 1 Swarm Storm I - crafted from 5 Jingse Grub (Judah Jingse, Legendary)\n- 4 Jingse Ward - Judah Jingse, Legendary\n\nDropped from Judah Jingse on legendary difficulty.\n\nCommunity tier reward from Judah Jingse on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "e.hearthkeepers-tower-shield": {
     "obtainable": true,
@@ -23837,6 +23886,7 @@
   "e.oresnatchs-grand-blue-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
     "locationText": "Crafted from 6 Oresnatch's Great Blue Ring."
@@ -23960,9 +24010,10 @@
   "u.script-of-venom-strike": {
     "obtainable": true,
     "tags": [
-      "container"
+      "container",
+      "quest"
     ],
-    "locationText": "From Venom-Soaked Pack."
+    "locationText": "From Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy."
   },
   "e.dromaeon-pants": {
     "obtainable": false,
@@ -24078,7 +24129,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Venom-Soaked Pack.\nFrom Red Daily Chest, which is daily login reward (days 1-10).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Three-Hammers Giftbox.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nPurchased from the market (consumables / healing) for 25 Crowns (Requires: Z2 Segment 1 on Easy)."
+    "locationText": "From Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Red Daily Chest, which is daily login reward (days 1-10).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nPurchased from the market (consumables / healing) for 25 Crowns (Requires: Z2 Segment 1 on Easy)."
   },
   "e.hatuumin-eye": {
     "obtainable": true,
@@ -24193,7 +24244,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Venom-Soaked Pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Three-Hammers Giftbox.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nDropped from Sand Wyrm in Z3 Segment 1 on Legendary.\nDropped from Elven Rangers in Z2 Segment 1 on Legendary.\nDropped from Superior Watcher in Z1 Segment 2 on Legendary.\nDropped from Naga Risaldar in Z1 Segment 3 on Legendary.\nPurchased from the market (consumables / grit-draught) for 20 Crowns (Requires: Z1 Segment 3 on Easy)."
+    "locationText": "From Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Navenian Provisions, which is first clear reward from Z1 Segment 3 Boss (Naga Risaldar) on Easy.\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nDropped from Sand Wyrm in Z3 Segment 1 on Legendary.\nDropped from Elven Rangers in Z2 Segment 1 on Legendary.\nDropped from Superior Watcher in Z1 Segment 2 on Legendary.\nDropped from Naga Risaldar in Z1 Segment 3 on Legendary.\nPurchased from the market (consumables / grit-draught) for 20 Crowns (Requires: Z1 Segment 3 on Easy)."
   },
   "a.clyburn-softshadow": {
     "obtainable": true,
@@ -24274,7 +24325,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Frigidara on legendary difficulty."
+    "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 20,000,000,000 personal damage and 3,000,000,000,000 community damage)."
   },
   "a.rookie-scholar": {
     "obtainable": true,
@@ -24290,7 +24341,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Frostwulf - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Frostwulf - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
   },
   "ba.bard-banner": {
     "obtainable": false,
@@ -24523,7 +24574,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Three-Factioned Defence and 100 each of Red/Blue Frigidara Defence Banner - Frigidara, Legendary."
+    "locationText": "Crafted from:\n- 1 Three-Factioned Defence - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 100 each of Red/Blue Frigidara Defence Banner - Frigidara, Legendary"
   },
   "c.violet-bowstring": {
     "obtainable": true,
@@ -24559,7 +24610,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Witikho on legendary difficulty."
+    "locationText": "Dropped from Witikho on legendary difficulty.\nCommunity tier reward from Witikho on Legendary (requires 1,000,000,000 personal damage and 1,250,000,000,000 community damage)."
   },
   "e.heroic-dusk-sabatons": {
     "obtainable": true,
@@ -24598,7 +24649,7 @@
       "market",
       "quest"
     ],
-    "locationText": "From Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack.\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy).\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox.\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\nFrom Wintry Provisions.\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nPurchased from the market (consumables / grit-draught) for 2 Void Crystals (Requires: Z3 Segment 2 on Easy)."
+    "locationText": "From Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy).\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\nFrom Wintry Provisions.\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nPurchased from the market (consumables / grit-draught) for 2 Void Crystals (Requires: Z3 Segment 2 on Easy)."
   },
   "a.stormshapers-bolt": {
     "obtainable": true,
@@ -25184,8 +25235,10 @@
   },
   "c.rainbow-ore": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids."
   },
   "c.three-factioned-defence": {
     "obtainable": true,
@@ -25193,7 +25246,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 25 Heart of Ice - Frigidara, Legendary\n- 50 Swiftburn Globe - Frigidara, Legendary\n- 50 Northern Icejam Berry - Frigidara, Legendary\n- 40 Shard of Radiance - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 25 Heart of Ice - Frigidara, Legendary\n- 50 Swiftburn Globe - Frigidara, Legendary\n- 50 Northern Icejam Berry - Frigidara, Legendary\n- 40 Shard of Radiance - Frigidara, Legendary\n\nCommunity tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)."
   },
   "c.red-broken-gipantan-amphora": {
     "obtainable": false,
@@ -25647,7 +25700,7 @@
     "tags": [
       "limited raids"
     ],
-    "locationText": "Dropped from Paeknisar on legendary difficulty."
+    "locationText": "Dropped from Paeknisar on legendary difficulty.\nCommunity tier reward from Paeknisar on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage)."
   },
   "e.blazebrand-plate": {
     "obtainable": true,
@@ -25770,7 +25823,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Rod - crafted from 1 Block of Living Ice (Frigidara, Legendary), 25 each of Blue/Indigo Frigidara Defence Banner (Frigidara, Legendary)\n- 1 Snowdrake's Sleet Cinders\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
+    "locationText": "Crafted from:\n- 1 Snowdrake Slayer Rod - crafted from 1 Block of Living Ice (Frigidara, Legendary), 25 each of Blue/Indigo Frigidara Defence Banner (Frigidara, Legendary)\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary"
   },
   "a.heroic-dusk-mage": {
     "obtainable": true,
@@ -25793,7 +25846,7 @@
       "quest",
       "tech-tree"
     ],
-    "locationText": "Professional Recruiter 3-10 reward from Z5 Segment 5 Node 2 on Easy. Professional Recruiter tier range unconfirmed."
+    "locationText": "Professional Recruiter 9-10 reward from Z5 Segment 5 Node 2 on Easy."
   },
   "e.onishaygu-tendril-gloves": {
     "obtainable": true,
@@ -25854,8 +25907,10 @@
   },
   "u.mortiday-treat-bundle": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / resource lto)."
   },
   "e.serpents-staff": {
     "obtainable": true,
@@ -25887,7 +25942,7 @@
       "limited raids",
       "quest"
     ],
-    "locationText": "From Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\nFrom Venom-Soaked Pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Three-Hammers Giftbox.\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nFrom Wintry Provisions.\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nDropped from Serpent Soldier on legendary difficulty."
+    "locationText": "From Naven Merchant's Bargain Bag, which is purchased from the market (consumables / bag) for 500 Crowns (Requires: Z1 Segment 3 on Easy).\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Dwarven Trader's Bargain Bag, which is purchased from the market (consumables / bag) for 800 Crowns (Requires: Z2 Segment 3 on Easy).\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Naitour Patrol's Provisions, which is purchased from the market (consumables / bag) for 1500 Crowns (Requires: Z4 Segment 2 on Easy).\nFrom Wintry Provisions.\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily-bags / wednesday) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nDropped from Serpent Soldier on legendary difficulty."
   },
   "u.bronze-humanitarian-token": {
     "obtainable": true,
@@ -26275,7 +26330,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "From Fisher's Celebratory Satchel, crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCrafted from 2 Mastru Flatfish - Paeknisar, Legendary.\n\nDropped from Paeknisar on legendary difficulty."
+    "locationText": "From Fisher's Celebratory Satchel, crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 5 Dolmfaastian Unicornfish - Paeknisar, Legendary\n\nCrafted from 2 Mastru Flatfish - Paeknisar, Legendary.\n\nDropped from Paeknisar on legendary difficulty.\n\nCommunity tier reward from Paeknisar on Legendary (requires 200,000,000 personal damage and 750,000,000,000 community damage).\n\nCommunity tier reward from Paeknisar on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage)."
   },
   "c.sigil-of-devoted-experience": {
     "obtainable": false,
@@ -26513,9 +26568,10 @@
   "e.oresnatchs-great-violet-ring": {
     "obtainable": true,
     "tags": [
+      "limited-time",
       "recipe"
     ],
-    "locationText": "Crafted from 6 Oresnatch's Violet Ring - crafted from 100 Rainbow Ore."
+    "locationText": "Crafted from 6 Oresnatch's Violet Ring - crafted from 100 Rainbow Ore (Spawned by Vazz Oresnatch on 20x attacks, with the chance scaling with Leadership and doubled against Legendary raids)."
   },
   "u.enchanted-jar": {
     "obtainable": true,
@@ -26523,7 +26579,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary"
+    "locationText": "Crafted from:\n- 50 Cork Stopper - Aufling, Legendary\n- 30 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n\nCommunity tier reward from Aufling on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage)."
   },
   "c.orange-explosive-stinger": {
     "obtainable": true,
@@ -27008,7 +27064,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Faction's Felicity II and 2 Kylli's Retired Shield."
+    "locationText": "Crafted from 1 Faction's Felicity II and 2 Kylli's Retired Shield - Guild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage)."
   },
   "f.undeath-undead-i": {
     "obtainable": false,
@@ -27559,7 +27615,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Crafted from 1 Faction's Felicity I - Vurdith the Green, Legendary and 2 Kylli's Best Vintage."
+    "locationText": "Crafted from:\n- 1 Faction's Felicity I - Vurdith the Green, Legendary\n- 2 Kylli's Best Vintage - Guild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage)"
   },
   "f.team-encampment-iii": {
     "obtainable": false,
