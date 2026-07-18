@@ -3196,14 +3196,14 @@
         "damageType": "Lightning",
         "weaknesses": "Dark, Poison",
         "resistances": "Nature, Fire, Ice",
-        "topTier": "75,000,000,000",
+        "topTier": "60,000,000,000",
         "baseDmg": "0.85",
         "formDmg": "0.4",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "None",
+        "onHitDrops": "KE1, KE4, KE6, KE8",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "No"
       },
       {
         "name": "Bira Biuyom",
