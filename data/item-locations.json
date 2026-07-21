@@ -25280,12 +25280,12 @@
     "locationText": "Previously available in the market (limited-time / irus-shroud-crusade-set)."
   },
   "a.shaven-hauler": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "a.nogugh": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -25318,7 +25318,7 @@
     "locationText": "Available at Guild Market (Level 4+ for 90 Guild Coin)."
   },
   "ru.eihalgiz-rune-2": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -25395,7 +25395,7 @@
     "locationText": "Dropped from Naga Naavik on hard difficulty.\nDropped from Maroon Cannoneers on hard difficulty."
   },
   "a.vasieran-zapper": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -25414,7 +25414,7 @@
     "locationText": "Dropped from Purple Slime on easy difficulty."
   },
   "ba.wildkin-banner": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "class"
     ],
@@ -25442,7 +25442,7 @@
     "locationText": "Previously available in the market (limited-time / friskfingers-set)."
   },
   "ba.bystander-banner": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "class"
     ],
@@ -25463,14 +25463,14 @@
     "locationText": "Crafted at Guild Alchemist Level XVI+ from:\n- 2 Dark Resilience Potion - crafted at Guild Alchemist Level X+ from 2 Lesser Dark Resilience Potion (Crafted at Guild Alchemist Level V+ from 2 Thinned Brew of Shadow (Purchased from Guild Alchemist (Guild Alchemist IV) for 1000 Crowns) and 1 Potash Powder (Purchased from Guild Alchemist (Guild Alchemist V) for 500 Guild Coin)) and 1 Red Tincture (Purchased from Guild Alchemist (Guild Alchemist X) for 10000 Crowns)\n- 1 Philosopher's Stone - Purchased from Guild Alchemist (Guild Alchemist XVI) for 1500 Guild Coin"
   },
   "e.rod-of-enchanting-light": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "raid"
     ],
     "locationText": "Dropped from Burnet Pixies on easy difficulty."
   },
   "ba.explorer-banner": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "class"
     ],
@@ -25491,7 +25491,7 @@
     "locationText": "Dropped from Abominacion Macabra on legendary difficulty."
   },
   "e.kyuubi-flail": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -25677,14 +25677,14 @@
     "locationText": "Dropped from Lesser Tree Ent on hard difficulty.\nDropped from Fungal Fiend on hard difficulty."
   },
   "ba.trickster-banner": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "class"
     ],
     "locationText": "Given with the Trickster Class."
   },
   "a.kurdan": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "recipe"
     ],
@@ -25917,7 +25917,7 @@
     "locationText": "Previously available in the market (limited-time / morassma-set)."
   },
   "k.pressure-point": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -26188,7 +26188,7 @@
     "locationText": "Dropped from Lesser Tree Ent on easy difficulty.\nDropped from Fungal Fiend on easy difficulty."
   },
   "a.rilx": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -26262,7 +26262,7 @@
     "locationText": "Previously available in the market (limited-time / waveblessed-set)."
   },
   "u.silver-codex-of-wisdom": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "AP drop"
     ],
@@ -26284,7 +26284,7 @@
     "locationText": "Crafted from:\n- 6000 Ghoul Wrappings - Shambling Ghoul, Easy\n- 80 Orc Graveseeker - Shambling Ghoul, Easy\n- 50 Gravanguard Initiate - Shambling Ghoul, Hard\n- 40 Orcen Necromender - Shambling Ghoul, Legendary"
   },
   "c.runepowder-dust": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -26325,7 +26325,7 @@
     "locationText": "Crafted from:\n- 1 Orange Heroic Dusk Mark\n- 1 Yellow Heroic Dusk Mark\n- 1 Green Heroic Dusk Mark\n- 1 Indigo Heroic Dusk Mark\n\nPreviously available in the market (limited-time / reverent-titanslayer-set)."
   },
   "u.arthropod-annihilation-potion": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "container"
     ],
@@ -26556,7 +26556,7 @@
     "locationText": "Dropped from Fallen Naga Subedar in Z4 Segment 3 on Legendary."
   },
   "a.ostarian-shiphand": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -26633,7 +26633,7 @@
     "locationText": "Crafted at Guild Alchemist Level XII+ from:\n- 1 Wapiti Antlers - crafted at Guild Alchemist Level VII+ from 1 Servid Horns (Available at Guild Market (Level 7+ for 180 Guild Coin)) and 2 Lesser Caster Token (Purchased from Guild Alchemist (Guild Alchemist VI) for 375 Guild Coin)\n- 2 Greater Caster Token - Purchased from Guild Alchemist (Guild Alchemist XII) for 1500 Guild Coin"
   },
   "u.guild-purse-iv": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -26723,7 +26723,7 @@
     "locationText": ""
   },
   "k.precise-shot": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -26838,12 +26838,12 @@
     "locationText": "Given with the Crusader Class."
   },
   "k.decisive-scrutiny": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "f.garden-guardians-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -26858,7 +26858,7 @@
     "locationText": "Dropped from Sentry Ghoul on easy difficulty."
   },
   "f.build-a-battalion-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -26894,12 +26894,12 @@
     "locationText": "Available at Guild Market (Level 20+ for 200000 Guild Coin)."
   },
   "f.stone-struggles-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "f.big-green-treads-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -26911,7 +26911,7 @@
     "locationText": "Previously available in the market (limited-time / shudder-sailors-set)."
   },
   "f.munitioned-archer-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27014,7 +27014,7 @@
     "locationText": "Crafted from:\n- 1 Blindfolded Band I - crafted from 40 Hatched Egg (Basiliscus, Easy)\n- 100 Severed Snake Head - Basiliscus, Legendary"
   },
   "f.dead-after-dawn-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27027,7 +27027,7 @@
     "locationText": "Crafted from:\n- 1 Inhuman Intensity I\n- 10 Red Cannoneer's Tricorne - Maroon Cannoneers, Easy\n- 1 Green Cannoneer's Tricorne - Maroon Cannoneers, Z6 Segment 3, Easy\n- 10 Blue Cannoneer's Tricorne - Maroon Cannoneers, Easy\n- 10 Violet Cannoneer's Tricorne - Maroon Cannoneers, Easy"
   },
   "f.fast-and-furious-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27069,7 +27069,7 @@
     "locationText": "Dropped from Demon Chaosoldier on easy and hard difficulties."
   },
   "f.quick-peek-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27083,7 +27083,7 @@
     "locationText": "Crafted from 1 Faction's Felicity II and 2 Kylli's Retired Shield - Guild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage)."
   },
   "f.undeath-undead-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27095,12 +27095,12 @@
     "locationText": "Purchased from the market (limited-time / baron-aureus-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "f.religiousity-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "f.rear-offence-iii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27108,7 +27108,7 @@
     "locationText": "Crafted from:\n- 1 Rear Offence II\n- 10 Red Thurlam Octopus - Naga Naavik, Easy\n- 1 Green Thurlam Octopus - Naga Naavik, Z6 Segment 2, Easy\n- 10 Blue Thurlam Octopus - Naga Naavik, Easy\n- 10 Violet Thurlam Octopus - Naga Naavik, Easy"
   },
   "f.medical-corps-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27223,7 +27223,7 @@
     "locationText": "Crafted at Guild Alchemist Level X+ from:\n- 1 Team Encampment I - crafted at Guild Alchemist Level VI+ from 1 Troop Tactics II (Crafted at Guild Alchemist Level III+ from 1 Troop Tactics I (Available at Guild Market (Level 3+ for 100 Guild Coin)) and 2 Training Diagrams (Purchased from Guild Alchemist (Guild Alchemist III) for 140 Guild Coin)), 3 Sterling Bone Saw Kit (Available at Guild Market (Level 6+ for 150 Guild Coin)), 5 Exploding Bladder (Purchased from Guild Alchemist (Guild Alchemist VI) for 15000 Crowns), and 2 Training Diagrams (Purchased from Guild Alchemist (Guild Alchemist III) for 140 Guild Coin)\n- 2 Red Tincture - Purchased from Guild Alchemist (Guild Alchemist X) for 10000 Crowns\n- 2 Military Guide Book - Available at Guild Market (Level 10+ for 2500 Guild Coin)"
   },
   "f.medical-corps-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27250,7 +27250,7 @@
     "locationText": "Dropped from Vildmand Horde on hard and legendary difficulties."
   },
   "f.harmonious-band-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27321,7 +27321,7 @@
     "locationText": "Crafted from:\n- 1 Salty Seadogs I - Maroon Cannoneers, Hard\n- 4 Red Cannoneer's Treasure Map - Maroon Cannoneers, Legendary\n- 1 Green Cannoneer's Treasure Map - Maroon Cannoneers, Z6 Segment 3, Legendary\n- 4 Blue Cannoneer's Treasure Map - Maroon Cannoneers, Legendary\n- 4 Violet Cannoneer's Treasure Map - Maroon Cannoneers, Legendary"
   },
   "f.musclebound-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27333,7 +27333,7 @@
     "locationText": "Crafted from 1 Excursions and Exterminations I - Mirgoda, Easy and 6 Flask of Living Snow."
   },
   "f.brawns-and-brains-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27375,7 +27375,7 @@
     "locationText": "Dropped from Paeknisar on legendary difficulty."
   },
   "f.wintry-escapades-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27424,12 +27424,12 @@
     "locationText": "Crafted from:\n- 1 Glorymuth's Grin II - crafted from 1 Glorymuth's Grin I (Aufling, Legendary), 40 Cork Stopper (Aufling, Legendary), 20 Recursive Funnel (Aufling, Legendary), and 1 Enchanted Dropper (Aufling, Legendary)\n- 30 Cork Stopper - Aufling, Legendary\n- 15 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n- 1 Moss-Covered Bark - Aufling, Legendary"
   },
   "f.nepyres-navigators-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "f.munitioned-archer-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27444,19 +27444,19 @@
     "locationText": "Dropped from Bone Dragon in Z4 Segment 4 on Easy."
   },
   "f.piercing-strike-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "f.fey-fighters-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "raid"
     ],
     "locationText": "Dropped from Burnet Pixies on hard difficulty."
   },
   "f.wise-leadership-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27464,7 +27464,7 @@
     "locationText": "Crafted from:\n- 1 Wise Leadership I\n- 1 Red Seared Stone - Grootslang, Easy\n- 1 Green Seared Stone - Grootslang, Z5 Segment 3, Easy\n- 1 Blue Seared Stone - Grootslang, Easy\n- 1 Violet Seared Stone - Grootslang, Easy"
   },
   "f.harmonious-band-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27484,7 +27484,7 @@
     "locationText": "Previously available in the market (limited-time / hatuumin-set)."
   },
   "f.musclebound-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27499,7 +27499,7 @@
     "locationText": "Dropped from Guardian Golem in Z5p1 Segment 1 on Easy."
   },
   "f.easy-being-green-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27541,7 +27541,7 @@
     "locationText": "Crafted from:\n- 1 Flight of the Faeries I - Frenzied Fae Flock, Easy\n- 160 Hobgoblin Captive - Frenzied Fae Flock, Easy"
   },
   "f.fey-fighters-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "recipe"
     ],
@@ -27617,7 +27617,7 @@
     "locationText": "Crafted from 1 each of Red/Green/Blue/Violet Bowstring - Elven Drills, Legendary."
   },
   "f.quick-peek-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27625,7 +27625,7 @@
     "locationText": "Crafted from:\n- 1 Quick Peek I\n- 1 Red Seared Stone - Grootslang, Easy\n- 1 Green Seared Stone - Grootslang, Z5 Segment 3, Easy\n- 1 Blue Seared Stone - Grootslang, Easy\n- 1 Violet Seared Stone - Grootslang, Easy"
   },
   "f.piercing-strike-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27649,7 +27649,7 @@
     "locationText": "Crafted at Guild Alchemist Level XV+ from:\n- 1 Team Encampment II - crafted at Guild Alchemist Level X+ from 1 Team Encampment I (Crafted at Guild Alchemist Level VI+ from 1 Troop Tactics II (Crafted at Guild Alchemist Level III+ from 1 Troop Tactics I (Available at Guild Market (Level 3+ for 100 Guild Coin)) and 2 Training Diagrams (Purchased from Guild Alchemist (Guild Alchemist III) for 140 Guild Coin)), 3 Sterling Bone Saw Kit (Available at Guild Market (Level 6+ for 150 Guild Coin)), 5 Exploding Bladder (Purchased from Guild Alchemist (Guild Alchemist VI) for 15000 Crowns), and 2 Training Diagrams (Purchased from Guild Alchemist (Guild Alchemist III) for 140 Guild Coin)), 2 Red Tincture (Purchased from Guild Alchemist (Guild Alchemist X) for 10000 Crowns), and 2 Military Guide Book (Available at Guild Market (Level 10+ for 2500 Guild Coin))\n- 2 Training Diagrams - Purchased from Guild Alchemist (Guild Alchemist III) for 140 Guild Coin\n- 2 Military Guide Book - Available at Guild Market (Level 10+ for 2500 Guild Coin)\n- 1 Orb of the Spirit Guardian - Purchased from Guild Alchemist (Guild Alchemist XV) for 3000 Guild Coin"
   },
   "f.easy-being-green-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27694,7 +27694,7 @@
     "locationText": "From Blue Daily Chest, which is daily login reward (days 21-25)."
   },
   "f.garden-guardians-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27737,12 +27737,12 @@
     "locationText": "Previously available in the market (limited-time / sinderklaz-set)."
   },
   "f.krugers-superiority-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "f.offensive-stance-iii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27804,12 +27804,12 @@
     "locationText": "Crafted at Guild Alchemist Level III+ from:\n- 1 Troop Tactics I - Available at Guild Market (Level 3+ for 100 Guild Coin)\n- 2 Training Diagrams - Purchased from Guild Alchemist (Guild Alchemist III) for 140 Guild Coin"
   },
   "f.spawacz-test": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "f.offensive-stance-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27892,7 +27892,7 @@
     "locationText": "Crafted from:\n- 1 Rise of the Medzeh I - Bira Biuyom, Legendary\n- 15 Sinah Mark - Bira Biuyom, Legendary\n- 10 Medzeh Trophy - Bira Biuyom, Legendary"
   },
   "f.brawns-and-brains-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27936,7 +27936,7 @@
     "locationText": "Previously available in the market (limited-time / psyguard-bulwark-set)."
   },
   "f.build-a-battalion-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -27951,7 +27951,7 @@
     "locationText": "Dropped from Elven Rangers on all difficulties."
   },
   "f.inhuman-intensity-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -27979,7 +27979,7 @@
     "locationText": "Crafted from:\n- 1 Frigidara Defenders II\n- 30 Veteran Goblin Frigidara Defender\n- 30 Veteran Dwarven Frigidara Defender\n- 30 Veteran Gnomish Frigidara Defender\n- 30 Veteran Orcish Frigidara Defender\n- 30 Veteran Elven Frigidara Defender"
   },
   "f.fast-and-furious-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -28024,7 +28024,7 @@
     "locationText": "Crafted from:\n- 1 Killer Kindness I - Skliros, Legendary\n- 7 each of Red/Blue/Violet Devil's Artifact - Skliros, Legendary\n- 1 Demon General's Tusk - Skliros, Legendary"
   },
   "f.rear-offence-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -28032,7 +28032,7 @@
     "locationText": "Crafted from:\n- 1 Rear Offence I\n- 1 Red Adventuring Clothes - Fallen Naga Subedar, Easy\n- 1 Green Adventuring Clothes - Fallen Naga Subedar, Z4 Segment 3, Easy\n- 1 Blue Adventuring Clothes - Fallen Naga Subedar, Easy\n- 1 Violet Adventuring Clothes - Fallen Naga Subedar, Easy"
   },
   "f.wise-leadership-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -28045,7 +28045,7 @@
     "locationText": "Crafted from:\n- 1 Snowy Drake Slayers III\n- 1 Firestone - Frigidara, Legendary\n- 1 Snowdrake Slayer Sculpture - crafted from 120 each of Red/Orange/Yellow/Green/Blue/Indigo Frigidara Defence Banner (Frigidara, Legendary)\n- 100 Swiftburn Globe - Frigidara, Legendary\n- 150 Northern Icejam Berry - Frigidara, Legendary\n- 40 Shard of Radiance - Frigidara, Legendary"
   },
   "f.cargo-aboard-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -28074,7 +28074,7 @@
     "locationText": "Crafted from:\n- 1 Red Polished Stone - Galeohog, Hard\n- 1 Green Polished Stone - Galeohog, Z2 Segment 3, Hard\n- 1 Blue Polished Stone - Galeohog, Hard\n- 1 Violet Polished Stone - Galeohog, Hard"
   },
   "f.rear-offence-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -28151,7 +28151,7 @@
     "locationText": "Dropped from Fulgure the Storm on legendary difficulty."
   },
   "f.firedancers-hand-overs": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -28252,7 +28252,7 @@
     "locationText": "Dropped from Naga Naavik on easy and hard difficulties."
   },
   "f.fae-foolery-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -28349,7 +28349,7 @@
     "locationText": "Crafted from:\n- 1 Organ Grinding I\n- 10 Orangutasm - Icy Whelp Siplada, Easy\n- 40 Whelpling Collar - Icy Whelp Siplada, Easy"
   },
   "f.fast-and-furious-iii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -28396,7 +28396,7 @@
     "locationText": "Crafted from:\n- 1 Mortiday Llorona II - crafted from 1 Mortiday Llorona I (Abominacion Macabra, Legendary), 20 Mortiday Vigil (Abominacion Macabra, Legendary), 13 Macoli Peppers (Abominacion Macabra, Legendary), and 1 Mortiday Glow Cream (Abominacion Macabra, Legendary)\n- 20 Mortiday Vigil - Abominacion Macabra, Legendary\n- 10 Macoli Peppers - Abominacion Macabra, Legendary\n- 1 Mortiday Glow Cream - Abominacion Macabra, Legendary\n- 1 Macoli Festival Mark - Abominacion Macabra, Legendary"
   },
   "f.krugers-superiority-ii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -28404,12 +28404,12 @@
     "locationText": "Crafted from:\n- 1 Kruger's Superiority I\n- 1 Red Xaphegorgh Horn - Xaphegorgh, Easy\n- 1 Green Xaphegorgh Horn - Xaphegorgh, Z5 Segment 4, Easy\n- 1 Blue Xaphegorgh Horn - Xaphegorgh, Easy\n- 1 Violet Xaphegorgh Horn - Xaphegorgh, Easy"
   },
   "f.fire-away!!-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
   "f.offensive-stance-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -28429,7 +28429,7 @@
     "locationText": "Crafted from 1 Effective in Exile I - crafted from 10 Cracked Goblet and 24 Pewter Goblet."
   },
   "f.harder-to-breathe": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -28441,7 +28441,7 @@
     "locationText": "Dropped from Minor Watcher in Z1 Segment 2 on Hard.\nDropped from Superior Watcher in Z1 Segment 2 on Hard."
   },
   "f.nautical-nationals-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
@@ -28453,7 +28453,7 @@
     "locationText": "Dropped from Xarbruutu on easy and hard difficulties."
   },
   "f.piercing-strike-iii": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [
       "quest",
       "recipe"
@@ -28475,7 +28475,7 @@
     "locationText": "Previously available in the market (limited-time / veedsamin-trainees-set)."
   },
   "f.demonic-departures-i": {
-    "obtainable": true,
+    "obtainable": false,
     "tags": [],
     "locationText": ""
   },
