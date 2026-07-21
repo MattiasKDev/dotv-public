@@ -1273,8 +1273,10 @@
   },
   "u.nobles-appreciation": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "achievement-market"
+    ],
+    "locationText": "Purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "c.firestone": {
     "obtainable": true,
@@ -3250,7 +3252,7 @@
   "p.skill-dexterity": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "daily-login",
       "guild raid",
       "limited raids",
@@ -3946,9 +3948,9 @@
   "a.mero-naghezn": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "u.red-brewmasters-mental-mixture": {
     "obtainable": true,
@@ -4004,8 +4006,8 @@
   "g.crystals": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "class",
-      "container",
       "limited raids",
       "limited-time",
       "recipe"
@@ -4427,9 +4429,9 @@
   "c.nobilitys-gratitude": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "e.irus-shroud-crusade-shield": {
     "obtainable": true,
@@ -4614,9 +4616,9 @@
   "e.rokubi-flail": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "u.dark-resilience-potion": {
     "obtainable": false,
@@ -5199,9 +5201,9 @@
   "e.conquerors-sabatons": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "k.open-wounds": {
     "obtainable": false,
@@ -5635,9 +5637,9 @@
   "e.conquerors-cuisses": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "e.granite-blessers-visor": {
     "obtainable": true,
@@ -5952,9 +5954,9 @@
   "e.jida-of-sovereign-hope": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "c.robust-brew-of-caustics": {
     "obtainable": false,
@@ -6067,9 +6069,9 @@
   "e.conquerors-lamellar-cuirass": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "c.keyrics-examination": {
     "obtainable": true,
@@ -7110,9 +7112,9 @@
   "c.temples-blessing": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "a.glaciver-frost": {
     "obtainable": true,
@@ -7437,9 +7439,9 @@
   "e.battle-boar": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "c.spell-focus-acid": {
     "obtainable": true,
@@ -7712,9 +7714,9 @@
   "e.conquerors-sallet": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "ba.horizon-walker-banner": {
     "obtainable": false,
@@ -7987,9 +7989,9 @@
   "e.conquerors-vambraces": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.velvet-hooves": {
     "obtainable": true,
@@ -8055,7 +8057,7 @@
   "p.skill-endurance": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "daily-login",
       "guild raid",
       "limited raids",
@@ -9281,9 +9283,10 @@
   "e.bassinian-warder-gloves": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Knight's Favour"
+    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Knight's Favour - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.velvet-gloves": {
     "obtainable": true,
@@ -9529,9 +9532,9 @@
   "e.saber-of-bloody-freedom": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.blazebrand-cane": {
     "obtainable": true,
@@ -11662,7 +11665,7 @@
   "g.crowns": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "daily-login",
       "guild raid",
       "limited raids",
@@ -12521,9 +12524,9 @@
   "u.parchment-of-grasp-of-the-grave": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 20000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "e.meftets-pants": {
     "obtainable": true,
@@ -13009,9 +13012,9 @@
   "a.half-ent-herbalist": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.chaunaths-warpriests-cuisses": {
     "obtainable": true,
@@ -13443,9 +13446,10 @@
   "e.bassinian-warder-breeches": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Temple's Blessing\n- 1 Knight's Favour\n- 1 Nobility's Gratitude"
+    "locationText": "Crafted from:\n- 1 Temple's Blessing\n- 1 Knight's Favour - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)\n- 1 Nobility's Gratitude - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.sanctified-leoegan-linothorax": {
     "obtainable": true,
@@ -14573,10 +14577,10 @@
     "obtainable": true,
     "tags": [
       "AP drop",
-      "container",
+      "achievement-market",
       "quest"
     ],
-    "locationText": "From Hero's Inauguration, which is summoner loot from Jagar the Red on Legendary (Summoner's Leftovers I). Requires top tier of 28,800,000 dmg (unconfirmed).\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Peasant's Offering.\nAttentive Perception drop."
+    "locationText": "From Hero's Inauguration, which is summoner loot from Jagar the Red on Legendary (Summoner's Leftovers I). Requires top tier of 28,800,000 dmg (unconfirmed).\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy).\nAttentive Perception drop."
   },
   "ru.thurigebo-rune-3": {
     "obtainable": true,
@@ -15235,7 +15239,7 @@
   "p.skill-acumen": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "daily-login",
       "guild raid",
       "limited raids",
@@ -15278,9 +15282,9 @@
   "u.noblemans-purse": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "s.scroll-xarbruutu": {
     "obtainable": true,
@@ -15455,9 +15459,9 @@
   "u.merchants-pouch": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.mirgoda-fur-gloves": {
     "obtainable": true,
@@ -15692,7 +15696,7 @@
   "p.skill-fortitude": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "daily-login",
       "guild raid",
       "limited raids",
@@ -16793,7 +16797,7 @@
   "p.skill-charisma": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "daily-login",
       "guild raid",
       "limited raids",
@@ -18924,7 +18928,7 @@
   "u.vial-of-mystery-elixir": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "daily-login",
       "limited raids",
       "quest",
@@ -19196,9 +19200,9 @@
   "a.two-sons-mercenary": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "cp.samurai-starter-pack-ii": {
     "obtainable": true,
@@ -19272,8 +19276,10 @@
   },
   "u.peasants-offering": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "achievement-market"
+    ],
+    "locationText": "Purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.hooded-veil-ring": {
     "obtainable": true,
@@ -20571,9 +20577,9 @@
   "c.knights-favour": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "ba.heroic-chieftain-banner": {
     "obtainable": false,
@@ -21059,9 +21065,10 @@
   "e.bassinian-warder-coat": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Knight's Favour\n- 1 Nobility's Gratitude"
+    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Knight's Favour - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)\n- 1 Nobility's Gratitude - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "dy.byzantium-dye-vial": {
     "obtainable": true,
@@ -22078,8 +22085,10 @@
   },
   "u.knights-bounty": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "achievement-market"
+    ],
+    "locationText": "Purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "u.dwarven-rewards": {
     "obtainable": true,
@@ -22272,9 +22281,9 @@
   "c.citizens-faith": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Peasant's Offering."
+    "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "s.scroll-sand-wyrm": {
     "obtainable": true,
@@ -22362,9 +22371,9 @@
   "m.grasp-of-the-grave": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Parchment of Grasp of the Grave, which is from Knight's Bounty."
+    "locationText": "From Parchment of Grasp of the Grave, which is from Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "ba.neophyte-banner": {
     "obtainable": false,
@@ -24436,9 +24445,10 @@
   "e.bassinian-warder-shoes": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Nobility's Gratitude"
+    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Nobility's Gratitude - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.thunderbirds-rod": {
     "obtainable": true,
@@ -24662,11 +24672,11 @@
   "u.grit-draught": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "market",
       "quest"
     ],
-    "locationText": "From Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Peasant's Offering.\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\nFrom Wintry Provisions.\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nPurchased from the market (consumables / grit-draught) for 2 Void Crystals (Requires: Z3 Segment 2 on Easy)."
+    "locationText": "From Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack I, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack I, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack II, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Venom-Soaked Pack, which is first clear reward from Z2 Segment 3 Boss (Galeohog) on Easy.\nFrom Warmage Starter Pack II, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack III, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack I, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack I, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack II, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack II, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nFrom Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Wizard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Scout Starter Pack III, which is available as a cash purchase starter pack.\nFrom Lancer Starter Pack III, which is available as a cash purchase starter pack.\nFrom Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack III, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack II, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Fighter Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Tank Starter Pack II, which is available as a cash purchase starter pack.\nFrom Cultists' Remnants, which is first clear reward from Z4 Segment 4 Boss (Bone Dragon) on Easy.\nFrom Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy).\nFrom Rogue Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack III, which is available as a cash purchase starter pack.\nFrom Three-Hammers Giftbox, which is first clear reward from Z3 Segment 4 Boss (Jagar the Red) on Easy.\nFrom Tank Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack III, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack II, which is available as a cash purchase starter pack.\nFrom Sentinel Starter Pack III, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack II, which is available as a cash purchase starter pack.\nFrom Warmage Starter Pack III, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Samurai Starter Pack IV, which is available as a cash purchase starter pack.\nFrom Rogue Starter Pack I, which is available as a cash purchase starter pack.\nFrom Wintry Provisions.\nFrom Red Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nFrom Red Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy).\nFrom Yellow Brew Bag, which is from Mystery Brew Bag, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy).\nFrom Orange Brew Bag, which is from Samurai Starter Pack III, which is available as a cash purchase starter pack.\nFrom Orange Brewer's Satchel, which is from Mystery Brewer's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 5000 CON).\nPurchased from the market (consumables / grit-draught) for 2 Void Crystals (Requires: Z3 Segment 2 on Easy)."
   },
   "a.stormshapers-bolt": {
     "obtainable": true,
@@ -25383,9 +25393,10 @@
   "e.bassinian-warder-hat": {
     "obtainable": true,
     "tags": [
+      "achievement-market",
       "recipe"
     ],
-    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Knight's Favour\n- 1 Nobility's Gratitude"
+    "locationText": "Crafted from:\n- 1 Citizens' Faith\n- 1 Temple's Blessing\n- 1 Knight's Favour - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)\n- 1 Nobility's Gratitude - Purchased from the Achievement Market (knight / direct-purchase) for 8000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)"
   },
   "e.gipantan-dockhand-dockpants": {
     "obtainable": true,
@@ -25693,7 +25704,7 @@
   "p.skill-arcana": {
     "obtainable": true,
     "tags": [
-      "container",
+      "achievement-market",
       "daily-login",
       "guild raid",
       "limited raids",
@@ -26614,9 +26625,9 @@
   "a.borjigin-kuyuk": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "u.script-of-acid-arrow": {
     "obtainable": true,
@@ -27514,9 +27525,9 @@
   "f.band-of-two-sons": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Knight's Bounty."
+    "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
   "f.repentant-dusk": {
     "obtainable": true,
@@ -27966,9 +27977,9 @@
   "f.shiwei-battalion-i": {
     "obtainable": true,
     "tags": [
-      "container"
+      "achievement-market"
     ],
-    "locationText": "From Noble's Appreciation."
+    "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "f.frigidara-defenders-iii": {
     "obtainable": true,
