@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Tracks player statistics including levels, XP, damage, and raid counts.
-// @version      2026.05.29
+// @version      2026.08.01
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
@@ -907,18 +907,20 @@ const STATVAULT_UI_CSS = `
 .sv-entry-button {
     position: absolute;
     top: 28px;
-    left: 28px;
+    left: clamp(210px, 24%, 320px);
     z-index: 15;
-    padding: 6px 10px;
+    min-height: 36px;
+    padding: 9px 16px;
     border-radius: 8px;
     border: 1px solid rgba(255, 215, 160, 0.28);
     background: linear-gradient(180deg, #4c3522 0%, #3d2b1c 100%);
     color: #f8e6c1;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.1;
     cursor: pointer;
     box-shadow: 0 6px 18px rgba(0,0,0,0.28);
+    white-space: nowrap;
 }
 
 .sv-close-button {
@@ -3122,13 +3124,9 @@ class StatVaultUI {
                 oldestData = stats;
             }
 
-            dmgMax = Math.max(dmgMax, stats.dmgMax || 0);
-            dmgTotal += stats.dmg || 0;
-            totalRc += stats.rc || 0;
-
             if ([1, 7, 30].includes(i)) {
                 const spGain = this.core.globalStats.sp - (stats.sp ?? oldestData.sp);
-                const raidsInWindow = i === 1 ? this.core.globalStats.rc : totalRc;
+                const raidsInWindow = totalRc;
                 const spXpChange = this.formatRatioChange(
                     this.core.globalStats.sp,
                     this.core.globalStats.xp,
@@ -3147,14 +3145,18 @@ class StatVaultUI {
                     raidsInWindow,
                     spGain > 0 && raidsInWindow > 0 ? (spGain / raidsInWindow).toFixed(2) : "N/A",
                     spXpChange,
-                    i === 1 ? this.core.globalStats.dmg : dmgTotal,
-                    i === 1 ? this.core.globalStats.dmgMax : dmgMax,
+                    dmgTotal,
+                    dmgMax,
                 ].forEach((v, index) => {
                     const td = row.insertCell();
                     td.textContent = typeof v === "number" ? this.core.formatNumber(v) : v;
                     td.className = index === 0 ? "sv-td sv-td-left" : "sv-td";
                 });
             }
+
+            dmgMax = Math.max(dmgMax, stats.dmgMax || 0);
+            dmgTotal += stats.dmg || 0;
+            totalRc += stats.rc || 0;
         }
 
         return table;
