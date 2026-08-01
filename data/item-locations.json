@@ -362,6 +362,13 @@
     ],
     "locationText": "Dropped from Vurdith the Green on legendary difficulty.\nPurchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 5)."
   },
+  "e.rimeshatter-claws": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.duty-collectors-legplates": {
     "obtainable": true,
     "tags": [
@@ -516,6 +523,13 @@
       "limited raids"
     ],
     "locationText": "Dropped from Fulgure the Storm on legendary difficulty.\nCommunity tier reward from Fulgure the Storm on Legendary (requires 1,000,000,000 personal damage and 1,500,000,000,000 community damage).\nCommunity tier reward from Fulgure the Storm on Legendary (requires 15,000,000,000 personal damage and 3,000,000,000,000 community damage)."
+  },
+  "e.rimeshatter-pants": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.sailors-melogion": {
     "obtainable": true,
@@ -1882,6 +1896,13 @@
     ],
     "locationText": "Crafted from:\n- 1 Red Leftover Claw - Tunnanu, Legendary\n- 2 each of Blue/Violet Leftover Claw - Tunnanu, Legendary"
   },
+  "a.marlow": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.parchment-of-branch-strike": {
     "obtainable": true,
     "tags": [
@@ -3084,6 +3105,13 @@
     ],
     "locationText": "Purchased from the market (limited-time / chaunaths-warpriests-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
+  "u.jiggers-orange-oyster": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Triggered by the 9-piece Jigger's Friend set bonus on 20x attacks against Aquatic raids (1% chance), or the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)."
+  },
   "c.scented-blood": {
     "obtainable": true,
     "tags": [
@@ -3464,6 +3492,13 @@
       "raid"
     ],
     "locationText": "Dropped from Jagar the Red on easy difficulty."
+  },
+  "e.jiggers-friend-shield": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "ru.algigebo-rune-2": {
     "obtainable": true,
@@ -3951,6 +3986,13 @@
       "achievement-market"
     ],
     "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
+  },
+  "e.rimeshatter-bellower": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "u.red-brewmasters-mental-mixture": {
     "obtainable": true,
@@ -6515,6 +6557,13 @@
     ],
     "locationText": "From Green Daily Chest, which is daily login reward (days 11-20).\nFrom Blue Daily Chest, which is daily login reward (days 21-25)."
   },
+  "e.jiggers-delight-vessel": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
+  },
   "e.bolting-fiddler-pants": {
     "obtainable": false,
     "tags": [
@@ -7181,6 +7230,13 @@
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / frostwarden-set)."
+  },
+  "a.brycen-froststreak": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.green-mirgoda-fur": {
     "obtainable": true,
@@ -7849,6 +7905,13 @@
     ],
     "locationText": "Crafted from 6 Oresnatch's Green Ring."
   },
+  "e.notched-spear": {
+    "obtainable": true,
+    "tags": [
+      "raid"
+    ],
+    "locationText": "Dropped from Superior Watcher on easy difficulty."
+  },
   "e.reverent-titanslayer-kylie": {
     "obtainable": true,
     "tags": [
@@ -7856,13 +7919,6 @@
       "recipe"
     ],
     "locationText": "Crafted from:\n- 1 Red Heroic Dusk Mark\n- 1 Yellow Heroic Dusk Mark\n- 1 Blue Heroic Dusk Mark\n- 1 Indigo Heroic Dusk Mark\n\nPreviously available in the market (limited-time / reverent-titanslayer-set)."
-  },
-  "e.notched-spear": {
-    "obtainable": true,
-    "tags": [
-      "raid"
-    ],
-    "locationText": "Dropped from Superior Watcher on easy difficulty."
   },
   "e.lesser-ent-wood-boots": {
     "obtainable": true,
@@ -7971,6 +8027,13 @@
       "recipe"
     ],
     "locationText": "Crafted from:\n- 20 each of Blue/Indigo Frigidara Defence Banner - Frigidara, Legendary\n- 18 Mounting Blades - Frigidara, Legendary\n- 18 Thick-bound Cloth - Frigidara, Legendary\n- 18 Leather Straps - Frigidara, Legendary\n- 18 Lightmail - Frigidara, Legendary"
+  },
+  "e.jiggers-friend-pants": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "u.parchment-of-whiplash": {
     "obtainable": false,
@@ -8536,6 +8599,13 @@
     "tags": [],
     "locationText": ""
   },
+  "e.rimeshatter-ring": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.warmage-starter-pack-iv": {
     "obtainable": true,
     "tags": [
@@ -8640,6 +8710,13 @@
       "raid"
     ],
     "locationText": "From Green Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Red Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nDropped from Giant Bombeetle in Z5 Segment 1 on Hard.\nDropped from Giant Bombeetle on hard difficulty.\nDropped from Fallen Naga Subedar in Z4 Segment 3 on Hard.\nDropped from Fallen Naga Subedar in Z4 Segment 3 on Legendary.\nDropped from Fallen Naga Subedar on hard and legendary difficulties.\nDropped from Bone Dragon in Z4 Segment 4 on Hard.\nDropped from Bone Dragon in Z4 Segment 4 on Legendary.\nDropped from Bone Dragon on hard difficulty."
+  },
+  "a.jigger-baiter": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 6 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.meftets-claws": {
     "obtainable": true,
@@ -8782,6 +8859,13 @@
       "guild-recipe"
     ],
     "locationText": "Crafted at Guild Alchemist Level XI+ from:\n- 2 Large Potion of Valour - crafted at Guild Alchemist Level VIII+ from 2 Potion of Valour (Crafted at Guild Alchemist Level V+ from 2 Lesser Potion of Valour (Crafted at Guild Alchemist Level II+ from 1 Thinned Brew of Physicality (Purchased from Guild Alchemist (Guild Alchemist II) for 300 Crowns) and 2 Brew of Steadfastness (Purchased from Guild Alchemist (Guild Alchemist I) for 20 Crowns)) and 1 Potash Powder (Purchased from Guild Alchemist (Guild Alchemist V) for 500 Guild Coin)) and 1 Brew of Petals (Purchased from Guild Alchemist (Guild Alchemist VIII) for 4000 Crowns)\n- 1 Greater Support Token"
+  },
+  "e.rimeshatter-blade": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "m.aureus-aegis": {
     "obtainable": true,
@@ -9132,6 +9216,13 @@
     ],
     "locationText": "Dropped from Jagar the Red on easy difficulty."
   },
+  "e.jiggers-delight-boots": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
+  },
   "u.yellow-third-eye-tonic": {
     "obtainable": true,
     "tags": [
@@ -9195,6 +9286,13 @@
       "container"
     ],
     "locationText": "From Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Wintry Provisions."
+  },
+  "e.jiggers-friend-jigger": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.brew-of-frost": {
     "obtainable": false,
@@ -9519,6 +9617,14 @@
     ],
     "locationText": "Attentive Perception drop."
   },
+  "u.jiggers-violet-pearl": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 12 Jigger's Violet Oyster - Triggered by the 9-piece Jigger's Friend set bonus on 20x attacks against Aquatic raids (1% chance), or the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)\n- 1 Jigger's Oyster Knife - Triggered by the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)"
+  },
   "a.herbalist-taste-tester": {
     "obtainable": true,
     "tags": [
@@ -9580,13 +9686,6 @@
     ],
     "locationText": "Dropped from Frigidara on legendary difficulty."
   },
-  "e.navenian-pavise": {
-    "obtainable": true,
-    "tags": [
-      "quest"
-    ],
-    "locationText": "Dropped from Superior Watcher in Z1 Segment 2 on Hard."
-  },
   "c.recruits-rations": {
     "obtainable": true,
     "tags": [
@@ -9594,6 +9693,13 @@
       "daily-login"
     ],
     "locationText": "From Indigo Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Red Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Orange Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Yellow Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Blue Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Green Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25)."
+  },
+  "e.navenian-pavise": {
+    "obtainable": true,
+    "tags": [
+      "quest"
+    ],
+    "locationText": "Dropped from Superior Watcher in Z1 Segment 2 on Hard."
   },
   "c.blue-naaviks-scales": {
     "obtainable": true,
@@ -10470,6 +10576,13 @@
     ],
     "locationText": "Crafted from:\n- 1 Thunderbird's Hide\n- 3 Sinnamurgh Feather - Attentive Perception drop\n- 4 Elderberry Bushel - Attentive Perception drop"
   },
+  "e.jiggers-delight-bipoon": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
+  },
   "e.ooleviash-steed": {
     "obtainable": true,
     "tags": [
@@ -10955,6 +11068,13 @@
     ],
     "locationText": "Dropped from Jagar the Red in Z3 Segment 4 on Legendary."
   },
+  "e.rimeshatter-crook": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.offensive-skill-elixir": {
     "obtainable": true,
     "tags": [
@@ -11151,6 +11271,13 @@
       "AP drop"
     ],
     "locationText": "Attentive Perception drop."
+  },
+  "e.rimeshatter-headgear": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "ba.seer-banner": {
     "obtainable": false,
@@ -11518,6 +11645,13 @@
     ],
     "locationText": "Purchased from the market (limited-time / chaunaths-warpriests-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
+  "e.rimeshatter-gloves": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.lesser-lightning-resilience-potion": {
     "obtainable": true,
     "tags": [
@@ -11661,6 +11795,13 @@
       "raid"
     ],
     "locationText": "From Green Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Yellow Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Blue Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Red Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nDropped from Bone Dragon in Z4 Segment 4 on Easy.\nDropped from Bone Dragon on easy difficulty."
+  },
+  "a.aldri-rimeshatter": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "g.crowns": {
     "obtainable": true,
@@ -13293,6 +13434,13 @@
     ],
     "locationText": "Dropped from Frigidara on legendary difficulty.\nCommunity tier reward from Frigidara on Legendary (requires 500,000,000 personal damage and 750,000,000,000 community damage)."
   },
+  "e.jiggers-delight-combuster": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
+  },
   "e.demonsbanes-legs": {
     "obtainable": true,
     "tags": [
@@ -13406,6 +13554,13 @@
       "guild raid"
     ],
     "locationText": "Dropped from Fungal Fiend on legendary difficulty."
+  },
+  "e.jiggers-delight-rod": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
   },
   "c.blue-fae-candle": {
     "obtainable": false,
@@ -13604,6 +13759,13 @@
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / friskfingers-set)."
+  },
+  "e.jiggers-delight-ring": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time)."
   },
   "u.gold-fury-tonic": {
     "obtainable": false,
@@ -14392,6 +14554,13 @@
       "cash-purchase"
     ],
     "locationText": "Available as a cash purchase."
+  },
+  "e.jiggers-friend-dinghy": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 24 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "ru.algimannaz-rune-7": {
     "obtainable": false,
@@ -15477,6 +15646,13 @@
     ],
     "locationText": "Dropped from Naga Naavik on hard difficulty.\nDropped from Maroon Cannoneers on hard difficulty."
   },
+  "e.jiggers-delight-pants": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
+  },
   "e.stevedores-cudgel": {
     "obtainable": true,
     "tags": [
@@ -15540,6 +15716,13 @@
       "raid"
     ],
     "locationText": "Dropped from Sand Wyrm on hard difficulty.\nDropped from Jagar the Red on hard difficulty.\nDropped from Corrupted Golem on hard difficulty.\nDropped from Naga Karamati on hard difficulty."
+  },
+  "e.jiggers-friend-boots": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.green-fleshy-fen-tendril": {
     "obtainable": true,
@@ -15634,19 +15817,19 @@
     ],
     "locationText": "Dropped from Paeknisar on legendary difficulty."
   },
-  "e.pioneering-pixie-boots": {
-    "obtainable": true,
-    "tags": [
-      "raid"
-    ],
-    "locationText": "Dropped from Frenzied Fae Flock on easy difficulty."
-  },
   "e.blazebrand-scourge": {
     "obtainable": true,
     "tags": [
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / blazebrand-set)."
+  },
+  "e.pioneering-pixie-boots": {
+    "obtainable": true,
+    "tags": [
+      "raid"
+    ],
+    "locationText": "Dropped from Frenzied Fae Flock on easy difficulty."
   },
   "c.blue-wooden-shackles": {
     "obtainable": true,
@@ -16404,6 +16587,13 @@
     ],
     "locationText": "Dropped from Lesser Tree Ent on hard difficulty.\nDropped from Fungal Fiend on hard difficulty."
   },
+  "e.rimeshatter-frosttips": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.millennium-island-shield": {
     "obtainable": true,
     "tags": [
@@ -16880,6 +17070,13 @@
     ],
     "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark\n\nPreviously available in the market (limited-time / repentant-dusk-set)."
   },
+  "e.rimeshatter-guard": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "k.attrition": {
     "obtainable": false,
     "tags": [
@@ -17162,6 +17359,13 @@
       "recipe"
     ],
     "locationText": "Crafted from:\n- 1 Orange Heroic Dusk Mark\n- 1 Yellow Heroic Dusk Mark\n- 1 Blue Heroic Dusk Mark\n- 1 Indigo Heroic Dusk Mark\n\nPreviously available in the market (limited-time / reverent-titanslayer-set)."
+  },
+  "e.jiggers-friend-vest": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.naitour-patrol-gauntlets": {
     "obtainable": true,
@@ -17815,8 +18019,17 @@
   },
   "e.thiadoran-bireme": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "market"
+    ],
+    "locationText": "Purchased from the market (equipment / mount) for 10000 Crowns (Requires: Z6 Segment 1 on Easy)."
+  },
+  "e.rimeshatter-delivery": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.sunbringers-wand": {
     "obtainable": true,
@@ -17956,6 +18169,13 @@
     ],
     "locationText": "Crafted from:\n- 10 Red Horde Battleaxe - Vildmand Horde, Easy\n- 1 Green Horde Battleaxe - Vildmand Horde, Z6 Segment 4, Easy\n- 10 Blue Horde Battleaxe - Vildmand Horde, Easy\n- 10 Violet Horde Battleaxe - Vildmand Horde, Easy\n\nDropped from Mirgoda on easy difficulty.\n\nDropped from Vildmand Horde on easy difficulty."
   },
+  "e.jiggers-delight-vest": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
+  },
   "c.red-gargouille-horn": {
     "obtainable": true,
     "tags": [
@@ -18039,6 +18259,13 @@
       "raid"
     ],
     "locationText": "From Yellow Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nDropped from Demon Chaosoldier on easy difficulty.\nDropped from Grootslang on easy difficulty.\nDropped from Xaphegorgh on easy difficulty.\nDropped from Xarbruutu on easy difficulty."
+  },
+  "a.rimeshatter-frostbiter": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 10 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.blazebrand-cuisses": {
     "obtainable": true,
@@ -18508,12 +18735,26 @@
     ],
     "locationText": "Crafted at Guild Alchemist Level II+ from:\n- 1 Thinned Brew of Physicality - Purchased from Guild Alchemist (Guild Alchemist II) for 300 Crowns\n- 2 Brew of Steadfastness - Purchased from Guild Alchemist (Guild Alchemist I) for 20 Crowns"
   },
+  "e.jiggers-delight-cap": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
+  },
   "e.warmage-guardians-sabatons": {
     "obtainable": true,
     "tags": [
       "quest"
     ],
     "locationText": "Dropped from Guardian Golem in Z5p1 Segment 1 on Easy."
+  },
+  "e.jiggers-friend-harpoon": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "a.knimbag-glasser": {
     "obtainable": true,
@@ -19259,6 +19500,14 @@
       "guild-purchase"
     ],
     "locationText": "Available at Guild Market (Level 15+ for 50000 Guild Coin)."
+  },
+  "u.jiggers-orange-pearl": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 12 Jigger's Orange Oyster - Triggered by the 9-piece Jigger's Friend set bonus on 20x attacks against Aquatic raids (1% chance), or the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)\n- 1 Jigger's Oyster Knife - Triggered by the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)"
   },
   "e.rara-shell-collection-feet": {
     "obtainable": true,
@@ -20165,6 +20414,13 @@
     "tags": [],
     "locationText": ""
   },
+  "e.jiggers-friend-gloves": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "c.snowdrake-slayer-sculpture": {
     "obtainable": true,
     "tags": [
@@ -20390,6 +20646,13 @@
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / shudder-sailors-set)."
+  },
+  "a.jigger-cincher": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 6 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.brew-of-toxins": {
     "obtainable": false,
@@ -20726,6 +20989,13 @@
     ],
     "locationText": "Dropped from Xaphegorgh in Z5 Segment 4 on Hard.\nDropped from Xaphegorgh in Z5 Segment 4 on Legendary."
   },
+  "a.keyhana-oceansong": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-set)."
+  },
   "e.stormshapers-bracers": {
     "obtainable": true,
     "tags": [
@@ -20812,6 +21082,13 @@
       "quest"
     ],
     "locationText": "Dropped from Xarbruutu in Z5 Segment 5 on Hard."
+  },
+  "m.lightning-lure": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 45 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.naven-hunters-cap": {
     "obtainable": true,
@@ -21179,6 +21456,13 @@
     ],
     "locationText": "Given with the General Class."
   },
+  "e.rimeshatter-boots": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.viscous-viscount-focus": {
     "obtainable": true,
     "tags": [
@@ -21331,6 +21615,13 @@
       "recipe"
     ],
     "locationText": "Crafted from:\n- 10 Mastru Flatfish - Paeknisar, Legendary\n- 8 Dolmfaastian Unicornfish - Paeknisar, Legendary\n- 1 Soggy Boot - Paeknisar, Legendary"
+  },
+  "e.rimeshatter-staff": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "u.silver-swiftness-tonic": {
     "obtainable": false,
@@ -22119,6 +22410,13 @@
     ],
     "locationText": "From Mystery Brewmaster's Satchel, which is purchased from the market (daily bags / wednesday) (Requires: Z1 Segment 1 on Easy, 60000 CON)."
   },
+  "e.jiggers-friend-cap": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.valley-verdure-staff": {
     "obtainable": true,
     "tags": [
@@ -22511,6 +22809,13 @@
     ],
     "locationText": "Dropped from Jolly Gelatin on legendary difficulty."
   },
+  "c.jiggers-oyster-knife": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Triggered by the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)."
+  },
   "u.valto-nuts": {
     "obtainable": true,
     "tags": [
@@ -22554,6 +22859,13 @@
       "guild raid"
     ],
     "locationText": "Dropped from Tunnanu on hard difficulty."
+  },
+  "e.jiggers-delight-gloves": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
   },
   "a.neophyte-brouwer": {
     "obtainable": true,
@@ -23032,6 +23344,13 @@
     ],
     "locationText": "Given with the Meitou Kenin Class."
   },
+  "e.jiggers-friend-ring": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "a.tedupevair-slitherer": {
     "obtainable": true,
     "tags": [
@@ -23069,6 +23388,14 @@
       "guild raid"
     ],
     "locationText": "Dropped from Marauding Mercenaries on hard difficulty."
+  },
+  "u.jiggers-green-pearl": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from:\n- 12 Jigger's Green Oyster - Triggered by the 9-piece Jigger's Friend set bonus on 20x attacks against Aquatic raids (1% chance), or the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)\n- 1 Jigger's Oyster Knife - Triggered by the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)"
   },
   "a.wilben-shroudbearer": {
     "obtainable": true,
@@ -23533,6 +23860,13 @@
     ],
     "locationText": "Crafted from 1000 Slime Juice - Rogue Slime, Easy."
   },
+  "u.jiggers-violet-oyster": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Triggered by the 9-piece Jigger's Friend set bonus on 20x attacks against Aquatic raids (1% chance), or the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)."
+  },
   "e.phermitic-battlegarb-gelding": {
     "obtainable": true,
     "tags": [
@@ -23988,6 +24322,13 @@
       "raid"
     ],
     "locationText": "Dropped from Mirgoda on legendary difficulty."
+  },
+  "e.jiggers-friend-rod": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.valley-verdure-boots": {
     "obtainable": true,
@@ -24801,6 +25142,13 @@
     ],
     "locationText": "Always drops from Z1 Segment 2 Boss (Superior Watcher) on Easy."
   },
+  "e.rimeshatter-chest": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.serpentine-darts": {
     "obtainable": true,
     "tags": [
@@ -25451,6 +25799,13 @@
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / friskfingers-set)."
+  },
+  "u.jiggers-green-oyster": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Triggered by the 9-piece Jigger's Friend set bonus on 20x attacks against Aquatic raids (1% chance), or the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)."
   },
   "ba.bystander-banner": {
     "obtainable": false,
@@ -26227,6 +26582,13 @@
     ],
     "locationText": "From Red Naven Troop Draft Poster, which is from Samurai Starter Pack I, which is available as a cash purchase starter pack.\nFrom Red Naven Troop Draft Poster, which is from Mystery Troop Draft Poster I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Orange Naven Troop Draft Poster, which is from Mystery Troop Draft Poster I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nDropped from Lesser Tree Ent on easy difficulty.\nDropped from Fungal Fiend on easy difficulty."
   },
+  "e.jiggers-delight-shield": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
+  },
   "e.vyldas-supplicant-bogen": {
     "obtainable": true,
     "tags": [
@@ -26861,6 +27223,13 @@
     ],
     "locationText": "Crafted from:\n- 1 Garden Guardians I\n- 1 Red Xaphegorgh Horn - Xaphegorgh, Easy\n- 1 Green Xaphegorgh Horn - Xaphegorgh, Z5 Segment 4, Easy\n- 1 Blue Xaphegorgh Horn - Xaphegorgh, Easy\n- 1 Violet Xaphegorgh Horn - Xaphegorgh, Easy"
   },
+  "f.jiggers-dinghy-ii": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Previously available in the market (limited-time / jiggers-set)."
+  },
   "f.forts-fortitude-i": {
     "obtainable": true,
     "tags": [
@@ -27453,6 +27822,13 @@
       "quest"
     ],
     "locationText": "Dropped from Bone Dragon in Z4 Segment 4 on Easy."
+  },
+  "f.rimeshattering-i": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "f.piercing-strike-i": {
     "obtainable": false,
@@ -28125,6 +28501,13 @@
       "quest"
     ],
     "locationText": "Dropped from Ulunsuti in Z5 Segment 3 on Easy."
+  },
+  "f.jiggers-dinghy-i": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / jiggers-set) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "f.team-encampment-i": {
     "obtainable": true,
