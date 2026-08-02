@@ -1189,7 +1189,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Maurauding Mercenaries",
+        "name": "Marauding Mercenaries",
         "difficulty": "easy",
         "damageType": "Physical",
         "weaknesses": "Dark, Poison",
@@ -1354,7 +1354,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Maurauding Mercenaries",
+        "name": "Marauding Mercenaries",
         "difficulty": "hard",
         "damageType": "Physical",
         "weaknesses": "Dark, Poison",
@@ -1519,7 +1519,7 @@
         "lootExpansion": "No"
       },
       {
-        "name": "Maurauding Mercenaries",
+        "name": "Marauding Mercenaries",
         "difficulty": "legendary",
         "damageType": "Physical",
         "weaknesses": "Dark, Poison",
