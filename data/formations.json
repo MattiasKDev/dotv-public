@@ -55447,6 +55447,317 @@
             "amount": 0
         }
     },
+    "f.firedancers-hand-overs-i": {
+        "id": "f.firedancers-hand-overs-i",
+        "name": "Firedancer's Hand-Overs",
+        "cmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 3,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            }
+        ],
+        "troopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 0,
+                "slots": 2,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedTroopSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 6,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 7,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 8,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 9,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 10,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 11,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "constitution",
+                "unitID": ""
+            },
+            {
+                "index": 12,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            },
+            {
+                "index": 13,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "any",
+                "unitID": ""
+            }
+        ],
+        "expandedCmdrSlots": [
+            {
+                "index": 0,
+                "slots": 1,
+                "def": 3,
+                "race": "any",
+                "role": "any",
+                "trait": "intellect",
+                "unitID": ""
+            },
+            {
+                "index": 1,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 2,
+                "slots": 1,
+                "def": 2,
+                "race": "any",
+                "role": "any",
+                "trait": "perception",
+                "unitID": ""
+            },
+            {
+                "index": 3,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 4,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            },
+            {
+                "index": 5,
+                "slots": 1,
+                "def": 1,
+                "race": "any",
+                "role": "any",
+                "trait": "strength",
+                "unitID": ""
+            }
+        ],
+        "protect": 2.5,
+        "unitComposition": "Commanders: 3-Str, Int, 2-Per\nTroops: 4-Str, 2-Con, 2-Int, 2-Per, 4-Any",
+        "bonus": 30,
+        "effectName": "Moves Like Jagar",
+        "effects": "Moves Like Jagar: 15% chance to proc 200 Ice damage; +40% Formation Special vs Jagar the Red; Prevents damage to Armies from the Flamebreath Ability",
+        "imagePath": "/images/army/formations/practiceyard.png",
+        "description": "\"You wake up in the morning and you look at your old spoon, and you say to yourself, 'Well, it's time to get yourself a new spoon.' And you do.\"\n-Unknown",
+        "bonusSpecial": {
+            "vsType": "Jagar the Red",
+            "amount": 40
+        }
+    },
     "f.explosive-experiments-i": {
         "id": "f.explosive-experiments-i",
         "name": "Explosive Experiments I",
@@ -62684,317 +62995,6 @@
         "bonusSpecial": {
             "vsType": "",
             "amount": 0
-        }
-    },
-    "f.firedancers-hand-overs": {
-        "id": "f.firedancers-hand-overs",
-        "name": "Firedancer's Hand-Overs",
-        "cmdrSlots": [
-            {
-                "index": 0,
-                "slots": 1,
-                "def": 3,
-                "race": "any",
-                "role": "any",
-                "trait": "intellect",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 2,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "perception",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 3,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            }
-        ],
-        "troopSlots": [
-            {
-                "index": 0,
-                "slots": 1,
-                "def": 3,
-                "race": "any",
-                "role": "any",
-                "trait": "intellect",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 1,
-                "def": 3,
-                "race": "any",
-                "role": "any",
-                "trait": "perception",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "intellect",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "perception",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 2,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 2,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "any",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 2,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 2,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "constitution",
-                "unitID": ""
-            },
-            {
-                "index": 0,
-                "slots": 2,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "any",
-                "unitID": ""
-            }
-        ],
-        "expandedTroopSlots": [
-            {
-                "index": 0,
-                "slots": 1,
-                "def": 3,
-                "race": "any",
-                "role": "any",
-                "trait": "intellect",
-                "unitID": ""
-            },
-            {
-                "index": 1,
-                "slots": 1,
-                "def": 3,
-                "race": "any",
-                "role": "any",
-                "trait": "perception",
-                "unitID": ""
-            },
-            {
-                "index": 2,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "intellect",
-                "unitID": ""
-            },
-            {
-                "index": 3,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "perception",
-                "unitID": ""
-            },
-            {
-                "index": 4,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            },
-            {
-                "index": 5,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            },
-            {
-                "index": 6,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "any",
-                "unitID": ""
-            },
-            {
-                "index": 7,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "any",
-                "unitID": ""
-            },
-            {
-                "index": 8,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            },
-            {
-                "index": 9,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            },
-            {
-                "index": 10,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "constitution",
-                "unitID": ""
-            },
-            {
-                "index": 11,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "constitution",
-                "unitID": ""
-            },
-            {
-                "index": 12,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "any",
-                "unitID": ""
-            },
-            {
-                "index": 13,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "any",
-                "unitID": ""
-            }
-        ],
-        "expandedCmdrSlots": [
-            {
-                "index": 0,
-                "slots": 1,
-                "def": 3,
-                "race": "any",
-                "role": "any",
-                "trait": "intellect",
-                "unitID": ""
-            },
-            {
-                "index": 1,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "perception",
-                "unitID": ""
-            },
-            {
-                "index": 2,
-                "slots": 1,
-                "def": 2,
-                "race": "any",
-                "role": "any",
-                "trait": "perception",
-                "unitID": ""
-            },
-            {
-                "index": 3,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            },
-            {
-                "index": 4,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            },
-            {
-                "index": 5,
-                "slots": 1,
-                "def": 1,
-                "race": "any",
-                "role": "any",
-                "trait": "strength",
-                "unitID": ""
-            }
-        ],
-        "protect": 2.5,
-        "unitComposition": "Commanders: 3-Str, Int, 2-Per\nTroops: 4-Str, 2-Con, 2-Int, 2-Per, 4-Any",
-        "bonus": 30,
-        "effectName": "Moves Like Jagar",
-        "effects": "Moves Like Jagar: 15% chance to proc 200 Ice damage; +40% Formation Special vs Jagar the Red; Prevents damage to Armies from the Flamebreath Ability",
-        "imagePath": "/images/army/formations/practiceyard.png",
-        "description": "\"You wake up in the morning and you look at your old spoon, and you say to yourself, 'Well, it's time to get yourself a new spoon.' And you do.\"\n-Unknown",
-        "bonusSpecial": {
-            "vsType": "Jagar the Red",
-            "amount": 40
         }
     },
     "f.organ-grinding-i": {
