@@ -377,6 +377,21 @@
         "lootExpansion": "Yes"
       },
       {
+        "name": "Burnet Pixies",
+        "difficulty": "easy",
+        "damageType": "Physical",
+        "weaknesses": "Physical, Dark, Ice",
+        "resistances": "Magic, Fire, Nature, Psychic",
+        "topTier": "?",
+        "baseDmg": "0.7",
+        "formDmg": "0.5",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
         "name": "Lesser Tree Ent",
         "difficulty": "hard",
         "damageType": "Nature",
@@ -737,6 +752,21 @@
         "lootExpansion": "Yes"
       },
       {
+        "name": "Burnet Pixies",
+        "difficulty": "hard",
+        "damageType": "Physical",
+        "weaknesses": "Physical, Dark, Ice",
+        "resistances": "Magic, Fire, Nature, Psychic",
+        "topTier": "?",
+        "baseDmg": "1.9",
+        "formDmg": "1.8",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
         "name": "Lesser Tree Ent",
         "difficulty": "legendary",
         "damageType": "Nature",
@@ -1095,6 +1125,21 @@
         "summonerLoot": "SL1, SL2",
         "hiddenLoot": "None",
         "lootExpansion": "No"
+      },
+      {
+        "name": "Burnet Pixies",
+        "difficulty": "legendary",
+        "damageType": "Physical",
+        "weaknesses": "Physical, Dark, Ice",
+        "resistances": "Magic, Fire, Nature, Psychic",
+        "topTier": "?",
+        "baseDmg": "6.5",
+        "formDmg": "6",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
       }
     ],
     "guild": [
@@ -1699,6 +1744,66 @@
         "lootExpansion": "Yes"
       },
       {
+        "name": "Tower Mimic",
+        "difficulty": "easy",
+        "damageType": "Physical",
+        "weaknesses": "Acid, Nature",
+        "resistances": "Magic, Fire, Poison, Psychic",
+        "topTier": "?",
+        "baseDmg": "2.2",
+        "formDmg": "0.5",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Dragon's Hoard",
+        "difficulty": "easy",
+        "damageType": "Fire",
+        "weaknesses": "Holy, Ice",
+        "resistances": "Dark, Fire, Nature",
+        "topTier": "?",
+        "baseDmg": "1.9",
+        "formDmg": "1.2",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Giant Sandswimmer",
+        "difficulty": "easy",
+        "damageType": "Nature",
+        "weaknesses": "Physical, Acid, Poison",
+        "resistances": "Magic, Fire, Ice, Lightning",
+        "topTier": "?",
+        "baseDmg": "2",
+        "formDmg": "1",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Cladavian the Desolator",
+        "difficulty": "easy",
+        "damageType": "Dark",
+        "weaknesses": "Holy",
+        "resistances": "Physical, Magic, Dark",
+        "topTier": "63,000,000",
+        "baseDmg": "5.4",
+        "formDmg": "4.4",
+        "bonusTiers": "PI7",
+        "onHitDrops": "KE5, KE10",
+        "summonerLoot": "None",
+        "hiddenLoot": "SK1",
+        "lootExpansion": "Yes"
+      },
+      {
         "name": "Amanus Charmer",
         "difficulty": "hard",
         "damageType": "Poison",
@@ -1714,6 +1819,51 @@
         "lootExpansion": "Yes"
       },
       {
+        "name": "Tower Mimic",
+        "difficulty": "hard",
+        "damageType": "Physical",
+        "weaknesses": "Acid, Nature",
+        "resistances": "Magic, Fire, Poison, Psychic",
+        "topTier": "?",
+        "baseDmg": "4.1",
+        "formDmg": "1.8",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Dragon's Hoard",
+        "difficulty": "hard",
+        "damageType": "Fire",
+        "weaknesses": "Holy, Ice",
+        "resistances": "Dark, Fire, Nature",
+        "topTier": "?",
+        "baseDmg": "3.3",
+        "formDmg": "4.4",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Giant Sandswimmer",
+        "difficulty": "hard",
+        "damageType": "Nature",
+        "weaknesses": "Physical, Acid, Poison",
+        "resistances": "Magic, Fire, Ice, Lightning",
+        "topTier": "?",
+        "baseDmg": "3.8",
+        "formDmg": "3.5",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
         "name": "Amanus Charmer",
         "difficulty": "legendary",
         "damageType": "Poison",
@@ -1727,6 +1877,51 @@
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "Yes"
+      },
+      {
+        "name": "Tower Mimic",
+        "difficulty": "legendary",
+        "damageType": "Physical",
+        "weaknesses": "Acid, Nature",
+        "resistances": "Magic, Fire, Poison, Psychic",
+        "topTier": "?",
+        "baseDmg": "17",
+        "formDmg": "8.5",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Dragon's Hoard",
+        "difficulty": "legendary",
+        "damageType": "Fire",
+        "weaknesses": "Holy, Ice",
+        "resistances": "Dark, Fire, Nature",
+        "topTier": "?",
+        "baseDmg": "14",
+        "formDmg": "15",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Giant Sandswimmer",
+        "difficulty": "legendary",
+        "damageType": "Nature",
+        "weaknesses": "Physical, Acid, Poison",
+        "resistances": "Magic, Fire, Ice, Lightning",
+        "topTier": "?",
+        "baseDmg": "15.5",
+        "formDmg": "13",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
       }
     ],
     "quest": [
@@ -2970,7 +3165,7 @@
         "baseDmg": "13",
         "formDmg": "9",
         "bonusTiers": "AO5, AO8",
-        "onHitDrops": "?",
+        "onHitDrops": "KE4, KE8",
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
@@ -3000,7 +3195,7 @@
         "baseDmg": "14",
         "formDmg": "15",
         "bonusTiers": "AO5, AO7",
-        "onHitDrops": "?",
+        "onHitDrops": "KE4, KE8",
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
@@ -3015,7 +3210,7 @@
         "baseDmg": "13.8",
         "formDmg": "10",
         "bonusTiers": "AO5, AO9",
-        "onHitDrops": "?",
+        "onHitDrops": "KE4, KE8",
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
@@ -3064,6 +3259,20 @@
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
+      },
+      {
+        "name": "Skliros",
+        "damageType": "Dark",
+        "weaknesses": "Holy",
+        "resistances": "Dark, Poison, Psychic",
+        "topTier": "?",
+        "baseDmg": "0.35",
+        "formDmg": "0.3",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
       },
       {
         "name": "Skliros 2.0",
@@ -3150,6 +3359,20 @@
         "lootExpansion": "No"
       },
       {
+        "name": "Paeknisar",
+        "damageType": "Physical",
+        "weaknesses": "Acid, Lightning",
+        "resistances": "Fire, Ice",
+        "topTier": "?",
+        "baseDmg": "0.7",
+        "formDmg": "0.5",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
         "name": "Paeknisar 2.0",
         "damageType": "Physical",
         "weaknesses": "Acid, Lightning",
@@ -3220,6 +3443,20 @@
         "lootExpansion": "No"
       },
       {
+        "name": "Bira Biuyom 2.0",
+        "damageType": "Dark",
+        "weaknesses": "Holy, Nature",
+        "resistances": "Dark, Ice",
+        "topTier": "?",
+        "baseDmg": "0.85",
+        "formDmg": "0.4",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
         "name": "Abominacion Macabra",
         "damageType": "Dark",
         "weaknesses": "Acid, Holy",
@@ -3229,6 +3466,34 @@
         "formDmg": "0.5",
         "bonusTiers": "None",
         "onHitDrops": "None",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "No"
+      },
+      {
+        "name": "Abominacion Macabra 2.0",
+        "damageType": "Dark",
+        "weaknesses": "Acid, Holy",
+        "resistances": "Nature, Poison",
+        "topTier": "?",
+        "baseDmg": "0.8",
+        "formDmg": "0.6",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Abominacion Macabra 3.0",
+        "damageType": "Dark",
+        "weaknesses": "Acid, Holy",
+        "resistances": "Nature, Poison",
+        "topTier": "50,000,000,000",
+        "baseDmg": "0.85",
+        "formDmg": "0.75",
+        "bonusTiers": "None",
+        "onHitDrops": "KE3, KE5, KE7",
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
@@ -3246,6 +3511,20 @@
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
+      },
+      {
+        "name": "Aufling",
+        "damageType": "Magic",
+        "weaknesses": "Dark, Poison",
+        "resistances": "Acid, Nature",
+        "topTier": "?",
+        "baseDmg": "0.6",
+        "formDmg": "0.4",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
       },
       {
         "name": "Aufling 2.0",
@@ -3432,6 +3711,48 @@
         "lootExpansion": "No"
       },
       {
+        "name": "Serpent Soldier 2.0",
+        "damageType": "Poison",
+        "weaknesses": "Fire, Psychic",
+        "resistances": "Poison, Acid",
+        "topTier": "?",
+        "baseDmg": "0.7",
+        "formDmg": "0.4",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Serpent Soldier 3.0",
+        "damageType": "Poison",
+        "weaknesses": "Fire, Psychic",
+        "resistances": "Poison, Acid",
+        "topTier": "?",
+        "baseDmg": "0.7",
+        "formDmg": "0.45",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Barren Foliage",
+        "damageType": "Nature",
+        "weaknesses": "Fire, Ice",
+        "resistances": "Poison, Nature, Lightning",
+        "topTier": "?",
+        "baseDmg": "0.7",
+        "formDmg": "0.4",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
         "name": "Barren Foliage 2.0",
         "damageType": "Nature",
         "weaknesses": "Fire, Ice",
@@ -3444,6 +3765,34 @@
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
+      },
+      {
+        "name": "Barren Foliage 3.0",
+        "damageType": "Nature",
+        "weaknesses": "Fire, Ice",
+        "resistances": "Poison, Nature, Lightning",
+        "topTier": "?",
+        "baseDmg": "0.75",
+        "formDmg": "0.55",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
+        "name": "Spooky Ghouls",
+        "damageType": "Physical",
+        "weaknesses": "Fire, Holy",
+        "resistances": "Dark, Psychic",
+        "topTier": "?",
+        "baseDmg": "0.6",
+        "formDmg": "0.3",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
       },
       {
         "name": "Spooky Ghouls 2.0",
@@ -3516,6 +3865,23 @@
         "bonusTiers": "DV8",
         "onHitDrops": "None",
         "summonerLoot": "No",
+        "hiddenLoot": "None",
+        "lootExpansion": "No"
+      }
+    ],
+    "personal": [
+      {
+        "name": "Rock Grubs",
+        "difficulty": "easy",
+        "damageType": "Physical",
+        "weaknesses": "Acid, Dark",
+        "resistances": "Physical, Magic, Psychic",
+        "topTier": "12,500,000",
+        "baseDmg": "1.25",
+        "formDmg": "1.25",
+        "bonusTiers": "None",
+        "onHitDrops": "None",
+        "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
       }
