@@ -12,6 +12,17 @@
 
   const INPUT_STORAGE_KEY = "dotv-sp-calc-inputs-v1";
 
+  const SKP_MILESTONES = [10, 25, 50, 100];
+  const SKP_TIERS = [
+    { start: 100, end: 1000, step: 100 },
+    { start: 1000, end: 5000, step: 200 },
+    { start: 5000, end: 10000, step: 250 },
+    { start: 10000, end: 25000, step: 500 },
+    { start: 25000, end: 50000, step: 1000 },
+    { start: 50000, end: 100000, step: 400 },
+    { start: 100000, end: Infinity, step: 500 },
+  ];
+
   const numberFormatter = new Intl.NumberFormat("en-US", {
     maximumFractionDigits: 0,
   });
@@ -81,6 +92,36 @@
     sp += (numIncrements / 2) * (startCost + endCost) * inc;
     sp += (value % inc) * (endCost + 1);
     return sp;
+  }
+
+  function statToSkp(value) {
+    let skp = SKP_MILESTONES.filter((milestone) => value >= milestone).length;
+
+    for (const tier of SKP_TIERS) {
+      if (value <= tier.start) break;
+      skp += Math.floor((Math.min(value, tier.end) - tier.start) / tier.step);
+    }
+
+    return skp;
+  }
+
+  function endStatForSkp(startValue, gain) {
+    if (gain === 0) return startValue;
+
+    // Count awards already earned so a partial step at Start carries forward.
+    let targetSkp = statToSkp(startValue) + gain;
+    if (targetSkp <= SKP_MILESTONES.length) {
+      return SKP_MILESTONES[targetSkp - 1];
+    }
+    targetSkp -= SKP_MILESTONES.length;
+
+    for (const tier of SKP_TIERS) {
+      const tierSkp = (tier.end - tier.start) / tier.step;
+      if (targetSkp <= tierSkp) {
+        return tier.start + targetSkp * tier.step;
+      }
+      targetSkp -= tierSkp;
+    }
   }
 
   function parseStatValue(input) {
@@ -179,7 +220,18 @@
     costCell.className = "numeric sp-cost-cell";
     costCell.textContent = "0";
 
-    row.append(statCell, startCell, endCell, gainCell, costCell);
+    const skpCell = document.createElement("td");
+    const skpInput = document.createElement("input");
+    skpInput.type = "number";
+    skpInput.min = "0";
+    skpInput.step = "1";
+    skpInput.inputMode = "numeric";
+    skpInput.value = "0";
+    skpInput.setAttribute("aria-label", `${stat.label} SKP gained`);
+    skpInput.title = "Skill points gained. Edit to set the lowest End stat needed.";
+    skpCell.appendChild(skpInput);
+
+    row.append(statCell, startCell, endCell, gainCell, costCell, skpCell);
     els.rows.appendChild(row);
 
     const rowFields = {
@@ -188,6 +240,7 @@
       endInput,
       gainCell,
       costCell,
+      skpInput,
     };
 
     syncEndMinimum(rowFields);
@@ -201,12 +254,29 @@
       clampEndToStart(rowFields);
       updateCalculator();
     });
+    skpInput.addEventListener("input", () => {
+      const gain = Number(skpInput.value);
+      if (skpInput.value === "" || !Number.isInteger(gain) || gain < 0) return;
+      updateEndFromSkp(rowFields);
+      updateCalculator({ editingSkpRow: rowFields });
+    });
+    skpInput.addEventListener("change", () => {
+      updateEndFromSkp(rowFields);
+      updateCalculator();
+    });
 
     return rowFields;
   });
 
   function syncEndMinimum(row) {
     row.endInput.min = String(parseStatValue(row.startInput));
+  }
+
+  function updateEndFromSkp(row) {
+    row.endInput.value = String(endStatForSkp(
+      parseStatValue(row.startInput),
+      parseStatValue(row.skpInput),
+    ));
   }
 
   function clampEndToStart(row) {
@@ -240,7 +310,7 @@
     writeStoredInputs(currentInputValues());
   }
 
-  function updateCalculator({ save = true } = {}) {
+  function updateCalculator({ save = true, editingSkpRow = null } = {}) {
     let currentSpTotal = 0;
     let goalSpTotal = 0;
 
@@ -257,6 +327,9 @@
       goalSpTotal += endSp;
       setFormattedValue(row.gainCell, statGain);
       setFormattedValue(row.costCell, cost);
+      if (row !== editingSkpRow) {
+        row.skpInput.value = String(statToSkp(endValue) - statToSkp(startValue));
+      }
     });
 
     const totalCost = goalSpTotal - currentSpTotal;
