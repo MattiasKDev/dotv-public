@@ -3,7 +3,7 @@
 // @namespace    https://github.com/MattiasKDev
 // @author       infinity
 // @description  Adds passive damage-taken breakdowns to raid battle logs.
-// @version      2026.06.06
+// @version      2026.11.02.3
 // @match        https://play.dragonsofthevoid.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
@@ -31,7 +31,6 @@
     const RECENT_LOG_ROW_SCAN = 300;
     const BODY_OBSERVER_THROTTLE_MS = 150;
     const LOG_STABLE_MS = 20;
-    const MIN_LOG_WIDTH = 420;
     const DEFAULT_CAP_HITS = 20;
     const COMPACT_KEY = 'dotvCombatLogPlusCompact';
     const ENHANCED_VISIBLE_KEY = 'dotvCombatLogPlusEnhancedVisible';
@@ -56,11 +55,17 @@
     const pendingInventoryItems = [];
     const pendingHits = [];
     const rawLogEntries = [];
-    const rawCapturedRows = new WeakSet();
+    let rawCapturedRows = new WeakMap();
     const renderedEnhancedHits = new Set();
     const observedLogContainers = new WeakSet();
     const enhancedCardData = new WeakMap();
     const lastLogMutationAt = new WeakMap();
+    const containerLogGeneration = new WeakMap();
+    const cappedLogRows = new WeakSet();
+    const standaloneRowsByContainer = new WeakMap();
+    let currentLogRaidId = null;
+    let raidLogGeneration = 0;
+    let lastObservedLogContainer = null;
     let statsSnapshot = null;
     let applyTimer = 0;
     let bodyObserveTimer = 0;
@@ -73,7 +78,9 @@
     const norm = value => String(value || '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, ' ').trim();
     const difficulty = value => /legendary/i.test(value || '') ? 'legendary' : /hard/i.test(value || '') ? 'hard' : 'easy';
     const number = value => {
-        const parsed = Number(String(value ?? '').replace(/,/g, ''));
+        const text = String(value ?? '').replace(/,/g, '').trim();
+        if (!text) return null;
+        const parsed = Number(text);
         return Number.isFinite(parsed) ? parsed : null;
     };
     const pct = value => `${(value * 100).toFixed(2)}%`;
@@ -86,7 +93,7 @@
         ? Math.round(value).toLocaleString('en-US')
         : '?';
     const formatPrecise = value => Number.isFinite(value)
-        ? Number(value.toFixed(8)).toLocaleString('en-US')
+        ? value.toLocaleString('en-US', { maximumFractionDigits: 2 })
         : '?';
     const formatDamage = value => {
         if (!Number.isFinite(value)) return '?';
@@ -235,8 +242,8 @@
     }
 
     function rememberActiveFormation(formation) {
+        if (!formation || !(formation.troops || formation.DTO && formation.DTO.troops)) return;
         const snapshot = troopQtySnapshotFromFormation(formation);
-        if (!snapshot.size) return;
         activeTroopQtyById.clear();
         for (const [id, value] of snapshot) {
             activeTroopQtyById.set(id, {
@@ -261,9 +268,12 @@
     }
 
     function rememberProfileState(data) {
+        const user = data && data.payload && data.payload.user;
+        rememberEffects(user && user.userEffects);
         rememberEffects(data && data.profileData && data.profileData.userEffects);
         rememberEffects(data && data.payload && data.payload.profileData && data.payload.profileData.userEffects);
-        const formations = data && data.profileData && data.profileData.formations
+        const formations = user && user.formations
+            || data && data.profileData && data.profileData.formations
             || data && data.payload && data.payload.profileData && data.payload.profileData.formations
             || data && data.payload && data.payload.formations
             || data && data.formations;
@@ -289,7 +299,7 @@
         ];
 
         for (const formation of candidates) {
-            if (formation && formationTroopSlots(formation).length) {
+            if (formation && (formation.troops || formation.DTO && formation.DTO.troops)) {
                 rememberActiveFormation(formation);
                 return;
             }
@@ -460,14 +470,15 @@
     function buildRaidEntry(raid, diffId, attackType, preferQuest) {
         const diff = getDifficultyData(raid, diffId, preferQuest);
         const base = number(diff && (diff.dmgval ?? diff.baseDmg ?? diff.damageToPlayer));
-        const count = number(attackType) || 20;
+        const parsedCount = number(attackType);
+        const count = parsedCount != null && parsedCount >= 0 ? parsedCount : null;
         return {
             raidId: raid && raid.id,
             name: raid && raid.name || '',
             difficulty: diff && difficulty(diff.id) || difficulty(diffId),
             category: raidCategory(raid, diff),
             damageType: String(raid && raid.damageType || '').trim(),
-            baseDamage: base == null ? null : base * count,
+            baseDamage: base == null || count == null ? null : base * count,
             baseValue: base,
             attackType: count,
             raidAbilities: buildRaidAbilities(diff)
@@ -643,25 +654,30 @@
                 color: #d6a07f;
                 font: 12px/1.2 Arial, sans-serif;
             }
-            .battle-log-container {
+            .battle-log-container.dotv-clp-managed {
                 box-sizing: border-box;
-                width: var(--dotv-clp-log-width, 420px);
-                min-width: min(420px, 100%);
-                max-width: none;
+                width: 100%;
+                min-width: 0 !important;
+                max-width: 100% !important;
                 scrollbar-gutter: stable;
                 overflow-x: hidden !important;
                 overflow-y: scroll !important;
+                overflow-anchor: none;
+                overflow-wrap: anywhere;
             }
-            .battle-log-container.dotv-clp-enhanced-view {
-                overflow-x: hidden !important;
+            .broadcast-damage-container {
+                flex: 0 1 640px;
+                width: min(640px, 100%);
+                min-width: 0;
+                max-width: 100%;
             }
             .dotv-clp-enhanced-shell {
                 box-sizing: border-box;
                 display: block;
                 align-self: flex-start;
-                width: max-content;
+                width: 100%;
                 min-width: 0;
-                max-width: none;
+                max-width: 100%;
                 margin: 0;
                 padding: 0;
                 color: orange;
@@ -672,9 +688,9 @@
             }
             .dotv-clp-enhanced-log {
                 box-sizing: border-box;
-                width: max-content;
+                width: 100%;
                 min-width: 0;
-                max-width: none;
+                max-width: 100%;
                 min-height: 24px;
                 max-height: none;
                 overflow: visible;
@@ -686,9 +702,9 @@
             }
             .dotv-clp-hit-card {
                 box-sizing: border-box;
-                width: max-content;
+                width: 100%;
                 min-width: 0;
-                max-width: none;
+                max-width: 100%;
                 margin: 4px 0;
                 padding: 4px 6px;
                 border: 1px solid rgba(180, 123, 99, 0.55);
@@ -697,12 +713,13 @@
                 color: orange;
             }
             .dotv-clp-enhanced-row {
-                width: max-content;
-                max-width: none;
+                width: auto;
+                min-width: 0;
+                max-width: 100%;
                 min-height: 15px;
                 color: orange;
-                white-space: nowrap;
-                overflow-wrap: normal;
+                white-space: normal;
+                overflow-wrap: anywhere;
             }
             .dotv-clp-enhanced-row.dotv-clp-main-row {
                 color: orange;
@@ -717,30 +734,40 @@
                 display: none !important;
             }
             .dotv-clp-panel {
-                margin: 2px 0 4px 16px;
-                padding: 3px 6px;
+                margin: 2px 0 3px 8px;
+                padding: 2px 3px;
                 border-left: 2px solid #9f8a5a;
                 color: #f0cf83;
                 background: rgba(28, 20, 7, 0.32);
                 font-family: 'Segoe UI', Arial, sans-serif;
                 font-variant-numeric: lining-nums tabular-nums;
                 font-feature-settings: "lnum" 1, "tnum" 1;
-                width: max-content;
-                max-width: none;
-                white-space: nowrap;
+                box-sizing: border-box;
+                width: auto;
+                min-width: 0;
+                max-width: 100%;
+                white-space: normal;
+                overflow-wrap: anywhere;
             }
             .dotv-clp-panel[hidden] { display: none !important; }
             .dotv-clp-lines {
                 display: grid;
-                grid-template-columns: max-content max-content max-content;
-                column-gap: 8px;
+                grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 1fr);
+                column-gap: 4px;
                 row-gap: 1px;
-                margin-top: 3px;
-                white-space: nowrap;
+                margin-top: 1px;
+                white-space: normal;
+                overflow-wrap: anywhere;
             }
+            .dotv-clp-lines > span { min-width: 0; }
             .dotv-clp-label { color: #d7ad6b; }
             .dotv-clp-value { color: #ffe0a0; }
-            .dotv-clp-note { color: #cdbd8b; white-space: nowrap; }
+            .dotv-clp-note {
+                color: #cdbd8b;
+                white-space: normal;
+                overflow-wrap: anywhere;
+                max-width: 100%;
+            }
             .dotv-clp-percent {
                 color: #ffe0a0;
                 font-weight: 600;
@@ -825,17 +852,6 @@
         return !!matchingRaidAbility(mod, raid);
     }
 
-    function isExtraAttackPlayerDamageMod(mod, raid) {
-        if (!mod || mod.type !== 'damagetoplayer') return false;
-        const ability = matchingRaidAbility(mod, raid);
-        return isExtraRaidAttackMod(mod) || !!(ability && ability.extraAttacks);
-    }
-
-    function isRepeatedBaseAttackGroup(group) {
-        if (!group) return false;
-        return (group.mods || []).some(isRepeatedBaseRaidAttackMod);
-    }
-
     function hasRaidAbility(raid, abilityName) {
         const target = norm(abilityName);
         return (raid && raid.raidAbilities || []).some(ability => norm(ability && ability.id) === target || norm(ability && ability.name) === target);
@@ -866,9 +882,38 @@
         return coordinated && alteration != null && alteration > -1 ? base / (1 + alteration) : base;
     }
 
-    function currentResistance(damage, damageType) {
+    function resistanceDetails(damage, damageType, raid) {
         const attackResistances = (damage && damage.mods || []).filter(mod => mod && mod.type === 'resistance');
-        return getResistanceEntry(mergeResistanceSources(attackResistances, statsSnapshot && statsSnapshot.resistances), damageType);
+        const sources = mergeResistanceSources(attackResistances, statsSnapshot && statsSnapshot.resistances) || [];
+        const knownSnapshot = !!(statsSnapshot && Array.isArray(statsSnapshot.resistances));
+        const ability = norm(damageType) === 'ice'
+            ? (raid && raid.raidAbilities || []).find(entry => norm(entry.id) === 'hyperborean hiemal')
+            : null;
+        if (!ability) {
+            return { value: getResistanceEntry(sources, damageType) ?? (knownSnapshot ? 0 : null) };
+        }
+
+        // A named, signed response modifier is authoritative. Remove its copies
+        // from the baseline and apply it once; unrelated negative gear still counts.
+        const isAbilityPenalty = entry => abilityModMatches(entry, ability)
+            && getResistanceEntry([entry], damageType) < 0;
+        const explicit = sources.find(isAbilityPenalty);
+        const description = String(ability.desc || '').match(/Ice\s+Resistance[\s\S]*?by\s+a\s+net\s+(\d+(?:\.\d+)?)\s*%/i);
+        const penalty = explicit
+            ? -getResistanceEntry([explicit], damageType)
+            : description ? Number(description[1]) / 100 : null;
+        const before = getResistanceEntry(sources.filter(entry => !isAbilityPenalty(entry)), damageType)
+            ?? (knownSnapshot ? 0 : null);
+        return {
+            ability,
+            penalty,
+            before,
+            value: before != null && penalty != null ? before - penalty : null
+        };
+    }
+
+    function currentResistance(damage, damageType, raid) {
+        return resistanceDetails(damage, damageType, raid).value;
     }
 
     function defenseText() {
@@ -1201,7 +1246,7 @@
     function buildTextMods(damage) {
         const mods = damage && Array.isArray(damage.mods) ? damage.mods : [];
         return mods
-            .filter(mod => mod && mod.type === 'text' && baseItemId(mod.itemId) !== 'blockDamage')
+            .filter(mod => mod && mod.type === 'text')
             .map(mod => ({
                 itemId: mod.itemId || '',
                 candidates: textModCandidates(mod)
@@ -1210,18 +1255,14 @@
     }
 
     function troopQtyAfterLossResults(results) {
-        const troops = new Map([...activeTroopQtyById].map(([id, value]) => [id, { ...value }]));
+        const troops = new Map();
         for (const result of results || []) {
             const id = baseItemId(result && result.id);
             if (!id || (itemData.get(id) || {}).type !== 'troop') continue;
-            const previous = troops.get(id);
-            const loss = number(result.qty) || 0;
-            if (previous && Number.isFinite(previous.qty)) {
-                troops.set(id, {
-                    ...previous,
-                    qty: Math.max(0, previous.qty - loss)
-                });
-            }
+            // These are replacement inventory entries, not quantities lost from a formation.
+            // Fainted counts can describe a subsequent heal without guessing slot allocation.
+            const fainted = number(result.properties && result.properties.fainted);
+            if (fainted != null) troops.set(id, { fainted });
         }
         return troops;
     }
@@ -1231,7 +1272,7 @@
         for (const result of results || []) {
             const id = baseItemId(result && result.id);
             if (!id || (itemData.get(id) || {}).type !== 'commander') continue;
-            const health = number(result.properties && result.properties.health);
+            const health = number(result.properties && result.properties.health) ?? number((itemData.get(id) || {}).health);
             if (health != null) commanders.set(id, { health });
         }
         return commanders;
@@ -1261,8 +1302,8 @@
             const id = baseItemId(result.id);
             const data = itemData.get(id) || {};
             if (targetType === 'troop') {
-                const previous = options.previousTroopQtyById && options.previousTroopQtyById.get(id)
-                    || activeTroopQtyById.get(id);
+                const afterLoss = options.previousTroopQtyById && options.previousTroopQtyById.get(id);
+                const previous = activeTroopQtyById.get(id);
                 const current = currentTroops && currentTroops.get(id);
                 const slots = current && current.slots || previous && previous.slots || 1;
                 const cap = troopReserveCap(id, slots);
@@ -1270,24 +1311,27 @@
                     ? formatNumber(qty)
                     : `${formatNumber(qty)}/${formatNumber(cap)}`;
                 const currentQty = current && Number.isFinite(current.qty) ? current.qty : null;
-                const previousQty = previous && Number.isFinite(previous.qty) ? previous.qty : null;
+                const previousQty = !healing && previous && Number.isFinite(previous.qty) ? previous.qty : null;
                 const qtyText = currentQty != null
                     ? previousQty != null
                         ? `${formatQty(previousQty)} -> ${formatQty(currentQty)}`
                         : formatQty(currentQty)
                     : '';
                 const fainted = number(result.properties && result.properties.fainted);
+                const healingText = healing && fainted != null && afterLoss && Number.isFinite(afterLoss.fainted)
+                    ? `Fainted ${formatNumber(afterLoss.fainted)} -> ${formatNumber(fainted)} (${formatNumber(Math.max(0, afterLoss.fainted - fainted))} healed)`
+                    : '';
                 lines.push({
                     label: data.name || formatItemName(result.id),
-                    change: qtyText ? `Qty ${qtyText}` : healing ? `Healed ${formatNumber(number(result.qty) || 0)}` : `Fainted ${formatNumber(fainted || 0)}`,
-                    result: ''
+                    change: healingText || (qtyText ? `Qty ${qtyText}` : fainted != null ? `Fainted ${formatNumber(fainted)}` : 'Quantity unavailable'),
+                    result: healingText && qtyText ? `Qty ${qtyText}` : ''
                 });
                 continue;
             }
 
             const previousHealth = options.previousCommanderHpById && options.previousCommanderHpById.get(id)
                 || commanderHpById.get(id);
-            const currentHealth = number(result.properties && result.properties.health);
+            const currentHealth = number(result.properties && result.properties.health) ?? number(data.health);
             const fainted = number(result.properties && result.properties.fainted);
             const loss = number(result.qty) || 0;
             const hadPreviousHealth = previousHealth && Number.isFinite(previousHealth.health);
@@ -1323,6 +1367,7 @@
 
         const finalDamage = number(damage.damageToPlayer);
         const raid = matchedRaid || findRaidEntry(rawAttack, requestBody);
+        const abilityAction = number((raid && raid.attackType) ?? getAttackRequestInfo(rawAttack, requestBody).attackType) === 0;
         const allReductionMods = (damage.mods || []).filter(isPlayerDamageReductionMod);
         const allPlayerDamageMods = (damage.mods || []).filter(mod => mod && mod.type === 'damagetoplayer');
         const baseDamageType = attackDamageType(rawAttack, damage, raid);
@@ -1331,9 +1376,6 @@
             : [];
         const activePlayerDamageMods = allPlayerDamageMods.filter(mod => !evadedPlayerDamageMods.includes(mod));
         const abilityPlayerDamageMods = activePlayerDamageMods.filter(mod => isRaidAbilityPlayerDamageMod(mod, raid));
-        const extraAttackMods = abilityPlayerDamageMods.filter(mod => isExtraAttackPlayerDamageMod(mod, raid));
-        const extraAttackSet = new Set(extraAttackMods);
-        const bonusAbilityDamageMods = abilityPlayerDamageMods.filter(mod => !extraAttackSet.has(mod));
         const abilityDamageSet = new Set(abilityPlayerDamageMods);
         const directPlayerDamageMods = activePlayerDamageMods.filter(mod => !abilityDamageSet.has(mod));
         const directPlayerDamageTotal = directPlayerDamageMods.reduce((total, mod) => total + (number(mod.amount) || 0), 0);
@@ -1343,21 +1385,44 @@
         let baseBeforeDefence = 0;
         let baseHitBeforeDefence = null;
         let hasBaseDamage = false;
-        const baseDamageValue = attackBaseDamage(damage, raid);
+        const baseDamageValue = abilityAction ? null : attackBaseDamage(damage, raid);
+        const resistanceInfo = abilityAction ? {} : resistanceDetails(damage, baseDamageType, raid);
+        const resistanceAlteringAbility = resistanceInfo.ability;
+        const resistanceUnverified = !!resistanceAlteringAbility && resistanceInfo.value == null;
+        if (resistanceAlteringAbility) {
+            if (resistanceUnverified) {
+                notes.push(`${resistanceAlteringAbility.name}: ${resistanceAlteringAbility.desc.replace(/^-/, '').trim()}`);
+                notes.push('Ice resistance data is unavailable; Defence reduction is not inferred.');
+            }
+            const supporters = (raid.raidAbilities || []).find(ability => norm(ability.id) === 'summoned supporters');
+            if (supporters) notes.push(`${supporters.name}: ${supporters.desc.replace(/^-/, '').replace(/\n-/g, ' ').trim()}`);
+        }
 
         if (raid && baseDamageValue != null) {
             lines.push({ label: `Base${baseDamageType ? ` ${titleCase(baseDamageType)}` : ''}`, change: '', result: formatPrecise(baseDamageValue) });
             let baseDamage = baseDamageValue;
-            const resistance = currentResistance(damage, baseDamageType);
+            const resistance = resistanceInfo.value;
             if (resistance != null) {
+                if (resistanceAlteringAbility) {
+                    lines.push({ label: 'Ice Resistance', change: pct(resistanceInfo.before), result: '' });
+                    lines.push({
+                        label: resistanceAlteringAbility.name,
+                        change: `-${(resistanceInfo.penalty * 100).toFixed(2)} percentage points`,
+                        result: `${pct(resistance)} Ice resistance`
+                    });
+                }
                 baseDamage *= 1 - resistance;
-                lines.push({ label: `${titleCase(baseDamageType)} Resistance`, change: `-${pct(resistance)}`, result: formatPrecise(baseDamage) });
+                lines.push({
+                    label: `${resistanceAlteringAbility ? 'Effective ' : ''}${titleCase(baseDamageType)} Resistance`,
+                    change: `${resistance < 0 ? '+' : '-'}${pct(Math.abs(resistance))}`,
+                    result: formatPrecise(baseDamage)
+                });
             }
             baseHitBeforeDefence = baseDamage;
-            hasBaseDamage = true;
-        } else if (raid) {
-            notes.push('Base damage value was not present in the matched raid difficulty data.');
-        } else {
+            hasBaseDamage = !resistanceUnverified;
+        } else if (raid && !abilityAction) {
+            notes.push('Base damage is unavailable without both raid damage data and the attack size.');
+        } else if (!abilityAction) {
             notes.push('Base damage unknown because the game raid-data batch has not been seen or this raid was not matched.');
         }
 
@@ -1379,72 +1444,35 @@
             }
         }
 
-        let defendedHitCount = hasBaseDamage && !damage.evadedAttack ? 1 : 0;
-        let defendedAbilityDamage = 0;
         let undefendedAbilityDamage = 0;
-        const markedGroups = [
-            ...groupPlayerDamageMods(bonusAbilityDamageMods, raid, baseDamageType).map(group => ({ ...group, kind: 'bonus' })),
-            ...groupPlayerDamageMods(extraAttackMods, raid, baseDamageType).map(group => ({ ...group, kind: 'extra' }))
-        ];
-        for (const group of markedGroups) {
+        for (const group of groupPlayerDamageMods(abilityPlayerDamageMods, raid, baseDamageType)) {
             if (group.amount <= 0) continue;
-            const repeatedBaseAttack = group.kind === 'extra'
-                && isRepeatedBaseAttackGroup(group)
-                && Number.isFinite(baseHitBeforeDefence);
-            const undefendedBonusAbility = group.kind === 'bonus';
-            let adjusted = repeatedBaseAttack
-                ? baseHitBeforeDefence * group.count
-                : group.amount;
+            // Extra strikes and other raid abilities use their returned marked amounts.
+            // Reconstructing them from the base hit discards ability-specific damage.
+            const adjusted = group.amount * reductionFactor;
             const abilityLine = {
                 label: `${group.label}${group.type ? ` ${titleCase(group.type)}` : ''}`,
-                change: repeatedBaseAttack
-                    ? formatHitSplit(adjusted, group.count)
-                    : group.count > 1 ? formatHitSplit(group.amount, group.count) : formatDamage(group.amount),
-                result: repeatedBaseAttack ? `${formatPrecise(adjusted)} before Defence` : ''
+                change: group.count > 1 ? `${formatDamage(group.amount)} (${group.count} hits)` : formatDamage(group.amount),
+                result: reductionFactor !== 1 ? formatPrecise(adjusted) : ''
             };
             lines.push(abilityLine);
-            if (repeatedBaseAttack) {
-                defendedHitCount += group.count;
-                defendedAbilityDamage += adjusted;
-                continue;
-            }
-            const resistance = undefendedBonusAbility ? null : currentResistance(damage, group.type);
-            if (resistance != null) {
-                adjusted *= 1 - resistance;
-                lines.push({ label: `${titleCase(group.type)} Resistance`, change: `-${pct(resistance)}`, result: formatPrecise(adjusted) });
-            }
-            if (undefendedBonusAbility) {
-                adjusted *= reductionFactor;
-                if (reductionFactor !== 1) abilityLine.result = formatPrecise(adjusted);
-                undefendedAbilityDamage += adjusted;
-            } else if (group.kind === 'extra') {
-                adjusted *= reductionFactor;
-                if (reductionFactor !== 1) abilityLine.result = formatPrecise(adjusted);
-                undefendedAbilityDamage += adjusted;
-            } else {
-                undefendedAbilityDamage += adjusted;
-            }
+            undefendedAbilityDamage += adjusted;
         }
 
-        const damageBeforeDefence = baseBeforeDefence + defendedAbilityDamage;
+        const damageBeforeDefence = baseBeforeDefence;
         const observedDamageBeforeDefence = finalDamage == null
             ? null
             : Math.max(0, finalDamage - directPlayerDamageTotal - undefendedAbilityDamage);
 
-        if (observedDamageBeforeDefence > 0 && damageBeforeDefence > 0) {
+        if (!resistanceUnverified && observedDamageBeforeDefence > 0 && damageBeforeDefence > 0) {
             const highDamage = observedDamageBeforeDefence;
             const lowDamage = Math.max(0, observedDamageBeforeDefence - 1);
             const lowReduction = Math.max(0, 1 - highDamage / damageBeforeDefence);
             const highReduction = 1 - lowDamage / damageBeforeDefence;
-            const canSplitDefendedHits = defendedHitCount > 1
-                && Number.isFinite(baseHitBeforeDefence)
-                && Math.abs(damageBeforeDefence - baseHitBeforeDefence * defendedHitCount) < 1e-6;
             lines.push({
                 label: `Defence${defenseText()}`,
                 change: pctRange(lowReduction, highReduction),
-                result: canSplitDefendedHits
-                    ? `${formatHitSplit(observedDamageBeforeDefence, defendedHitCount)} (${formatDamage(observedDamageBeforeDefence)} total)`
-                    : formatPrecise(observedDamageBeforeDefence)
+                result: formatPrecise(observedDamageBeforeDefence)
             });
         }
 
@@ -1472,18 +1500,18 @@
             });
         }
 
-        if (finalDamage != null && (abilityPlayerDamageMods.length > 0 || directPlayerDamageTotal > 0)) {
+        if (finalDamage != null && (abilityAction || resistanceAlteringAbility || abilityPlayerDamageMods.length > 0 || directPlayerDamageTotal > 0)) {
             lines.push({
                 label: 'Final Taken',
                 change: '',
-                result: formatNumber(finalDamage)
+                result: formatDamage(finalDamage)
             });
         }
 
         if (!lines.length && !notes.length) return null;
         return {
             finalDamage: finalDamage || 0,
-            finalDamageText: formatNumber(finalDamage || 0),
+            finalDamageText: formatDamage(finalDamage || 0),
             summary: '',
             lines,
             notes,
@@ -1493,7 +1521,7 @@
 
     function handleAttackResponse(data, requestBody) {
         const damage = data && data.damage;
-        if (!damage) return;
+        if (!damage || data.error || data.success === false) return;
         rememberEffects(data && data.effects);
         const raid = findRaidEntry(data, requestBody);
         const breakdown = buildBreakdown(data, requestBody, raid);
@@ -1509,11 +1537,14 @@
         });
         const magicProcs = buildMagicProcs(damage);
         const textMods = buildTextMods(damage);
-        const syntheticEvades = buildSilentExtraAttackEvades(raid, damage);
+        const attackType = number(getAttackRequestInfo(data, requestBody).attackType);
+        const syntheticEvades = attackType === 0 ? [] : buildSilentExtraAttackEvades(raid, damage);
         rememberCommanderResults(damage.formationResults);
         rememberCommanderResults(damage.formationHealResults);
         pendingHits.push({
             id: `clp-${Date.now()}-${++hitSeq}`,
+            attackType,
+            totalDamage: number(damage.totalDamage),
             totalDamageText: formatNumber(number(damage.totalDamage) || 0),
             damageBreakdown: breakdown,
             troopBreakdown,
@@ -1543,16 +1574,14 @@
         }
         if (path.startsWith(ARMY_CAMP_PREFIX)) rememberInventoryUpdates(data);
         if (path === FORMATION_SAVE_PATH) rememberFormationSave(data, requestBody);
-        if (path === ATTACK_PATH || isRaidListUrl(path)) rememberUserRaidData(data);
+        if (path === ATTACK_PATH || path === RAID_ABILITY_PATH || isRaidListUrl(path)) rememberUserRaidData(data);
         if (path !== RAID_BATCH_PATH && path !== STARTUP_BATCH_PATH) {
             const stats = findStatObject(data);
             if (stats) rememberStats(stats, isStatsUrl(url) ? USER_STATS_PATH : 'piggyback');
         }
-        if (isAttackUrl(url)) handleAttackResponse(data, requestBody);
-        if (path === RAID_ABILITY_PATH) {
-            const damage = data && data.damage;
-            rememberCommanderResults(damage && damage.formationResults);
-            rememberCommanderResults(damage && damage.formationHealResults);
+        if (path === ATTACK_PATH || path === RAID_ABILITY_PATH) {
+            const request = parseRequestBody(requestBody) || {};
+            handleAttackResponse(data, path === RAID_ABILITY_PATH ? { ...request, attackType: 0 } : request);
         }
     }
 
@@ -1566,17 +1595,18 @@
 
     function isHitStartLine(entry, hit) {
         const text = cleanText(entry);
-        if (hit) {
-            return text.includes(`did ${hit.totalDamageText} damage`)
-                || text.includes(`crit ${hit.totalDamageText} damage`)
-                || text.includes(`CRIT ${hit.totalDamageText}`);
-        }
-        return /\b(?:did|crit) [\d,]+ damage\b/.test(text) || /\bCRIT [\d,]+\b/.test(text);
+        const match = /\b(?:did|crit) ([\d,.]+) damage\b|\bCRIT ([\d,.]+)\b/.exec(text);
+        if (!match) return false;
+        if (!hit) return true;
+        const total = Number.isFinite(hit.totalDamage) ? hit.totalDamage : number(hit.totalDamageText);
+        return total != null && number(match[1] || match[2]) === total;
     }
 
     function isDamageTakenLine(entry, breakdown) {
         if (!breakdown) return false;
-        return cleanText(entry).includes(`strikes you for ${breakdown.finalDamageText} damage`);
+        const match = /\bstrikes you for ([\d,.]+) damage\b/.exec(cleanText(entry));
+        const finalDamage = Number.isFinite(breakdown.finalDamage) ? breakdown.finalDamage : number(breakdown.finalDamageText);
+        return !!match && number(match[1]) === finalDamage;
     }
 
     function isEvasionLine(entry) {
@@ -1638,11 +1668,19 @@
             || showTextMods() && isTextModLine(row, hit);
     }
 
-    function getHitRows(startEntry) {
+    function isHitDetailRow(entry, hit) {
+        return isDamageTakenLine(entry, hit && hit.damageBreakdown) || isEvasionLine(entry)
+            || isArmyEventLine(entry) || isPlayerHealLine(entry) || isRaidAbilityLine(entry)
+            || isMagicProcLine(entry, hit) || isTextModLine(entry, hit)
+            || /\bcontributed [\d,.]+ damage\b|reduced the damage (?:you|your armies) took/i.test(cleanText(entry));
+    }
+
+    function getHitRows(startEntry, hit) {
         const rows = [];
         let entry = startEntry.nextElementSibling;
         while (entry && !isHitStartLine(entry)) {
-            if (!entry.matches?.('.dotv-clp-panel') && !entry.classList.contains('dotv-clp-enhanced-shell')) rows.push(entry);
+            if (!entry.matches?.('.dotv-clp-panel') && !entry.classList.contains('dotv-clp-enhanced-shell')
+                && !isIgnoredRawRow(entry) && isHitDetailRow(entry, hit)) rows.push(entry);
             entry = entry.nextElementSibling;
         }
         return rows;
@@ -1706,22 +1744,68 @@
         return node && node.nodeType === 1;
     }
 
-    function scrollLogToBottom(container) {
-        if (!container) return;
-        const scroll = () => {
-            container.scrollTop = container.scrollHeight;
-        };
-        scroll();
-        requestAnimationFrame(scroll);
-        setTimeout(scroll, 40);
+    function resetRaidLogState(raidId = null, ignoreExistingRows = true) {
+        currentLogRaidId = raidId;
+        raidLogGeneration++;
+        rawLogEntries.length = 0;
+        pendingHits.length = 0;
+        renderedEnhancedHits.clear();
+        rawCapturedRows = new WeakMap();
+        closeSettingsPanel();
+        document.querySelectorAll(LOG_CONTAINER_SELECTOR).forEach(container => {
+            const log = container.querySelector(':scope > .dotv-clp-enhanced-shell > .dotv-clp-enhanced-log');
+            if (log) log.replaceChildren();
+            standaloneRowsByContainer.delete(container);
+            for (const row of baseLogRows(container)) {
+                delete row.dataset.dotvClpHit;
+                if (ignoreExistingRows) {
+                    rawCapturedRows.set(row, { text: cleanText(row), ignored: true });
+                    row.dataset.dotvClpRepresented = '1';
+                } else {
+                    delete row.dataset.dotvClpRepresented;
+                }
+            }
+        });
+        return raidLogGeneration;
+    }
+
+    function syncRaidLogContext(raidId) {
+        // Navigation can remount the log before the throttled body observer runs.
+        observeKnownLogs();
+        const id = raidId == null ? '' : String(raidId);
+        if (!id) return raidLogGeneration;
+        if (currentLogRaidId == null) {
+            currentLogRaidId = id;
+        } else if (id !== currentLogRaidId) {
+            resetRaidLogState(id);
+        }
+        return raidLogGeneration;
+    }
+
+    function isRaidLogContextCurrent(token) {
+        observeKnownLogs();
+        return token === raidLogGeneration;
+    }
+
+    function isIgnoredRawRow(row) {
+        const previous = rawCapturedRows.get(row);
+        return !!(previous && previous.ignored && previous.text === cleanText(row));
     }
 
     function captureRawRow(row) {
-        if (!row || rawCapturedRows.has(row)) return;
+        if (!row) return;
         if (row.closest('.dotv-clp-enhanced-shell')) return;
-        rawCapturedRows.add(row);
         const text = cleanText(row);
-        if (text) rawLogEntries.push(text);
+        const previous = rawCapturedRows.get(row);
+        if (previous && previous.text === text) return;
+        if (previous && !previous.ignored) {
+            rawLogEntries[previous.index] = text;
+            previous.text = text;
+        } else if (text) {
+            rawCapturedRows.set(row, { text, index: rawLogEntries.length });
+            rawLogEntries.push(text);
+            delete row.dataset.dotvClpHit;
+        }
     }
 
     function baseLogRows(container) {
@@ -1737,7 +1821,7 @@
 
     function rawLogText() {
         document.querySelectorAll(LOG_CONTAINER_SELECTOR).forEach(captureRawLog);
-        return rawLogEntries.join('\n');
+        return rawLogEntries.filter(Boolean).join('\n');
     }
 
     function fallbackCopyText(text) {
@@ -1933,7 +2017,7 @@
 
     function ensureEnhancedLog(container) {
         ensureStyle();
-        let shell = container.querySelector(':scope > .dotv-clp-enhanced-shell') || document.querySelector('.dotv-clp-enhanced-shell');
+        let shell = container.querySelector(':scope > .dotv-clp-enhanced-shell');
         if (!shell) {
             shell = document.createElement('div');
             shell.className = 'dotv-clp-enhanced-shell';
@@ -1952,32 +2036,9 @@
         ensureStyle();
         ensureVanillaControls();
         if (container) {
+            container.classList.add('dotv-clp-managed');
             ensureEnhancedLog(container);
-            stabilizeLogWidth(container);
         }
-    }
-
-    function stabilizeLogWidth(container) {
-        if (!container) return;
-        const shell = container.querySelector(':scope > .dotv-clp-enhanced-shell');
-        const log = shell && shell.querySelector(':scope > .dotv-clp-enhanced-log');
-        if (!shell || !log) return;
-        const shellLeft = shell.getBoundingClientRect().left;
-        let contentWidth = 0;
-        shell.querySelectorAll('.dotv-clp-hit-card, .dotv-clp-panel, .dotv-clp-enhanced-row').forEach(node => {
-            const nodeRect = node.getBoundingClientRect();
-            if (nodeRect.width > 0) contentWidth = Math.max(contentWidth, nodeRect.right - shellLeft);
-        });
-        const scrollbarAndChrome = Math.max(20, container.offsetWidth - container.clientWidth + 6);
-        const current = Math.ceil(Math.max(
-            MIN_LOG_WIDTH,
-            shell.scrollWidth || 0,
-            log.scrollWidth || 0,
-            contentWidth
-        ) + scrollbarAndChrome);
-        if (!current) return;
-        container.dataset.dotvClpWidth = String(current);
-        container.style.setProperty('--dotv-clp-log-width', `${current}px`);
     }
 
     function capVanillaLog(container) {
@@ -1990,11 +2051,17 @@
         });
         if (starts.length <= maxHits) return;
         const cutoff = starts[starts.length - maxHits];
-        rows.slice(0, cutoff).forEach(row => row.remove());
+        rows.slice(0, cutoff).forEach(row => {
+            cappedLogRows.add(row);
+            row.remove();
+        });
     }
 
     function removeEnhancedCard(card) {
-        if (card) card.remove();
+        if (card) {
+            renderedEnhancedHits.delete(card.dataset.dotvClpHitCard);
+            card.remove();
+        }
     }
 
     function capEnhancedLog(container) {
@@ -2009,9 +2076,9 @@
 
     function capDisplayLog(container) {
         if (!container) return;
-        stabilizeLogWidth(container);
         if (!vanillaCapEnabled()) return;
         capVanillaLog(container);
+        syncEnhancedLogRows(container);
         capEnhancedLog(container);
     }
 
@@ -2019,7 +2086,6 @@
         const container = node && node.closest && node.closest(LOG_CONTAINER_SELECTOR);
         if (!container) return;
         capDisplayLog(container);
-        requestAnimationFrame(() => capDisplayLog(container));
     }
 
     function isMagicLineMatch(row, proc) {
@@ -2091,7 +2157,7 @@
     }
 
     function retintHardRaidName(row) {
-        if (!row || !/\bstrikes you for [\d,]+ damage\b/.test(cleanText(row))) return;
+        if (!row || !/\bstrikes you for [\d,.]+ damage\b/.test(cleanText(row))) return;
         const contributor = row.querySelector(':scope > span');
         if (!contributor || !isHardRaidOrange(contributor.style && contributor.style.color)) return;
         contributor.style.color = '#ff7a1a';
@@ -2110,6 +2176,7 @@
     function createEnhancedSection(rowSource, breakdown, title, sectionKind, collapsed) {
         const section = document.createElement('div');
         section.dataset.dotvClpSection = sectionKind;
+        section.dataset.dotvClpSectionKey = `${sectionKind}:${cleanText(rowSource)}`;
         const row = createEnhancedLogRow(rowSource, 'dotv-clp-section-row');
         section.appendChild(row);
         if (!breakdown) return section;
@@ -2143,7 +2210,7 @@
         return clone;
     }
 
-    function buildEnhancedCard(hit, start, rows, rawDetailsOpen = !compactEnabled()) {
+    function buildEnhancedCard(hit, start, rows, rawDetailsOpen = !compactEnabled(), existingCard = null) {
         const damageRow = rows.find(row => isDamageTakenLine(row, hit.damageBreakdown));
         const evadeRow = rows.find(isEvasionLine);
         const damageStart = damageRow || evadeRow;
@@ -2155,7 +2222,8 @@
         const customRows = [];
         const rawDetailRows = [];
 
-        const card = document.createElement('div');
+        const card = existingCard || document.createElement('div');
+        card.replaceChildren();
         card.className = 'dotv-clp-hit-card';
         card.dataset.dotvClpHitCard = hit.id;
 
@@ -2260,9 +2328,7 @@
         document.querySelectorAll('.dotv-clp-hit-card').forEach(card => {
             const data = enhancedCardData.get(card);
             if (!data) return;
-            const replacement = buildEnhancedCard(data.hit, data.start, data.rows, enhancedDetailsOpen(card));
-            enhancedCardData.set(replacement, data);
-            card.replaceWith(replacement);
+            updateEnhancedCard(card, data.hit, data.start, data.rows);
         });
         document.querySelectorAll(LOG_CONTAINER_SELECTOR).forEach(capDisplayLog);
     }
@@ -2272,36 +2338,102 @@
         return Date.now() - lastMutation >= LOG_STABLE_MS;
     }
 
+    function updateEnhancedCard(card, hit, start, rows) {
+        const sectionStates = new Map([...card.querySelectorAll('[data-dotv-clp-section-key]')].map(section => [
+            section.dataset.dotvClpSectionKey, section.querySelector(':scope > .dotv-clp-panel')?.hidden
+        ]));
+        buildEnhancedCard(hit, start, rows, enhancedDetailsOpen(card), card);
+        card.querySelectorAll('[data-dotv-clp-section-key]').forEach(section => {
+            const hidden = sectionStates.get(section.dataset.dotvClpSectionKey);
+            const panel = section.querySelector(':scope > .dotv-clp-panel');
+            if (hidden == null || !panel) return;
+            panel.hidden = hidden;
+            panel.dataset.dotvClpOpen = hidden ? '0' : '1';
+            const toggle = section.querySelector('.dotv-clp-toggle');
+            if (toggle) toggle.textContent = hidden ? '>' : 'v';
+        });
+        return card;
+    }
+
     function renderEnhancedHit(container, hit, start, rows) {
-        if (renderedEnhancedHits.has(hit.id)) return true;
         const log = ensureEnhancedLog(container);
         if (!log) return false;
-
+        const existing = [...log.children].find(card => card.dataset.dotvClpHitCard === hit.id);
+        const signature = [start.innerHTML, ...rows.map(row => row.innerHTML)].join('\u0000');
+        const previous = existing && enhancedCardData.get(existing);
+        if (previous && previous.signature === signature) return true;
         const sourceStart = cloneLogRow(start);
         const sourceRows = rows.map(cloneLogRow);
-        const card = buildEnhancedCard(hit, sourceStart, sourceRows);
-        enhancedCardData.set(card, { hit, start: sourceStart, rows: sourceRows });
-        log.appendChild(card);
-        stabilizeLogWidth(container);
+        const card = existing ? updateEnhancedCard(existing, hit, sourceStart, sourceRows)
+            : buildEnhancedCard(hit, sourceStart, sourceRows);
+        if (!existing) log.appendChild(card);
+        enhancedCardData.set(card, { hit, start: sourceStart, rows: sourceRows, sourceStart: start, signature });
         renderedEnhancedHits.add(hit.id);
         start.dataset.dotvClpHit = hit.id;
         rows.forEach(row => {
             if (!row.dataset.dotvClpHit) row.dataset.dotvClpHit = hit.id;
         });
-        scrollLogToBottom(container);
-        capDisplayLog(container);
         return true;
+    }
+
+    function refreshRenderedHitRows(container) {
+        for (const card of container.querySelectorAll('.dotv-clp-hit-card')) {
+            const data = enhancedCardData.get(card);
+            if (!data || !data.sourceStart || data.sourceStart.parentElement !== container || isIgnoredRawRow(data.sourceStart)) continue;
+            renderEnhancedHit(container, data.hit, data.sourceStart, getHitRows(data.sourceStart, data.hit));
+        }
+    }
+
+    function syncEnhancedLogRows(container) {
+        const log = ensureEnhancedLog(container);
+        if (!log) return;
+        const cards = new Map([...log.children].filter(node => node.dataset.dotvClpHitCard)
+            .map(card => [card.dataset.dotvClpHitCard, card]));
+        const previousStandalone = standaloneRowsByContainer.get(container) || new Map();
+        const nextStandalone = new Map();
+        const ordered = [];
+        const includedHits = new Set();
+        for (const row of baseLogRows(container)) {
+            if (isIgnoredRawRow(row)) continue;
+            const hitId = row.dataset.dotvClpHit;
+            const card = hitId && cards.get(hitId);
+            if (card) {
+                if (!includedHits.has(hitId)) {
+                    includedHits.add(hitId);
+                    ordered.push(card);
+                }
+            } else {
+                const signature = row.innerHTML;
+                let standalone = previousStandalone.get(row);
+                if (!standalone || standalone.signature !== signature) {
+                    standalone = { signature, node: createEnhancedLogRow(row, 'dotv-clp-standalone-row') };
+                }
+                nextStandalone.set(row, standalone);
+                ordered.push(standalone.node);
+            }
+            row.dataset.dotvClpRepresented = '1';
+        }
+        standaloneRowsByContainer.set(container, nextStandalone);
+        const retained = new Set(ordered);
+        for (const node of [...log.children]) {
+            if (!retained.has(node)) node.remove();
+        }
+        let cursor = log.firstElementChild;
+        for (const node of ordered) {
+            if (node === cursor) cursor = cursor.nextElementSibling;
+            else log.insertBefore(node, cursor);
+        }
     }
 
     function applyHit(container, hit) {
         if (!isLogStable(container)) return false;
-        const topRows = baseLogRows(container).slice(-RECENT_LOG_ROW_SCAN);
+        const topRows = baseLogRows(container).filter(row => !isIgnoredRawRow(row)).slice(-RECENT_LOG_ROW_SCAN);
         const start = topRows.find(row => row.dataset.dotvClpHit === hit.id)
             || topRows.find(row => isHitStartLine(row, hit) && !row.dataset.dotvClpHit);
         if (!start) return false;
 
         ensureToolbar(container);
-        const rows = getHitRows(start);
+        const rows = getHitRows(start, hit);
         captureRawRow(start);
         rows.forEach(captureRawRow);
         return renderEnhancedHit(container, hit, start, rows);
@@ -2310,6 +2442,10 @@
     function applyPending() {
         const containers = document.querySelectorAll('.battle-log-container');
         const now = Date.now();
+        const scrollStates = new Map([...containers].map(container => [container, {
+            top: container.scrollTop,
+            atBottom: container.scrollHeight - container.clientHeight - container.scrollTop < 8
+        }]));
 
         ensureToolbar();
         for (let i = 0; i < pendingHits.length; i++) {
@@ -2320,6 +2456,15 @@
                 pendingHits.splice(i, 1);
                 i--;
             }
+        }
+        for (const container of containers) {
+            if (!isLogStable(container)) continue;
+            refreshRenderedHitRows(container);
+            syncEnhancedLogRows(container);
+            capDisplayLog(container);
+            const scroll = scrollStates.get(container);
+            const target = scroll.atBottom ? container.scrollHeight - container.clientHeight : scroll.top;
+            if (container.scrollTop !== Math.max(0, target)) container.scrollTop = Math.max(0, target);
         }
         if (pendingHits.some(hit => !hit.appliedAt) && !applyTimer) scheduleApply(LOG_STABLE_MS);
     }
@@ -2345,54 +2490,71 @@
     }
 
     function directLogRowsFrom(node, container) {
-        if (!isElementNode(node)) return [];
-        const rows = [];
-        if (node.parentElement === container && node.matches('div') && !node.classList.contains('dotv-clp-enhanced-shell')) rows.push(node);
-        node.querySelectorAll?.('div').forEach(child => {
-            if (child.parentElement === container && !child.classList.contains('dotv-clp-enhanced-shell')) rows.push(child);
-        });
-        return rows;
+        let entry = isElementNode(node) ? node : node && node.parentElement;
+        while (entry && entry.parentElement !== container) entry = entry.parentElement;
+        return entry && entry.matches('div') && !entry.classList.contains('dotv-clp-enhanced-shell') ? [entry] : [];
     }
 
     function observeLogContainer(container) {
         if (!container || observedLogContainers.has(container)) return false;
+        if (lastObservedLogContainer && lastObservedLogContainer !== container && !lastObservedLogContainer.isConnected
+            && containerLogGeneration.get(lastObservedLogContainer) === raidLogGeneration) {
+            resetRaidLogState(null, false);
+        }
+        lastObservedLogContainer = container;
+        containerLogGeneration.set(container, raidLogGeneration);
         ensureStyle();
         ensureToolbar(container);
         captureRawLog(container);
         lastLogMutationAt.set(container, 0);
         observedLogContainers.add(container);
-
         new MutationObserver(mutations => {
-            let sawRows = false;
+            const changedRows = new Set();
+            let removedRows = false;
             for (const mutation of mutations) {
+                directLogRowsFrom(mutation.target, container).forEach(row => changedRows.add(row));
                 for (const node of mutation.addedNodes) {
-                    const rows = directLogRowsFrom(node, container);
-                    for (const row of rows) {
-                        sawRows = true;
-                        captureRawRow(row);
+                    directLogRowsFrom(node, container).forEach(row => changedRows.add(row));
+                }
+                if (mutation.target === container) {
+                    for (const node of mutation.removedNodes) {
+                        if (isElementNode(node) && node.matches('div') && !node.classList.contains('dotv-clp-enhanced-shell') && !cappedLogRows.has(node)) {
+                            removedRows = true;
+                        }
                     }
                 }
             }
-            if (sawRows) {
-                lastLogMutationAt.set(container, Date.now());
-                if (pendingHits.length) scheduleApply(LOG_STABLE_MS);
-                setTimeout(() => capDisplayLog(container), LOG_STABLE_MS + 20);
+            if (removedRows && containerLogGeneration.get(container) === raidLogGeneration
+                && !baseLogRows(container).some(row => rawCapturedRows.has(row) && !isIgnoredRawRow(row))) {
+                resetRaidLogState(null, false);
             }
-        }).observe(container, { childList: true });
+            if (changedRows.size || removedRows) {
+                containerLogGeneration.set(container, raidLogGeneration);
+                changedRows.forEach(captureRawRow);
+                lastLogMutationAt.set(container, Date.now());
+                scheduleApply(LOG_STABLE_MS);
+            }
+        }).observe(container, { childList: true, subtree: true, characterData: true });
+        scheduleApply(LOG_STABLE_MS);
         return true;
     }
 
     function observeKnownLogs() {
         let added = false;
-        document.querySelectorAll(LOG_CONTAINER_SELECTOR).forEach(container => {
+        const containers = document.querySelectorAll(LOG_CONTAINER_SELECTOR);
+        if (!containers.length && lastObservedLogContainer && !lastObservedLogContainer.isConnected) {
+            if (containerLogGeneration.get(lastObservedLogContainer) === raidLogGeneration) resetRaidLogState(null, false);
+            lastObservedLogContainer = null;
+        }
+        containers.forEach(container => {
             added = observeLogContainer(container) || added;
         });
         return added;
     }
 
-    function mutationAddedTarget(mutations, selector) {
+    function mutationAddedTarget(mutations, selector, nodesKey = 'addedNodes') {
         for (const mutation of mutations) {
-            for (const node of mutation.addedNodes) {
+            for (const node of mutation[nodesKey]) {
                 if (!isElementNode(node)) continue;
                 if (node.matches(selector) || node.querySelector?.(selector)) return true;
             }
@@ -2421,7 +2583,8 @@
         }
         observeKnownLogs();
         new MutationObserver(mutations => {
-            if (mutationAddedTarget(mutations, LOG_CONTAINER_SELECTOR) || mutationAddedTarget(mutations, '.battlelog-controls')) {
+            if (mutationAddedTarget(mutations, LOG_CONTAINER_SELECTOR) || mutationAddedTarget(mutations, '.battlelog-controls')
+                || mutationAddedTarget(mutations, LOG_CONTAINER_SELECTOR, 'removedNodes')) {
                 scheduleKnownLogCheck();
             }
         }).observe(document.body, {
@@ -2436,14 +2599,42 @@
 
         function CombatLogPlusXMLHttpRequest() {
             const xhr = new NativeXHR();
+            const nativeOpen = xhr.open;
+            const nativeSend = xhr.send;
+            let requestUrl = '';
+            let requestBody = null;
+            let raidLogToken = null;
+
+            xhr.open = function (method, url, ...args) {
+                const result = nativeOpen.call(this, method, url, ...args);
+                requestUrl = String(url || '');
+                requestBody = null;
+                raidLogToken = null;
+                return result;
+            };
+
+            xhr.send = function (body) {
+                try {
+                    requestBody = parseRequestBody(body);
+                    const path = getPath(requestUrl);
+                    if (path === ATTACK_PATH || path === RAID_ABILITY_PATH) {
+                        const request = getAttackRequestInfo(null, requestBody);
+                        raidLogToken = syncRaidLogContext(request.raidId);
+                    }
+                } catch (error) {
+                    console.warn(`[${SCRIPT}] failed to capture request context`, error);
+                }
+                return nativeSend.call(this, body);
+            };
 
             xhr.addEventListener('load', function () {
                 try {
-                    const url = this.responseURL || '';
+                    const url = this.responseURL || requestUrl;
                     if (!shouldInspectUrl(url)) return;
+                    if (raidLogToken != null && !isRaidLogContextCurrent(raidLogToken)) return;
 
-                    const data = JSON.parse(this.responseText);
-                    handleResponse(url, data, null);
+                    const data = this.responseType === 'json' ? this.response : JSON.parse(this.responseText);
+                    handleResponse(url, data, requestBody);
                 } catch { }
             });
 
