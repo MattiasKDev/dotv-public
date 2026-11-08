@@ -186,6 +186,13 @@
     ],
     "locationText": "Attentive Perception drop."
   },
+  "a.patron-of-saint-kaya": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "a.viscous-herbalist": {
     "obtainable": true,
     "tags": [
@@ -205,6 +212,13 @@
     "tags": [],
     "locationText": ""
   },
+  "a.knight-of-saint-kaya": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 8 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.reodai-helm": {
     "obtainable": true,
     "tags": [
@@ -220,7 +234,7 @@
     "locationText": "Dropped from Mirgoda on legendary difficulty."
   },
   "e.orobizen-treasurekeeper-boots": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -508,6 +522,15 @@
       "cash-purchase"
     ],
     "locationText": "Available as a cash purchase starter pack."
+  },
+  "e.bartelbys-scribbles-pantaloons": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 3 Bartelby's Quill.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
   },
   "e.kanitsume-claws": {
     "obtainable": true,
@@ -978,6 +1001,15 @@
     ],
     "locationText": "From Yellow-Green Repentant Dusk Chest, crafted from 10 Grey Repenting Dusk Token - Hrysvalgur, Easy.\nFrom Yellow-Green Repentant Dusk Chest, which is purchased from the market (limited-time / repentant-dusk) for 10 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
+  "e.bartelbys-decoder": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 10 Bartelby's Quill.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
+  },
   "e.snowdrake-slaughterer-pants": {
     "obtainable": true,
     "tags": [
@@ -1068,7 +1100,7 @@
     "locationText": "Dropped from Demon Chaosoldier on legendary difficulty."
   },
   "a.sandsailor-serpent": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -1542,6 +1574,13 @@
     ],
     "locationText": "Crafted from 20 Laurentian Bat Wing - Lord Kaspar Laurent, all difficulties."
   },
+  "a.sar-forrelin": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "a.ailmar-perjeon": {
     "obtainable": true,
     "tags": [
@@ -1641,6 +1680,14 @@
       "recipe"
     ],
     "locationText": "Crafted from:\n- 1 Red Repentant Dusk Mark\n- 1 Orange Repentant Dusk Mark\n- 1 Green Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark"
+  },
+  "e.bartelbys-crutch": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from 1 Bartelby's Inkwell.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
   },
   "e.snowdrake-slayer-boots": {
     "obtainable": true,
@@ -1794,7 +1841,7 @@
     "locationText": "Previously available in the market (limited-time / friskfingers-set)."
   },
   "e.orobizen-treasurekeeper-staff": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -2239,6 +2286,13 @@
     ],
     "locationText": "Dropped from Jagar the Red in Z3 Segment 4 on Legendary."
   },
+  "e.uquyuqs-qarliik": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "a.vranda-stadium-manager": {
     "obtainable": false,
     "tags": [],
@@ -2668,7 +2722,7 @@
     "locationText": "First clear reward from Z4 Segment 1 on Easy."
   },
   "c.bleached-desert-skull": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -2711,7 +2765,7 @@
     "locationText": "Crafted from:\n- 1 Swiftslicer Pants - crafted from 15 Mounting Blades (Frigidara, Legendary), 15 Thick-bound Cloth (Frigidara, Legendary), 15 Leather Straps (Frigidara, Legendary), and 15 Lightmail (Frigidara, Legendary)\n- 18 Swiftburn Globe - Frigidara, Legendary\n- 18 Mounting Blades - Frigidara, Legendary\n- 18 Thick-bound Cloth - Frigidara, Legendary\n- 18 Leather Straps - Frigidara, Legendary\n- 18 Lightmail - Frigidara, Legendary"
   },
   "e.one-of-the-rings": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -2794,7 +2848,7 @@
     "locationText": "Crafted at Guild Alchemist Level VIII+ from:\n- 1 Dromaeon Helm - Available at Guild Market (Level 8+ for 240 Guild Coin)\n- 2 Lesser Ranged Token - Purchased from Guild Alchemist (Guild Alchemist VI) for 375 Guild Coin"
   },
   "e.lushleaf-pants": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -3262,6 +3316,14 @@
     ],
     "locationText": "Crafted at Guild Alchemist Level IV+ from:\n- 1 Crestaceo Pants - Available at Guild Market (Level 3+ for 550 Crowns)\n- 2 Lesser Tank Token - Purchased from Guild Alchemist (Guild Alchemist IV) for 250 Guild Coin"
   },
+  "e.bartelbys-primary-quill": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from 1 Bartelby's Inkwell.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
+  },
   "u.copper-swiftness-tonic": {
     "obtainable": false,
     "tags": [
@@ -3513,7 +3575,7 @@
     "locationText": ""
   },
   "e.tower-treasureseeker-ring": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -3528,7 +3590,7 @@
       "guild raid",
       "limited raids"
     ],
-    "locationText": "Dropped from various guild raids on all difficulties. From Mystery Guild Kit II, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Mystery Guild Kit IV.\n\nFrom Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Green Hoarded Treasure Sack, crafted from:\n- 1 Red Unrefined Stone - Tower Mimic, Hard\n- 1 each of Orange/Yellow Unrefined Stone - Dragon's Hoard, Hard\n- 1 Green Unrefined Stone\n- 1 Blue Unrefined Stone - Giant Sandswimmer, Hard\n- 1 Indigo Unrefined Stone - Giant Sandswimmer, Hard\n\nFrom Guild Purse III.\n\nFrom Blue Hoarded Treasure Sack, crafted from:\n- 1 each of Red/Orange Scintillating Beryl - Tower Mimic, Legendary\n- 1 each of Yellow/Green Scintillating Beryl - Dragon's Hoard, Legendary\n- 1 each of Blue/Indigo Scintillating Beryl - Giant Sandswimmer, Legendary\n\nFrom Mystery Guild Kit I, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Mystery Guild Kit V.\n\nFrom Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\n\nFrom Red Hoarded Treasure Sack, crafted from:\n- 1 each of Red/Orange Bleeding Geode - Tower Mimic, Easy\n- 1 each of Yellow/Green Bleeding Geode - Dragon's Hoard, Easy\n- 1 each of Blue/Indigo Bleeding Geode - Giant Sandswimmer, Easy\n\nFrom Guild Purse IV.\n\nFrom Guild Purse I, which is from Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Guild Purse I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Guild Purse I, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Guild Purse II, which is from Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Guild Purse II, which is dropped from Vurdith the Green on legendary difficulty.\n\nDropped from Vurdith the Green on legendary difficulty.\n\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 50,000,000,000 personal damage and 1,500,000,000,000 guild community damage).\n\n"
+    "locationText": "Dropped from various guild raids on all difficulties. From Mystery Guild Kit II, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Mystery Guild Kit IV.\n\nFrom Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Green Hoarded Treasure Sack, crafted from:\n- 1 Red Unrefined Stone - Tower Mimic, Hard\n- 1 each of Orange/Yellow Unrefined Stone - Dragon's Hoard, Hard\n- 1 Green Unrefined Stone\n- 1 Blue Unrefined Stone - Giant Sandswimmer, Hard\n- 1 Indigo Unrefined Stone - Giant Sandswimmer, Hard\n\nFrom Guild Purse III.\n\nFrom Blue Hoarded Treasure Sack, crafted from:\n- 1 each of Red/Orange Scintillating Beryl - Tower Mimic, Legendary\n- 1 each of Yellow/Green Scintillating Beryl - Dragon's Hoard, Legendary\n- 1 each of Blue/Indigo Scintillating Beryl - Giant Sandswimmer, Legendary\n\nFrom Mystery Guild Kit I, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Mystery Guild Kit V.\n\nFrom Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\n\nFrom Red Hoarded Treasure Sack, crafted from:\n- 1 each of Red/Orange Bleeding Geode - Tower Mimic, Easy\n- 1 each of Yellow/Green Bleeding Geode - Dragon's Hoard, Easy\n- 1 each of Blue/Indigo Bleeding Geode - Giant Sandswimmer, Easy\n\nFrom Guild Purse IV.\n\nFrom Guild Purse I, which is from Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Guild Purse I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Guild Purse I, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Guild Purse II, which is from Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Guild Purse II, which is dropped from Vurdith the Green on legendary difficulty.\n\nDropped from Vurdith the Green on legendary difficulty.\n\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 50,000,000,000 personal damage and 1,500,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 3,000,000,000 personal damage and 60,000,000,000 guild community damage)."
   },
   "c.forgiving-feather": {
     "obtainable": true,
@@ -3593,6 +3655,13 @@
       "limited-time"
     ],
     "locationText": "Purchased from the market (limited-time / jiggers-set) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
+  "e.saint-kayas-gauntlets": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "ru.algigebo-rune-2": {
     "obtainable": true,
@@ -3897,7 +3966,7 @@
     "locationText": "Crafted from:\n- 40 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 35 Stormchimes - Fulgure the Storm, Legendary\n- 60 Stormstruck Ore - Fulgure the Storm, Legendary\n- 48 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n- 1 Grounding Loop - Fulgure the Storm, Legendary"
   },
   "e.strongarm-beasthunters-blast": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -3982,7 +4051,7 @@
     "locationText": "Attentive Perception drop."
   },
   "e.lushleaf-helm": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -4255,7 +4324,7 @@
     "locationText": "Crafted from 320 each of Red/Orange/Yellow/Green/Blue/Indigo Map Fragment - Marauding Mercenaries, Legendary."
   },
   "e.ereks-plate": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -4270,7 +4339,7 @@
     "locationText": "Crafted from:\n- 1 Red Chaosoldier Hide - Demon Chaosoldier, Legendary\n- 1 Green Chaosoldier Hide - Demon Chaosoldier, Z5 Segment 2, Legendary\n- 1 Blue Chaosoldier Hide - Demon Chaosoldier, Legendary\n- 1 Violet Chaosoldier Hide - Demon Chaosoldier, Legendary"
   },
   "c.red-unrefined-stone": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -4355,7 +4424,7 @@
     "locationText": "Dropped from Elven Rangers on hard difficulty."
   },
   "c.red-bleeding-geode": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -4725,6 +4794,13 @@
     ],
     "locationText": "Dropped from Burnet Pixies on all difficulties."
   },
+  "e.uquyuqs-hood": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.scaled-hood": {
     "obtainable": true,
     "tags": [
@@ -4979,7 +5055,7 @@
     "locationText": "Dropped from Xarbruutu in Z5 Segment 5 on Legendary."
   },
   "c.violet-quartz-crystal": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -5430,6 +5506,15 @@
     "tags": [],
     "locationText": ""
   },
+  "e.bartelbys-scribbles-shoes": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 3 Bartelby's Quill.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
+  },
   "e.nyxifur-ring": {
     "obtainable": true,
     "tags": [
@@ -5579,6 +5664,15 @@
     ],
     "locationText": "Previously available in the market (limited-time / morassma-set)."
   },
+  "e.bartelbys-donkey": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 10 Bartelby's Quill.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
+  },
   "a.vigil-defender": {
     "obtainable": true,
     "tags": [
@@ -5659,7 +5753,7 @@
     "locationText": "Dropped from Xoggen in Z6 Segment 1 on Easy."
   },
   "c.copper-hoarded-ingot": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -5871,6 +5965,13 @@
     ],
     "locationText": "From Knight's Bounty, which is purchased from the Achievement Market (knight / bag) for 4000 Achievement Points (Requires: Z1 Segment 1 on Easy).\nPurchased from the Achievement Market (knight / direct-purchase) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy, Knight's Bounty)."
   },
+  "e.uquyuqs-kamiit": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.granite-blessers-visor": {
     "obtainable": true,
     "tags": [
@@ -6064,7 +6165,7 @@
     "locationText": "Purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA)."
   },
   "c.yellow-scintillating-beryl": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -6199,7 +6300,7 @@
     "locationText": "From Noble's Appreciation, which is purchased from the Achievement Market (noble / bag) for 12000 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
   "e.orobizen-treasurekeeper-spear": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -6229,7 +6330,7 @@
     "locationText": "Dropped from Grootslang in Z5 Segment 3 on Legendary."
   },
   "e.sandsailors-rags-shirt": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -6483,7 +6584,7 @@
     "locationText": "Dropped from Naga Naavik on easy difficulty.\nDropped from Maroon Cannoneers on easy difficulty."
   },
   "c.blue-zircon-gemstone": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -6702,8 +6803,11 @@
   },
   "c.alchemical-coals": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "raid",
+      "tech-tree"
+    ],
+    "locationText": "On-hit drop from Xoggen on Hard and Legendary (Keen Eye)."
   },
   "c.myksor-frostmane-boost-i": {
     "obtainable": true,
@@ -6813,7 +6917,7 @@
       "limited raids",
       "recipe"
     ],
-    "locationText": "Dropped from various guild raids on all difficulties. From Desolator's Spoils, which is crafted from 15 Prismatic Relic (Crafted from 6 Prismatic Relic (Dropped from Cladavian the Desolator on easy difficulty)).\n\nFrom Green Hoarded Treasure Sack, crafted from:\n- 1 Red Unrefined Stone - Tower Mimic, Hard\n- 1 each of Orange/Yellow Unrefined Stone - Dragon's Hoard, Hard\n- 1 Green Unrefined Stone\n- 1 Blue Unrefined Stone - Giant Sandswimmer, Hard\n- 1 Indigo Unrefined Stone - Giant Sandswimmer, Hard\n\nFrom Guild Purse III.\n\nFrom Blue Hoarded Treasure Sack, crafted from:\n- 1 each of Red/Orange Scintillating Beryl - Tower Mimic, Legendary\n- 1 each of Yellow/Green Scintillating Beryl - Dragon's Hoard, Legendary\n- 1 each of Blue/Indigo Scintillating Beryl - Giant Sandswimmer, Legendary\n\nFrom Red Hoarded Treasure Sack, crafted from:\n- 1 each of Red/Orange Bleeding Geode - Tower Mimic, Easy\n- 1 each of Yellow/Green Bleeding Geode - Dragon's Hoard, Easy\n- 1 each of Blue/Indigo Bleeding Geode - Giant Sandswimmer, Easy\n\nFrom Guild Purse IV.\n\nFrom Guild Purse I, which is from Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Guild Purse I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Guild Purse I, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Guild Purse II, which is from Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Guild Purse II, which is dropped from Vurdith the Green on legendary difficulty.\n\nCrafted from:\n- 140 Grave Replugger - Gargouille Sentry, Easy\n- 100 Perpetual Watchman - Gargouille Sentry, Hard\n- 70 Darkveil Retriever - Gargouille Sentry, Legendary\n\nCrafted from:\n- 6000 Ghoul Wrappings ()\n- 80 Orc Graveseeker - Shambling Ghoul, Easy\n- 50 Gravanguard Initiate - Shambling Ghoul, Hard\n- 40 Orcen Necromender - Shambling Ghoul, Legendary\n\nCrafted from:\n- 120 Vanhel Vanguard - Lord Kaspar Laurent, Easy\n- 100 Vanhel Firetosser - Lord Kaspar Laurent, Hard\n- 80 Vanhel Cleric - Lord Kaspar Laurent, Legendary\n\nDropped from Cladavian the Desolator on easy difficulty.\n\nDropped from Vurdith the Green on legendary difficulty.\n\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 50,000,000,000 personal damage and 1,500,000,000,000 guild community damage).\n\n"
+    "locationText": "Dropped from various guild raids on all difficulties. From Desolator's Spoils, which is crafted from 15 Prismatic Relic (Crafted from 6 Prismatic Relic (Dropped from Cladavian the Desolator on easy difficulty)).\n\nFrom Green Hoarded Treasure Sack, crafted from:\n- 1 Red Unrefined Stone - Tower Mimic, Hard\n- 1 each of Orange/Yellow Unrefined Stone - Dragon's Hoard, Hard\n- 1 Green Unrefined Stone\n- 1 Blue Unrefined Stone - Giant Sandswimmer, Hard\n- 1 Indigo Unrefined Stone - Giant Sandswimmer, Hard\n\nFrom Guild Purse III.\n\nFrom Blue Hoarded Treasure Sack, crafted from:\n- 1 each of Red/Orange Scintillating Beryl - Tower Mimic, Legendary\n- 1 each of Yellow/Green Scintillating Beryl - Dragon's Hoard, Legendary\n- 1 each of Blue/Indigo Scintillating Beryl - Giant Sandswimmer, Legendary\n\nFrom Red Hoarded Treasure Sack, crafted from:\n- 1 each of Red/Orange Bleeding Geode - Tower Mimic, Easy\n- 1 each of Yellow/Green Bleeding Geode - Dragon's Hoard, Easy\n- 1 each of Blue/Indigo Bleeding Geode - Giant Sandswimmer, Easy\n\nFrom Guild Purse IV.\n\nFrom Guild Purse I, which is from Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Guild Purse I, which is from Blue Daily Chest, which is daily login reward (days 21-25).\n\nFrom Guild Purse I, which is dropped from Vurdith the Green on legendary difficulty.\n\nFrom Guild Purse II, which is from Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\n\nFrom Guild Purse II, which is dropped from Vurdith the Green on legendary difficulty.\n\nCrafted from:\n- 140 Grave Replugger - Gargouille Sentry, Easy\n- 100 Perpetual Watchman - Gargouille Sentry, Hard\n- 70 Darkveil Retriever - Gargouille Sentry, Legendary\n\nCrafted from:\n- 6000 Ghoul Wrappings ()\n- 80 Orc Graveseeker - Shambling Ghoul, Easy\n- 50 Gravanguard Initiate - Shambling Ghoul, Hard\n- 40 Orcen Necromender - Shambling Ghoul, Legendary\n\nCrafted from:\n- 120 Vanhel Vanguard - Lord Kaspar Laurent, Easy\n- 100 Vanhel Firetosser - Lord Kaspar Laurent, Hard\n- 80 Vanhel Cleric - Lord Kaspar Laurent, Legendary\n\nDropped from Cladavian the Desolator on easy difficulty.\n\nDropped from Vurdith the Green on legendary difficulty.\n\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 25,000,000,000 personal damage and 500,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 50,000,000,000 personal damage and 1,500,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 500,000,000 personal damage and 25,000,000,000 guild community damage).\n\nGuild tier reward from Vurdith the Green on Legendary (requires 3,000,000,000 personal damage and 60,000,000,000 guild community damage)."
   },
   "c.metallic-mantid-claws": {
     "obtainable": true,
@@ -7299,6 +7403,15 @@
     ],
     "locationText": "Dropped from Naga Risaldar on easy difficulty.\nPurchased from the market (equipment / armor) for 50 Crowns (Requires: Z3 Segment 3 on Easy)."
   },
+  "e.bartelbys-scribbles-cowl": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 3 Bartelby's Quill.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
+  },
   "u.red-camp-supplies": {
     "obtainable": true,
     "tags": [
@@ -7415,6 +7528,15 @@
     ],
     "locationText": "From Peasant's Offering, which is purchased from the Achievement Market (peasant / bag) for 250 Achievement Points (Requires: Z1 Segment 1 on Easy)."
   },
+  "a.bartelbys-turkey": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 22 Bartelby's Quill.\nCrafted from 4 Bartelby's Quill.\nCrafted from 1 Bartelby's Quill.\nCrafted from 35 Bartelby's Quill."
+  },
   "a.glaciver-frost": {
     "obtainable": true,
     "tags": [
@@ -7503,7 +7625,7 @@
     "locationText": "Dropped from Marauding Mercenaries on legendary difficulty."
   },
   "c.indigo-bleeding-geode": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -7525,7 +7647,7 @@
     "locationText": "Crafted from:\n- 1 Yotinpekew Seekahikanis - crafted from 14 Stormstruck Seedpod (Fulgure the Storm, Legendary), 8 Stormchimes (Fulgure the Storm, Legendary), 20 Stormstruck Ore (Fulgure the Storm, Legendary), 8 Fulgure Tooth (Fulgure the Storm, Legendary), and 1 Bolting Bracelet (Fulgure the Storm, Legendary)\n- 25 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 12 Stormchimes - Fulgure the Storm, Legendary\n- 1 Stormspike - Fulgure the Storm, Legendary"
   },
   "c.hoarded-sack-of-blue-gems": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -7539,7 +7661,7 @@
     "locationText": "Dropped from Demon Chaosoldier on easy difficulty."
   },
   "e.tower-treasureseeker-hat": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -7661,6 +7783,13 @@
       "class"
     ],
     "locationText": "Given with the Minstrel Class."
+  },
+  "e.uquyuqs-nanuk": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 24 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.stoneworkers-mail-pants": {
     "obtainable": true,
@@ -7869,7 +7998,7 @@
     "locationText": "Crafted from:\n- 1 Chased the Storm II\n- 32 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 20 Stormchimes - Fulgure the Storm, Legendary\n- 40 Stormstruck Ore - Fulgure the Storm, Legendary\n- 36 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Grounding Loop - Fulgure the Storm, Legendary\n\nCrafted from 4 Stormstruck Seedpod - Fulgure the Storm, Legendary.\n\nCrafted from:\n- 3 Stormstruck Ore - Fulgure the Storm, Legendary\n- 1 Fulgure Tooth - Fulgure the Storm, Legendary\n\nCrafted from:\n- 1 Chased the Storm I - Fulgure the Storm, Legendary\n- 24 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 15 Stormchimes - Fulgure the Storm, Legendary\n- 1 Boltstone - Fulgure the Storm, Legendary\n\nDropped from Fulgure the Storm on legendary difficulty.\n\nCommunity tier reward from Fulgure the Storm on Legendary (requires 50,000,000 personal damage and 100,000,000,000 community damage).\n\nCommunity tier reward from Fulgure the Storm on Legendary (requires 400,000,000 personal damage and 750,000,000,000 community damage)."
   },
   "c.red-scintillating-beryl": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -8212,7 +8341,7 @@
     "locationText": "Dropped from Lesser Tree Ent on legendary difficulty."
   },
   "e.sandsailors-rags-pants": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -8299,7 +8428,7 @@
     "locationText": "Purchased from the market (limited-time / baron-aureus-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.ereks-guard": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -8749,14 +8878,14 @@
     "locationText": "Crafted from 16 Elderberry Bushel - Attentive Perception drop."
   },
   "c.ashen-desert-skull": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
     "locationText": "Dropped from Giant Sandswimmer on legendary difficulty."
   },
   "e.sandsailors-rags-gloves": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -9154,7 +9283,7 @@
     "locationText": "Given with the Sage Class."
   },
   "e.tower-treasureseeker-crossbow": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -9177,7 +9306,7 @@
     "locationText": "From Lost Pouch, which is first clear reward from Z1 Segment 1 Boss (Lesser Tree Ent) on Easy."
   },
   "c.gold-tower-chestkey": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -9212,7 +9341,7 @@
     "locationText": "Purchased from the market (limited-time / rimeshatter-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "u.green-hoarded-treasure-sack": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -9324,6 +9453,13 @@
     ],
     "locationText": "Crafted from:\n- 1 Snowdrake Slayer Chest - Frigidara, Legendary\n- 1 Snowdrake's Sleet Cinders - Community tier reward from Frigidara on Legendary (requires 60,000,000,000 personal damage and 5,000,000,000,000 community damage)\n- 25 each of Yellow/Green Frigidara Defence Banner - Frigidara, Legendary"
   },
+  "e.saint-kayas-darts": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.herb-hewing-potion": {
     "obtainable": true,
     "tags": [
@@ -9347,7 +9483,7 @@
     "locationText": "Given with the Hierophant Class."
   },
   "c.blue-unrefined-stone": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -9404,7 +9540,7 @@
     "locationText": "Previously available in the market (limited-time / veedsamin-trainees-set)."
   },
   "c.green-bleeding-geode": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -9500,7 +9636,7 @@
     "locationText": "Given with the Illustrious Warmage Class."
   },
   "e.strongarm-beasthunters-whip": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -9661,6 +9797,15 @@
     ],
     "locationText": "Dropped from Rock Grubs on easy difficulty."
   },
+  "e.bartelbys-scribbles-shirt": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 3 Bartelby's Quill.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
+  },
   "u.yellow-gipantan-troop-draft-poster": {
     "obtainable": true,
     "tags": [
@@ -9720,6 +9865,15 @@
       "cash-purchase"
     ],
     "locationText": "From Fighter Starter Pack I, which is available as a cash purchase starter pack.\nFrom Ranger Starter Pack I, which is available as a cash purchase starter pack."
+  },
+  "a.ashera-iarlynn": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Ashera Chest, crafted from 60 Ashera Iarlynn - Purchased from the market (limited-time / premium-content) for 40 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 60 Ashera Iarlynn - Purchased from the market (limited-time / premium-content) for 40 Void Crystals (Requires: Z1 Segment 1 on Easy).\nPurchased from the market (limited-time / premium-content) for 40 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.reverent-titanslayer-breastplate": {
     "obtainable": true,
@@ -9789,7 +9943,7 @@
     "locationText": "First clear reward from Z3 Segment 2 on Easy."
   },
   "c.blue-quartz-crystal": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -9840,7 +9994,7 @@
     "locationText": "Dropped from Fungal Fiend on hard and legendary difficulties."
   },
   "c.blue-scintillating-beryl": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -9907,6 +10061,13 @@
     ],
     "locationText": "Crafted from:\n- 1 Orange Repentant Dusk Mark\n- 1 Yellow Repentant Dusk Mark\n- 1 Blue Repentant Dusk Mark\n- 1 Indigo Repentant Dusk Mark\n\nPreviously available in the market (limited-time / repentant-dusk-set)."
   },
+  "e.uquyuqs-ice": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.fishers-celebratory-satchel": {
     "obtainable": true,
     "tags": [
@@ -9955,6 +10116,13 @@
       "limited raids"
     ],
     "locationText": "Dropped from Aufling on legendary difficulty.\nCommunity tier reward from Aufling on Legendary (requires 50,000,000,000 personal damage and 6,000,000,000,000 community damage)."
+  },
+  "e.uquyuqs-spear": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "u.transmuted-greater-evasion-potion": {
     "obtainable": true,
@@ -10313,6 +10481,14 @@
     ],
     "locationText": "Purchased from the market (equipment / armor) for 400 Crowns (Requires: Z5 Segment 4 on Easy)."
   },
+  "c.bartelbys-inkwell": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "cp.ranger-starter-pack-i": {
     "obtainable": true,
     "tags": [
@@ -10382,7 +10558,7 @@
     "locationText": "Dropped from Maroon Cannoneers on legendary difficulty."
   },
   "c.yellow-zircon-gemstone": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -10441,6 +10617,14 @@
       "quest"
     ],
     "locationText": "Dropped from Mirgoda in Z6 Segment 5 on Legendary."
+  },
+  "c.bartelbys-quill": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.marduks-contemplation": {
     "obtainable": true,
@@ -10573,7 +10757,7 @@
     "locationText": "Previously available in the market (limited-time / waveblessed-set)."
   },
   "e.strongarm-beasthunters-shield": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -11537,7 +11721,7 @@
     "locationText": "Given with the Barbarian Class."
   },
   "a.krumnar-starkhold": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -11573,6 +11757,13 @@
       "raid"
     ],
     "locationText": "Dropped from Lesser Tree Ent on legendary difficulty."
+  },
+  "e.saint-kayas-chestpiece": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "u.script-of-cure-light-exhaustion": {
     "obtainable": true,
@@ -11665,7 +11856,7 @@
     "locationText": "Dropped from Sentry Ghoul in Z4 Segment 2 on Legendary."
   },
   "e.sandsailors-rags-sandsailor": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -11708,6 +11899,13 @@
       "guild-purchase"
     ],
     "locationText": "Available at Guild Market (Level 13+ for 2000 Guild Coin)."
+  },
+  "e.saint-kayas-wand": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "c.blue-elven-cap": {
     "obtainable": true,
@@ -12495,7 +12693,7 @@
     "locationText": "From Indigo Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Red Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Orange Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Yellow Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Blue Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nFrom Green Camp Supplies, which is from Mystery Camp Supplies, which is from Blue Daily Chest, which is daily login reward (days 21-25).\nPurchased from Practice Yard (Level I+) for 80 Crowns.\nPurchased from Practice Yard (Level V+) for 160 Crowns (2 per purchase).\nPurchased from Practice Yard (Level V+) for 80 Crowns (2 per purchase).\nPurchased from Practice Yard (Level VI+) for 80 Crowns (3 per purchase).\nPurchased from Practice Yard (Level VII+) for 240 Crowns (3 per purchase).\nPurchased from Practice Yard (Level VII+) for 80 Crowns (4 per purchase).\nPurchased from Practice Yard (Level IX+) for 320 Crowns (4 per purchase).\nPurchased from Practice Yard (Level X+) for 80 Crowns (10 per purchase)."
   },
   "a.wrehim-of-the-orobizen": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -12574,7 +12772,7 @@
     "locationText": "Previously available in the market (limited-time / vyldas-supplicant-set)."
   },
   "c.orange-bleeding-geode": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -12845,6 +13043,13 @@
     ],
     "locationText": "Crafted from:\n- 18 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 7 Stormchimes - Fulgure the Storm, Legendary\n- 16 Stormstruck Ore - Fulgure the Storm, Legendary\n- 7 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Thunderstruck Frog - Fulgure the Storm, Legendary"
   },
+  "e.uquyuqs-pualuuk": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.warmage-starter-pack-i": {
     "obtainable": true,
     "tags": [
@@ -12910,7 +13115,7 @@
     "locationText": "Dropped from Frenzied Fae Flock in Z5p1 Segment 1 on Easy."
   },
   "c.violet-hoarded-chest": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -13030,7 +13235,7 @@
     "locationText": ""
   },
   "c.silver-tower-chestkey": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -13167,7 +13372,7 @@
     "locationText": "Crafted from:\n- 1 Byhew Helm - Judah Jingse, Legendary\n- 6 Jingse Grub - Judah Jingse, Legendary\n- 1 Gold-Silked Chrysalis - Judah Jingse, Legendary"
   },
   "c.red-zircon-gemstone": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -13233,7 +13438,7 @@
     "locationText": "Dropped from Giant Bombeetle on easy difficulty.\nDropped from Grootslang on easy difficulty."
   },
   "c.indigo-unrefined-stone": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -13259,6 +13464,13 @@
       "cash-purchase"
     ],
     "locationText": "Available as a cash purchase starter pack."
+  },
+  "e.saint-kayas-cuisses": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.ranging-scouts-pants": {
     "obtainable": true,
@@ -13320,8 +13532,11 @@
   },
   "a.shem": {
     "obtainable": true,
-    "tags": [],
-    "locationText": ""
+    "tags": [
+      "quest",
+      "tech-tree"
+    ],
+    "locationText": "Professional Recruiter 13 reward from Z6 Segment 4 Node 3 on Legendary."
   },
   "u.orange-guild-kit-i": {
     "obtainable": true,
@@ -13348,7 +13563,7 @@
     "locationText": "From Chest of Exalted Heroes I, crafted from 400 Void Ticket.\nPreviously available in the market (premium content)."
   },
   "e.orobizen-treasurekeeper-breastplate": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -13413,7 +13628,7 @@
     "locationText": "Dropped from Naga Risaldar on hard difficulty.\nDropped from Superior Watcher on hard difficulty."
   },
   "e.tower-treasureseeker-rod": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -13541,7 +13756,7 @@
     "locationText": "Crafted at Guild Alchemist Level XI+ from:\n- 1 Arena Selkie - Available at Guild Market (Level 11+ for 1500 Crowns)\n- 1 Greater Healer Token - Purchased from Guild Alchemist (Guild Alchemist X) for 1000 Guild Coin\n- 1 Greater Support Token"
   },
   "c.red-hoarded-chest": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -13662,6 +13877,14 @@
       "recipe"
     ],
     "locationText": "From Sepulcher Strongbox, which was previously available in the market (limited-time / sepulcher-strongbox).\nCrafted from 7 Sepulcher Relic.\nPreviously available in the market (limited-time)."
+  },
+  "u.ashera-chest": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from 60 Ashera Iarlynn - Purchased from the market (limited-time / premium-content) for 40 Void Crystals (Requires: Z1 Segment 1 on Easy).\nPurchased from the market (limited-time / premium-content) for 200 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "u.script-of-sacred-embers": {
     "obtainable": true,
@@ -14120,6 +14343,13 @@
     ],
     "locationText": "Previously available in the market (limited-time / jiggers-delight-set)."
   },
+  "e.uquyuqs-javelin": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "c.blue-fae-candle": {
     "obtainable": false,
     "tags": [
@@ -14294,10 +14524,10 @@
       "guild raid",
       "limited raids"
     ],
-    "locationText": "Dropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage)."
+    "locationText": "Dropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 100,000,000 personal damage and 5,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 500,000,000 personal damage and 25,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 3,000,000,000 personal damage and 60,000,000,000 guild community damage)."
   },
   "c.orange-scintillating-beryl": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -14519,7 +14749,7 @@
     "locationText": "Hidden loot from Basiliscus on Hard (Secret Keeper II).\nHidden loot from Basiliscus on Legendary (Secret Keeper III)."
   },
   "a.strongarm-beasthunter": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -14649,6 +14879,13 @@
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / stormshapers-set)."
+  },
+  "e.saint-kayas-mark": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.oresnatchs-grand-yellow-ring": {
     "obtainable": true,
@@ -14822,7 +15059,7 @@
     "locationText": "Previously available in the market (limited-time / hatuumin-set)."
   },
   "c.bloodied-desert-skull": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -15031,7 +15268,7 @@
     "locationText": "Given with the Beastmaster Class."
   },
   "e.tower-treasureseeker-boots": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -15170,7 +15407,7 @@
     "locationText": "Available as a cash purchase."
   },
   "a.starkhold-seeker": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -15190,14 +15427,14 @@
     ],
     "locationText": "Available at Guild Market (Level 15+ for 6500 Guild Coin)."
   },
-  "u.green-guard-tonic": {
+  "u.yellow-fury-tonic": {
     "obtainable": true,
     "tags": [
       "AP drop"
     ],
     "locationText": "Attentive Perception drop."
   },
-  "u.yellow-fury-tonic": {
+  "u.green-guard-tonic": {
     "obtainable": true,
     "tags": [
       "AP drop"
@@ -15233,14 +15470,14 @@
     "locationText": "Available at Guild Market (Level 12+ for 1250 Guild Coin)."
   },
   "a.sana-twintoes": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
     "locationText": "Dropped from Tower Mimic on hard and legendary difficulties."
   },
   "e.strongarm-beasthunters-chest": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -15302,7 +15539,7 @@
       "limited raids",
       "market"
     ],
-    "locationText": "From Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\nDropped from Vurdith the Green on legendary difficulty.\nPurchased from the market (daily bags / thursday) (Requires: Z1 Segment 1 on Easy)."
+    "locationText": "From Desolator's Spoils, crafted from 15 Prismatic Relic - crafted from 6 Prismatic Relic (Cladavian the Desolator, Easy).\nFrom Blue Daily Chest, which is daily login reward (days 21-25).\nDropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 500,000,000 personal damage and 25,000,000,000 guild community damage).\nPurchased from the market (daily bags / thursday) (Requires: Z1 Segment 1 on Easy)."
   },
   "u.oceanic-overwhelming-obliteration-potion": {
     "obtainable": true,
@@ -15342,7 +15579,7 @@
     "locationText": "Crafted from:\n- 1 Thunderbird's Hide\n- 3 Sinnamurgh Feather - Attentive Perception drop\n- 4 Elderberry Bushel - Attentive Perception drop"
   },
   "c.silver-hoarded-ingot": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -15627,7 +15864,7 @@
     "locationText": "Attentive Perception drop."
   },
   "e.strongarm-beasthunters-beast": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -15654,7 +15891,7 @@
       "guild raid",
       "limited raids"
     ],
-    "locationText": "Dropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage)."
+    "locationText": "Dropped from Vurdith the Green on legendary difficulty.\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000 personal damage and 100,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 1,000,000,000 personal damage and 60,000,000,000 guild community damage).\nGuild tier reward from Vurdith the Green on Legendary (requires 3,000,000,000 personal damage and 60,000,000,000 guild community damage)."
   },
   "a.alagbato": {
     "obtainable": true,
@@ -15713,7 +15950,7 @@
     "locationText": "Dropped from Tunnanu on legendary difficulty."
   },
   "u.blue-hoarded-treasure-sack": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -15992,7 +16229,7 @@
     "locationText": "Dropped from Demon Chaosoldier on legendary difficulty."
   },
   "e.sandsailors-rags-veil": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -16021,7 +16258,7 @@
     "locationText": "Crafted at Guild Alchemist Level XI+ from:\n- 1 Threofor Helm - crafted at Guild Alchemist Level VIII+ from 1 Dromaeon Helm (Available at Guild Market (Level 8+ for 240 Guild Coin)) and 2 Lesser Support Token (Purchased from Guild Alchemist (Guild Alchemist V) for 300 Guild Coin)\n- 2 Greater Support Token"
   },
   "a.brigim-strongarm": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -16273,7 +16510,7 @@
     "locationText": "Crafted at Guild Alchemist Level X+ from:\n- 1 Hammerclaw Pants - crafted at Guild Alchemist Level IV+ from 1 Crestaceo Pants (Available at Guild Market (Level 3+ for 550 Crowns)) and 2 Lesser Tank Token (Purchased from Guild Alchemist (Guild Alchemist IV) for 250 Guild Coin)\n- 2 Greater Tank Token - Purchased from Guild Alchemist (Guild Alchemist X) for 1000 Guild Coin"
   },
   "e.sandsailors-rags-boots": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -16482,7 +16719,7 @@
     "locationText": "Dropped from Frenzied Fae Flock in Z5p1 Segment 1 on Easy."
   },
   "e.strongarm-beasthunters-boots": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -16523,7 +16760,7 @@
     "locationText": "Dropped from Paeknisar on legendary difficulty."
   },
   "c.gold-hoarded-ingot": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -16844,7 +17081,7 @@
     "locationText": "Dropped from Fulgure the Storm on legendary difficulty."
   },
   "c.green-scintillating-beryl": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -17280,7 +17517,7 @@
     "locationText": "Dropped from Vildmand Horde in Z6 Segment 4 on Hard."
   },
   "e.orobizen-treasurekeeper-legplates": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -17311,14 +17548,14 @@
     "locationText": "Crafted from:\n- 25 Sinah Mark - Bira Biuyom, Legendary\n- 5 Medzeh Trophy - Bira Biuyom, Legendary\n- 1 Agiz Garnet - Bira Biuyom, Legendary"
   },
   "c.violet-chest-planks": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
     "locationText": "Dropped from Tower Mimic on easy difficulty."
   },
   "e.ereks-defender": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -17448,6 +17685,13 @@
     ],
     "locationText": "Previously available in the market (limited-time / waveblessed-set)."
   },
+  "e.saint-kayas-rod": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "u.grub-collectors-sack": {
     "obtainable": false,
     "tags": [
@@ -17500,7 +17744,7 @@
     "locationText": "Crafted from:\n- 1 Amytus' Reflection - Giant Bombeetle, Z5 Segment 1, Legendary\n- 1 Hartwood's Consideration - Demon Chaosoldier, Z5 Segment 2, Legendary\n- 1 Do'iryn's Inspection - Ulunsuti, Z5 Segment 3, Legendary\n- 1 Keyric's Examination - Grootslang, Z5 Segment 3, Legendary\n- 1 Hearthkeeper's Observation - Xaphegorgh, Z5 Segment 4, Legendary\n- 1 Marduk's Contemplation - Xarbruutu, Z5 Segment 5, Legendary"
   },
   "e.lushleaf-gloves": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -17529,7 +17773,7 @@
     "locationText": "Previously available in the market (limited-time / hatuumin-set)."
   },
   "c.indigo-scintillating-beryl": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -17580,7 +17824,7 @@
     "locationText": "Crafted from:\n- 40 Bogwalker Orc - crafted from 2 Undigested Skeletal Remains (Purple Slime, Easy and Hard) and 80 Poison Slime Juice (Purple Slime, all difficulties)\n- 5000 Poison Slime Juice - Purple Slime, all difficulties"
   },
   "c.copper-tower-chestkey": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -17927,7 +18171,7 @@
     "locationText": "From Diplomat Starter Pack I, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack I, which is available as a cash purchase starter pack."
   },
   "a.faera-swiftsands": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -17981,7 +18225,7 @@
     "locationText": "Dropped from Demon Chaosoldier on legendary difficulty."
   },
   "c.gold-foreign-coin": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -18083,7 +18327,7 @@
     "locationText": "Dropped from Secutor on easy difficulty."
   },
   "e.sandsailors-rags-swirl": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -18846,6 +19090,13 @@
     ],
     "locationText": "From Wizard Starter Pack II, which is available as a cash purchase starter pack.\nFrom Bard Starter Pack II, which is available as a cash purchase starter pack."
   },
+  "e.uquyuqs-parka": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 12 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "c.yellow-cloak": {
     "obtainable": true,
     "tags": [
@@ -18885,7 +19136,7 @@
     "locationText": "From Green Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Yellow Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Blue Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Red Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nDropped from Demon Chaosoldier in Z5 Segment 2 on Hard and Legendary.\nDropped from Demon Chaosoldier on hard and legendary difficulties."
   },
   "e.strongarm-beasthunters-hood": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -19014,7 +19265,7 @@
     "locationText": "Dropped from Bone Dragon on legendary difficulty."
   },
   "e.ereks-helm": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -19134,7 +19385,7 @@
     "locationText": "Given as a class reward."
   },
   "c.copper-foreign-coin": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -19871,7 +20122,7 @@
     "locationText": "Dropped from Witikho on legendary difficulty.\nCommunity tier reward from Witikho on Legendary (requires 1,000,000,000 personal damage and 1,250,000,000,000 community damage)."
   },
   "e.ereks-breeches": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -19900,7 +20151,7 @@
     "locationText": "Previously available in the market (limited-time / sinderklaz-set)."
   },
   "c.yellow-unrefined-stone": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -20008,6 +20259,13 @@
     ],
     "locationText": "From Parchment of Clutch of Darkness, crafted from:\n- 10 Derzis' Canon - Hidden loot from Xaphegorgh on all difficulties (Secret Keeper I)\n- 10 Demonic Seal's Heart - Summoner loot from Xarbruutu on all difficulties (Summoner's Leftovers I)\n- 5 Spell Focus - Dark - Purchased from the market (component / spell-focus) for 250 Crowns (Requires: Z4 Segment 4 on Easy, 20000 INT)"
   },
+  "e.saint-kayas-visor": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "a.vishdar-maji": {
     "obtainable": true,
     "tags": [
@@ -20017,7 +20275,7 @@
     "locationText": "Professional Recruiter 6 reward from Z4 Segment 4 Node 5 on Legendary."
   },
   "c.red-quartz-crystal": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -20384,7 +20642,7 @@
     "locationText": "Dropped from Rotting Fen Lure in Z4 Segment 1 on Hard."
   },
   "c.blue-hoarded-chest": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -20772,6 +21030,13 @@
     "tags": [],
     "locationText": ""
   },
+  "u.bartelbys-belongings": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.viscous-viscount-broilballoon": {
     "obtainable": true,
     "tags": [
@@ -20853,6 +21118,13 @@
     ],
     "locationText": "Dropped from Tunnanu on hard difficulty."
   },
+  "e.uquyuqs-band": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "c.lesser-ents-root": {
     "obtainable": true,
     "tags": [
@@ -20905,12 +21177,20 @@
     ],
     "locationText": "Dropped from Naga Karamati on easy difficulty."
   },
+  "e.bartelbys-messenger": {
+    "obtainable": true,
+    "tags": [
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "Crafted from 1 Bartelby's Inkwell.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
+  },
   "a.mairaja-bluebrew": {
     "obtainable": true,
     "tags": [
       "recipe"
     ],
-    "locationText": "Crafted from 40 Alchemical Coals."
+    "locationText": "Crafted from 40 Alchemical Coals - On-hit drop from Xoggen on Hard and Legendary (Keen Eye)."
   },
   "e.repentant-dusk-cuirass": {
     "obtainable": true,
@@ -21217,7 +21497,7 @@
     "locationText": "Dropped from Amanus Charmer on hard and legendary difficulties."
   },
   "e.sandsailors-rags-claw": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -21303,7 +21583,7 @@
     "locationText": ""
   },
   "e.tower-treasureseeker-shirt": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -21543,7 +21823,7 @@
     "locationText": "Previously available in the market (limited-time / shudder-sailors-set)."
   },
   "e.strongarm-beasthunters-hands": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -21605,6 +21885,13 @@
       "quest"
     ],
     "locationText": "Dropped from Guardian Golem in Z5p1 Segment 1 on Easy."
+  },
+  "e.uquyuqs-shield": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 16 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.ooleviash-suit": {
     "obtainable": true,
@@ -22021,6 +22308,13 @@
     ],
     "locationText": "Available at Guild Market (Level 19+ for 5000 Guild Coin)."
   },
+  "e.saint-kayas-hand-crossbow": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.chiffon-buckler-shield": {
     "obtainable": false,
     "tags": [
@@ -22085,7 +22379,7 @@
     "locationText": "Previously available in the market (limited-time / hatuumin-set)."
   },
   "c.yellow-bleeding-geode": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -22307,7 +22601,7 @@
     "locationText": "Dropped from Giant Bombeetle on legendary difficulty.\nDropped from Demon Chaosoldier on legendary difficulty."
   },
   "c.silver-foreign-coin": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -22328,7 +22622,7 @@
     "locationText": "Purchased from the market (limited-time / baron-aureus-set) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.ereks-gauntlets": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -22740,6 +23034,15 @@
     ],
     "locationText": "Dropped from Superior Watcher on hard difficulty."
   },
+  "a.bartelbys-nippers": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 35 Bartelby's Quill.\nCrafted from 4 Bartelby's Quill.\nCrafted from 1 Bartelby's Quill.\nCrafted from 22 Bartelby's Quill."
+  },
   "a.clammer-bund": {
     "obtainable": true,
     "tags": [
@@ -22923,12 +23226,26 @@
     ],
     "locationText": "Unlocked by learning Spell: Arc Lightning from the tech tree."
   },
+  "a.uquyuq-arnaq": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 5 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "a.fanghunter-bloodletter": {
     "obtainable": true,
     "tags": [
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / fanghunters-set)."
+  },
+  "a.glird": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.gipantan-recruit-helmet": {
     "obtainable": true,
@@ -23022,7 +23339,7 @@
     "locationText": "Attentive Perception drop."
   },
   "e.orobizen-treasurekeeper-gloves": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -23158,6 +23475,15 @@
     ],
     "locationText": "From Green Guild Kit IV, which is from Mystery Guild Kit IV.\nFrom Indigo Guild Kit III, which is from Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\nFrom Red Guild Kit IV, which is from Mystery Guild Kit IV.\nFrom Blue Guild Kit III, which is from Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\nFrom Green Guild Kit III, which is from Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\nFrom Yellow Guild Kit IV, which is from Mystery Guild Kit IV.\nFrom Orange Guild Kit III, which is from Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\nFrom Indigo Guild Kit IV, which is from Mystery Guild Kit IV.\nFrom Red Guild Kit III, which is from Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\nFrom Yellow Guild Kit III, which is from Mystery Guild Kit III, which is purchased from the market (daily bags / tuesday) (Requires: Z1 Segment 1 on Easy, Guild reputation level 10).\nFrom Blue Guild Kit IV, which is from Mystery Guild Kit IV.\nFrom Violet Guild Kit IV, which is from Mystery Guild Kit IV.\nFrom Orange Guild Kit IV, which is from Mystery Guild Kit IV.\nPurchased from Guild Alchemist (Level XV+) for 9000 Crowns."
   },
+  "m.bartelbys-rebuttal": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 35 Bartelby's Quill."
+  },
   "a.rainee-shroomcap": {
     "obtainable": true,
     "tags": [
@@ -23238,18 +23564,18 @@
     "locationText": "Dropped from Jolly Gelatin on legendary difficulty."
   },
   "e.tower-treasureseeker-pants": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
     "locationText": "Dropped from Tower Mimic on hard difficulty."
   },
-  "e.giant-bat": {
-    "obtainable": true,
+  "e.servids-orb": {
+    "obtainable": false,
     "tags": [
-      "quest"
+      "guild-purchase"
     ],
-    "locationText": "Dropped from Naga Risaldar in Z1 Segment 3 on Legendary."
+    "locationText": "Available at Guild Market (Level 8+ for 300 Guild Coin)."
   },
   "e.friskfingers-stick": {
     "obtainable": true,
@@ -23258,12 +23584,12 @@
     ],
     "locationText": "Previously available in the market (limited-time / friskfingers-set)."
   },
-  "e.servids-orb": {
-    "obtainable": false,
+  "e.giant-bat": {
+    "obtainable": true,
     "tags": [
-      "guild-purchase"
+      "quest"
     ],
-    "locationText": "Available at Guild Market (Level 8+ for 300 Guild Coin)."
+    "locationText": "Dropped from Naga Risaldar in Z1 Segment 3 on Legendary."
   },
   "u.silver-guard-tonic": {
     "obtainable": false,
@@ -23388,6 +23714,13 @@
       "limited raids"
     ],
     "locationText": "Dropped from Paeknisar on legendary difficulty."
+  },
+  "e.saint-kayas-steed": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.oresnatchs-grand-green-ring": {
     "obtainable": true,
@@ -23726,7 +24059,7 @@
     "locationText": "From Parchment of Azyu's Wish, which was previously available in the market (limited-time / shudder-sailors-set)."
   },
   "c.hoarded-sack-of-violet-gems": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -23882,7 +24215,7 @@
     "locationText": "Dropped from Paeknisar on legendary difficulty."
   },
   "u.red-hoarded-treasure-sack": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -24319,7 +24652,7 @@
     "locationText": "Dropped from Amanus Charmer on hard difficulty."
   },
   "a.treasurekeeper-skeleton": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -24362,6 +24695,15 @@
     ],
     "locationText": "Dropped from Jagar the Red in Z3 Segment 4 on Hard."
   },
+  "m.scriveners-sanctuary": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 35 Bartelby's Quill."
+  },
   "e.laurentian-gloves": {
     "obtainable": true,
     "tags": [
@@ -24401,7 +24743,7 @@
     "locationText": "From Tedupevair Bag, which was previously available in the market (limited-time / tedupevair-set)."
   },
   "e.strongarm-beasthunters-pants": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -24913,7 +25255,7 @@
     "locationText": "Dropped from Naga Naavik on legendary difficulty."
   },
   "e.orobizen-treasurekeeper-helm": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -25197,7 +25539,7 @@
     "locationText": "Dropped from Sand Wyrm on easy difficulty."
   },
   "e.tower-treasureseeker-gloves": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -25375,7 +25717,7 @@
     "locationText": "Available as a cash purchase starter pack."
   },
   "c.blue-bleeding-geode": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -25612,7 +25954,7 @@
     "locationText": "Given with the Windwalker Class."
   },
   "e.lushleaf-chest": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -26633,6 +26975,13 @@
     "tags": [],
     "locationText": ""
   },
+  "e.saint-kayas-sabatons": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 15 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "c.red-devils-artifact": {
     "obtainable": true,
     "tags": [
@@ -26863,7 +27212,7 @@
     "locationText": "From Chest of Exalted Heroes I, crafted from 400 Void Ticket.\nCrafted from 400 Void Ticket."
   },
   "e.orobizen-treasurekeeper-shield": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -26884,7 +27233,7 @@
     "locationText": "Triggered by the 9-piece Jigger's Friend set bonus on 20x attacks against Aquatic raids (1% chance), or the 9-piece Jigger's Delight set bonus on 20x attacks (0.2% chance, increased by 1.8% against Aquatic raids)."
   },
   "c.orange-unrefined-stone": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -26917,6 +27266,13 @@
       "raid"
     ],
     "locationText": "Dropped from Burnet Pixies on easy difficulty."
+  },
+  "a.angut-uqiook": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 25 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "ba.explorer-banner": {
     "obtainable": false,
@@ -27217,6 +27573,13 @@
     ],
     "locationText": "Dropped from Hrysvalgur on easy difficulty."
   },
+  "e.saint-kayas-mace": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
+  },
   "e.chiffon-gloves": {
     "obtainable": false,
     "tags": [
@@ -27448,7 +27811,7 @@
     "locationText": "Dropped from Icy Whelp Siplada on legendary difficulty.\nPurchased from the market (raid-items / script) for 50 Crowns (Requires: Z3 Segment 4 on Easy)."
   },
   "c.blue-chest-planks": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -27468,6 +27831,13 @@
       "recipe"
     ],
     "locationText": "Crafted from:\n- 30 Cork Stopper - Aufling, Legendary\n- 15 Recursive Funnel - Aufling, Legendary\n- 1 Enchanted Dropper - Aufling, Legendary\n- 1 Ornamental Egg - Aufling, Legendary"
+  },
+  "e.saint-kayas-sword": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "e.gong-bhaishew-ring": {
     "obtainable": true,
@@ -27529,7 +27899,7 @@
     "locationText": "From Green Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Yellow Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Blue Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Red Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Mystery Troop Draft Poster III, which is purchased from the market (daily bags / monday) (Requires: Z5 Segment 5 on Easy, 25000 LEA).\nFrom Orange Gipantan Troop Draft Poster, which is from Bittersweet Bounty, which is first clear reward from Z5 Segment 5 on Easy.\nDropped from Demon Chaosoldier in Z5 Segment 2 on Hard and Legendary.\nDropped from Demon Chaosoldier on hard and legendary difficulties."
   },
   "e.lushleaf-feet": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -27679,7 +28049,7 @@
     "locationText": "Recruited at Recruitment Tent Level IV+ from 12 Training Arms (Purchased from Recruitment Tent (Level I+) for 80 Crowns), 12 Practice Dummies (Purchased from Recruitment Tent (Level II+) for 400 Crowns), and 6 Officer's Rations (Purchased from Recruitment Tent (Level IV+) for 2500 Crowns).\nRecruited at Recruitment Tent Level VII+ from 8 Training Arms (Purchased from Recruitment Tent (Level I+) for 80 Crowns), 8 Practice Dummies (Purchased from Recruitment Tent (Level II+) for 400 Crowns), and 4 Officer's Rations (Purchased from Recruitment Tent (Level IV+) for 2500 Crowns).\nRecruited at Recruitment Tent Level IX+ from 6 Training Arms (Purchased from Recruitment Tent (Level I+) for 80 Crowns), 6 Practice Dummies (Purchased from Recruitment Tent (Level II+) for 400 Crowns), and 3 Officer's Rations (Purchased from Recruitment Tent (Level IV+) for 2500 Crowns).\nRecruited at Recruitment Tent Level X+ from 4 Training Arms (Purchased from Recruitment Tent (Level I+) for 80 Crowns), 4 Practice Dummies (Purchased from Recruitment Tent (Level II+) for 400 Crowns), and 2 Officer's Rations (Purchased from Recruitment Tent (Level IV+) for 2500 Crowns)."
   },
   "c.hoarded-sack-of-red-gems": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -27739,6 +28109,15 @@
       "recipe"
     ],
     "locationText": "From Sepulcher Strongbox, which was previously available in the market (limited-time / sepulcher-strongbox).\nCrafted from 20 Sepulcher Relic.\nCrafted from 4 Sepulcher Relic.\nCrafted from 1 Sepulcher Relic."
+  },
+  "e.bartelbys-scribbles-gloves": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 3 Bartelby's Quill.\nPreviously available in the market (limited-time / bartelbys-scribbles-set)."
   },
   "s.scroll-grootslang": {
     "obtainable": true,
@@ -27919,7 +28298,7 @@
     "locationText": "Dropped from Feast Fixings on legendary difficulty.\nDropped from Lesser Tree Ent on easy difficulty.\nDropped from Fungal Fiend on easy difficulty.\nDropped from Naga Risaldar on easy difficulty.\nDropped from Superior Watcher on easy difficulty."
   },
   "e.ereks-dagger": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -27931,6 +28310,15 @@
       "guild-recipe"
     ],
     "locationText": "Crafted at Guild Alchemist Level X+ from:\n- 2 Lesser Acid Resilience Potion - crafted at Guild Alchemist Level V+ from 2 Thinned Brew of Caustics (Purchased from Guild Alchemist (Guild Alchemist IV) for 1000 Crowns) and 1 Potash Powder (Purchased from Guild Alchemist (Guild Alchemist V) for 500 Guild Coin)\n- 1 Red Tincture - Purchased from Guild Alchemist (Guild Alchemist X) for 10000 Crowns"
+  },
+  "a.putnam-vendi": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 22 Bartelby's Quill."
   },
   "e.derzis-thunderclap-thunder": {
     "obtainable": true,
@@ -28000,7 +28388,7 @@
     "locationText": "Crafted from:\n- 60 Orcish Dispeller - crafted from 1 each of Red/Blue/Violet Devil's Horn (Skliros, Legendary)\n- 24 each of Red/Blue/Violet Devil's Artifact - Skliros, Legendary\n- 1 Devil's Mark - Skliros, Legendary"
   },
   "e.ereks-sabatons": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -28122,7 +28510,7 @@
     "locationText": "Dropped from Nitroglycergnat on all difficulties."
   },
   "c.red-chest-planks": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -28302,7 +28690,7 @@
     "locationText": "Dropped from Naga Karamati on hard difficulty.\nDropped from Naga Risaldar on hard difficulty."
   },
   "a.treasureseeker-goblin": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid"
     ],
@@ -28844,7 +29232,7 @@
     "locationText": "Crafted from:\n- 1 Chased the Storm II\n- 32 Stormstruck Seedpod - Fulgure the Storm, Legendary\n- 20 Stormchimes - Fulgure the Storm, Legendary\n- 40 Stormstruck Ore - Fulgure the Storm, Legendary\n- 36 Fulgure Tooth - Fulgure the Storm, Legendary\n- 1 Grounding Loop - Fulgure the Storm, Legendary"
   },
   "f.harder-to-breathe-ii": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -28947,6 +29335,13 @@
       "limited raids"
     ],
     "locationText": "Dropped from Paeknisar on legendary difficulty."
+  },
+  "f.icy-asivuktuk-i": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / uquyuqs-coverings) for 25 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "f.wintry-escapades-i": {
     "obtainable": true,
@@ -29292,7 +29687,7 @@
     "locationText": "Trained at Practice Yard Level IV+ from 10 Training Arms (Purchased from Recruitment Tent (Level I+) for 80 Crowns), 2 Basic Obstacles (Purchased from Practice Yard (Level I+) for 80 Crowns), and 12 Practice Dummies (Purchased from Recruitment Tent (Level II+) for 400 Crowns).\nTrained at Practice Yard Level VI+ from 8 Training Arms (Purchased from Recruitment Tent (Level I+) for 80 Crowns), 2 Basic Obstacles (Purchased from Practice Yard (Level I+) for 80 Crowns), and 9 Practice Dummies (Purchased from Recruitment Tent (Level II+) for 400 Crowns).\nTrained at Practice Yard Level IX+ from 5 Training Arms (Purchased from Recruitment Tent (Level I+) for 80 Crowns), 1 Basic Obstacles (Purchased from Practice Yard (Level I+) for 80 Crowns), and 6 Practice Dummies (Purchased from Recruitment Tent (Level II+) for 400 Crowns)."
   },
   "f.league-of-drake-destroyers-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -29376,7 +29771,7 @@
     "locationText": "Crafted from:\n- 1 Swarm Storm II - crafted from 1 Swarm Storm I (Crafted from 5 Jingse Grub (Judah Jingse, Legendary)) and 4 Jingse Ward (Judah Jingse, Legendary)\n- 1 Jingse Offering - Judah Jingse, Legendary"
   },
   "f.wyrm-buriers-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -29541,7 +29936,7 @@
     "locationText": "Previously available in the market (limited-time / vyldas-supplicant-set)."
   },
   "f.clan-conflict-i": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -29593,7 +29988,7 @@
     "locationText": "Dropped from Vurdith the Green on legendary difficulty."
   },
   "f.firedancers-hand-overs-ii": {
-    "obtainable": false,
+    "obtainable": true,
     "tags": [
       "guild raid",
       "recipe"
@@ -29651,6 +30046,13 @@
       "recipe"
     ],
     "locationText": "Crafted from:\n- 1 Luna Cruzados II - crafted from 1 Luna Cruzados I (Previously available in the market (limited-time / irus-shroud-crusade-set)) and 1 Sigil of Irus' Shroud (Previously available in the market (limited-time / irus-shroud-crusade-set))\n- 3 Sigil of Irus' Shroud - Previously available in the market (limited-time / irus-shroud-crusade-set)"
+  },
+  "f.saint-kayas-victory-i": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "f.defensive-stance-i": {
     "obtainable": true,
@@ -30002,6 +30404,15 @@
     ],
     "locationText": "Crafted from:\n- 1 Organ Grinding I\n- 10 Orangutasm - Icy Whelp Siplada, all difficulties\n- 40 Whelpling Collar - Icy Whelp Siplada, Easy and Hard"
   },
+  "f.putnam-scrivener-i": {
+    "obtainable": true,
+    "tags": [
+      "container",
+      "limited-time",
+      "recipe"
+    ],
+    "locationText": "From Bartelby's Belongings, which is purchased from the market (limited-time / bartelbys-scribbles) for 20 Void Crystals (Requires: Z1 Segment 1 on Easy).\nCrafted from 22 Bartelby's Quill."
+  },
   "f.fast-and-furious-iii": {
     "obtainable": true,
     "tags": [
@@ -30135,6 +30546,13 @@
       "limited-time"
     ],
     "locationText": "Previously available in the market (limited-time / veedsamin-trainees-set)."
+  },
+  "f.saint-kayas-celebration-i": {
+    "obtainable": true,
+    "tags": [
+      "limited-time"
+    ],
+    "locationText": "Purchased from the market (limited-time / order-of-saint-kaya) for 30 Void Crystals (Requires: Z1 Segment 1 on Easy)."
   },
   "f.demonic-departures-i": {
     "obtainable": true,
