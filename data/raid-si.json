@@ -3823,6 +3823,20 @@
         "summonerLoot": "None",
         "hiddenLoot": "None",
         "lootExpansion": "No"
+      },
+      {
+        "name": "Vurdith the Green 2.0",
+        "damageType": "Poison",
+        "weaknesses": "Acid, Ice",
+        "resistances": "Fire, Holy, Nature",
+        "topTier": "100,000,000,000",
+        "baseDmg": "0.85",
+        "formDmg": "0.65",
+        "bonusTiers": "None",
+        "onHitDrops": "KE1, KE4, KE6",
+        "summonerLoot": "None",
+        "hiddenLoot": "SK1, SK2, SK3",
+        "lootExpansion": "No"
       }
     ],
     "timed": [
