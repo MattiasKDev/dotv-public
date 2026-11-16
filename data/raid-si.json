@@ -1749,14 +1749,14 @@
         "damageType": "Physical",
         "weaknesses": "Acid, Nature",
         "resistances": "Magic, Fire, Poison, Psychic",
-        "topTier": "?",
+        "topTier": "3,675,000",
         "baseDmg": "2.2",
         "formDmg": "0.5",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI5",
+        "onHitDrops": "KE3, KE7",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "Yes"
       },
       {
         "name": "Dragon's Hoard",
@@ -1764,14 +1764,14 @@
         "damageType": "Fire",
         "weaknesses": "Holy, Ice",
         "resistances": "Dark, Fire, Nature",
-        "topTier": "?",
+        "topTier": "4,320,000",
         "baseDmg": "1.9",
         "formDmg": "1.2",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI5",
+        "onHitDrops": "KE3, KE7",
+        "summonerLoot": "None",
+        "hiddenLoot": "SK1",
+        "lootExpansion": "Yes"
       },
       {
         "name": "Giant Sandswimmer",
@@ -1779,14 +1779,14 @@
         "damageType": "Nature",
         "weaknesses": "Physical, Acid, Poison",
         "resistances": "Magic, Fire, Ice, Lightning",
-        "topTier": "?",
+        "topTier": "5,040,000",
         "baseDmg": "2",
         "formDmg": "1",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI5",
+        "onHitDrops": "None",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "Yes"
       },
       {
         "name": "Cladavian the Desolator",
@@ -1824,14 +1824,14 @@
         "damageType": "Physical",
         "weaknesses": "Acid, Nature",
         "resistances": "Magic, Fire, Poison, Psychic",
-        "topTier": "?",
+        "topTier": "11,815,000",
         "baseDmg": "4.1",
         "formDmg": "1.8",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI6",
+        "onHitDrops": "KE4, KE8",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "Yes"
       },
       {
         "name": "Dragon's Hoard",
@@ -1839,14 +1839,14 @@
         "damageType": "Fire",
         "weaknesses": "Holy, Ice",
         "resistances": "Dark, Fire, Nature",
-        "topTier": "?",
+        "topTier": "14,580,000",
         "baseDmg": "3.3",
         "formDmg": "4.4",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI6",
+        "onHitDrops": "KE4, KE8",
+        "summonerLoot": "None",
+        "hiddenLoot": "SK1",
+        "lootExpansion": "Yes"
       },
       {
         "name": "Giant Sandswimmer",
@@ -1854,14 +1854,14 @@
         "damageType": "Nature",
         "weaknesses": "Physical, Acid, Poison",
         "resistances": "Magic, Fire, Ice, Lightning",
-        "topTier": "?",
+        "topTier": "16,800,000",
         "baseDmg": "3.8",
         "formDmg": "3.5",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI6",
+        "onHitDrops": "None",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "Yes"
       },
       {
         "name": "Amanus Charmer",
@@ -1884,14 +1884,14 @@
         "damageType": "Physical",
         "weaknesses": "Acid, Nature",
         "resistances": "Magic, Fire, Poison, Psychic",
-        "topTier": "?",
+        "topTier": "37,800,000",
         "baseDmg": "17",
         "formDmg": "8.5",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI7, PI9",
+        "onHitDrops": "KE5, KE9",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "Yes"
       },
       {
         "name": "Dragon's Hoard",
@@ -1899,14 +1899,14 @@
         "damageType": "Fire",
         "weaknesses": "Holy, Ice",
         "resistances": "Dark, Fire, Nature",
-        "topTier": "?",
+        "topTier": "48,600,000",
         "baseDmg": "14",
         "formDmg": "15",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI7, PI9",
+        "onHitDrops": "KE5, KE9",
+        "summonerLoot": "None",
+        "hiddenLoot": "SK1, SK2",
+        "lootExpansion": "Yes"
       },
       {
         "name": "Giant Sandswimmer",
@@ -1914,14 +1914,14 @@
         "damageType": "Nature",
         "weaknesses": "Physical, Acid, Poison",
         "resistances": "Magic, Fire, Ice, Lightning",
-        "topTier": "?",
+        "topTier": "60,480,000",
         "baseDmg": "15.5",
         "formDmg": "13",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "PI7, PI9",
+        "onHitDrops": "None",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "Yes"
       }
     ],
     "quest": [
