@@ -3513,6 +3513,20 @@
         "lootExpansion": "No"
       },
       {
+        "name": "Witikho 2.0",
+        "damageType": "Physical",
+        "weaknesses": "Dark, Nature",
+        "resistances": "Holy, Ice",
+        "topTier": "?",
+        "baseDmg": "0.9",
+        "formDmg": "0.75",
+        "bonusTiers": "?",
+        "onHitDrops": "?",
+        "summonerLoot": "?",
+        "hiddenLoot": "?",
+        "lootExpansion": "?"
+      },
+      {
         "name": "Aufling",
         "damageType": "Magic",
         "weaknesses": "Dark, Poison",
