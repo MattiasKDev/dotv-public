@@ -3517,14 +3517,14 @@
         "damageType": "Physical",
         "weaknesses": "Dark, Nature",
         "resistances": "Holy, Ice",
-        "topTier": "?",
+        "topTier": "50,000,000,000",
         "baseDmg": "0.9",
         "formDmg": "0.75",
-        "bonusTiers": "?",
-        "onHitDrops": "?",
-        "summonerLoot": "?",
-        "hiddenLoot": "?",
-        "lootExpansion": "?"
+        "bonusTiers": "None",
+        "onHitDrops": "KE1, KE4, KE6",
+        "summonerLoot": "None",
+        "hiddenLoot": "None",
+        "lootExpansion": "No"
       },
       {
         "name": "Aufling",
